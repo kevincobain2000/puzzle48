@@ -107,16 +107,16 @@
 - (void)bannerViewDidLoadAd:(ADBannerView *)banner
 {
     NSLog(@"------> AD");
-    //[(PuzzleController*)self adjustForAd:!adPresent];
-    //[self adjustBannerViewWithOrientation:self.interfaceOrientation];
+    [(PuzzleController*)self adjustForAd:-1*adPresent];
+    [self adjustBannerViewWithOrientation:self.interfaceOrientation];
     adPresent = NO;
 }
 
 - (void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error
 {
     NSLog(@"AD error");
-    //[(PuzzleController*)self adjustForAd:-1*adPresent];
-    //[self adjustBannerViewWithOrientation:self.interfaceOrientation];
+    [(PuzzleController*)self adjustForAd:-1*adPresent];
+    [self adjustBannerViewWithOrientation:self.interfaceOrientation];
     adPresent = NO;
 }
 

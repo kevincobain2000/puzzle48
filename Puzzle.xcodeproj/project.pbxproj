@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		AD077DF116A0030E00FA4561 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD077DF016A0030E00FA4561 /* Default-568h@2x.png */; };
-		B804EF3A1560870F00826712 /* BelloPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B804EF391560870F00826712 /* BelloPro.ttf */; };
-		B804EF3B1560870F00826712 /* BelloPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B804EF391560870F00826712 /* BelloPro.ttf */; };
+		AD077ED416A015FF00FA4561 /* BelloPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD077ED316A015FF00FA4561 /* BelloPro.ttf */; };
+		AD077ED516A015FF00FA4561 /* BelloPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD077ED316A015FF00FA4561 /* BelloPro.ttf */; };
+		AD077ED616A015FF00FA4561 /* BelloPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD077ED316A015FF00FA4561 /* BelloPro.ttf */; };
+		AD077ED716A015FF00FA4561 /* BelloPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD077ED316A015FF00FA4561 /* BelloPro.ttf */; };
 		B804EF3E156101DF00826712 /* PuzzleCompletedController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */; };
 		B804EF3F156101DF00826712 /* PuzzleCompletedController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */; };
 		B82375801561B58000426E92 /* LoadGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = B823757E1561B58000426E92 /* LoadGameController.m */; };
@@ -73,7 +75,6 @@
 		B82375E815626FC300426E92 /* PuzzleComplete_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E7321560187A002FE0A2 /* PuzzleComplete_iPhone.png */; };
 		B82375E915626FC300426E92 /* PuzzleComplete_iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E7331560187A002FE0A2 /* PuzzleComplete_iPhone@2x.png */; };
 		B82375EA15626FC300426E92 /* PuzzleCompletedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E73A15601E2C002FE0A2 /* PuzzleCompletedController.xib */; };
-		B82375EB15626FC300426E92 /* BelloPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B804EF391560870F00826712 /* BelloPro.ttf */; };
 		B82375EC15626FC300426E92 /* PuzzleCompletedController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */; };
 		B82375ED15626FC300426E92 /* LoadGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B823757F1561B58000426E92 /* LoadGameController.xib */; };
 		B82AC5C7154411B500208887 /* Lattice.m in Sources */ = {isa = PBXBuildFile; fileRef = B82AC5C6154411B500208887 /* Lattice.m */; };
@@ -149,7 +150,6 @@
 		B874B384156D67D80089D4E4 /* PuzzleComplete_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E7321560187A002FE0A2 /* PuzzleComplete_iPhone.png */; };
 		B874B385156D67D80089D4E4 /* PuzzleComplete_iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E7331560187A002FE0A2 /* PuzzleComplete_iPhone@2x.png */; };
 		B874B386156D67D80089D4E4 /* PuzzleCompletedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E73A15601E2C002FE0A2 /* PuzzleCompletedController.xib */; };
-		B874B387156D67D80089D4E4 /* BelloPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B804EF391560870F00826712 /* BelloPro.ttf */; };
 		B874B388156D67D80089D4E4 /* PuzzleCompletedController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */; };
 		B874B389156D67D80089D4E4 /* LoadGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B823757F1561B58000426E92 /* LoadGameController.xib */; };
 		B874B38A156D67D80089D4E4 /* Notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = B8DADF9515654973002DCEF8 /* Notes.txt */; };
@@ -294,7 +294,7 @@
 
 /* Begin PBXFileReference section */
 		AD077DF016A0030E00FA4561 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		B804EF391560870F00826712 /* BelloPro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BelloPro.ttf; sourceTree = "<group>"; };
+		AD077ED316A015FF00FA4561 /* BelloPro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BelloPro.ttf; sourceTree = "<group>"; };
 		B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PuzzleCompletedController_iPhone.xib; path = Controllers/PuzzleCompletedController_iPhone.xib; sourceTree = "<group>"; };
 		B823757D1561B58000426E92 /* LoadGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadGameController.h; path = Controllers/LoadGameController.h; sourceTree = "<group>"; };
 		B823757E1561B58000426E92 /* LoadGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadGameController.m; path = Controllers/LoadGameController.m; sourceTree = "<group>"; };
@@ -552,8 +552,8 @@
 				B874B3CA156D67D80089D4E4 /* Puzzle Lite-Info.plist */,
 				B8E18192155040CE00A8B450 /* Puzzle iPhone-Info.plist */,
 				B82375F315626FC300426E92 /* Puzzle test-Info.plist */,
-				B804EF391560870F00826712 /* BelloPro.ttf */,
 				B87C5CD015400B2A00AF69BC /* InfoPlist.strings */,
+				AD077ED316A015FF00FA4561 /* BelloPro.ttf */,
 				B87C5CD315400B2A00AF69BC /* main.m */,
 				B87C5CD515400B2A00AF69BC /* Puzzle-Prefix.pch */,
 				B8DADF9515654973002DCEF8 /* Notes.txt */,
@@ -834,7 +834,6 @@
 				B82375E815626FC300426E92 /* PuzzleComplete_iPhone.png in Resources */,
 				B82375E915626FC300426E92 /* PuzzleComplete_iPhone@2x.png in Resources */,
 				B82375EA15626FC300426E92 /* PuzzleCompletedController.xib in Resources */,
-				B82375EB15626FC300426E92 /* BelloPro.ttf in Resources */,
 				B82375EC15626FC300426E92 /* PuzzleCompletedController_iPhone.xib in Resources */,
 				B82375ED15626FC300426E92 /* LoadGameController.xib in Resources */,
 				B8DADF9815654973002DCEF8 /* Notes.txt in Resources */,
@@ -842,6 +841,7 @@
 				B8D28BCD15667CCF00DCF1A0 /* PanningSwitch@2x.png in Resources */,
 				B8CFE4D2157269ED00AAC396 /* Menu.png in Resources */,
 				B8CFE4D6157269ED00AAC396 /* Menu@2x.png in Resources */,
+				AD077ED616A015FF00FA4561 /* BelloPro.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -882,7 +882,6 @@
 				B874B384156D67D80089D4E4 /* PuzzleComplete_iPhone.png in Resources */,
 				B874B385156D67D80089D4E4 /* PuzzleComplete_iPhone@2x.png in Resources */,
 				B874B386156D67D80089D4E4 /* PuzzleCompletedController.xib in Resources */,
-				B874B387156D67D80089D4E4 /* BelloPro.ttf in Resources */,
 				B874B388156D67D80089D4E4 /* PuzzleCompletedController_iPhone.xib in Resources */,
 				B874B389156D67D80089D4E4 /* LoadGameController.xib in Resources */,
 				B874B38A156D67D80089D4E4 /* Notes.txt in Resources */,
@@ -890,6 +889,7 @@
 				B874B38C156D67D80089D4E4 /* PanningSwitch@2x.png in Resources */,
 				B8CFE4D3157269ED00AAC396 /* Menu.png in Resources */,
 				B8CFE4D7157269ED00AAC396 /* Menu@2x.png in Resources */,
+				AD077ED716A015FF00FA4561 /* BelloPro.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -936,7 +936,6 @@
 				B8B0E7341560187A002FE0A2 /* PuzzleComplete_iPhone.png in Resources */,
 				B8B0E7361560187A002FE0A2 /* PuzzleComplete_iPhone@2x.png in Resources */,
 				B8B0E73D15601E2C002FE0A2 /* PuzzleCompletedController.xib in Resources */,
-				B804EF3A1560870F00826712 /* BelloPro.ttf in Resources */,
 				B804EF3E156101DF00826712 /* PuzzleCompletedController_iPhone.xib in Resources */,
 				B82375821561B58000426E92 /* LoadGameController.xib in Resources */,
 				B8DADF9615654973002DCEF8 /* Notes.txt in Resources */,
@@ -945,6 +944,7 @@
 				B8CFE4D0157269ED00AAC396 /* Menu.png in Resources */,
 				B8CFE4D4157269ED00AAC396 /* Menu@2x.png in Resources */,
 				AD077DF116A0030E00FA4561 /* Default-568h@2x.png in Resources */,
+				AD077ED416A015FF00FA4561 /* BelloPro.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -991,7 +991,6 @@
 				B8B0E7351560187A002FE0A2 /* PuzzleComplete_iPhone.png in Resources */,
 				B8B0E7371560187A002FE0A2 /* PuzzleComplete_iPhone@2x.png in Resources */,
 				B8B0E73E15601E2C002FE0A2 /* PuzzleCompletedController.xib in Resources */,
-				B804EF3B1560870F00826712 /* BelloPro.ttf in Resources */,
 				B804EF3F156101DF00826712 /* PuzzleCompletedController_iPhone.xib in Resources */,
 				B82375831561B58000426E92 /* LoadGameController.xib in Resources */,
 				B8DADF9715654973002DCEF8 /* Notes.txt in Resources */,
@@ -999,6 +998,7 @@
 				B8D28BCC15667CCF00DCF1A0 /* PanningSwitch@2x.png in Resources */,
 				B8CFE4D1157269ED00AAC396 /* Menu.png in Resources */,
 				B8CFE4D5157269ED00AAC396 /* Menu@2x.png in Resources */,
+				AD077ED516A015FF00FA4561 /* BelloPro.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
