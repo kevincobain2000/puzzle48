@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD077DF116A0030E00FA4561 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD077DF016A0030E00FA4561 /* Default-568h@2x.png */; };
 		B804EF3A1560870F00826712 /* BelloPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B804EF391560870F00826712 /* BelloPro.ttf */; };
 		B804EF3B1560870F00826712 /* BelloPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B804EF391560870F00826712 /* BelloPro.ttf */; };
 		B804EF3E156101DF00826712 /* PuzzleCompletedController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */; };
@@ -486,6 +487,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD077DF016A0030E00FA4561 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B804EF391560870F00826712 /* BelloPro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BelloPro.ttf; sourceTree = "<group>"; };
 		B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PuzzleCompletedController_iPhone.xib; path = Controllers/PuzzleCompletedController_iPhone.xib; sourceTree = "<group>"; };
 		B823757D1561B58000426E92 /* LoadGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadGameController.h; path = Controllers/LoadGameController.h; sourceTree = "<group>"; };
@@ -749,6 +751,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD077DBC16A0023E00FA4561 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B87C5CF01540174400AF69BC /* PuzzleController.xib */,
+				B8E4AC7E154AA22300D0A75D /* MenuController.xib */,
+				B8AA19CD154B565400750458 /* NewGameController.xib */,
+				B8DAFCE5155BDB0700A901A3 /* PuzzleLibraryController.xib */,
+				B8B0E73A15601E2C002FE0A2 /* PuzzleCompletedController.xib */,
+				B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */,
+				B823757F1561B58000426E92 /* LoadGameController.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
 		B86B28D7155BEF16007D122D /* Thumbs */ = {
 			isa = PBXGroup;
 			children = (
@@ -843,6 +859,7 @@
 		B87C5CCD15400B2A00AF69BC /* Puzzle */ = {
 			isa = PBXGroup;
 			children = (
+				AD077DBC16A0023E00FA4561 /* UI */,
 				B87C5CF31540174900AF69BC /* Controllers */,
 				B87C5CED1540170E00AF69BC /* Views */,
 				B87C5CE9154014C300AF69BC /* Classes */,
@@ -904,23 +921,16 @@
 			children = (
 				B87C5CEE1540174400AF69BC /* PuzzleController.h */,
 				B87C5CEF1540174400AF69BC /* PuzzleController.m */,
-				B87C5CF01540174400AF69BC /* PuzzleController.xib */,
 				B8E4AC7C154AA22300D0A75D /* MenuController.h */,
 				B8E4AC7D154AA22300D0A75D /* MenuController.m */,
-				B8E4AC7E154AA22300D0A75D /* MenuController.xib */,
 				B8AA19CB154B565400750458 /* NewGameController.h */,
 				B8AA19CC154B565400750458 /* NewGameController.m */,
-				B8AA19CD154B565400750458 /* NewGameController.xib */,
 				B8DAFCE3155BDB0600A901A3 /* PuzzleLibraryController.h */,
 				B8DAFCE4155BDB0700A901A3 /* PuzzleLibraryController.m */,
-				B8DAFCE5155BDB0700A901A3 /* PuzzleLibraryController.xib */,
 				B8B0E73815601E2C002FE0A2 /* PuzzleCompletedController.h */,
 				B8B0E73915601E2C002FE0A2 /* PuzzleCompletedController.m */,
-				B8B0E73A15601E2C002FE0A2 /* PuzzleCompletedController.xib */,
-				B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */,
 				B823757D1561B58000426E92 /* LoadGameController.h */,
 				B823757E1561B58000426E92 /* LoadGameController.m */,
-				B823757F1561B58000426E92 /* LoadGameController.xib */,
 				B8DBE9FE158144AF005199B4 /* iAdViewController.h */,
 				B8DBE9FF158144AF005199B4 /* iAdViewController.m */,
 				B88BF754158214000057F65D /* BannerViewController.h */,
@@ -1018,6 +1028,7 @@
 		B8DFA69115497ED300256385 /* Default */ = {
 			isa = PBXGroup;
 			children = (
+				AD077DF016A0030E00FA4561 /* Default-568h@2x.png */,
 				B8DFA69215497ED300256385 /* Default-Landscape@2x~ipad.png */,
 				B8DFA69315497ED300256385 /* Default-Landscape~ipad.png */,
 				B8DFA69415497ED300256385 /* Default-Portrait@2x~ipad.png */,
@@ -1411,6 +1422,7 @@
 				B86656A71569C89200A4F5A9 /* Copia di Tiger_puzzle_thumb.jpg in Resources */,
 				B8CFE4D0157269ED00AAC396 /* Menu.png in Resources */,
 				B8CFE4D4157269ED00AAC396 /* Menu@2x.png in Resources */,
+				AD077DF116A0030E00FA4561 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
