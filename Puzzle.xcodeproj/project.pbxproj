@@ -1,0 +1,1929 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B804EF3A1560870F00826712 /* BelloPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B804EF391560870F00826712 /* BelloPro.ttf */; };
+		B804EF3B1560870F00826712 /* BelloPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B804EF391560870F00826712 /* BelloPro.ttf */; };
+		B804EF3E156101DF00826712 /* PuzzleCompletedController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */; };
+		B804EF3F156101DF00826712 /* PuzzleCompletedController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */; };
+		B82375801561B58000426E92 /* LoadGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = B823757E1561B58000426E92 /* LoadGameController.m */; };
+		B82375811561B58000426E92 /* LoadGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = B823757E1561B58000426E92 /* LoadGameController.m */; };
+		B82375821561B58000426E92 /* LoadGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B823757F1561B58000426E92 /* LoadGameController.xib */; };
+		B82375831561B58000426E92 /* LoadGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B823757F1561B58000426E92 /* LoadGameController.xib */; };
+		B823758715626FC300426E92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B87C5CD315400B2A00AF69BC /* main.m */; };
+		B823758815626FC300426E92 /* PuzzleController.m in Sources */ = {isa = PBXBuildFile; fileRef = B87C5CEF1540174400AF69BC /* PuzzleController.m */; };
+		B823758915626FC300426E92 /* UIImage+CWAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B84014F31540E57D0075734A /* UIImage+CWAdditions.m */; };
+		B823758A15626FC300426E92 /* Lattice.m in Sources */ = {isa = PBXBuildFile; fileRef = B82AC5C6154411B500208887 /* Lattice.m */; };
+		B823758B15626FC300426E92 /* MenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E4AC7D154AA22300D0A75D /* MenuController.m */; };
+		B823758C15626FC300426E92 /* NewGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AA19CC154B565400750458 /* NewGameController.m */; };
+		B823758D15626FC300426E92 /* GroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE1204155990DB00742256 /* GroupView.m */; };
+		B823758E15626FC300426E92 /* PieceView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE1205155990DB00742256 /* PieceView.m */; };
+		B823758F15626FC300426E92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE120C155990F100742256 /* AppDelegate.m */; };
+		B823759015626FC300426E92 /* CreatePuzzleOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE120D155990F100742256 /* CreatePuzzleOperation.m */; };
+		B823759115626FC300426E92 /* Piece.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE12181559912200742256 /* Piece.m */; };
+		B823759215626FC300426E92 /* Puzzle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B8AE121B1559912200742256 /* Puzzle.xcdatamodeld */; };
+		B823759315626FC300426E92 /* PuzzleLibraryController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DAFCE4155BDB0700A901A3 /* PuzzleLibraryController.m */; };
+		B823759415626FC300426E92 /* PuzzleCompletedController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B0E73915601E2C002FE0A2 /* PuzzleCompletedController.m */; };
+		B823759515626FC300426E92 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B0E74115605E23002FE0A2 /* Image.m */; };
+		B823759615626FC300426E92 /* Puzzle.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B0E74615605EE8002FE0A2 /* Puzzle.m */; };
+		B823759715626FC300426E92 /* LoadGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = B823757E1561B58000426E92 /* LoadGameController.m */; };
+		B823759915626FC300426E92 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E18158155000C200A8B450 /* MediaPlayer.framework */; };
+		B823759A15626FC300426E92 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B853810F1548D91B00F3BFA5 /* AVFoundation.framework */; };
+		B823759B15626FC300426E92 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84014EB1540D0880075734A /* QuartzCore.framework */; };
+		B823759C15626FC300426E92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87C5CC515400B2A00AF69BC /* UIKit.framework */; };
+		B823759D15626FC300426E92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87C5CC715400B2A00AF69BC /* Foundation.framework */; };
+		B823759E15626FC300426E92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87C5CC915400B2A00AF69BC /* CoreGraphics.framework */; };
+		B823759F15626FC300426E92 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87C5CCB15400B2A00AF69BC /* CoreData.framework */; };
+		B82375A115626FC300426E92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B87C5CD015400B2A00AF69BC /* InfoPlist.strings */; };
+		B82375A215626FC300426E92 /* PuzzleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B87C5CF01540174400AF69BC /* PuzzleController.xib */; };
+		B82375A315626FC300426E92 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69215497ED300256385 /* Default-Landscape@2x~ipad.png */; };
+		B82375A415626FC300426E92 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69315497ED300256385 /* Default-Landscape~ipad.png */; };
+		B82375A515626FC300426E92 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69415497ED300256385 /* Default-Portrait@2x~ipad.png */; };
+		B82375A615626FC300426E92 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69515497ED300256385 /* Default-Portrait~ipad.png */; };
+		B82375A715626FC300426E92 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69615497ED300256385 /* Default.png */; };
+		B82375A815626FC300426E92 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69715497ED300256385 /* Default@2x.png */; };
+		B82375A915626FC300426E92 /* MenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8E4AC7E154AA22300D0A75D /* MenuController.xib */; };
+		B82375AA15626FC300426E92 /* icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B2154B502900750458 /* icon-144.png */; };
+		B82375AB15626FC300426E92 /* icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B3154B502900750458 /* icon-512.png */; };
+		B82375AC15626FC300426E92 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B4154B502900750458 /* icon-72.png */; };
+		B82375AD15626FC300426E92 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B5154B502900750458 /* Icon-Small-50.png */; };
+		B82375AE15626FC300426E92 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B6154B502900750458 /* Icon-Small.png */; };
+		B82375AF15626FC300426E92 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B7154B502900750458 /* Icon-Small@2x.png */; };
+		B82375B015626FC300426E92 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B8154B502900750458 /* icon.png */; };
+		B82375B115626FC300426E92 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B9154B502900750458 /* icon@2x.png */; };
+		B82375B215626FC300426E92 /* NewGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19CD154B565400750458 /* NewGameController.xib */; };
+		B82375B415626FC300426E92 /* NeighborFound.wav in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCC0155BA1C400A901A3 /* NeighborFound.wav */; };
+		B82375B515626FC300426E92 /* PiecePositioned.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCC1155BA1C400A901A3 /* PiecePositioned.mp3 */; };
+		B82375B615626FC300426E92 /* PuzzleCompleted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCC2155BA1C400A901A3 /* PuzzleCompleted.mp3 */; };
+		B82375B715626FC300426E92 /* MenuSound.aif in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCCF155BB78A00A901A3 /* MenuSound.aif */; };
+		B82375B815626FC300426E92 /* Scissors_Shears.wav in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCD5155BB9E000A901A3 /* Scissors_Shears.wav */; };
+		B82375B915626FC300426E92 /* PuzzleLibraryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCE5155BDB0700A901A3 /* PuzzleLibraryController.xib */; };
+		B82375E215626FC300426E92 /* ChooseLabel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E720155FB612002FE0A2 /* ChooseLabel@2x.png */; };
+		B82375E315626FC300426E92 /* ChooseLabel.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E721155FB612002FE0A2 /* ChooseLabel.png */; };
+		B82375E415626FC300426E92 /* Wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E722155FB612002FE0A2 /* Wood.jpg */; };
+		B82375E515626FC300426E92 /* Wood@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E723155FB612002FE0A2 /* Wood@2x.jpg */; };
+		B82375E615626FC300426E92 /* PuzzleComplete.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E72C155FFA56002FE0A2 /* PuzzleComplete.png */; };
+		B82375E715626FC300426E92 /* PuzzleComplete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E72D155FFA56002FE0A2 /* PuzzleComplete@2x.png */; };
+		B82375E815626FC300426E92 /* PuzzleComplete_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E7321560187A002FE0A2 /* PuzzleComplete_iPhone.png */; };
+		B82375E915626FC300426E92 /* PuzzleComplete_iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E7331560187A002FE0A2 /* PuzzleComplete_iPhone@2x.png */; };
+		B82375EA15626FC300426E92 /* PuzzleCompletedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E73A15601E2C002FE0A2 /* PuzzleCompletedController.xib */; };
+		B82375EB15626FC300426E92 /* BelloPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B804EF391560870F00826712 /* BelloPro.ttf */; };
+		B82375EC15626FC300426E92 /* PuzzleCompletedController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */; };
+		B82375ED15626FC300426E92 /* LoadGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B823757F1561B58000426E92 /* LoadGameController.xib */; };
+		B82AC5C7154411B500208887 /* Lattice.m in Sources */ = {isa = PBXBuildFile; fileRef = B82AC5C6154411B500208887 /* Lattice.m */; };
+		B84014ED1540D0CD0075734A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84014EB1540D0880075734A /* QuartzCore.framework */; };
+		B84014F41540E57D0075734A /* UIImage+CWAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B84014F31540E57D0075734A /* UIImage+CWAdditions.m */; };
+		B85381101548D91B00F3BFA5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B853810F1548D91B00F3BFA5 /* AVFoundation.framework */; };
+		B866561C1569C88200A4F5A9 /* Tiger_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656001569C88200A4F5A9 /* Tiger_puzzle.jpg */; };
+		B866561D1569C88200A4F5A9 /* Tiger_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656001569C88200A4F5A9 /* Tiger_puzzle.jpg */; };
+		B866561E1569C88200A4F5A9 /* The_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656011569C88200A4F5A9 /* The_puzzle.jpg */; };
+		B866561F1569C88200A4F5A9 /* The_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656011569C88200A4F5A9 /* The_puzzle.jpg */; };
+		B86656201569C88200A4F5A9 /* Rectil_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656021569C88200A4F5A9 /* Rectil_puzzle.jpg */; };
+		B86656211569C88200A4F5A9 /* Rectil_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656021569C88200A4F5A9 /* Rectil_puzzle.jpg */; };
+		B86656221569C88200A4F5A9 /* Pencils_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656031569C88200A4F5A9 /* Pencils_puzzle.jpg */; };
+		B86656231569C88200A4F5A9 /* Pencils_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656031569C88200A4F5A9 /* Pencils_puzzle.jpg */; };
+		B86656241569C88200A4F5A9 /* Old car_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656041569C88200A4F5A9 /* Old car_puzzle.jpg */; };
+		B86656251569C88200A4F5A9 /* Old car_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656041569C88200A4F5A9 /* Old car_puzzle.jpg */; };
+		B86656261569C88200A4F5A9 /* Nice view_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656051569C88200A4F5A9 /* Nice view_puzzle.jpg */; };
+		B86656271569C88200A4F5A9 /* Nice view_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656051569C88200A4F5A9 /* Nice view_puzzle.jpg */; };
+		B86656281569C88200A4F5A9 /* Micio mafioso_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656061569C88200A4F5A9 /* Micio mafioso_puzzle.jpg */; };
+		B86656291569C88200A4F5A9 /* Micio mafioso_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656061569C88200A4F5A9 /* Micio mafioso_puzzle.jpg */; };
+		B866562A1569C88200A4F5A9 /* Lion_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656071569C88200A4F5A9 /* Lion_puzzle.jpg */; };
+		B866562B1569C88200A4F5A9 /* Lion_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656071569C88200A4F5A9 /* Lion_puzzle.jpg */; };
+		B866562C1569C88200A4F5A9 /* Matrioska_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656081569C88200A4F5A9 /* Matrioska_puzzle.jpg */; };
+		B866562D1569C88200A4F5A9 /* Matrioska_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656081569C88200A4F5A9 /* Matrioska_puzzle.jpg */; };
+		B866562E1569C88200A4F5A9 /* Kiwi_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656091569C88200A4F5A9 /* Kiwi_puzzle.jpg */; };
+		B866562F1569C88200A4F5A9 /* Kiwi_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656091569C88200A4F5A9 /* Kiwi_puzzle.jpg */; };
+		B86656301569C88200A4F5A9 /* Hulk_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866560A1569C88200A4F5A9 /* Hulk_puzzle.jpg */; };
+		B86656311569C88200A4F5A9 /* Hulk_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866560A1569C88200A4F5A9 /* Hulk_puzzle.jpg */; };
+		B86656321569C88200A4F5A9 /* Hippo_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866560B1569C88200A4F5A9 /* Hippo_puzzle.jpg */; };
+		B86656331569C88200A4F5A9 /* Hippo_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866560B1569C88200A4F5A9 /* Hippo_puzzle.jpg */; };
+		B86656341569C88200A4F5A9 /* Horses_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866560C1569C88200A4F5A9 /* Horses_puzzle.jpg */; };
+		B86656351569C88200A4F5A9 /* Horses_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866560C1569C88200A4F5A9 /* Horses_puzzle.jpg */; };
+		B86656361569C88200A4F5A9 /* Girls 2_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866560D1569C88200A4F5A9 /* Girls 2_puzzle.jpg */; };
+		B86656371569C88200A4F5A9 /* Girls 2_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866560D1569C88200A4F5A9 /* Girls 2_puzzle.jpg */; };
+		B86656381569C88200A4F5A9 /* Girls_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866560E1569C88200A4F5A9 /* Girls_puzzle.jpg */; };
+		B86656391569C88200A4F5A9 /* Girls_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866560E1569C88200A4F5A9 /* Girls_puzzle.jpg */; };
+		B866563A1569C88200A4F5A9 /* Fontana di trevi_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866560F1569C88200A4F5A9 /* Fontana di trevi_puzzle.jpg */; };
+		B866563B1569C88200A4F5A9 /* Fontana di trevi_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866560F1569C88200A4F5A9 /* Fontana di trevi_puzzle.jpg */; };
+		B866563C1569C88200A4F5A9 /* Girl_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656101569C88200A4F5A9 /* Girl_puzzle.jpg */; };
+		B866563D1569C88200A4F5A9 /* Girl_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656101569C88200A4F5A9 /* Girl_puzzle.jpg */; };
+		B866563E1569C88200A4F5A9 /* Fishing_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656111569C88200A4F5A9 /* Fishing_puzzle.jpg */; };
+		B866563F1569C88200A4F5A9 /* Fishing_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656111569C88200A4F5A9 /* Fishing_puzzle.jpg */; };
+		B86656401569C88200A4F5A9 /* Earth music_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656121569C88200A4F5A9 /* Earth music_puzzle.jpg */; };
+		B86656411569C88200A4F5A9 /* Earth music_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656121569C88200A4F5A9 /* Earth music_puzzle.jpg */; };
+		B86656421569C88200A4F5A9 /* Duck_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656131569C88200A4F5A9 /* Duck_puzzle.jpg */; };
+		B86656431569C88200A4F5A9 /* Duck_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656131569C88200A4F5A9 /* Duck_puzzle.jpg */; };
+		B86656441569C88200A4F5A9 /* Earth_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656141569C88200A4F5A9 /* Earth_puzzle.jpg */; };
+		B86656451569C88200A4F5A9 /* Earth_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656141569C88200A4F5A9 /* Earth_puzzle.jpg */; };
+		B86656461569C88200A4F5A9 /* Colors_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656151569C88200A4F5A9 /* Colors_puzzle.jpg */; };
+		B86656471569C88200A4F5A9 /* Colors_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656151569C88200A4F5A9 /* Colors_puzzle.jpg */; };
+		B86656481569C88200A4F5A9 /* Chines chess_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656161569C88200A4F5A9 /* Chines chess_puzzle.jpg */; };
+		B86656491569C88200A4F5A9 /* Chines chess_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656161569C88200A4F5A9 /* Chines chess_puzzle.jpg */; };
+		B866564A1569C88200A4F5A9 /* Car_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656171569C88200A4F5A9 /* Car_puzzle.jpg */; };
+		B866564B1569C88200A4F5A9 /* Car_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656171569C88200A4F5A9 /* Car_puzzle.jpg */; };
+		B866564C1569C88200A4F5A9 /* Chess_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656181569C88200A4F5A9 /* Chess_puzzle.jpg */; };
+		B866564D1569C88200A4F5A9 /* Chess_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656181569C88200A4F5A9 /* Chess_puzzle.jpg */; };
+		B866564E1569C88200A4F5A9 /* Butterfly_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656191569C88200A4F5A9 /* Butterfly_puzzle.jpg */; };
+		B866564F1569C88200A4F5A9 /* Butterfly_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656191569C88200A4F5A9 /* Butterfly_puzzle.jpg */; };
+		B86656501569C88200A4F5A9 /* Buddah Bellin_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866561A1569C88200A4F5A9 /* Buddah Bellin_puzzle.jpg */; };
+		B86656511569C88200A4F5A9 /* Buddah Bellin_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866561A1569C88200A4F5A9 /* Buddah Bellin_puzzle.jpg */; };
+		B86656521569C88200A4F5A9 /* Buddah_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866561B1569C88200A4F5A9 /* Buddah_puzzle.jpg */; };
+		B86656531569C88200A4F5A9 /* Buddah_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866561B1569C88200A4F5A9 /* Buddah_puzzle.jpg */; };
+		B86656711569C89200A4F5A9 /* Copia di Car_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656551569C89200A4F5A9 /* Copia di Car_puzzle_thumb.jpg */; };
+		B86656721569C89200A4F5A9 /* Copia di Car_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656551569C89200A4F5A9 /* Copia di Car_puzzle_thumb.jpg */; };
+		B86656731569C89200A4F5A9 /* Copia di Chess_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656561569C89200A4F5A9 /* Copia di Chess_puzzle_thumb.jpg */; };
+		B86656741569C89200A4F5A9 /* Copia di Chess_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656561569C89200A4F5A9 /* Copia di Chess_puzzle_thumb.jpg */; };
+		B86656751569C89200A4F5A9 /* Copia di Fishing_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656571569C89200A4F5A9 /* Copia di Fishing_puzzle_thumb.jpg */; };
+		B86656761569C89200A4F5A9 /* Copia di Fishing_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656571569C89200A4F5A9 /* Copia di Fishing_puzzle_thumb.jpg */; };
+		B86656771569C89200A4F5A9 /* Copia di Girls_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656581569C89200A4F5A9 /* Copia di Girls_puzzle_thumb.jpg */; };
+		B86656781569C89200A4F5A9 /* Copia di Girls_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656581569C89200A4F5A9 /* Copia di Girls_puzzle_thumb.jpg */; };
+		B86656791569C89200A4F5A9 /* Copia di Hulk_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656591569C89200A4F5A9 /* Copia di Hulk_puzzle_thumb.jpg */; };
+		B866567A1569C89200A4F5A9 /* Copia di Hulk_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656591569C89200A4F5A9 /* Copia di Hulk_puzzle_thumb.jpg */; };
+		B866567B1569C89200A4F5A9 /* Copia di Micio mafioso_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866565A1569C89200A4F5A9 /* Copia di Micio mafioso_puzzle_thumb.jpg */; };
+		B866567C1569C89200A4F5A9 /* Copia di Micio mafioso_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866565A1569C89200A4F5A9 /* Copia di Micio mafioso_puzzle_thumb.jpg */; };
+		B866567D1569C89200A4F5A9 /* Copia di Nice view_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866565B1569C89200A4F5A9 /* Copia di Nice view_puzzle_thumb.jpg */; };
+		B866567E1569C89200A4F5A9 /* Copia di Nice view_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866565B1569C89200A4F5A9 /* Copia di Nice view_puzzle_thumb.jpg */; };
+		B866567F1569C89200A4F5A9 /* Copia di Pencils_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866565C1569C89200A4F5A9 /* Copia di Pencils_puzzle_thumb.jpg */; };
+		B86656801569C89200A4F5A9 /* Copia di Pencils_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866565C1569C89200A4F5A9 /* Copia di Pencils_puzzle_thumb.jpg */; };
+		B86656811569C89200A4F5A9 /* Copia di Chines chess_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866565D1569C89200A4F5A9 /* Copia di Chines chess_puzzle_thumb.jpg */; };
+		B86656821569C89200A4F5A9 /* Copia di Chines chess_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866565D1569C89200A4F5A9 /* Copia di Chines chess_puzzle_thumb.jpg */; };
+		B86656831569C89200A4F5A9 /* Copia di Colors_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866565E1569C89200A4F5A9 /* Copia di Colors_puzzle_thumb.jpg */; };
+		B86656841569C89200A4F5A9 /* Copia di Colors_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866565E1569C89200A4F5A9 /* Copia di Colors_puzzle_thumb.jpg */; };
+		B86656851569C89200A4F5A9 /* Copia di Girls 2_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866565F1569C89200A4F5A9 /* Copia di Girls 2_puzzle_thumb.jpg */; };
+		B86656861569C89200A4F5A9 /* Copia di Girls 2_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866565F1569C89200A4F5A9 /* Copia di Girls 2_puzzle_thumb.jpg */; };
+		B86656871569C89200A4F5A9 /* Copia di Hippo_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656601569C89200A4F5A9 /* Copia di Hippo_puzzle_thumb.jpg */; };
+		B86656881569C89200A4F5A9 /* Copia di Hippo_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656601569C89200A4F5A9 /* Copia di Hippo_puzzle_thumb.jpg */; };
+		B86656891569C89200A4F5A9 /* Copia di Lion_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656611569C89200A4F5A9 /* Copia di Lion_puzzle_thumb.jpg */; };
+		B866568A1569C89200A4F5A9 /* Copia di Lion_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656611569C89200A4F5A9 /* Copia di Lion_puzzle_thumb.jpg */; };
+		B866568B1569C89200A4F5A9 /* Copia di Matrioska_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656621569C89200A4F5A9 /* Copia di Matrioska_puzzle_thumb.jpg */; };
+		B866568C1569C89200A4F5A9 /* Copia di Matrioska_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656621569C89200A4F5A9 /* Copia di Matrioska_puzzle_thumb.jpg */; };
+		B866568D1569C89200A4F5A9 /* Copia di Rectil_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656631569C89200A4F5A9 /* Copia di Rectil_puzzle_thumb.jpg */; };
+		B866568E1569C89200A4F5A9 /* Copia di Rectil_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656631569C89200A4F5A9 /* Copia di Rectil_puzzle_thumb.jpg */; };
+		B866568F1569C89200A4F5A9 /* Copia di The_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656641569C89200A4F5A9 /* Copia di The_puzzle_thumb.jpg */; };
+		B86656901569C89200A4F5A9 /* Copia di The_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656641569C89200A4F5A9 /* Copia di The_puzzle_thumb.jpg */; };
+		B86656911569C89200A4F5A9 /* Copia di Buddah Bellin_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656651569C89200A4F5A9 /* Copia di Buddah Bellin_puzzle_thumb.jpg */; };
+		B86656921569C89200A4F5A9 /* Copia di Buddah Bellin_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656651569C89200A4F5A9 /* Copia di Buddah Bellin_puzzle_thumb.jpg */; };
+		B86656931569C89200A4F5A9 /* Copia di Buddah_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656661569C89200A4F5A9 /* Copia di Buddah_puzzle_thumb.jpg */; };
+		B86656941569C89200A4F5A9 /* Copia di Buddah_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656661569C89200A4F5A9 /* Copia di Buddah_puzzle_thumb.jpg */; };
+		B86656951569C89200A4F5A9 /* Copia di Butterfly_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656671569C89200A4F5A9 /* Copia di Butterfly_puzzle_thumb.jpg */; };
+		B86656961569C89200A4F5A9 /* Copia di Butterfly_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656671569C89200A4F5A9 /* Copia di Butterfly_puzzle_thumb.jpg */; };
+		B86656971569C89200A4F5A9 /* Copia di Duck_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656681569C89200A4F5A9 /* Copia di Duck_puzzle_thumb.jpg */; };
+		B86656981569C89200A4F5A9 /* Copia di Duck_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656681569C89200A4F5A9 /* Copia di Duck_puzzle_thumb.jpg */; };
+		B86656991569C89200A4F5A9 /* Copia di Earth music_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656691569C89200A4F5A9 /* Copia di Earth music_puzzle_thumb.jpg */; };
+		B866569A1569C89200A4F5A9 /* Copia di Earth music_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656691569C89200A4F5A9 /* Copia di Earth music_puzzle_thumb.jpg */; };
+		B866569B1569C89200A4F5A9 /* Copia di Earth_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866566A1569C89200A4F5A9 /* Copia di Earth_puzzle_thumb.jpg */; };
+		B866569C1569C89200A4F5A9 /* Copia di Earth_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866566A1569C89200A4F5A9 /* Copia di Earth_puzzle_thumb.jpg */; };
+		B866569D1569C89200A4F5A9 /* Copia di Fontana di trevi_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866566B1569C89200A4F5A9 /* Copia di Fontana di trevi_puzzle_thumb.jpg */; };
+		B866569E1569C89200A4F5A9 /* Copia di Fontana di trevi_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866566B1569C89200A4F5A9 /* Copia di Fontana di trevi_puzzle_thumb.jpg */; };
+		B866569F1569C89200A4F5A9 /* Copia di Horses_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866566C1569C89200A4F5A9 /* Copia di Horses_puzzle_thumb.jpg */; };
+		B86656A01569C89200A4F5A9 /* Copia di Horses_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866566C1569C89200A4F5A9 /* Copia di Horses_puzzle_thumb.jpg */; };
+		B86656A11569C89200A4F5A9 /* Copia di Kiwi_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866566D1569C89200A4F5A9 /* Copia di Kiwi_puzzle_thumb.jpg */; };
+		B86656A21569C89200A4F5A9 /* Copia di Kiwi_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866566D1569C89200A4F5A9 /* Copia di Kiwi_puzzle_thumb.jpg */; };
+		B86656A31569C89200A4F5A9 /* Copia di Girl_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866566E1569C89200A4F5A9 /* Copia di Girl_puzzle_thumb.jpg */; };
+		B86656A41569C89200A4F5A9 /* Copia di Girl_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866566E1569C89200A4F5A9 /* Copia di Girl_puzzle_thumb.jpg */; };
+		B86656A51569C89200A4F5A9 /* Copia di Old car_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866566F1569C89200A4F5A9 /* Copia di Old car_puzzle_thumb.jpg */; };
+		B86656A61569C89200A4F5A9 /* Copia di Old car_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B866566F1569C89200A4F5A9 /* Copia di Old car_puzzle_thumb.jpg */; };
+		B86656A71569C89200A4F5A9 /* Copia di Tiger_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656701569C89200A4F5A9 /* Copia di Tiger_puzzle_thumb.jpg */; };
+		B86656A81569C89200A4F5A9 /* Copia di Tiger_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656701569C89200A4F5A9 /* Copia di Tiger_puzzle_thumb.jpg */; };
+		B8731465155C373D00FB77FC /* All seeing eye_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B873144C155C373D00FB77FC /* All seeing eye_puzzle.jpg */; };
+		B8731466155C373D00FB77FC /* All seeing eye_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B873144C155C373D00FB77FC /* All seeing eye_puzzle.jpg */; };
+		B8731467155C373D00FB77FC /* Amsterdam bikes_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B873144D155C373D00FB77FC /* Amsterdam bikes_puzzle.jpg */; };
+		B8731468155C373D00FB77FC /* Amsterdam bikes_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B873144D155C373D00FB77FC /* Amsterdam bikes_puzzle.jpg */; };
+		B8731469155C373D00FB77FC /* Amsterdam signs_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B873144E155C373D00FB77FC /* Amsterdam signs_puzzle.jpg */; };
+		B873146A155C373D00FB77FC /* Amsterdam signs_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B873144E155C373D00FB77FC /* Amsterdam signs_puzzle.jpg */; };
+		B873146F155C373D00FB77FC /* Bulldog_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8731451155C373D00FB77FC /* Bulldog_puzzle.jpg */; };
+		B8731470155C373D00FB77FC /* Bulldog_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8731451155C373D00FB77FC /* Bulldog_puzzle.jpg */; };
+		B8731471155C373D00FB77FC /* Drops_puzzle.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B8731452155C373D00FB77FC /* Drops_puzzle.JPG */; };
+		B8731472155C373D00FB77FC /* Drops_puzzle.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B8731452155C373D00FB77FC /* Drops_puzzle.JPG */; };
+		B8731475155C373D00FB77FC /* Flower_puzzle.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B8731454155C373D00FB77FC /* Flower_puzzle.JPG */; };
+		B8731476155C373D00FB77FC /* Flower_puzzle.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B8731454155C373D00FB77FC /* Flower_puzzle.JPG */; };
+		B8731477155C373D00FB77FC /* Fractal leaf_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8731455155C373D00FB77FC /* Fractal leaf_puzzle.jpg */; };
+		B8731478155C373D00FB77FC /* Fractal leaf_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8731455155C373D00FB77FC /* Fractal leaf_puzzle.jpg */; };
+		B873147B155C373D00FB77FC /* Lego_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8731457155C373D00FB77FC /* Lego_puzzle.jpg */; };
+		B873147C155C373D00FB77FC /* Lego_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8731457155C373D00FB77FC /* Lego_puzzle.jpg */; };
+		B873147D155C373D00FB77FC /* Micetto furbetto_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8731458155C373D00FB77FC /* Micetto furbetto_puzzle.jpg */; };
+		B873147E155C373D00FB77FC /* Micetto furbetto_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8731458155C373D00FB77FC /* Micetto furbetto_puzzle.jpg */; };
+		B873147F155C373D00FB77FC /* Micio matto_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8731459155C373D00FB77FC /* Micio matto_puzzle.jpg */; };
+		B8731480155C373D00FB77FC /* Micio matto_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8731459155C373D00FB77FC /* Micio matto_puzzle.jpg */; };
+		B8731481155C373D00FB77FC /* Micio pigrotto_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B873145A155C373D00FB77FC /* Micio pigrotto_puzzle.jpg */; };
+		B8731482155C373D00FB77FC /* Micio pigrotto_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B873145A155C373D00FB77FC /* Micio pigrotto_puzzle.jpg */; };
+		B8731483155C373D00FB77FC /* Mother board_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B873145B155C373D00FB77FC /* Mother board_puzzle.jpg */; };
+		B8731484155C373D00FB77FC /* Mother board_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B873145B155C373D00FB77FC /* Mother board_puzzle.jpg */; };
+		B8731485155C373D00FB77FC /* Mountains_puzzle.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B873145C155C373D00FB77FC /* Mountains_puzzle.JPG */; };
+		B8731486155C373D00FB77FC /* Mountains_puzzle.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B873145C155C373D00FB77FC /* Mountains_puzzle.JPG */; };
+		B8731487155C373D00FB77FC /* Nano_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B873145D155C373D00FB77FC /* Nano_puzzle.jpg */; };
+		B8731488155C373D00FB77FC /* Nano_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B873145D155C373D00FB77FC /* Nano_puzzle.jpg */; };
+		B8731489155C373D00FB77FC /* Obiettivo_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B873145E155C373D00FB77FC /* Obiettivo_puzzle.jpg */; };
+		B873148A155C373D00FB77FC /* Obiettivo_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B873145E155C373D00FB77FC /* Obiettivo_puzzle.jpg */; };
+		B873148B155C373D00FB77FC /* Pane_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B873145F155C373D00FB77FC /* Pane_puzzle.jpg */; };
+		B873148C155C373D00FB77FC /* Pane_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B873145F155C373D00FB77FC /* Pane_puzzle.jpg */; };
+		B873148D155C373D00FB77FC /* Pasta_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8731460155C373D00FB77FC /* Pasta_puzzle.jpg */; };
+		B873148E155C373D00FB77FC /* Pasta_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8731460155C373D00FB77FC /* Pasta_puzzle.jpg */; };
+		B873148F155C373D00FB77FC /* Pizza_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8731461155C373D00FB77FC /* Pizza_puzzle.jpg */; };
+		B8731490155C373D00FB77FC /* Pizza_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8731461155C373D00FB77FC /* Pizza_puzzle.jpg */; };
+		B8731491155C373D00FB77FC /* PlayStation_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8731462155C373D00FB77FC /* PlayStation_puzzle.jpg */; };
+		B8731492155C373D00FB77FC /* PlayStation_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8731462155C373D00FB77FC /* PlayStation_puzzle.jpg */; };
+		B8731495155C373D00FB77FC /* Yellow_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8731464155C373D00FB77FC /* Yellow_puzzle.jpg */; };
+		B8731496155C373D00FB77FC /* Yellow_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8731464155C373D00FB77FC /* Yellow_puzzle.jpg */; };
+		B87314B0155C374D00FB77FC /* Copia di All seeing eye_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8731497155C374D00FB77FC /* Copia di All seeing eye_puzzle_thumb.jpg */; };
+		B87314B1155C374D00FB77FC /* Copia di All seeing eye_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8731497155C374D00FB77FC /* Copia di All seeing eye_puzzle_thumb.jpg */; };
+		B87314B2155C374D00FB77FC /* Copia di Amsterdam bikes_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8731498155C374D00FB77FC /* Copia di Amsterdam bikes_puzzle_thumb.jpg */; };
+		B87314B3155C374D00FB77FC /* Copia di Amsterdam bikes_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8731498155C374D00FB77FC /* Copia di Amsterdam bikes_puzzle_thumb.jpg */; };
+		B87314B4155C374D00FB77FC /* Copia di Amsterdam signs_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8731499155C374D00FB77FC /* Copia di Amsterdam signs_puzzle_thumb.jpg */; };
+		B87314B5155C374D00FB77FC /* Copia di Amsterdam signs_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8731499155C374D00FB77FC /* Copia di Amsterdam signs_puzzle_thumb.jpg */; };
+		B87314BA155C374D00FB77FC /* Copia di Bulldog_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B873149C155C374D00FB77FC /* Copia di Bulldog_puzzle_thumb.jpg */; };
+		B87314BB155C374D00FB77FC /* Copia di Bulldog_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B873149C155C374D00FB77FC /* Copia di Bulldog_puzzle_thumb.jpg */; };
+		B87314BC155C374D00FB77FC /* Copia di Drops_puzzle_thumb.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B873149D155C374D00FB77FC /* Copia di Drops_puzzle_thumb.JPG */; };
+		B87314BD155C374D00FB77FC /* Copia di Drops_puzzle_thumb.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B873149D155C374D00FB77FC /* Copia di Drops_puzzle_thumb.JPG */; };
+		B87314C0155C374D00FB77FC /* Copia di Flower_puzzle_thumb.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B873149F155C374D00FB77FC /* Copia di Flower_puzzle_thumb.JPG */; };
+		B87314C1155C374D00FB77FC /* Copia di Flower_puzzle_thumb.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B873149F155C374D00FB77FC /* Copia di Flower_puzzle_thumb.JPG */; };
+		B87314C2155C374D00FB77FC /* Copia di Fractal leaf_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B87314A0155C374D00FB77FC /* Copia di Fractal leaf_puzzle_thumb.jpg */; };
+		B87314C3155C374D00FB77FC /* Copia di Fractal leaf_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B87314A0155C374D00FB77FC /* Copia di Fractal leaf_puzzle_thumb.jpg */; };
+		B87314C6155C374D00FB77FC /* Copia di Lego_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B87314A2155C374D00FB77FC /* Copia di Lego_puzzle_thumb.jpg */; };
+		B87314C7155C374D00FB77FC /* Copia di Lego_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B87314A2155C374D00FB77FC /* Copia di Lego_puzzle_thumb.jpg */; };
+		B87314C8155C374D00FB77FC /* Copia di Micetto furbetto_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B87314A3155C374D00FB77FC /* Copia di Micetto furbetto_puzzle_thumb.jpg */; };
+		B87314C9155C374D00FB77FC /* Copia di Micetto furbetto_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B87314A3155C374D00FB77FC /* Copia di Micetto furbetto_puzzle_thumb.jpg */; };
+		B87314CA155C374D00FB77FC /* Copia di Micio matto_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B87314A4155C374D00FB77FC /* Copia di Micio matto_puzzle_thumb.jpg */; };
+		B87314CB155C374D00FB77FC /* Copia di Micio matto_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B87314A4155C374D00FB77FC /* Copia di Micio matto_puzzle_thumb.jpg */; };
+		B87314CC155C374D00FB77FC /* Copia di Micio pigrotto_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B87314A5155C374D00FB77FC /* Copia di Micio pigrotto_puzzle_thumb.jpg */; };
+		B87314CD155C374D00FB77FC /* Copia di Micio pigrotto_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B87314A5155C374D00FB77FC /* Copia di Micio pigrotto_puzzle_thumb.jpg */; };
+		B87314CE155C374D00FB77FC /* Copia di Mother board_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B87314A6155C374D00FB77FC /* Copia di Mother board_puzzle_thumb.jpg */; };
+		B87314CF155C374D00FB77FC /* Copia di Mother board_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B87314A6155C374D00FB77FC /* Copia di Mother board_puzzle_thumb.jpg */; };
+		B87314D0155C374D00FB77FC /* Copia di Mountains_puzzle_thumb.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B87314A7155C374D00FB77FC /* Copia di Mountains_puzzle_thumb.JPG */; };
+		B87314D1155C374D00FB77FC /* Copia di Mountains_puzzle_thumb.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B87314A7155C374D00FB77FC /* Copia di Mountains_puzzle_thumb.JPG */; };
+		B87314D2155C374D00FB77FC /* Copia di Nano_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B87314A8155C374D00FB77FC /* Copia di Nano_puzzle_thumb.jpg */; };
+		B87314D3155C374D00FB77FC /* Copia di Nano_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B87314A8155C374D00FB77FC /* Copia di Nano_puzzle_thumb.jpg */; };
+		B87314D4155C374D00FB77FC /* Copia di Obiettivo_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B87314A9155C374D00FB77FC /* Copia di Obiettivo_puzzle_thumb.jpg */; };
+		B87314D5155C374D00FB77FC /* Copia di Obiettivo_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B87314A9155C374D00FB77FC /* Copia di Obiettivo_puzzle_thumb.jpg */; };
+		B87314D6155C374D00FB77FC /* Copia di Pane_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B87314AA155C374D00FB77FC /* Copia di Pane_puzzle_thumb.jpg */; };
+		B87314D7155C374D00FB77FC /* Copia di Pane_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B87314AA155C374D00FB77FC /* Copia di Pane_puzzle_thumb.jpg */; };
+		B87314D8155C374D00FB77FC /* Copia di Pasta_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B87314AB155C374D00FB77FC /* Copia di Pasta_puzzle_thumb.jpg */; };
+		B87314D9155C374D00FB77FC /* Copia di Pasta_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B87314AB155C374D00FB77FC /* Copia di Pasta_puzzle_thumb.jpg */; };
+		B87314DA155C374D00FB77FC /* Copia di Pizza_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B87314AC155C374D00FB77FC /* Copia di Pizza_puzzle_thumb.jpg */; };
+		B87314DB155C374D00FB77FC /* Copia di Pizza_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B87314AC155C374D00FB77FC /* Copia di Pizza_puzzle_thumb.jpg */; };
+		B87314DC155C374D00FB77FC /* Copia di PlayStation_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B87314AD155C374D00FB77FC /* Copia di PlayStation_puzzle_thumb.jpg */; };
+		B87314DD155C374D00FB77FC /* Copia di PlayStation_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B87314AD155C374D00FB77FC /* Copia di PlayStation_puzzle_thumb.jpg */; };
+		B87314E0155C374D00FB77FC /* Copia di Yellow_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B87314AF155C374D00FB77FC /* Copia di Yellow_puzzle_thumb.jpg */; };
+		B87314E1155C374D00FB77FC /* Copia di Yellow_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B87314AF155C374D00FB77FC /* Copia di Yellow_puzzle_thumb.jpg */; };
+		B874B323156D67D80089D4E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B87C5CD315400B2A00AF69BC /* main.m */; };
+		B874B324156D67D80089D4E4 /* PuzzleController.m in Sources */ = {isa = PBXBuildFile; fileRef = B87C5CEF1540174400AF69BC /* PuzzleController.m */; };
+		B874B325156D67D80089D4E4 /* UIImage+CWAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B84014F31540E57D0075734A /* UIImage+CWAdditions.m */; };
+		B874B326156D67D80089D4E4 /* Lattice.m in Sources */ = {isa = PBXBuildFile; fileRef = B82AC5C6154411B500208887 /* Lattice.m */; };
+		B874B327156D67D80089D4E4 /* MenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E4AC7D154AA22300D0A75D /* MenuController.m */; };
+		B874B328156D67D80089D4E4 /* NewGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AA19CC154B565400750458 /* NewGameController.m */; };
+		B874B329156D67D80089D4E4 /* GroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE1204155990DB00742256 /* GroupView.m */; };
+		B874B32A156D67D80089D4E4 /* PieceView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE1205155990DB00742256 /* PieceView.m */; };
+		B874B32B156D67D80089D4E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE120C155990F100742256 /* AppDelegate.m */; };
+		B874B32C156D67D80089D4E4 /* CreatePuzzleOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE120D155990F100742256 /* CreatePuzzleOperation.m */; };
+		B874B32D156D67D80089D4E4 /* Piece.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE12181559912200742256 /* Piece.m */; };
+		B874B32E156D67D80089D4E4 /* Puzzle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B8AE121B1559912200742256 /* Puzzle.xcdatamodeld */; };
+		B874B32F156D67D80089D4E4 /* PuzzleLibraryController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DAFCE4155BDB0700A901A3 /* PuzzleLibraryController.m */; };
+		B874B330156D67D80089D4E4 /* PuzzleCompletedController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B0E73915601E2C002FE0A2 /* PuzzleCompletedController.m */; };
+		B874B331156D67D80089D4E4 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B0E74115605E23002FE0A2 /* Image.m */; };
+		B874B332156D67D80089D4E4 /* Puzzle.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B0E74615605EE8002FE0A2 /* Puzzle.m */; };
+		B874B333156D67D80089D4E4 /* LoadGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = B823757E1561B58000426E92 /* LoadGameController.m */; };
+		B874B335156D67D80089D4E4 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E18158155000C200A8B450 /* MediaPlayer.framework */; };
+		B874B336156D67D80089D4E4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B853810F1548D91B00F3BFA5 /* AVFoundation.framework */; };
+		B874B337156D67D80089D4E4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84014EB1540D0880075734A /* QuartzCore.framework */; };
+		B874B338156D67D80089D4E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87C5CC515400B2A00AF69BC /* UIKit.framework */; };
+		B874B339156D67D80089D4E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87C5CC715400B2A00AF69BC /* Foundation.framework */; };
+		B874B33A156D67D80089D4E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87C5CC915400B2A00AF69BC /* CoreGraphics.framework */; };
+		B874B33B156D67D80089D4E4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87C5CCB15400B2A00AF69BC /* CoreData.framework */; };
+		B874B33D156D67D80089D4E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B87C5CD015400B2A00AF69BC /* InfoPlist.strings */; };
+		B874B33E156D67D80089D4E4 /* PuzzleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B87C5CF01540174400AF69BC /* PuzzleController.xib */; };
+		B874B33F156D67D80089D4E4 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69215497ED300256385 /* Default-Landscape@2x~ipad.png */; };
+		B874B340156D67D80089D4E4 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69315497ED300256385 /* Default-Landscape~ipad.png */; };
+		B874B341156D67D80089D4E4 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69415497ED300256385 /* Default-Portrait@2x~ipad.png */; };
+		B874B342156D67D80089D4E4 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69515497ED300256385 /* Default-Portrait~ipad.png */; };
+		B874B343156D67D80089D4E4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69615497ED300256385 /* Default.png */; };
+		B874B344156D67D80089D4E4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69715497ED300256385 /* Default@2x.png */; };
+		B874B345156D67D80089D4E4 /* MenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8E4AC7E154AA22300D0A75D /* MenuController.xib */; };
+		B874B346156D67D80089D4E4 /* icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B2154B502900750458 /* icon-144.png */; };
+		B874B347156D67D80089D4E4 /* icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B3154B502900750458 /* icon-512.png */; };
+		B874B348156D67D80089D4E4 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B4154B502900750458 /* icon-72.png */; };
+		B874B349156D67D80089D4E4 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B5154B502900750458 /* Icon-Small-50.png */; };
+		B874B34A156D67D80089D4E4 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B6154B502900750458 /* Icon-Small.png */; };
+		B874B34B156D67D80089D4E4 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B7154B502900750458 /* Icon-Small@2x.png */; };
+		B874B34C156D67D80089D4E4 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B8154B502900750458 /* icon.png */; };
+		B874B34D156D67D80089D4E4 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B9154B502900750458 /* icon@2x.png */; };
+		B874B34E156D67D80089D4E4 /* NewGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19CD154B565400750458 /* NewGameController.xib */; };
+		B874B350156D67D80089D4E4 /* NeighborFound.wav in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCC0155BA1C400A901A3 /* NeighborFound.wav */; };
+		B874B351156D67D80089D4E4 /* PiecePositioned.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCC1155BA1C400A901A3 /* PiecePositioned.mp3 */; };
+		B874B352156D67D80089D4E4 /* PuzzleCompleted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCC2155BA1C400A901A3 /* PuzzleCompleted.mp3 */; };
+		B874B353156D67D80089D4E4 /* MenuSound.aif in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCCF155BB78A00A901A3 /* MenuSound.aif */; };
+		B874B354156D67D80089D4E4 /* Scissors_Shears.wav in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCD5155BB9E000A901A3 /* Scissors_Shears.wav */; };
+		B874B355156D67D80089D4E4 /* PuzzleLibraryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCE5155BDB0700A901A3 /* PuzzleLibraryController.xib */; };
+		B874B37E156D67D80089D4E4 /* ChooseLabel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E720155FB612002FE0A2 /* ChooseLabel@2x.png */; };
+		B874B37F156D67D80089D4E4 /* ChooseLabel.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E721155FB612002FE0A2 /* ChooseLabel.png */; };
+		B874B380156D67D80089D4E4 /* Wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E722155FB612002FE0A2 /* Wood.jpg */; };
+		B874B381156D67D80089D4E4 /* Wood@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E723155FB612002FE0A2 /* Wood@2x.jpg */; };
+		B874B382156D67D80089D4E4 /* PuzzleComplete.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E72C155FFA56002FE0A2 /* PuzzleComplete.png */; };
+		B874B383156D67D80089D4E4 /* PuzzleComplete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E72D155FFA56002FE0A2 /* PuzzleComplete@2x.png */; };
+		B874B384156D67D80089D4E4 /* PuzzleComplete_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E7321560187A002FE0A2 /* PuzzleComplete_iPhone.png */; };
+		B874B385156D67D80089D4E4 /* PuzzleComplete_iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E7331560187A002FE0A2 /* PuzzleComplete_iPhone@2x.png */; };
+		B874B386156D67D80089D4E4 /* PuzzleCompletedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E73A15601E2C002FE0A2 /* PuzzleCompletedController.xib */; };
+		B874B387156D67D80089D4E4 /* BelloPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B804EF391560870F00826712 /* BelloPro.ttf */; };
+		B874B388156D67D80089D4E4 /* PuzzleCompletedController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */; };
+		B874B389156D67D80089D4E4 /* LoadGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B823757F1561B58000426E92 /* LoadGameController.xib */; };
+		B874B38A156D67D80089D4E4 /* Notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = B8DADF9515654973002DCEF8 /* Notes.txt */; };
+		B874B38B156D67D80089D4E4 /* PanningSwitch.png in Resources */ = {isa = PBXBuildFile; fileRef = B8D28BC615667CCF00DCF1A0 /* PanningSwitch.png */; };
+		B874B38C156D67D80089D4E4 /* PanningSwitch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8D28BC715667CCF00DCF1A0 /* PanningSwitch@2x.png */; };
+		B87C5CC615400B2A00AF69BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87C5CC515400B2A00AF69BC /* UIKit.framework */; };
+		B87C5CC815400B2A00AF69BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87C5CC715400B2A00AF69BC /* Foundation.framework */; };
+		B87C5CCA15400B2A00AF69BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87C5CC915400B2A00AF69BC /* CoreGraphics.framework */; };
+		B87C5CCC15400B2A00AF69BC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87C5CCB15400B2A00AF69BC /* CoreData.framework */; };
+		B87C5CD215400B2A00AF69BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B87C5CD015400B2A00AF69BC /* InfoPlist.strings */; };
+		B87C5CD415400B2A00AF69BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B87C5CD315400B2A00AF69BC /* main.m */; };
+		B87C5CF11540174400AF69BC /* PuzzleController.m in Sources */ = {isa = PBXBuildFile; fileRef = B87C5CEF1540174400AF69BC /* PuzzleController.m */; };
+		B87C5CF21540174400AF69BC /* PuzzleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B87C5CF01540174400AF69BC /* PuzzleController.xib */; };
+		B88BF755158214000057F65D /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B88BF753158213FF0057F65D /* BannerViewController.m */; };
+		B88BF756158214000057F65D /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B88BF753158213FF0057F65D /* BannerViewController.m */; };
+		B88BF757158214000057F65D /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B88BF753158213FF0057F65D /* BannerViewController.m */; };
+		B88BF758158214000057F65D /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B88BF753158213FF0057F65D /* BannerViewController.m */; };
+		B8AA19BA154B502900750458 /* icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B2154B502900750458 /* icon-144.png */; };
+		B8AA19BB154B502900750458 /* icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B3154B502900750458 /* icon-512.png */; };
+		B8AA19BC154B502900750458 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B4154B502900750458 /* icon-72.png */; };
+		B8AA19BD154B502900750458 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B5154B502900750458 /* Icon-Small-50.png */; };
+		B8AA19BE154B502900750458 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B6154B502900750458 /* Icon-Small.png */; };
+		B8AA19BF154B502900750458 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B7154B502900750458 /* Icon-Small@2x.png */; };
+		B8AA19C0154B502900750458 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B8154B502900750458 /* icon.png */; };
+		B8AA19C1154B502900750458 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B9154B502900750458 /* icon@2x.png */; };
+		B8AA19CE154B565400750458 /* NewGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AA19CC154B565400750458 /* NewGameController.m */; };
+		B8AA19CF154B565400750458 /* NewGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19CD154B565400750458 /* NewGameController.xib */; };
+		B8AE1208155990DB00742256 /* GroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE1204155990DB00742256 /* GroupView.m */; };
+		B8AE1209155990DB00742256 /* GroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE1204155990DB00742256 /* GroupView.m */; };
+		B8AE120A155990DB00742256 /* PieceView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE1205155990DB00742256 /* PieceView.m */; };
+		B8AE120B155990DB00742256 /* PieceView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE1205155990DB00742256 /* PieceView.m */; };
+		B8AE1210155990F100742256 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE120C155990F100742256 /* AppDelegate.m */; };
+		B8AE1211155990F100742256 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE120C155990F100742256 /* AppDelegate.m */; };
+		B8AE1212155990F100742256 /* CreatePuzzleOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE120D155990F100742256 /* CreatePuzzleOperation.m */; };
+		B8AE1213155990F100742256 /* CreatePuzzleOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE120D155990F100742256 /* CreatePuzzleOperation.m */; };
+		B8AE12231559912200742256 /* Piece.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE12181559912200742256 /* Piece.m */; };
+		B8AE12241559912200742256 /* Piece.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE12181559912200742256 /* Piece.m */; };
+		B8AE12271559912200742256 /* Puzzle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B8AE121B1559912200742256 /* Puzzle.xcdatamodeld */; };
+		B8AE12281559912200742256 /* Puzzle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B8AE121B1559912200742256 /* Puzzle.xcdatamodeld */; };
+		B8B0E724155FB612002FE0A2 /* ChooseLabel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E720155FB612002FE0A2 /* ChooseLabel@2x.png */; };
+		B8B0E725155FB612002FE0A2 /* ChooseLabel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E720155FB612002FE0A2 /* ChooseLabel@2x.png */; };
+		B8B0E726155FB612002FE0A2 /* ChooseLabel.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E721155FB612002FE0A2 /* ChooseLabel.png */; };
+		B8B0E727155FB612002FE0A2 /* ChooseLabel.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E721155FB612002FE0A2 /* ChooseLabel.png */; };
+		B8B0E728155FB612002FE0A2 /* Wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E722155FB612002FE0A2 /* Wood.jpg */; };
+		B8B0E729155FB612002FE0A2 /* Wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E722155FB612002FE0A2 /* Wood.jpg */; };
+		B8B0E72A155FB612002FE0A2 /* Wood@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E723155FB612002FE0A2 /* Wood@2x.jpg */; };
+		B8B0E72B155FB612002FE0A2 /* Wood@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E723155FB612002FE0A2 /* Wood@2x.jpg */; };
+		B8B0E72E155FFA56002FE0A2 /* PuzzleComplete.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E72C155FFA56002FE0A2 /* PuzzleComplete.png */; };
+		B8B0E72F155FFA56002FE0A2 /* PuzzleComplete.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E72C155FFA56002FE0A2 /* PuzzleComplete.png */; };
+		B8B0E730155FFA56002FE0A2 /* PuzzleComplete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E72D155FFA56002FE0A2 /* PuzzleComplete@2x.png */; };
+		B8B0E731155FFA56002FE0A2 /* PuzzleComplete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E72D155FFA56002FE0A2 /* PuzzleComplete@2x.png */; };
+		B8B0E7341560187A002FE0A2 /* PuzzleComplete_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E7321560187A002FE0A2 /* PuzzleComplete_iPhone.png */; };
+		B8B0E7351560187A002FE0A2 /* PuzzleComplete_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E7321560187A002FE0A2 /* PuzzleComplete_iPhone.png */; };
+		B8B0E7361560187A002FE0A2 /* PuzzleComplete_iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E7331560187A002FE0A2 /* PuzzleComplete_iPhone@2x.png */; };
+		B8B0E7371560187A002FE0A2 /* PuzzleComplete_iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E7331560187A002FE0A2 /* PuzzleComplete_iPhone@2x.png */; };
+		B8B0E73B15601E2C002FE0A2 /* PuzzleCompletedController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B0E73915601E2C002FE0A2 /* PuzzleCompletedController.m */; };
+		B8B0E73C15601E2C002FE0A2 /* PuzzleCompletedController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B0E73915601E2C002FE0A2 /* PuzzleCompletedController.m */; };
+		B8B0E73D15601E2C002FE0A2 /* PuzzleCompletedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E73A15601E2C002FE0A2 /* PuzzleCompletedController.xib */; };
+		B8B0E73E15601E2C002FE0A2 /* PuzzleCompletedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E73A15601E2C002FE0A2 /* PuzzleCompletedController.xib */; };
+		B8B0E74215605E23002FE0A2 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B0E74115605E23002FE0A2 /* Image.m */; };
+		B8B0E74315605E23002FE0A2 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B0E74115605E23002FE0A2 /* Image.m */; };
+		B8B0E74715605EE8002FE0A2 /* Puzzle.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B0E74615605EE8002FE0A2 /* Puzzle.m */; };
+		B8B0E74815605EE8002FE0A2 /* Puzzle.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B0E74615605EE8002FE0A2 /* Puzzle.m */; };
+		B8CFE4D0157269ED00AAC396 /* Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = B8CFE4CE157269ED00AAC396 /* Menu.png */; };
+		B8CFE4D1157269ED00AAC396 /* Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = B8CFE4CE157269ED00AAC396 /* Menu.png */; };
+		B8CFE4D2157269ED00AAC396 /* Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = B8CFE4CE157269ED00AAC396 /* Menu.png */; };
+		B8CFE4D3157269ED00AAC396 /* Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = B8CFE4CE157269ED00AAC396 /* Menu.png */; };
+		B8CFE4D4157269ED00AAC396 /* Menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8CFE4CF157269ED00AAC396 /* Menu@2x.png */; };
+		B8CFE4D5157269ED00AAC396 /* Menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8CFE4CF157269ED00AAC396 /* Menu@2x.png */; };
+		B8CFE4D6157269ED00AAC396 /* Menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8CFE4CF157269ED00AAC396 /* Menu@2x.png */; };
+		B8CFE4D7157269ED00AAC396 /* Menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8CFE4CF157269ED00AAC396 /* Menu@2x.png */; };
+		B8D28BC815667CCF00DCF1A0 /* PanningSwitch.png in Resources */ = {isa = PBXBuildFile; fileRef = B8D28BC615667CCF00DCF1A0 /* PanningSwitch.png */; };
+		B8D28BC915667CCF00DCF1A0 /* PanningSwitch.png in Resources */ = {isa = PBXBuildFile; fileRef = B8D28BC615667CCF00DCF1A0 /* PanningSwitch.png */; };
+		B8D28BCA15667CCF00DCF1A0 /* PanningSwitch.png in Resources */ = {isa = PBXBuildFile; fileRef = B8D28BC615667CCF00DCF1A0 /* PanningSwitch.png */; };
+		B8D28BCB15667CCF00DCF1A0 /* PanningSwitch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8D28BC715667CCF00DCF1A0 /* PanningSwitch@2x.png */; };
+		B8D28BCC15667CCF00DCF1A0 /* PanningSwitch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8D28BC715667CCF00DCF1A0 /* PanningSwitch@2x.png */; };
+		B8D28BCD15667CCF00DCF1A0 /* PanningSwitch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8D28BC715667CCF00DCF1A0 /* PanningSwitch@2x.png */; };
+		B8D28BCF156683B900DCF1A0 /* Micetto furbetto_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8731458155C373D00FB77FC /* Micetto furbetto_puzzle.jpg */; };
+		B8D28BD0156683B900DCF1A0 /* Micio matto_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8731459155C373D00FB77FC /* Micio matto_puzzle.jpg */; };
+		B8D28BD1156683C900DCF1A0 /* Copia di Micetto furbetto_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B87314A3155C374D00FB77FC /* Copia di Micetto furbetto_puzzle_thumb.jpg */; };
+		B8D28BD2156683C900DCF1A0 /* Copia di Micio matto_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B87314A4155C374D00FB77FC /* Copia di Micio matto_puzzle_thumb.jpg */; };
+		B8DADF9615654973002DCEF8 /* Notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = B8DADF9515654973002DCEF8 /* Notes.txt */; };
+		B8DADF9715654973002DCEF8 /* Notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = B8DADF9515654973002DCEF8 /* Notes.txt */; };
+		B8DADF9815654973002DCEF8 /* Notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = B8DADF9515654973002DCEF8 /* Notes.txt */; };
+		B8DAFCC4155BA1C400A901A3 /* NeighborFound.wav in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCC0155BA1C400A901A3 /* NeighborFound.wav */; };
+		B8DAFCC5155BA1C400A901A3 /* NeighborFound.wav in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCC0155BA1C400A901A3 /* NeighborFound.wav */; };
+		B8DAFCC6155BA1C400A901A3 /* PiecePositioned.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCC1155BA1C400A901A3 /* PiecePositioned.mp3 */; };
+		B8DAFCC7155BA1C400A901A3 /* PiecePositioned.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCC1155BA1C400A901A3 /* PiecePositioned.mp3 */; };
+		B8DAFCC8155BA1C400A901A3 /* PuzzleCompleted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCC2155BA1C400A901A3 /* PuzzleCompleted.mp3 */; };
+		B8DAFCC9155BA1C400A901A3 /* PuzzleCompleted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCC2155BA1C400A901A3 /* PuzzleCompleted.mp3 */; };
+		B8DAFCD0155BB78A00A901A3 /* MenuSound.aif in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCCF155BB78A00A901A3 /* MenuSound.aif */; };
+		B8DAFCD1155BB78A00A901A3 /* MenuSound.aif in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCCF155BB78A00A901A3 /* MenuSound.aif */; };
+		B8DAFCD6155BB9E000A901A3 /* Scissors_Shears.wav in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCD5155BB9E000A901A3 /* Scissors_Shears.wav */; };
+		B8DAFCD7155BB9E000A901A3 /* Scissors_Shears.wav in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCD5155BB9E000A901A3 /* Scissors_Shears.wav */; };
+		B8DAFCE6155BDB0700A901A3 /* PuzzleLibraryController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DAFCE4155BDB0700A901A3 /* PuzzleLibraryController.m */; };
+		B8DAFCE7155BDB0700A901A3 /* PuzzleLibraryController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DAFCE4155BDB0700A901A3 /* PuzzleLibraryController.m */; };
+		B8DAFCE8155BDB0700A901A3 /* PuzzleLibraryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCE5155BDB0700A901A3 /* PuzzleLibraryController.xib */; };
+		B8DAFCE9155BDB0700A901A3 /* PuzzleLibraryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCE5155BDB0700A901A3 /* PuzzleLibraryController.xib */; };
+		B8DBE9FD15813412005199B4 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DBE9FC15813412005199B4 /* iAd.framework */; };
+		B8DBEA00158144AF005199B4 /* iAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DBE9FF158144AF005199B4 /* iAdViewController.m */; };
+		B8DBEA01158144AF005199B4 /* iAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DBE9FF158144AF005199B4 /* iAdViewController.m */; };
+		B8DBEA02158144AF005199B4 /* iAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DBE9FF158144AF005199B4 /* iAdViewController.m */; };
+		B8DBEA03158144AF005199B4 /* iAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DBE9FF158144AF005199B4 /* iAdViewController.m */; };
+		B8DBEA061581589B005199B4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DBEA0415815887005199B4 /* Security.framework */; };
+		B8DFA69815497ED300256385 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69215497ED300256385 /* Default-Landscape@2x~ipad.png */; };
+		B8DFA69915497ED300256385 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69315497ED300256385 /* Default-Landscape~ipad.png */; };
+		B8DFA69A15497ED300256385 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69415497ED300256385 /* Default-Portrait@2x~ipad.png */; };
+		B8DFA69B15497ED300256385 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69515497ED300256385 /* Default-Portrait~ipad.png */; };
+		B8DFA69C15497ED300256385 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69615497ED300256385 /* Default.png */; };
+		B8DFA69D15497ED300256385 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69715497ED300256385 /* Default@2x.png */; };
+		B8E18159155000C200A8B450 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E18158155000C200A8B450 /* MediaPlayer.framework */; };
+		B8E181621550402800A8B450 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B87C5CD315400B2A00AF69BC /* main.m */; };
+		B8E181671550402800A8B450 /* PuzzleController.m in Sources */ = {isa = PBXBuildFile; fileRef = B87C5CEF1540174400AF69BC /* PuzzleController.m */; };
+		B8E181681550402800A8B450 /* UIImage+CWAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B84014F31540E57D0075734A /* UIImage+CWAdditions.m */; };
+		B8E181691550402800A8B450 /* Lattice.m in Sources */ = {isa = PBXBuildFile; fileRef = B82AC5C6154411B500208887 /* Lattice.m */; };
+		B8E1816A1550402800A8B450 /* MenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E4AC7D154AA22300D0A75D /* MenuController.m */; };
+		B8E1816B1550402800A8B450 /* NewGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AA19CC154B565400750458 /* NewGameController.m */; };
+		B8E1816D1550402800A8B450 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E18158155000C200A8B450 /* MediaPlayer.framework */; };
+		B8E1816E1550402800A8B450 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B853810F1548D91B00F3BFA5 /* AVFoundation.framework */; };
+		B8E1816F1550402800A8B450 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84014EB1540D0880075734A /* QuartzCore.framework */; };
+		B8E181701550402800A8B450 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87C5CC515400B2A00AF69BC /* UIKit.framework */; };
+		B8E181711550402800A8B450 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87C5CC715400B2A00AF69BC /* Foundation.framework */; };
+		B8E181721550402800A8B450 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87C5CC915400B2A00AF69BC /* CoreGraphics.framework */; };
+		B8E181731550402800A8B450 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87C5CCB15400B2A00AF69BC /* CoreData.framework */; };
+		B8E181751550402800A8B450 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B87C5CD015400B2A00AF69BC /* InfoPlist.strings */; };
+		B8E181761550402800A8B450 /* PuzzleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B87C5CF01540174400AF69BC /* PuzzleController.xib */; };
+		B8E1817A1550402800A8B450 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69215497ED300256385 /* Default-Landscape@2x~ipad.png */; };
+		B8E1817B1550402800A8B450 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69315497ED300256385 /* Default-Landscape~ipad.png */; };
+		B8E1817C1550402800A8B450 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69415497ED300256385 /* Default-Portrait@2x~ipad.png */; };
+		B8E1817D1550402800A8B450 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69515497ED300256385 /* Default-Portrait~ipad.png */; };
+		B8E1817E1550402800A8B450 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69615497ED300256385 /* Default.png */; };
+		B8E1817F1550402800A8B450 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69715497ED300256385 /* Default@2x.png */; };
+		B8E181801550402800A8B450 /* MenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8E4AC7E154AA22300D0A75D /* MenuController.xib */; };
+		B8E181811550402800A8B450 /* icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B2154B502900750458 /* icon-144.png */; };
+		B8E181821550402800A8B450 /* icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B3154B502900750458 /* icon-512.png */; };
+		B8E181831550402800A8B450 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B4154B502900750458 /* icon-72.png */; };
+		B8E181841550402800A8B450 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B5154B502900750458 /* Icon-Small-50.png */; };
+		B8E181851550402800A8B450 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B6154B502900750458 /* Icon-Small.png */; };
+		B8E181861550402800A8B450 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B7154B502900750458 /* Icon-Small@2x.png */; };
+		B8E181871550402800A8B450 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B8154B502900750458 /* icon.png */; };
+		B8E181881550402800A8B450 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B9154B502900750458 /* icon@2x.png */; };
+		B8E181891550402800A8B450 /* NewGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19CD154B565400750458 /* NewGameController.xib */; };
+		B8E4AC7F154AA22300D0A75D /* MenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E4AC7D154AA22300D0A75D /* MenuController.m */; };
+		B8E4AC80154AA22300D0A75D /* MenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8E4AC7E154AA22300D0A75D /* MenuController.xib */; };
+		B8FDC53D15737B8300D2A447 /* Copia di Car_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656551569C89200A4F5A9 /* Copia di Car_puzzle_thumb.jpg */; };
+		B8FDC53E15737B9500D2A447 /* Copia di Earth music_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656691569C89200A4F5A9 /* Copia di Earth music_puzzle_thumb.jpg */; };
+		B8FDC53F15737BAA00D2A447 /* Copia di Mountains_puzzle_thumb.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B87314A7155C374D00FB77FC /* Copia di Mountains_puzzle_thumb.JPG */; };
+		B8FDC54015737BB500D2A447 /* Copia di Yellow_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B87314AF155C374D00FB77FC /* Copia di Yellow_puzzle_thumb.jpg */; };
+		B8FDC54115737BCD00D2A447 /* Copia di Matrioska_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656621569C89200A4F5A9 /* Copia di Matrioska_puzzle_thumb.jpg */; };
+		B8FDC54215737BFA00D2A447 /* Mountains_puzzle.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B873145C155C373D00FB77FC /* Mountains_puzzle.JPG */; };
+		B8FDC54315737C1700D2A447 /* Matrioska_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656081569C88200A4F5A9 /* Matrioska_puzzle.jpg */; };
+		B8FDC54415737C1E00D2A447 /* Earth music_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656121569C88200A4F5A9 /* Earth music_puzzle.jpg */; };
+		B8FDC54515737C2800D2A447 /* Yellow_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8731464155C373D00FB77FC /* Yellow_puzzle.jpg */; };
+		B8FDC54615737C4300D2A447 /* Car_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86656171569C88200A4F5A9 /* Car_puzzle.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B804EF391560870F00826712 /* BelloPro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BelloPro.ttf; sourceTree = "<group>"; };
+		B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PuzzleCompletedController_iPhone.xib; path = Controllers/PuzzleCompletedController_iPhone.xib; sourceTree = "<group>"; };
+		B823757D1561B58000426E92 /* LoadGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadGameController.h; path = Controllers/LoadGameController.h; sourceTree = "<group>"; };
+		B823757E1561B58000426E92 /* LoadGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadGameController.m; path = Controllers/LoadGameController.m; sourceTree = "<group>"; };
+		B823757F1561B58000426E92 /* LoadGameController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoadGameController.xib; path = Controllers/LoadGameController.xib; sourceTree = "<group>"; };
+		B82375F115626FC300426E92 /* Puzzle test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Puzzle test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82375F315626FC300426E92 /* Puzzle test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Puzzle test-Info.plist"; path = "/Users/abramo/Documents/iPhone apps/Puzzle/Puzzle test-Info.plist"; sourceTree = "<absolute>"; };
+		B82AC5C5154411B500208887 /* Lattice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Lattice.h; path = Classes/Lattice.h; sourceTree = "<group>"; };
+		B82AC5C6154411B500208887 /* Lattice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Lattice.m; path = Classes/Lattice.m; sourceTree = "<group>"; };
+		B84014EB1540D0880075734A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B84014F21540E57D0075734A /* UIImage+CWAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+CWAdditions.h"; path = "Classes/UIImage+CWAdditions.h"; sourceTree = "<group>"; };
+		B84014F31540E57D0075734A /* UIImage+CWAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CWAdditions.m"; path = "Classes/UIImage+CWAdditions.m"; sourceTree = "<group>"; };
+		B853810F1548D91B00F3BFA5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B86656001569C88200A4F5A9 /* Tiger_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tiger_puzzle.jpg; sourceTree = "<group>"; };
+		B86656011569C88200A4F5A9 /* The_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = The_puzzle.jpg; sourceTree = "<group>"; };
+		B86656021569C88200A4F5A9 /* Rectil_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rectil_puzzle.jpg; sourceTree = "<group>"; };
+		B86656031569C88200A4F5A9 /* Pencils_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pencils_puzzle.jpg; sourceTree = "<group>"; };
+		B86656041569C88200A4F5A9 /* Old car_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Old car_puzzle.jpg"; sourceTree = "<group>"; };
+		B86656051569C88200A4F5A9 /* Nice view_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nice view_puzzle.jpg"; sourceTree = "<group>"; };
+		B86656061569C88200A4F5A9 /* Micio mafioso_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Micio mafioso_puzzle.jpg"; sourceTree = "<group>"; };
+		B86656071569C88200A4F5A9 /* Lion_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lion_puzzle.jpg; sourceTree = "<group>"; };
+		B86656081569C88200A4F5A9 /* Matrioska_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Matrioska_puzzle.jpg; sourceTree = "<group>"; };
+		B86656091569C88200A4F5A9 /* Kiwi_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kiwi_puzzle.jpg; sourceTree = "<group>"; };
+		B866560A1569C88200A4F5A9 /* Hulk_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hulk_puzzle.jpg; sourceTree = "<group>"; };
+		B866560B1569C88200A4F5A9 /* Hippo_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hippo_puzzle.jpg; sourceTree = "<group>"; };
+		B866560C1569C88200A4F5A9 /* Horses_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Horses_puzzle.jpg; sourceTree = "<group>"; };
+		B866560D1569C88200A4F5A9 /* Girls 2_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Girls 2_puzzle.jpg"; sourceTree = "<group>"; };
+		B866560E1569C88200A4F5A9 /* Girls_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Girls_puzzle.jpg; sourceTree = "<group>"; };
+		B866560F1569C88200A4F5A9 /* Fontana di trevi_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Fontana di trevi_puzzle.jpg"; sourceTree = "<group>"; };
+		B86656101569C88200A4F5A9 /* Girl_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Girl_puzzle.jpg; sourceTree = "<group>"; };
+		B86656111569C88200A4F5A9 /* Fishing_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fishing_puzzle.jpg; sourceTree = "<group>"; };
+		B86656121569C88200A4F5A9 /* Earth music_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Earth music_puzzle.jpg"; sourceTree = "<group>"; };
+		B86656131569C88200A4F5A9 /* Duck_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Duck_puzzle.jpg; sourceTree = "<group>"; };
+		B86656141569C88200A4F5A9 /* Earth_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earth_puzzle.jpg; sourceTree = "<group>"; };
+		B86656151569C88200A4F5A9 /* Colors_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Colors_puzzle.jpg; sourceTree = "<group>"; };
+		B86656161569C88200A4F5A9 /* Chines chess_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chines chess_puzzle.jpg"; sourceTree = "<group>"; };
+		B86656171569C88200A4F5A9 /* Car_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Car_puzzle.jpg; sourceTree = "<group>"; };
+		B86656181569C88200A4F5A9 /* Chess_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chess_puzzle.jpg; sourceTree = "<group>"; };
+		B86656191569C88200A4F5A9 /* Butterfly_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Butterfly_puzzle.jpg; sourceTree = "<group>"; };
+		B866561A1569C88200A4F5A9 /* Buddah Bellin_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Buddah Bellin_puzzle.jpg"; sourceTree = "<group>"; };
+		B866561B1569C88200A4F5A9 /* Buddah_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Buddah_puzzle.jpg; sourceTree = "<group>"; };
+		B86656551569C89200A4F5A9 /* Copia di Car_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Car_puzzle_thumb.jpg"; path = "Thumbs/Copia di Car_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B86656561569C89200A4F5A9 /* Copia di Chess_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Chess_puzzle_thumb.jpg"; path = "Thumbs/Copia di Chess_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B86656571569C89200A4F5A9 /* Copia di Fishing_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Fishing_puzzle_thumb.jpg"; path = "Thumbs/Copia di Fishing_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B86656581569C89200A4F5A9 /* Copia di Girls_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Girls_puzzle_thumb.jpg"; path = "Thumbs/Copia di Girls_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B86656591569C89200A4F5A9 /* Copia di Hulk_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Hulk_puzzle_thumb.jpg"; path = "Thumbs/Copia di Hulk_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B866565A1569C89200A4F5A9 /* Copia di Micio mafioso_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Micio mafioso_puzzle_thumb.jpg"; path = "Thumbs/Copia di Micio mafioso_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B866565B1569C89200A4F5A9 /* Copia di Nice view_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Nice view_puzzle_thumb.jpg"; path = "Thumbs/Copia di Nice view_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B866565C1569C89200A4F5A9 /* Copia di Pencils_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Pencils_puzzle_thumb.jpg"; path = "Thumbs/Copia di Pencils_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B866565D1569C89200A4F5A9 /* Copia di Chines chess_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Chines chess_puzzle_thumb.jpg"; path = "Thumbs/Copia di Chines chess_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B866565E1569C89200A4F5A9 /* Copia di Colors_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Colors_puzzle_thumb.jpg"; path = "Thumbs/Copia di Colors_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B866565F1569C89200A4F5A9 /* Copia di Girls 2_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Girls 2_puzzle_thumb.jpg"; path = "Thumbs/Copia di Girls 2_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B86656601569C89200A4F5A9 /* Copia di Hippo_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Hippo_puzzle_thumb.jpg"; path = "Thumbs/Copia di Hippo_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B86656611569C89200A4F5A9 /* Copia di Lion_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Lion_puzzle_thumb.jpg"; path = "Thumbs/Copia di Lion_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B86656621569C89200A4F5A9 /* Copia di Matrioska_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Matrioska_puzzle_thumb.jpg"; path = "Thumbs/Copia di Matrioska_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B86656631569C89200A4F5A9 /* Copia di Rectil_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Rectil_puzzle_thumb.jpg"; path = "Thumbs/Copia di Rectil_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B86656641569C89200A4F5A9 /* Copia di The_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di The_puzzle_thumb.jpg"; path = "Thumbs/Copia di The_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B86656651569C89200A4F5A9 /* Copia di Buddah Bellin_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Buddah Bellin_puzzle_thumb.jpg"; path = "Thumbs/Copia di Buddah Bellin_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B86656661569C89200A4F5A9 /* Copia di Buddah_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Buddah_puzzle_thumb.jpg"; path = "Thumbs/Copia di Buddah_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B86656671569C89200A4F5A9 /* Copia di Butterfly_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Butterfly_puzzle_thumb.jpg"; path = "Thumbs/Copia di Butterfly_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B86656681569C89200A4F5A9 /* Copia di Duck_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Duck_puzzle_thumb.jpg"; path = "Thumbs/Copia di Duck_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B86656691569C89200A4F5A9 /* Copia di Earth music_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Earth music_puzzle_thumb.jpg"; path = "Thumbs/Copia di Earth music_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B866566A1569C89200A4F5A9 /* Copia di Earth_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Earth_puzzle_thumb.jpg"; path = "Thumbs/Copia di Earth_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B866566B1569C89200A4F5A9 /* Copia di Fontana di trevi_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Fontana di trevi_puzzle_thumb.jpg"; path = "Thumbs/Copia di Fontana di trevi_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B866566C1569C89200A4F5A9 /* Copia di Horses_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Horses_puzzle_thumb.jpg"; path = "Thumbs/Copia di Horses_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B866566D1569C89200A4F5A9 /* Copia di Kiwi_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Kiwi_puzzle_thumb.jpg"; path = "Thumbs/Copia di Kiwi_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B866566E1569C89200A4F5A9 /* Copia di Girl_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Girl_puzzle_thumb.jpg"; path = "Thumbs/Copia di Girl_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B866566F1569C89200A4F5A9 /* Copia di Old car_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Old car_puzzle_thumb.jpg"; path = "Thumbs/Copia di Old car_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B86656701569C89200A4F5A9 /* Copia di Tiger_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Tiger_puzzle_thumb.jpg"; path = "Thumbs/Copia di Tiger_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B873144C155C373D00FB77FC /* All seeing eye_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "All seeing eye_puzzle.jpg"; sourceTree = "<group>"; };
+		B873144D155C373D00FB77FC /* Amsterdam bikes_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Amsterdam bikes_puzzle.jpg"; sourceTree = "<group>"; };
+		B873144E155C373D00FB77FC /* Amsterdam signs_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Amsterdam signs_puzzle.jpg"; sourceTree = "<group>"; };
+		B8731451155C373D00FB77FC /* Bulldog_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bulldog_puzzle.jpg; sourceTree = "<group>"; };
+		B8731452155C373D00FB77FC /* Drops_puzzle.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Drops_puzzle.JPG; sourceTree = "<group>"; };
+		B8731454155C373D00FB77FC /* Flower_puzzle.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Flower_puzzle.JPG; sourceTree = "<group>"; };
+		B8731455155C373D00FB77FC /* Fractal leaf_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Fractal leaf_puzzle.jpg"; sourceTree = "<group>"; };
+		B8731457155C373D00FB77FC /* Lego_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lego_puzzle.jpg; sourceTree = "<group>"; };
+		B8731458155C373D00FB77FC /* Micetto furbetto_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Micetto furbetto_puzzle.jpg"; sourceTree = "<group>"; };
+		B8731459155C373D00FB77FC /* Micio matto_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Micio matto_puzzle.jpg"; sourceTree = "<group>"; };
+		B873145A155C373D00FB77FC /* Micio pigrotto_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Micio pigrotto_puzzle.jpg"; sourceTree = "<group>"; };
+		B873145B155C373D00FB77FC /* Mother board_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mother board_puzzle.jpg"; sourceTree = "<group>"; };
+		B873145C155C373D00FB77FC /* Mountains_puzzle.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mountains_puzzle.JPG; sourceTree = "<group>"; };
+		B873145D155C373D00FB77FC /* Nano_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nano_puzzle.jpg; sourceTree = "<group>"; };
+		B873145E155C373D00FB77FC /* Obiettivo_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Obiettivo_puzzle.jpg; sourceTree = "<group>"; };
+		B873145F155C373D00FB77FC /* Pane_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pane_puzzle.jpg; sourceTree = "<group>"; };
+		B8731460155C373D00FB77FC /* Pasta_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pasta_puzzle.jpg; sourceTree = "<group>"; };
+		B8731461155C373D00FB77FC /* Pizza_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pizza_puzzle.jpg; sourceTree = "<group>"; };
+		B8731462155C373D00FB77FC /* PlayStation_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PlayStation_puzzle.jpg; sourceTree = "<group>"; };
+		B8731464155C373D00FB77FC /* Yellow_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yellow_puzzle.jpg; sourceTree = "<group>"; };
+		B8731497155C374D00FB77FC /* Copia di All seeing eye_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di All seeing eye_puzzle_thumb.jpg"; path = "Thumbs/Copia di All seeing eye_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B8731498155C374D00FB77FC /* Copia di Amsterdam bikes_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Amsterdam bikes_puzzle_thumb.jpg"; path = "Thumbs/Copia di Amsterdam bikes_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B8731499155C374D00FB77FC /* Copia di Amsterdam signs_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Amsterdam signs_puzzle_thumb.jpg"; path = "Thumbs/Copia di Amsterdam signs_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B873149C155C374D00FB77FC /* Copia di Bulldog_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Bulldog_puzzle_thumb.jpg"; path = "Thumbs/Copia di Bulldog_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B873149D155C374D00FB77FC /* Copia di Drops_puzzle_thumb.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Drops_puzzle_thumb.JPG"; path = "Thumbs/Copia di Drops_puzzle_thumb.JPG"; sourceTree = "<group>"; };
+		B873149F155C374D00FB77FC /* Copia di Flower_puzzle_thumb.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Flower_puzzle_thumb.JPG"; path = "Thumbs/Copia di Flower_puzzle_thumb.JPG"; sourceTree = "<group>"; };
+		B87314A0155C374D00FB77FC /* Copia di Fractal leaf_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Fractal leaf_puzzle_thumb.jpg"; path = "Thumbs/Copia di Fractal leaf_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B87314A2155C374D00FB77FC /* Copia di Lego_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Lego_puzzle_thumb.jpg"; path = "Thumbs/Copia di Lego_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B87314A3155C374D00FB77FC /* Copia di Micetto furbetto_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Micetto furbetto_puzzle_thumb.jpg"; path = "Thumbs/Copia di Micetto furbetto_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B87314A4155C374D00FB77FC /* Copia di Micio matto_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Micio matto_puzzle_thumb.jpg"; path = "Thumbs/Copia di Micio matto_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B87314A5155C374D00FB77FC /* Copia di Micio pigrotto_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Micio pigrotto_puzzle_thumb.jpg"; path = "Thumbs/Copia di Micio pigrotto_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B87314A6155C374D00FB77FC /* Copia di Mother board_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Mother board_puzzle_thumb.jpg"; path = "Thumbs/Copia di Mother board_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B87314A7155C374D00FB77FC /* Copia di Mountains_puzzle_thumb.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Mountains_puzzle_thumb.JPG"; path = "Thumbs/Copia di Mountains_puzzle_thumb.JPG"; sourceTree = "<group>"; };
+		B87314A8155C374D00FB77FC /* Copia di Nano_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Nano_puzzle_thumb.jpg"; path = "Thumbs/Copia di Nano_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B87314A9155C374D00FB77FC /* Copia di Obiettivo_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Obiettivo_puzzle_thumb.jpg"; path = "Thumbs/Copia di Obiettivo_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B87314AA155C374D00FB77FC /* Copia di Pane_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Pane_puzzle_thumb.jpg"; path = "Thumbs/Copia di Pane_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B87314AB155C374D00FB77FC /* Copia di Pasta_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Pasta_puzzle_thumb.jpg"; path = "Thumbs/Copia di Pasta_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B87314AC155C374D00FB77FC /* Copia di Pizza_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Pizza_puzzle_thumb.jpg"; path = "Thumbs/Copia di Pizza_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B87314AD155C374D00FB77FC /* Copia di PlayStation_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di PlayStation_puzzle_thumb.jpg"; path = "Thumbs/Copia di PlayStation_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B87314AF155C374D00FB77FC /* Copia di Yellow_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Copia di Yellow_puzzle_thumb.jpg"; path = "Thumbs/Copia di Yellow_puzzle_thumb.jpg"; sourceTree = "<group>"; };
+		B874B3C8156D67D80089D4E4 /* Puzzle Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Puzzle Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B874B3CA156D67D80089D4E4 /* Puzzle Lite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Puzzle Lite-Info.plist"; path = "/Users/abramo/Documents/iPhone apps/Puzzle/Puzzle Lite-Info.plist"; sourceTree = "<absolute>"; };
+		B87C5CC115400B2A00AF69BC /* YourPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YourPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B87C5CC515400B2A00AF69BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B87C5CC715400B2A00AF69BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B87C5CC915400B2A00AF69BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B87C5CCB15400B2A00AF69BC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B87C5CCF15400B2A00AF69BC /* Puzzle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Puzzle-Info.plist"; sourceTree = "<group>"; };
+		B87C5CD115400B2A00AF69BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B87C5CD315400B2A00AF69BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B87C5CD515400B2A00AF69BC /* Puzzle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Puzzle-Prefix.pch"; sourceTree = "<group>"; };
+		B87C5CEE1540174400AF69BC /* PuzzleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PuzzleController.h; path = Controllers/PuzzleController.h; sourceTree = "<group>"; };
+		B87C5CEF1540174400AF69BC /* PuzzleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PuzzleController.m; path = Controllers/PuzzleController.m; sourceTree = "<group>"; };
+		B87C5CF01540174400AF69BC /* PuzzleController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PuzzleController.xib; path = Controllers/PuzzleController.xib; sourceTree = "<group>"; };
+		B88BF753158213FF0057F65D /* BannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerViewController.m; sourceTree = "<group>"; };
+		B88BF754158214000057F65D /* BannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerViewController.h; sourceTree = "<group>"; };
+		B8AA19B2154B502900750458 /* icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-144.png"; sourceTree = "<group>"; };
+		B8AA19B3154B502900750458 /* icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-512.png"; sourceTree = "<group>"; };
+		B8AA19B4154B502900750458 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
+		B8AA19B5154B502900750458 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		B8AA19B6154B502900750458 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		B8AA19B7154B502900750458 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		B8AA19B8154B502900750458 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		B8AA19B9154B502900750458 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		B8AA19CB154B565400750458 /* NewGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewGameController.h; path = Controllers/NewGameController.h; sourceTree = "<group>"; };
+		B8AA19CC154B565400750458 /* NewGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewGameController.m; path = Controllers/NewGameController.m; sourceTree = "<group>"; };
+		B8AA19CD154B565400750458 /* NewGameController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NewGameController.xib; path = Controllers/NewGameController.xib; sourceTree = "<group>"; };
+		B8AE1204155990DB00742256 /* GroupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroupView.m; path = Views/GroupView.m; sourceTree = "<group>"; };
+		B8AE1205155990DB00742256 /* PieceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PieceView.m; path = Views/PieceView.m; sourceTree = "<group>"; };
+		B8AE1206155990DB00742256 /* GroupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroupView.h; path = Views/GroupView.h; sourceTree = "<group>"; };
+		B8AE1207155990DB00742256 /* PieceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PieceView.h; path = Views/PieceView.h; sourceTree = "<group>"; };
+		B8AE120C155990F100742256 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
+		B8AE120D155990F100742256 /* CreatePuzzleOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreatePuzzleOperation.m; path = Classes/CreatePuzzleOperation.m; sourceTree = "<group>"; };
+		B8AE120E155990F100742256 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		B8AE120F155990F100742256 /* CreatePuzzleOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreatePuzzleOperation.h; path = Classes/CreatePuzzleOperation.h; sourceTree = "<group>"; };
+		B8AE12171559912200742256 /* Piece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Piece.h; sourceTree = "<group>"; };
+		B8AE12181559912200742256 /* Piece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Piece.m; sourceTree = "<group>"; };
+		B8AE121C1559912200742256 /* Puzzle 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Puzzle 2.xcdatamodel"; sourceTree = "<group>"; };
+		B8AE121D1559912200742256 /* Puzzle 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Puzzle 3.xcdatamodel"; sourceTree = "<group>"; };
+		B8AE121E1559912200742256 /* Puzzle 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Puzzle 4.xcdatamodel"; sourceTree = "<group>"; };
+		B8AE121F1559912200742256 /* Puzzle 6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Puzzle 6.xcdatamodel"; sourceTree = "<group>"; };
+		B8AE12201559912200742256 /* Puzzle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Puzzle.xcdatamodel; sourceTree = "<group>"; };
+		B8B0E720155FB612002FE0A2 /* ChooseLabel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ChooseLabel@2x.png"; path = "PNGs/ChooseLabel@2x.png"; sourceTree = "<group>"; };
+		B8B0E721155FB612002FE0A2 /* ChooseLabel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ChooseLabel.png; path = PNGs/ChooseLabel.png; sourceTree = "<group>"; };
+		B8B0E722155FB612002FE0A2 /* Wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Wood.jpg; path = PNGs/Wood.jpg; sourceTree = "<group>"; };
+		B8B0E723155FB612002FE0A2 /* Wood@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Wood@2x.jpg"; path = "PNGs/Wood@2x.jpg"; sourceTree = "<group>"; };
+		B8B0E72C155FFA56002FE0A2 /* PuzzleComplete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PuzzleComplete.png; path = PNGs/PuzzleComplete.png; sourceTree = "<group>"; };
+		B8B0E72D155FFA56002FE0A2 /* PuzzleComplete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PuzzleComplete@2x.png"; path = "PNGs/PuzzleComplete@2x.png"; sourceTree = "<group>"; };
+		B8B0E7321560187A002FE0A2 /* PuzzleComplete_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PuzzleComplete_iPhone.png; path = PNGs/PuzzleComplete_iPhone.png; sourceTree = "<group>"; };
+		B8B0E7331560187A002FE0A2 /* PuzzleComplete_iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PuzzleComplete_iPhone@2x.png"; path = "PNGs/PuzzleComplete_iPhone@2x.png"; sourceTree = "<group>"; };
+		B8B0E73815601E2C002FE0A2 /* PuzzleCompletedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PuzzleCompletedController.h; path = Controllers/PuzzleCompletedController.h; sourceTree = "<group>"; };
+		B8B0E73915601E2C002FE0A2 /* PuzzleCompletedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PuzzleCompletedController.m; path = Controllers/PuzzleCompletedController.m; sourceTree = "<group>"; };
+		B8B0E73A15601E2C002FE0A2 /* PuzzleCompletedController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PuzzleCompletedController.xib; path = Controllers/PuzzleCompletedController.xib; sourceTree = "<group>"; };
+		B8B0E73F15605DA0002FE0A2 /* Puzzle 5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Puzzle 5.xcdatamodel"; sourceTree = "<group>"; };
+		B8B0E74015605E23002FE0A2 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		B8B0E74115605E23002FE0A2 /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
+		B8B0E74415605EB8002FE0A2 /* Puzzle 7.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Puzzle 7.xcdatamodel"; sourceTree = "<group>"; };
+		B8B0E74515605EE8002FE0A2 /* Puzzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Puzzle.h; sourceTree = "<group>"; };
+		B8B0E74615605EE8002FE0A2 /* Puzzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Puzzle.m; sourceTree = "<group>"; };
+		B8B857C515631DF300C62D9F /* Puzzle 8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Puzzle 8.xcdatamodel"; sourceTree = "<group>"; };
+		B8C0EE511567A20F0042EB89 /* Puzzle 9.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Puzzle 9.xcdatamodel"; sourceTree = "<group>"; };
+		B8CFE4CE157269ED00AAC396 /* Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Menu.png; path = PNGs/Menu.png; sourceTree = "<group>"; };
+		B8CFE4CF157269ED00AAC396 /* Menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Menu@2x.png"; path = "PNGs/Menu@2x.png"; sourceTree = "<group>"; };
+		B8D28BC615667CCF00DCF1A0 /* PanningSwitch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PanningSwitch.png; path = PNGs/PanningSwitch.png; sourceTree = "<group>"; };
+		B8D28BC715667CCF00DCF1A0 /* PanningSwitch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PanningSwitch@2x.png"; path = "PNGs/PanningSwitch@2x.png"; sourceTree = "<group>"; };
+		B8DADF9515654973002DCEF8 /* Notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Notes.txt; sourceTree = "<group>"; };
+		B8DAFCC0155BA1C400A901A3 /* NeighborFound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = NeighborFound.wav; path = Audio/NeighborFound.wav; sourceTree = "<group>"; };
+		B8DAFCC1155BA1C400A901A3 /* PiecePositioned.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = PiecePositioned.mp3; path = Audio/PiecePositioned.mp3; sourceTree = "<group>"; };
+		B8DAFCC2155BA1C400A901A3 /* PuzzleCompleted.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = PuzzleCompleted.mp3; path = Audio/PuzzleCompleted.mp3; sourceTree = "<group>"; };
+		B8DAFCCF155BB78A00A901A3 /* MenuSound.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = MenuSound.aif; path = Audio/MenuSound.aif; sourceTree = "<group>"; };
+		B8DAFCD5155BB9E000A901A3 /* Scissors_Shears.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Scissors_Shears.wav; path = Audio/Scissors_Shears.wav; sourceTree = "<group>"; };
+		B8DAFCE3155BDB0600A901A3 /* PuzzleLibraryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PuzzleLibraryController.h; path = Controllers/PuzzleLibraryController.h; sourceTree = "<group>"; };
+		B8DAFCE4155BDB0700A901A3 /* PuzzleLibraryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PuzzleLibraryController.m; path = Controllers/PuzzleLibraryController.m; sourceTree = "<group>"; };
+		B8DAFCE5155BDB0700A901A3 /* PuzzleLibraryController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PuzzleLibraryController.xib; path = Controllers/PuzzleLibraryController.xib; sourceTree = "<group>"; };
+		B8DBE9FC15813412005199B4 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		B8DBE9FE158144AF005199B4 /* iAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iAdViewController.h; path = Controllers/iAdViewController.h; sourceTree = "<group>"; };
+		B8DBE9FF158144AF005199B4 /* iAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iAdViewController.m; path = Controllers/iAdViewController.m; sourceTree = "<group>"; };
+		B8DBEA0415815887005199B4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B8DFA69215497ED300256385 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		B8DFA69315497ED300256385 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		B8DFA69415497ED300256385 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		B8DFA69515497ED300256385 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		B8DFA69615497ED300256385 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B8DFA69715497ED300256385 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B8E18158155000C200A8B450 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		B8E1818F1550402800A8B450 /* YourPuzzle iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YourPuzzle iPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E18192155040CE00A8B450 /* Puzzle iPhone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Puzzle iPhone-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B8E4AC7C154AA22300D0A75D /* MenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuController.h; path = Controllers/MenuController.h; sourceTree = "<group>"; };
+		B8E4AC7D154AA22300D0A75D /* MenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuController.m; path = Controllers/MenuController.m; sourceTree = "<group>"; };
+		B8E4AC7E154AA22300D0A75D /* MenuController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MenuController.xib; path = Controllers/MenuController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B823759815626FC300426E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B823759915626FC300426E92 /* MediaPlayer.framework in Frameworks */,
+				B823759A15626FC300426E92 /* AVFoundation.framework in Frameworks */,
+				B823759B15626FC300426E92 /* QuartzCore.framework in Frameworks */,
+				B823759C15626FC300426E92 /* UIKit.framework in Frameworks */,
+				B823759D15626FC300426E92 /* Foundation.framework in Frameworks */,
+				B823759E15626FC300426E92 /* CoreGraphics.framework in Frameworks */,
+				B823759F15626FC300426E92 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B874B334156D67D80089D4E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B874B335156D67D80089D4E4 /* MediaPlayer.framework in Frameworks */,
+				B874B336156D67D80089D4E4 /* AVFoundation.framework in Frameworks */,
+				B874B337156D67D80089D4E4 /* QuartzCore.framework in Frameworks */,
+				B874B338156D67D80089D4E4 /* UIKit.framework in Frameworks */,
+				B874B339156D67D80089D4E4 /* Foundation.framework in Frameworks */,
+				B874B33A156D67D80089D4E4 /* CoreGraphics.framework in Frameworks */,
+				B874B33B156D67D80089D4E4 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B87C5CBE15400B2A00AF69BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8DBEA061581589B005199B4 /* Security.framework in Frameworks */,
+				B8DBE9FD15813412005199B4 /* iAd.framework in Frameworks */,
+				B8E18159155000C200A8B450 /* MediaPlayer.framework in Frameworks */,
+				B85381101548D91B00F3BFA5 /* AVFoundation.framework in Frameworks */,
+				B84014ED1540D0CD0075734A /* QuartzCore.framework in Frameworks */,
+				B87C5CC615400B2A00AF69BC /* UIKit.framework in Frameworks */,
+				B87C5CC815400B2A00AF69BC /* Foundation.framework in Frameworks */,
+				B87C5CCA15400B2A00AF69BC /* CoreGraphics.framework in Frameworks */,
+				B87C5CCC15400B2A00AF69BC /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E1816C1550402800A8B450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E1816D1550402800A8B450 /* MediaPlayer.framework in Frameworks */,
+				B8E1816E1550402800A8B450 /* AVFoundation.framework in Frameworks */,
+				B8E1816F1550402800A8B450 /* QuartzCore.framework in Frameworks */,
+				B8E181701550402800A8B450 /* UIKit.framework in Frameworks */,
+				B8E181711550402800A8B450 /* Foundation.framework in Frameworks */,
+				B8E181721550402800A8B450 /* CoreGraphics.framework in Frameworks */,
+				B8E181731550402800A8B450 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B86B28D7155BEF16007D122D /* Thumbs */ = {
+			isa = PBXGroup;
+			children = (
+				B86656551569C89200A4F5A9 /* Copia di Car_puzzle_thumb.jpg */,
+				B86656561569C89200A4F5A9 /* Copia di Chess_puzzle_thumb.jpg */,
+				B86656571569C89200A4F5A9 /* Copia di Fishing_puzzle_thumb.jpg */,
+				B86656581569C89200A4F5A9 /* Copia di Girls_puzzle_thumb.jpg */,
+				B86656591569C89200A4F5A9 /* Copia di Hulk_puzzle_thumb.jpg */,
+				B866565A1569C89200A4F5A9 /* Copia di Micio mafioso_puzzle_thumb.jpg */,
+				B866565B1569C89200A4F5A9 /* Copia di Nice view_puzzle_thumb.jpg */,
+				B866565C1569C89200A4F5A9 /* Copia di Pencils_puzzle_thumb.jpg */,
+				B866565D1569C89200A4F5A9 /* Copia di Chines chess_puzzle_thumb.jpg */,
+				B866565E1569C89200A4F5A9 /* Copia di Colors_puzzle_thumb.jpg */,
+				B866565F1569C89200A4F5A9 /* Copia di Girls 2_puzzle_thumb.jpg */,
+				B86656601569C89200A4F5A9 /* Copia di Hippo_puzzle_thumb.jpg */,
+				B86656611569C89200A4F5A9 /* Copia di Lion_puzzle_thumb.jpg */,
+				B86656621569C89200A4F5A9 /* Copia di Matrioska_puzzle_thumb.jpg */,
+				B86656631569C89200A4F5A9 /* Copia di Rectil_puzzle_thumb.jpg */,
+				B86656641569C89200A4F5A9 /* Copia di The_puzzle_thumb.jpg */,
+				B86656651569C89200A4F5A9 /* Copia di Buddah Bellin_puzzle_thumb.jpg */,
+				B86656661569C89200A4F5A9 /* Copia di Buddah_puzzle_thumb.jpg */,
+				B86656671569C89200A4F5A9 /* Copia di Butterfly_puzzle_thumb.jpg */,
+				B86656681569C89200A4F5A9 /* Copia di Duck_puzzle_thumb.jpg */,
+				B86656691569C89200A4F5A9 /* Copia di Earth music_puzzle_thumb.jpg */,
+				B866566A1569C89200A4F5A9 /* Copia di Earth_puzzle_thumb.jpg */,
+				B866566B1569C89200A4F5A9 /* Copia di Fontana di trevi_puzzle_thumb.jpg */,
+				B866566C1569C89200A4F5A9 /* Copia di Horses_puzzle_thumb.jpg */,
+				B866566D1569C89200A4F5A9 /* Copia di Kiwi_puzzle_thumb.jpg */,
+				B866566E1569C89200A4F5A9 /* Copia di Girl_puzzle_thumb.jpg */,
+				B873149C155C374D00FB77FC /* Copia di Bulldog_puzzle_thumb.jpg */,
+				B866566F1569C89200A4F5A9 /* Copia di Old car_puzzle_thumb.jpg */,
+				B86656701569C89200A4F5A9 /* Copia di Tiger_puzzle_thumb.jpg */,
+				B8731497155C374D00FB77FC /* Copia di All seeing eye_puzzle_thumb.jpg */,
+				B8731498155C374D00FB77FC /* Copia di Amsterdam bikes_puzzle_thumb.jpg */,
+				B8731499155C374D00FB77FC /* Copia di Amsterdam signs_puzzle_thumb.jpg */,
+				B873149D155C374D00FB77FC /* Copia di Drops_puzzle_thumb.JPG */,
+				B873149F155C374D00FB77FC /* Copia di Flower_puzzle_thumb.JPG */,
+				B87314A0155C374D00FB77FC /* Copia di Fractal leaf_puzzle_thumb.jpg */,
+				B87314A2155C374D00FB77FC /* Copia di Lego_puzzle_thumb.jpg */,
+				B87314A3155C374D00FB77FC /* Copia di Micetto furbetto_puzzle_thumb.jpg */,
+				B87314A4155C374D00FB77FC /* Copia di Micio matto_puzzle_thumb.jpg */,
+				B87314A5155C374D00FB77FC /* Copia di Micio pigrotto_puzzle_thumb.jpg */,
+				B87314A6155C374D00FB77FC /* Copia di Mother board_puzzle_thumb.jpg */,
+				B87314A7155C374D00FB77FC /* Copia di Mountains_puzzle_thumb.JPG */,
+				B87314A8155C374D00FB77FC /* Copia di Nano_puzzle_thumb.jpg */,
+				B87314A9155C374D00FB77FC /* Copia di Obiettivo_puzzle_thumb.jpg */,
+				B87314AA155C374D00FB77FC /* Copia di Pane_puzzle_thumb.jpg */,
+				B87314AB155C374D00FB77FC /* Copia di Pasta_puzzle_thumb.jpg */,
+				B87314AC155C374D00FB77FC /* Copia di Pizza_puzzle_thumb.jpg */,
+				B87314AD155C374D00FB77FC /* Copia di PlayStation_puzzle_thumb.jpg */,
+				B87314AF155C374D00FB77FC /* Copia di Yellow_puzzle_thumb.jpg */,
+			);
+			name = Thumbs;
+			sourceTree = "<group>";
+		};
+		B87C5CB615400B2A00AF69BC = {
+			isa = PBXGroup;
+			children = (
+				B87C5CCD15400B2A00AF69BC /* Puzzle */,
+				B87C5CC415400B2A00AF69BC /* Frameworks */,
+				B87C5CC215400B2A00AF69BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B87C5CC215400B2A00AF69BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B87C5CC115400B2A00AF69BC /* YourPuzzle.app */,
+				B8E1818F1550402800A8B450 /* YourPuzzle iPhone.app */,
+				B82375F115626FC300426E92 /* Puzzle test.app */,
+				B874B3C8156D67D80089D4E4 /* Puzzle Lite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B87C5CC415400B2A00AF69BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBEA0415815887005199B4 /* Security.framework */,
+				B8DBE9FC15813412005199B4 /* iAd.framework */,
+				B8E18158155000C200A8B450 /* MediaPlayer.framework */,
+				B853810F1548D91B00F3BFA5 /* AVFoundation.framework */,
+				B84014EB1540D0880075734A /* QuartzCore.framework */,
+				B87C5CC515400B2A00AF69BC /* UIKit.framework */,
+				B87C5CC715400B2A00AF69BC /* Foundation.framework */,
+				B87C5CC915400B2A00AF69BC /* CoreGraphics.framework */,
+				B87C5CCB15400B2A00AF69BC /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B87C5CCD15400B2A00AF69BC /* Puzzle */ = {
+			isa = PBXGroup;
+			children = (
+				B87C5CF31540174900AF69BC /* Controllers */,
+				B87C5CED1540170E00AF69BC /* Views */,
+				B87C5CE9154014C300AF69BC /* Classes */,
+				B8E1815F15503B0900A8B450 /* Audio */,
+				B8DAFCDC155BBBB400A901A3 /* Puzzle images */,
+				B8E1815E15503AF800A8B450 /* PNGs */,
+				B8AA19B1154B502900750458 /* Icon */,
+				B8DFA69115497ED300256385 /* Default */,
+				B8AE12141559912200742256 /* Core Data models */,
+				B87C5CCE15400B2A00AF69BC /* Supporting Files */,
+			);
+			path = Puzzle;
+			sourceTree = "<group>";
+		};
+		B87C5CCE15400B2A00AF69BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B87C5CCF15400B2A00AF69BC /* Puzzle-Info.plist */,
+				B874B3CA156D67D80089D4E4 /* Puzzle Lite-Info.plist */,
+				B8E18192155040CE00A8B450 /* Puzzle iPhone-Info.plist */,
+				B82375F315626FC300426E92 /* Puzzle test-Info.plist */,
+				B804EF391560870F00826712 /* BelloPro.ttf */,
+				B87C5CD015400B2A00AF69BC /* InfoPlist.strings */,
+				B87C5CD315400B2A00AF69BC /* main.m */,
+				B87C5CD515400B2A00AF69BC /* Puzzle-Prefix.pch */,
+				B8DADF9515654973002DCEF8 /* Notes.txt */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B87C5CE9154014C300AF69BC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B8AE120E155990F100742256 /* AppDelegate.h */,
+				B8AE120C155990F100742256 /* AppDelegate.m */,
+				B8AE120F155990F100742256 /* CreatePuzzleOperation.h */,
+				B8AE120D155990F100742256 /* CreatePuzzleOperation.m */,
+				B84014F21540E57D0075734A /* UIImage+CWAdditions.h */,
+				B84014F31540E57D0075734A /* UIImage+CWAdditions.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		B87C5CED1540170E00AF69BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B8AE1207155990DB00742256 /* PieceView.h */,
+				B8AE1205155990DB00742256 /* PieceView.m */,
+				B8AE1206155990DB00742256 /* GroupView.h */,
+				B8AE1204155990DB00742256 /* GroupView.m */,
+				B82AC5C5154411B500208887 /* Lattice.h */,
+				B82AC5C6154411B500208887 /* Lattice.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B87C5CF31540174900AF69BC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B87C5CEE1540174400AF69BC /* PuzzleController.h */,
+				B87C5CEF1540174400AF69BC /* PuzzleController.m */,
+				B87C5CF01540174400AF69BC /* PuzzleController.xib */,
+				B8E4AC7C154AA22300D0A75D /* MenuController.h */,
+				B8E4AC7D154AA22300D0A75D /* MenuController.m */,
+				B8E4AC7E154AA22300D0A75D /* MenuController.xib */,
+				B8AA19CB154B565400750458 /* NewGameController.h */,
+				B8AA19CC154B565400750458 /* NewGameController.m */,
+				B8AA19CD154B565400750458 /* NewGameController.xib */,
+				B8DAFCE3155BDB0600A901A3 /* PuzzleLibraryController.h */,
+				B8DAFCE4155BDB0700A901A3 /* PuzzleLibraryController.m */,
+				B8DAFCE5155BDB0700A901A3 /* PuzzleLibraryController.xib */,
+				B8B0E73815601E2C002FE0A2 /* PuzzleCompletedController.h */,
+				B8B0E73915601E2C002FE0A2 /* PuzzleCompletedController.m */,
+				B8B0E73A15601E2C002FE0A2 /* PuzzleCompletedController.xib */,
+				B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */,
+				B823757D1561B58000426E92 /* LoadGameController.h */,
+				B823757E1561B58000426E92 /* LoadGameController.m */,
+				B823757F1561B58000426E92 /* LoadGameController.xib */,
+				B8DBE9FE158144AF005199B4 /* iAdViewController.h */,
+				B8DBE9FF158144AF005199B4 /* iAdViewController.m */,
+				B88BF754158214000057F65D /* BannerViewController.h */,
+				B88BF753158213FF0057F65D /* BannerViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B8AA19B1154B502900750458 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				B8AA19B2154B502900750458 /* icon-144.png */,
+				B8AA19B3154B502900750458 /* icon-512.png */,
+				B8AA19B4154B502900750458 /* icon-72.png */,
+				B8AA19B5154B502900750458 /* Icon-Small-50.png */,
+				B8AA19B6154B502900750458 /* Icon-Small.png */,
+				B8AA19B7154B502900750458 /* Icon-Small@2x.png */,
+				B8AA19B8154B502900750458 /* icon.png */,
+				B8AA19B9154B502900750458 /* icon@2x.png */,
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+		B8AE12141559912200742256 /* Core Data models */ = {
+			isa = PBXGroup;
+			children = (
+				B8B0E74015605E23002FE0A2 /* Image.h */,
+				B8B0E74115605E23002FE0A2 /* Image.m */,
+				B8AE121B1559912200742256 /* Puzzle.xcdatamodeld */,
+				B8B0E74515605EE8002FE0A2 /* Puzzle.h */,
+				B8B0E74615605EE8002FE0A2 /* Puzzle.m */,
+				B8AE12171559912200742256 /* Piece.h */,
+				B8AE12181559912200742256 /* Piece.m */,
+			);
+			path = "Core Data models";
+			sourceTree = "<group>";
+		};
+		B8DAFCDC155BBBB400A901A3 /* Puzzle images */ = {
+			isa = PBXGroup;
+			children = (
+				B86B28D7155BEF16007D122D /* Thumbs */,
+				B873144C155C373D00FB77FC /* All seeing eye_puzzle.jpg */,
+				B873144D155C373D00FB77FC /* Amsterdam bikes_puzzle.jpg */,
+				B873144E155C373D00FB77FC /* Amsterdam signs_puzzle.jpg */,
+				B8731451155C373D00FB77FC /* Bulldog_puzzle.jpg */,
+				B8731452155C373D00FB77FC /* Drops_puzzle.JPG */,
+				B8731454155C373D00FB77FC /* Flower_puzzle.JPG */,
+				B8731455155C373D00FB77FC /* Fractal leaf_puzzle.jpg */,
+				B8731457155C373D00FB77FC /* Lego_puzzle.jpg */,
+				B8731458155C373D00FB77FC /* Micetto furbetto_puzzle.jpg */,
+				B8731459155C373D00FB77FC /* Micio matto_puzzle.jpg */,
+				B873145A155C373D00FB77FC /* Micio pigrotto_puzzle.jpg */,
+				B873145B155C373D00FB77FC /* Mother board_puzzle.jpg */,
+				B873145C155C373D00FB77FC /* Mountains_puzzle.JPG */,
+				B873145D155C373D00FB77FC /* Nano_puzzle.jpg */,
+				B86656001569C88200A4F5A9 /* Tiger_puzzle.jpg */,
+				B86656011569C88200A4F5A9 /* The_puzzle.jpg */,
+				B86656021569C88200A4F5A9 /* Rectil_puzzle.jpg */,
+				B86656031569C88200A4F5A9 /* Pencils_puzzle.jpg */,
+				B86656041569C88200A4F5A9 /* Old car_puzzle.jpg */,
+				B86656051569C88200A4F5A9 /* Nice view_puzzle.jpg */,
+				B86656061569C88200A4F5A9 /* Micio mafioso_puzzle.jpg */,
+				B86656071569C88200A4F5A9 /* Lion_puzzle.jpg */,
+				B86656081569C88200A4F5A9 /* Matrioska_puzzle.jpg */,
+				B86656091569C88200A4F5A9 /* Kiwi_puzzle.jpg */,
+				B866560A1569C88200A4F5A9 /* Hulk_puzzle.jpg */,
+				B866560B1569C88200A4F5A9 /* Hippo_puzzle.jpg */,
+				B866560C1569C88200A4F5A9 /* Horses_puzzle.jpg */,
+				B866560D1569C88200A4F5A9 /* Girls 2_puzzle.jpg */,
+				B866560E1569C88200A4F5A9 /* Girls_puzzle.jpg */,
+				B866560F1569C88200A4F5A9 /* Fontana di trevi_puzzle.jpg */,
+				B86656101569C88200A4F5A9 /* Girl_puzzle.jpg */,
+				B86656111569C88200A4F5A9 /* Fishing_puzzle.jpg */,
+				B86656121569C88200A4F5A9 /* Earth music_puzzle.jpg */,
+				B86656131569C88200A4F5A9 /* Duck_puzzle.jpg */,
+				B86656141569C88200A4F5A9 /* Earth_puzzle.jpg */,
+				B86656151569C88200A4F5A9 /* Colors_puzzle.jpg */,
+				B86656161569C88200A4F5A9 /* Chines chess_puzzle.jpg */,
+				B86656171569C88200A4F5A9 /* Car_puzzle.jpg */,
+				B86656181569C88200A4F5A9 /* Chess_puzzle.jpg */,
+				B86656191569C88200A4F5A9 /* Butterfly_puzzle.jpg */,
+				B866561A1569C88200A4F5A9 /* Buddah Bellin_puzzle.jpg */,
+				B866561B1569C88200A4F5A9 /* Buddah_puzzle.jpg */,
+				B873145E155C373D00FB77FC /* Obiettivo_puzzle.jpg */,
+				B873145F155C373D00FB77FC /* Pane_puzzle.jpg */,
+				B8731460155C373D00FB77FC /* Pasta_puzzle.jpg */,
+				B8731461155C373D00FB77FC /* Pizza_puzzle.jpg */,
+				B8731462155C373D00FB77FC /* PlayStation_puzzle.jpg */,
+				B8731464155C373D00FB77FC /* Yellow_puzzle.jpg */,
+			);
+			name = "Puzzle images";
+			path = Puzzle_images;
+			sourceTree = "<group>";
+		};
+		B8DFA69115497ED300256385 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				B8DFA69215497ED300256385 /* Default-Landscape@2x~ipad.png */,
+				B8DFA69315497ED300256385 /* Default-Landscape~ipad.png */,
+				B8DFA69415497ED300256385 /* Default-Portrait@2x~ipad.png */,
+				B8DFA69515497ED300256385 /* Default-Portrait~ipad.png */,
+				B8DFA69615497ED300256385 /* Default.png */,
+				B8DFA69715497ED300256385 /* Default@2x.png */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		B8E1815E15503AF800A8B450 /* PNGs */ = {
+			isa = PBXGroup;
+			children = (
+				B8CFE4CE157269ED00AAC396 /* Menu.png */,
+				B8CFE4CF157269ED00AAC396 /* Menu@2x.png */,
+				B8D28BC615667CCF00DCF1A0 /* PanningSwitch.png */,
+				B8D28BC715667CCF00DCF1A0 /* PanningSwitch@2x.png */,
+				B8B0E720155FB612002FE0A2 /* ChooseLabel@2x.png */,
+				B8B0E721155FB612002FE0A2 /* ChooseLabel.png */,
+				B8B0E722155FB612002FE0A2 /* Wood.jpg */,
+				B8B0E723155FB612002FE0A2 /* Wood@2x.jpg */,
+				B8B0E72C155FFA56002FE0A2 /* PuzzleComplete.png */,
+				B8B0E72D155FFA56002FE0A2 /* PuzzleComplete@2x.png */,
+				B8B0E7321560187A002FE0A2 /* PuzzleComplete_iPhone.png */,
+				B8B0E7331560187A002FE0A2 /* PuzzleComplete_iPhone@2x.png */,
+			);
+			name = PNGs;
+			sourceTree = "<group>";
+		};
+		B8E1815F15503B0900A8B450 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				B8DAFCD5155BB9E000A901A3 /* Scissors_Shears.wav */,
+				B8DAFCCF155BB78A00A901A3 /* MenuSound.aif */,
+				B8DAFCC0155BA1C400A901A3 /* NeighborFound.wav */,
+				B8DAFCC1155BA1C400A901A3 /* PiecePositioned.mp3 */,
+				B8DAFCC2155BA1C400A901A3 /* PuzzleCompleted.mp3 */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B823758515626FC300426E92 /* Puzzle test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B82375EE15626FC300426E92 /* Build configuration list for PBXNativeTarget "Puzzle test" */;
+			buildPhases = (
+				B823758615626FC300426E92 /* Sources */,
+				B823759815626FC300426E92 /* Frameworks */,
+				B82375A015626FC300426E92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Puzzle test";
+			productName = Puzzle;
+			productReference = B82375F115626FC300426E92 /* Puzzle test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B874B321156D67D80089D4E4 /* Puzzle Lite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B874B3C5156D67D80089D4E4 /* Build configuration list for PBXNativeTarget "Puzzle Lite" */;
+			buildPhases = (
+				B874B322156D67D80089D4E4 /* Sources */,
+				B874B334156D67D80089D4E4 /* Frameworks */,
+				B874B33C156D67D80089D4E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Puzzle Lite";
+			productName = Puzzle;
+			productReference = B874B3C8156D67D80089D4E4 /* Puzzle Lite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B87C5CC015400B2A00AF69BC /* Puzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B87C5CDE15400B2A00AF69BC /* Build configuration list for PBXNativeTarget "Puzzle" */;
+			buildPhases = (
+				B87C5CBD15400B2A00AF69BC /* Sources */,
+				B87C5CBE15400B2A00AF69BC /* Frameworks */,
+				B87C5CBF15400B2A00AF69BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Puzzle;
+			productName = Puzzle;
+			productReference = B87C5CC115400B2A00AF69BC /* YourPuzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8E181601550402800A8B450 /* Puzzle iPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8E1818C1550402800A8B450 /* Build configuration list for PBXNativeTarget "Puzzle iPhone" */;
+			buildPhases = (
+				B8E181611550402800A8B450 /* Sources */,
+				B8E1816C1550402800A8B450 /* Frameworks */,
+				B8E181741550402800A8B450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Puzzle iPhone";
+			productName = Puzzle;
+			productReference = B8E1818F1550402800A8B450 /* YourPuzzle iPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B87C5CB815400B2A00AF69BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Università degli studi di Padova";
+			};
+			buildConfigurationList = B87C5CBB15400B2A00AF69BC /* Build configuration list for PBXProject "Puzzle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B87C5CB615400B2A00AF69BC;
+			productRefGroup = B87C5CC215400B2A00AF69BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B87C5CC015400B2A00AF69BC /* Puzzle */,
+				B8E181601550402800A8B450 /* Puzzle iPhone */,
+				B823758515626FC300426E92 /* Puzzle test */,
+				B874B321156D67D80089D4E4 /* Puzzle Lite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B82375A015626FC300426E92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82375A115626FC300426E92 /* InfoPlist.strings in Resources */,
+				B82375A215626FC300426E92 /* PuzzleController.xib in Resources */,
+				B82375A315626FC300426E92 /* Default-Landscape@2x~ipad.png in Resources */,
+				B82375A415626FC300426E92 /* Default-Landscape~ipad.png in Resources */,
+				B82375A515626FC300426E92 /* Default-Portrait@2x~ipad.png in Resources */,
+				B82375A615626FC300426E92 /* Default-Portrait~ipad.png in Resources */,
+				B82375A715626FC300426E92 /* Default.png in Resources */,
+				B82375A815626FC300426E92 /* Default@2x.png in Resources */,
+				B82375A915626FC300426E92 /* MenuController.xib in Resources */,
+				B82375AA15626FC300426E92 /* icon-144.png in Resources */,
+				B82375AB15626FC300426E92 /* icon-512.png in Resources */,
+				B82375AC15626FC300426E92 /* icon-72.png in Resources */,
+				B82375AD15626FC300426E92 /* Icon-Small-50.png in Resources */,
+				B82375AE15626FC300426E92 /* Icon-Small.png in Resources */,
+				B82375AF15626FC300426E92 /* Icon-Small@2x.png in Resources */,
+				B82375B015626FC300426E92 /* icon.png in Resources */,
+				B82375B115626FC300426E92 /* icon@2x.png in Resources */,
+				B82375B215626FC300426E92 /* NewGameController.xib in Resources */,
+				B82375B415626FC300426E92 /* NeighborFound.wav in Resources */,
+				B82375B515626FC300426E92 /* PiecePositioned.mp3 in Resources */,
+				B82375B615626FC300426E92 /* PuzzleCompleted.mp3 in Resources */,
+				B82375B715626FC300426E92 /* MenuSound.aif in Resources */,
+				B82375B815626FC300426E92 /* Scissors_Shears.wav in Resources */,
+				B82375B915626FC300426E92 /* PuzzleLibraryController.xib in Resources */,
+				B82375E215626FC300426E92 /* ChooseLabel@2x.png in Resources */,
+				B82375E315626FC300426E92 /* ChooseLabel.png in Resources */,
+				B82375E415626FC300426E92 /* Wood.jpg in Resources */,
+				B82375E515626FC300426E92 /* Wood@2x.jpg in Resources */,
+				B82375E615626FC300426E92 /* PuzzleComplete.png in Resources */,
+				B82375E715626FC300426E92 /* PuzzleComplete@2x.png in Resources */,
+				B82375E815626FC300426E92 /* PuzzleComplete_iPhone.png in Resources */,
+				B82375E915626FC300426E92 /* PuzzleComplete_iPhone@2x.png in Resources */,
+				B82375EA15626FC300426E92 /* PuzzleCompletedController.xib in Resources */,
+				B82375EB15626FC300426E92 /* BelloPro.ttf in Resources */,
+				B82375EC15626FC300426E92 /* PuzzleCompletedController_iPhone.xib in Resources */,
+				B82375ED15626FC300426E92 /* LoadGameController.xib in Resources */,
+				B8DADF9815654973002DCEF8 /* Notes.txt in Resources */,
+				B8D28BCA15667CCF00DCF1A0 /* PanningSwitch.png in Resources */,
+				B8D28BCD15667CCF00DCF1A0 /* PanningSwitch@2x.png in Resources */,
+				B8D28BCF156683B900DCF1A0 /* Micetto furbetto_puzzle.jpg in Resources */,
+				B8D28BD0156683B900DCF1A0 /* Micio matto_puzzle.jpg in Resources */,
+				B8D28BD1156683C900DCF1A0 /* Copia di Micetto furbetto_puzzle_thumb.jpg in Resources */,
+				B8D28BD2156683C900DCF1A0 /* Copia di Micio matto_puzzle_thumb.jpg in Resources */,
+				B8CFE4D2157269ED00AAC396 /* Menu.png in Resources */,
+				B8CFE4D6157269ED00AAC396 /* Menu@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B874B33C156D67D80089D4E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B874B33D156D67D80089D4E4 /* InfoPlist.strings in Resources */,
+				B874B33E156D67D80089D4E4 /* PuzzleController.xib in Resources */,
+				B874B33F156D67D80089D4E4 /* Default-Landscape@2x~ipad.png in Resources */,
+				B874B340156D67D80089D4E4 /* Default-Landscape~ipad.png in Resources */,
+				B874B341156D67D80089D4E4 /* Default-Portrait@2x~ipad.png in Resources */,
+				B874B342156D67D80089D4E4 /* Default-Portrait~ipad.png in Resources */,
+				B874B343156D67D80089D4E4 /* Default.png in Resources */,
+				B874B344156D67D80089D4E4 /* Default@2x.png in Resources */,
+				B874B345156D67D80089D4E4 /* MenuController.xib in Resources */,
+				B874B346156D67D80089D4E4 /* icon-144.png in Resources */,
+				B874B347156D67D80089D4E4 /* icon-512.png in Resources */,
+				B874B348156D67D80089D4E4 /* icon-72.png in Resources */,
+				B874B349156D67D80089D4E4 /* Icon-Small-50.png in Resources */,
+				B874B34A156D67D80089D4E4 /* Icon-Small.png in Resources */,
+				B874B34B156D67D80089D4E4 /* Icon-Small@2x.png in Resources */,
+				B874B34C156D67D80089D4E4 /* icon.png in Resources */,
+				B874B34D156D67D80089D4E4 /* icon@2x.png in Resources */,
+				B874B34E156D67D80089D4E4 /* NewGameController.xib in Resources */,
+				B874B350156D67D80089D4E4 /* NeighborFound.wav in Resources */,
+				B874B351156D67D80089D4E4 /* PiecePositioned.mp3 in Resources */,
+				B874B352156D67D80089D4E4 /* PuzzleCompleted.mp3 in Resources */,
+				B874B353156D67D80089D4E4 /* MenuSound.aif in Resources */,
+				B874B354156D67D80089D4E4 /* Scissors_Shears.wav in Resources */,
+				B874B355156D67D80089D4E4 /* PuzzleLibraryController.xib in Resources */,
+				B874B37E156D67D80089D4E4 /* ChooseLabel@2x.png in Resources */,
+				B874B37F156D67D80089D4E4 /* ChooseLabel.png in Resources */,
+				B874B380156D67D80089D4E4 /* Wood.jpg in Resources */,
+				B874B381156D67D80089D4E4 /* Wood@2x.jpg in Resources */,
+				B874B382156D67D80089D4E4 /* PuzzleComplete.png in Resources */,
+				B874B383156D67D80089D4E4 /* PuzzleComplete@2x.png in Resources */,
+				B874B384156D67D80089D4E4 /* PuzzleComplete_iPhone.png in Resources */,
+				B874B385156D67D80089D4E4 /* PuzzleComplete_iPhone@2x.png in Resources */,
+				B874B386156D67D80089D4E4 /* PuzzleCompletedController.xib in Resources */,
+				B874B387156D67D80089D4E4 /* BelloPro.ttf in Resources */,
+				B874B388156D67D80089D4E4 /* PuzzleCompletedController_iPhone.xib in Resources */,
+				B874B389156D67D80089D4E4 /* LoadGameController.xib in Resources */,
+				B874B38A156D67D80089D4E4 /* Notes.txt in Resources */,
+				B874B38B156D67D80089D4E4 /* PanningSwitch.png in Resources */,
+				B874B38C156D67D80089D4E4 /* PanningSwitch@2x.png in Resources */,
+				B8CFE4D3157269ED00AAC396 /* Menu.png in Resources */,
+				B8CFE4D7157269ED00AAC396 /* Menu@2x.png in Resources */,
+				B8FDC53D15737B8300D2A447 /* Copia di Car_puzzle_thumb.jpg in Resources */,
+				B8FDC53E15737B9500D2A447 /* Copia di Earth music_puzzle_thumb.jpg in Resources */,
+				B8FDC53F15737BAA00D2A447 /* Copia di Mountains_puzzle_thumb.JPG in Resources */,
+				B8FDC54015737BB500D2A447 /* Copia di Yellow_puzzle_thumb.jpg in Resources */,
+				B8FDC54115737BCD00D2A447 /* Copia di Matrioska_puzzle_thumb.jpg in Resources */,
+				B8FDC54215737BFA00D2A447 /* Mountains_puzzle.JPG in Resources */,
+				B8FDC54315737C1700D2A447 /* Matrioska_puzzle.jpg in Resources */,
+				B8FDC54415737C1E00D2A447 /* Earth music_puzzle.jpg in Resources */,
+				B8FDC54515737C2800D2A447 /* Yellow_puzzle.jpg in Resources */,
+				B8FDC54615737C4300D2A447 /* Car_puzzle.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B87C5CBF15400B2A00AF69BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B87C5CD215400B2A00AF69BC /* InfoPlist.strings in Resources */,
+				B87C5CF21540174400AF69BC /* PuzzleController.xib in Resources */,
+				B8DFA69815497ED300256385 /* Default-Landscape@2x~ipad.png in Resources */,
+				B8DFA69915497ED300256385 /* Default-Landscape~ipad.png in Resources */,
+				B8DFA69A15497ED300256385 /* Default-Portrait@2x~ipad.png in Resources */,
+				B8DFA69B15497ED300256385 /* Default-Portrait~ipad.png in Resources */,
+				B8DFA69C15497ED300256385 /* Default.png in Resources */,
+				B8DFA69D15497ED300256385 /* Default@2x.png in Resources */,
+				B8E4AC80154AA22300D0A75D /* MenuController.xib in Resources */,
+				B8AA19BA154B502900750458 /* icon-144.png in Resources */,
+				B8AA19BB154B502900750458 /* icon-512.png in Resources */,
+				B8AA19BC154B502900750458 /* icon-72.png in Resources */,
+				B8AA19BD154B502900750458 /* Icon-Small-50.png in Resources */,
+				B8AA19BE154B502900750458 /* Icon-Small.png in Resources */,
+				B8AA19BF154B502900750458 /* Icon-Small@2x.png in Resources */,
+				B8AA19C0154B502900750458 /* icon.png in Resources */,
+				B8AA19C1154B502900750458 /* icon@2x.png in Resources */,
+				B8AA19CF154B565400750458 /* NewGameController.xib in Resources */,
+				B8DAFCC4155BA1C400A901A3 /* NeighborFound.wav in Resources */,
+				B8DAFCC6155BA1C400A901A3 /* PiecePositioned.mp3 in Resources */,
+				B8DAFCC8155BA1C400A901A3 /* PuzzleCompleted.mp3 in Resources */,
+				B8DAFCD0155BB78A00A901A3 /* MenuSound.aif in Resources */,
+				B8DAFCD6155BB9E000A901A3 /* Scissors_Shears.wav in Resources */,
+				B8DAFCE8155BDB0700A901A3 /* PuzzleLibraryController.xib in Resources */,
+				B8731465155C373D00FB77FC /* All seeing eye_puzzle.jpg in Resources */,
+				B8731467155C373D00FB77FC /* Amsterdam bikes_puzzle.jpg in Resources */,
+				B8731469155C373D00FB77FC /* Amsterdam signs_puzzle.jpg in Resources */,
+				B873146F155C373D00FB77FC /* Bulldog_puzzle.jpg in Resources */,
+				B8731471155C373D00FB77FC /* Drops_puzzle.JPG in Resources */,
+				B8731475155C373D00FB77FC /* Flower_puzzle.JPG in Resources */,
+				B8731477155C373D00FB77FC /* Fractal leaf_puzzle.jpg in Resources */,
+				B873147B155C373D00FB77FC /* Lego_puzzle.jpg in Resources */,
+				B873147D155C373D00FB77FC /* Micetto furbetto_puzzle.jpg in Resources */,
+				B873147F155C373D00FB77FC /* Micio matto_puzzle.jpg in Resources */,
+				B8731481155C373D00FB77FC /* Micio pigrotto_puzzle.jpg in Resources */,
+				B8731483155C373D00FB77FC /* Mother board_puzzle.jpg in Resources */,
+				B8731485155C373D00FB77FC /* Mountains_puzzle.JPG in Resources */,
+				B8731487155C373D00FB77FC /* Nano_puzzle.jpg in Resources */,
+				B8731489155C373D00FB77FC /* Obiettivo_puzzle.jpg in Resources */,
+				B873148B155C373D00FB77FC /* Pane_puzzle.jpg in Resources */,
+				B873148D155C373D00FB77FC /* Pasta_puzzle.jpg in Resources */,
+				B873148F155C373D00FB77FC /* Pizza_puzzle.jpg in Resources */,
+				B8731491155C373D00FB77FC /* PlayStation_puzzle.jpg in Resources */,
+				B8731495155C373D00FB77FC /* Yellow_puzzle.jpg in Resources */,
+				B87314B0155C374D00FB77FC /* Copia di All seeing eye_puzzle_thumb.jpg in Resources */,
+				B87314B2155C374D00FB77FC /* Copia di Amsterdam bikes_puzzle_thumb.jpg in Resources */,
+				B87314B4155C374D00FB77FC /* Copia di Amsterdam signs_puzzle_thumb.jpg in Resources */,
+				B87314BA155C374D00FB77FC /* Copia di Bulldog_puzzle_thumb.jpg in Resources */,
+				B87314BC155C374D00FB77FC /* Copia di Drops_puzzle_thumb.JPG in Resources */,
+				B87314C0155C374D00FB77FC /* Copia di Flower_puzzle_thumb.JPG in Resources */,
+				B87314C2155C374D00FB77FC /* Copia di Fractal leaf_puzzle_thumb.jpg in Resources */,
+				B87314C6155C374D00FB77FC /* Copia di Lego_puzzle_thumb.jpg in Resources */,
+				B87314C8155C374D00FB77FC /* Copia di Micetto furbetto_puzzle_thumb.jpg in Resources */,
+				B87314CA155C374D00FB77FC /* Copia di Micio matto_puzzle_thumb.jpg in Resources */,
+				B87314CC155C374D00FB77FC /* Copia di Micio pigrotto_puzzle_thumb.jpg in Resources */,
+				B87314CE155C374D00FB77FC /* Copia di Mother board_puzzle_thumb.jpg in Resources */,
+				B87314D0155C374D00FB77FC /* Copia di Mountains_puzzle_thumb.JPG in Resources */,
+				B87314D2155C374D00FB77FC /* Copia di Nano_puzzle_thumb.jpg in Resources */,
+				B87314D4155C374D00FB77FC /* Copia di Obiettivo_puzzle_thumb.jpg in Resources */,
+				B87314D6155C374D00FB77FC /* Copia di Pane_puzzle_thumb.jpg in Resources */,
+				B87314D8155C374D00FB77FC /* Copia di Pasta_puzzle_thumb.jpg in Resources */,
+				B87314DA155C374D00FB77FC /* Copia di Pizza_puzzle_thumb.jpg in Resources */,
+				B87314DC155C374D00FB77FC /* Copia di PlayStation_puzzle_thumb.jpg in Resources */,
+				B87314E0155C374D00FB77FC /* Copia di Yellow_puzzle_thumb.jpg in Resources */,
+				B8B0E724155FB612002FE0A2 /* ChooseLabel@2x.png in Resources */,
+				B8B0E726155FB612002FE0A2 /* ChooseLabel.png in Resources */,
+				B8B0E728155FB612002FE0A2 /* Wood.jpg in Resources */,
+				B8B0E72A155FB612002FE0A2 /* Wood@2x.jpg in Resources */,
+				B8B0E72E155FFA56002FE0A2 /* PuzzleComplete.png in Resources */,
+				B8B0E730155FFA56002FE0A2 /* PuzzleComplete@2x.png in Resources */,
+				B8B0E7341560187A002FE0A2 /* PuzzleComplete_iPhone.png in Resources */,
+				B8B0E7361560187A002FE0A2 /* PuzzleComplete_iPhone@2x.png in Resources */,
+				B8B0E73D15601E2C002FE0A2 /* PuzzleCompletedController.xib in Resources */,
+				B804EF3A1560870F00826712 /* BelloPro.ttf in Resources */,
+				B804EF3E156101DF00826712 /* PuzzleCompletedController_iPhone.xib in Resources */,
+				B82375821561B58000426E92 /* LoadGameController.xib in Resources */,
+				B8DADF9615654973002DCEF8 /* Notes.txt in Resources */,
+				B8D28BC815667CCF00DCF1A0 /* PanningSwitch.png in Resources */,
+				B8D28BCB15667CCF00DCF1A0 /* PanningSwitch@2x.png in Resources */,
+				B866561C1569C88200A4F5A9 /* Tiger_puzzle.jpg in Resources */,
+				B866561E1569C88200A4F5A9 /* The_puzzle.jpg in Resources */,
+				B86656201569C88200A4F5A9 /* Rectil_puzzle.jpg in Resources */,
+				B86656221569C88200A4F5A9 /* Pencils_puzzle.jpg in Resources */,
+				B86656241569C88200A4F5A9 /* Old car_puzzle.jpg in Resources */,
+				B86656261569C88200A4F5A9 /* Nice view_puzzle.jpg in Resources */,
+				B86656281569C88200A4F5A9 /* Micio mafioso_puzzle.jpg in Resources */,
+				B866562A1569C88200A4F5A9 /* Lion_puzzle.jpg in Resources */,
+				B866562C1569C88200A4F5A9 /* Matrioska_puzzle.jpg in Resources */,
+				B866562E1569C88200A4F5A9 /* Kiwi_puzzle.jpg in Resources */,
+				B86656301569C88200A4F5A9 /* Hulk_puzzle.jpg in Resources */,
+				B86656321569C88200A4F5A9 /* Hippo_puzzle.jpg in Resources */,
+				B86656341569C88200A4F5A9 /* Horses_puzzle.jpg in Resources */,
+				B86656361569C88200A4F5A9 /* Girls 2_puzzle.jpg in Resources */,
+				B86656381569C88200A4F5A9 /* Girls_puzzle.jpg in Resources */,
+				B866563A1569C88200A4F5A9 /* Fontana di trevi_puzzle.jpg in Resources */,
+				B866563C1569C88200A4F5A9 /* Girl_puzzle.jpg in Resources */,
+				B866563E1569C88200A4F5A9 /* Fishing_puzzle.jpg in Resources */,
+				B86656401569C88200A4F5A9 /* Earth music_puzzle.jpg in Resources */,
+				B86656421569C88200A4F5A9 /* Duck_puzzle.jpg in Resources */,
+				B86656441569C88200A4F5A9 /* Earth_puzzle.jpg in Resources */,
+				B86656461569C88200A4F5A9 /* Colors_puzzle.jpg in Resources */,
+				B86656481569C88200A4F5A9 /* Chines chess_puzzle.jpg in Resources */,
+				B866564A1569C88200A4F5A9 /* Car_puzzle.jpg in Resources */,
+				B866564C1569C88200A4F5A9 /* Chess_puzzle.jpg in Resources */,
+				B866564E1569C88200A4F5A9 /* Butterfly_puzzle.jpg in Resources */,
+				B86656501569C88200A4F5A9 /* Buddah Bellin_puzzle.jpg in Resources */,
+				B86656521569C88200A4F5A9 /* Buddah_puzzle.jpg in Resources */,
+				B86656711569C89200A4F5A9 /* Copia di Car_puzzle_thumb.jpg in Resources */,
+				B86656731569C89200A4F5A9 /* Copia di Chess_puzzle_thumb.jpg in Resources */,
+				B86656751569C89200A4F5A9 /* Copia di Fishing_puzzle_thumb.jpg in Resources */,
+				B86656771569C89200A4F5A9 /* Copia di Girls_puzzle_thumb.jpg in Resources */,
+				B86656791569C89200A4F5A9 /* Copia di Hulk_puzzle_thumb.jpg in Resources */,
+				B866567B1569C89200A4F5A9 /* Copia di Micio mafioso_puzzle_thumb.jpg in Resources */,
+				B866567D1569C89200A4F5A9 /* Copia di Nice view_puzzle_thumb.jpg in Resources */,
+				B866567F1569C89200A4F5A9 /* Copia di Pencils_puzzle_thumb.jpg in Resources */,
+				B86656811569C89200A4F5A9 /* Copia di Chines chess_puzzle_thumb.jpg in Resources */,
+				B86656831569C89200A4F5A9 /* Copia di Colors_puzzle_thumb.jpg in Resources */,
+				B86656851569C89200A4F5A9 /* Copia di Girls 2_puzzle_thumb.jpg in Resources */,
+				B86656871569C89200A4F5A9 /* Copia di Hippo_puzzle_thumb.jpg in Resources */,
+				B86656891569C89200A4F5A9 /* Copia di Lion_puzzle_thumb.jpg in Resources */,
+				B866568B1569C89200A4F5A9 /* Copia di Matrioska_puzzle_thumb.jpg in Resources */,
+				B866568D1569C89200A4F5A9 /* Copia di Rectil_puzzle_thumb.jpg in Resources */,
+				B866568F1569C89200A4F5A9 /* Copia di The_puzzle_thumb.jpg in Resources */,
+				B86656911569C89200A4F5A9 /* Copia di Buddah Bellin_puzzle_thumb.jpg in Resources */,
+				B86656931569C89200A4F5A9 /* Copia di Buddah_puzzle_thumb.jpg in Resources */,
+				B86656951569C89200A4F5A9 /* Copia di Butterfly_puzzle_thumb.jpg in Resources */,
+				B86656971569C89200A4F5A9 /* Copia di Duck_puzzle_thumb.jpg in Resources */,
+				B86656991569C89200A4F5A9 /* Copia di Earth music_puzzle_thumb.jpg in Resources */,
+				B866569B1569C89200A4F5A9 /* Copia di Earth_puzzle_thumb.jpg in Resources */,
+				B866569D1569C89200A4F5A9 /* Copia di Fontana di trevi_puzzle_thumb.jpg in Resources */,
+				B866569F1569C89200A4F5A9 /* Copia di Horses_puzzle_thumb.jpg in Resources */,
+				B86656A11569C89200A4F5A9 /* Copia di Kiwi_puzzle_thumb.jpg in Resources */,
+				B86656A31569C89200A4F5A9 /* Copia di Girl_puzzle_thumb.jpg in Resources */,
+				B86656A51569C89200A4F5A9 /* Copia di Old car_puzzle_thumb.jpg in Resources */,
+				B86656A71569C89200A4F5A9 /* Copia di Tiger_puzzle_thumb.jpg in Resources */,
+				B8CFE4D0157269ED00AAC396 /* Menu.png in Resources */,
+				B8CFE4D4157269ED00AAC396 /* Menu@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E181741550402800A8B450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E181751550402800A8B450 /* InfoPlist.strings in Resources */,
+				B8E181761550402800A8B450 /* PuzzleController.xib in Resources */,
+				B8E1817A1550402800A8B450 /* Default-Landscape@2x~ipad.png in Resources */,
+				B8E1817B1550402800A8B450 /* Default-Landscape~ipad.png in Resources */,
+				B8E1817C1550402800A8B450 /* Default-Portrait@2x~ipad.png in Resources */,
+				B8E1817D1550402800A8B450 /* Default-Portrait~ipad.png in Resources */,
+				B8E1817E1550402800A8B450 /* Default.png in Resources */,
+				B8E1817F1550402800A8B450 /* Default@2x.png in Resources */,
+				B8E181801550402800A8B450 /* MenuController.xib in Resources */,
+				B8E181811550402800A8B450 /* icon-144.png in Resources */,
+				B8E181821550402800A8B450 /* icon-512.png in Resources */,
+				B8E181831550402800A8B450 /* icon-72.png in Resources */,
+				B8E181841550402800A8B450 /* Icon-Small-50.png in Resources */,
+				B8E181851550402800A8B450 /* Icon-Small.png in Resources */,
+				B8E181861550402800A8B450 /* Icon-Small@2x.png in Resources */,
+				B8E181871550402800A8B450 /* icon.png in Resources */,
+				B8E181881550402800A8B450 /* icon@2x.png in Resources */,
+				B8E181891550402800A8B450 /* NewGameController.xib in Resources */,
+				B8DAFCC5155BA1C400A901A3 /* NeighborFound.wav in Resources */,
+				B8DAFCC7155BA1C400A901A3 /* PiecePositioned.mp3 in Resources */,
+				B8DAFCC9155BA1C400A901A3 /* PuzzleCompleted.mp3 in Resources */,
+				B8DAFCD1155BB78A00A901A3 /* MenuSound.aif in Resources */,
+				B8DAFCD7155BB9E000A901A3 /* Scissors_Shears.wav in Resources */,
+				B8DAFCE9155BDB0700A901A3 /* PuzzleLibraryController.xib in Resources */,
+				B8731466155C373D00FB77FC /* All seeing eye_puzzle.jpg in Resources */,
+				B8731468155C373D00FB77FC /* Amsterdam bikes_puzzle.jpg in Resources */,
+				B873146A155C373D00FB77FC /* Amsterdam signs_puzzle.jpg in Resources */,
+				B8731470155C373D00FB77FC /* Bulldog_puzzle.jpg in Resources */,
+				B8731472155C373D00FB77FC /* Drops_puzzle.JPG in Resources */,
+				B8731476155C373D00FB77FC /* Flower_puzzle.JPG in Resources */,
+				B8731478155C373D00FB77FC /* Fractal leaf_puzzle.jpg in Resources */,
+				B873147C155C373D00FB77FC /* Lego_puzzle.jpg in Resources */,
+				B873147E155C373D00FB77FC /* Micetto furbetto_puzzle.jpg in Resources */,
+				B8731480155C373D00FB77FC /* Micio matto_puzzle.jpg in Resources */,
+				B8731482155C373D00FB77FC /* Micio pigrotto_puzzle.jpg in Resources */,
+				B8731484155C373D00FB77FC /* Mother board_puzzle.jpg in Resources */,
+				B8731486155C373D00FB77FC /* Mountains_puzzle.JPG in Resources */,
+				B8731488155C373D00FB77FC /* Nano_puzzle.jpg in Resources */,
+				B873148A155C373D00FB77FC /* Obiettivo_puzzle.jpg in Resources */,
+				B873148C155C373D00FB77FC /* Pane_puzzle.jpg in Resources */,
+				B873148E155C373D00FB77FC /* Pasta_puzzle.jpg in Resources */,
+				B8731490155C373D00FB77FC /* Pizza_puzzle.jpg in Resources */,
+				B8731492155C373D00FB77FC /* PlayStation_puzzle.jpg in Resources */,
+				B8731496155C373D00FB77FC /* Yellow_puzzle.jpg in Resources */,
+				B87314B1155C374D00FB77FC /* Copia di All seeing eye_puzzle_thumb.jpg in Resources */,
+				B87314B3155C374D00FB77FC /* Copia di Amsterdam bikes_puzzle_thumb.jpg in Resources */,
+				B87314B5155C374D00FB77FC /* Copia di Amsterdam signs_puzzle_thumb.jpg in Resources */,
+				B87314BB155C374D00FB77FC /* Copia di Bulldog_puzzle_thumb.jpg in Resources */,
+				B87314BD155C374D00FB77FC /* Copia di Drops_puzzle_thumb.JPG in Resources */,
+				B87314C1155C374D00FB77FC /* Copia di Flower_puzzle_thumb.JPG in Resources */,
+				B87314C3155C374D00FB77FC /* Copia di Fractal leaf_puzzle_thumb.jpg in Resources */,
+				B87314C7155C374D00FB77FC /* Copia di Lego_puzzle_thumb.jpg in Resources */,
+				B87314C9155C374D00FB77FC /* Copia di Micetto furbetto_puzzle_thumb.jpg in Resources */,
+				B87314CB155C374D00FB77FC /* Copia di Micio matto_puzzle_thumb.jpg in Resources */,
+				B87314CD155C374D00FB77FC /* Copia di Micio pigrotto_puzzle_thumb.jpg in Resources */,
+				B87314CF155C374D00FB77FC /* Copia di Mother board_puzzle_thumb.jpg in Resources */,
+				B87314D1155C374D00FB77FC /* Copia di Mountains_puzzle_thumb.JPG in Resources */,
+				B87314D3155C374D00FB77FC /* Copia di Nano_puzzle_thumb.jpg in Resources */,
+				B87314D5155C374D00FB77FC /* Copia di Obiettivo_puzzle_thumb.jpg in Resources */,
+				B87314D7155C374D00FB77FC /* Copia di Pane_puzzle_thumb.jpg in Resources */,
+				B87314D9155C374D00FB77FC /* Copia di Pasta_puzzle_thumb.jpg in Resources */,
+				B87314DB155C374D00FB77FC /* Copia di Pizza_puzzle_thumb.jpg in Resources */,
+				B87314DD155C374D00FB77FC /* Copia di PlayStation_puzzle_thumb.jpg in Resources */,
+				B87314E1155C374D00FB77FC /* Copia di Yellow_puzzle_thumb.jpg in Resources */,
+				B8B0E725155FB612002FE0A2 /* ChooseLabel@2x.png in Resources */,
+				B8B0E727155FB612002FE0A2 /* ChooseLabel.png in Resources */,
+				B8B0E729155FB612002FE0A2 /* Wood.jpg in Resources */,
+				B8B0E72B155FB612002FE0A2 /* Wood@2x.jpg in Resources */,
+				B8B0E72F155FFA56002FE0A2 /* PuzzleComplete.png in Resources */,
+				B8B0E731155FFA56002FE0A2 /* PuzzleComplete@2x.png in Resources */,
+				B8B0E7351560187A002FE0A2 /* PuzzleComplete_iPhone.png in Resources */,
+				B8B0E7371560187A002FE0A2 /* PuzzleComplete_iPhone@2x.png in Resources */,
+				B8B0E73E15601E2C002FE0A2 /* PuzzleCompletedController.xib in Resources */,
+				B804EF3B1560870F00826712 /* BelloPro.ttf in Resources */,
+				B804EF3F156101DF00826712 /* PuzzleCompletedController_iPhone.xib in Resources */,
+				B82375831561B58000426E92 /* LoadGameController.xib in Resources */,
+				B8DADF9715654973002DCEF8 /* Notes.txt in Resources */,
+				B8D28BC915667CCF00DCF1A0 /* PanningSwitch.png in Resources */,
+				B8D28BCC15667CCF00DCF1A0 /* PanningSwitch@2x.png in Resources */,
+				B866561D1569C88200A4F5A9 /* Tiger_puzzle.jpg in Resources */,
+				B866561F1569C88200A4F5A9 /* The_puzzle.jpg in Resources */,
+				B86656211569C88200A4F5A9 /* Rectil_puzzle.jpg in Resources */,
+				B86656231569C88200A4F5A9 /* Pencils_puzzle.jpg in Resources */,
+				B86656251569C88200A4F5A9 /* Old car_puzzle.jpg in Resources */,
+				B86656271569C88200A4F5A9 /* Nice view_puzzle.jpg in Resources */,
+				B86656291569C88200A4F5A9 /* Micio mafioso_puzzle.jpg in Resources */,
+				B866562B1569C88200A4F5A9 /* Lion_puzzle.jpg in Resources */,
+				B866562D1569C88200A4F5A9 /* Matrioska_puzzle.jpg in Resources */,
+				B866562F1569C88200A4F5A9 /* Kiwi_puzzle.jpg in Resources */,
+				B86656311569C88200A4F5A9 /* Hulk_puzzle.jpg in Resources */,
+				B86656331569C88200A4F5A9 /* Hippo_puzzle.jpg in Resources */,
+				B86656351569C88200A4F5A9 /* Horses_puzzle.jpg in Resources */,
+				B86656371569C88200A4F5A9 /* Girls 2_puzzle.jpg in Resources */,
+				B86656391569C88200A4F5A9 /* Girls_puzzle.jpg in Resources */,
+				B866563B1569C88200A4F5A9 /* Fontana di trevi_puzzle.jpg in Resources */,
+				B866563D1569C88200A4F5A9 /* Girl_puzzle.jpg in Resources */,
+				B866563F1569C88200A4F5A9 /* Fishing_puzzle.jpg in Resources */,
+				B86656411569C88200A4F5A9 /* Earth music_puzzle.jpg in Resources */,
+				B86656431569C88200A4F5A9 /* Duck_puzzle.jpg in Resources */,
+				B86656451569C88200A4F5A9 /* Earth_puzzle.jpg in Resources */,
+				B86656471569C88200A4F5A9 /* Colors_puzzle.jpg in Resources */,
+				B86656491569C88200A4F5A9 /* Chines chess_puzzle.jpg in Resources */,
+				B866564B1569C88200A4F5A9 /* Car_puzzle.jpg in Resources */,
+				B866564D1569C88200A4F5A9 /* Chess_puzzle.jpg in Resources */,
+				B866564F1569C88200A4F5A9 /* Butterfly_puzzle.jpg in Resources */,
+				B86656511569C88200A4F5A9 /* Buddah Bellin_puzzle.jpg in Resources */,
+				B86656531569C88200A4F5A9 /* Buddah_puzzle.jpg in Resources */,
+				B86656721569C89200A4F5A9 /* Copia di Car_puzzle_thumb.jpg in Resources */,
+				B86656741569C89200A4F5A9 /* Copia di Chess_puzzle_thumb.jpg in Resources */,
+				B86656761569C89200A4F5A9 /* Copia di Fishing_puzzle_thumb.jpg in Resources */,
+				B86656781569C89200A4F5A9 /* Copia di Girls_puzzle_thumb.jpg in Resources */,
+				B866567A1569C89200A4F5A9 /* Copia di Hulk_puzzle_thumb.jpg in Resources */,
+				B866567C1569C89200A4F5A9 /* Copia di Micio mafioso_puzzle_thumb.jpg in Resources */,
+				B866567E1569C89200A4F5A9 /* Copia di Nice view_puzzle_thumb.jpg in Resources */,
+				B86656801569C89200A4F5A9 /* Copia di Pencils_puzzle_thumb.jpg in Resources */,
+				B86656821569C89200A4F5A9 /* Copia di Chines chess_puzzle_thumb.jpg in Resources */,
+				B86656841569C89200A4F5A9 /* Copia di Colors_puzzle_thumb.jpg in Resources */,
+				B86656861569C89200A4F5A9 /* Copia di Girls 2_puzzle_thumb.jpg in Resources */,
+				B86656881569C89200A4F5A9 /* Copia di Hippo_puzzle_thumb.jpg in Resources */,
+				B866568A1569C89200A4F5A9 /* Copia di Lion_puzzle_thumb.jpg in Resources */,
+				B866568C1569C89200A4F5A9 /* Copia di Matrioska_puzzle_thumb.jpg in Resources */,
+				B866568E1569C89200A4F5A9 /* Copia di Rectil_puzzle_thumb.jpg in Resources */,
+				B86656901569C89200A4F5A9 /* Copia di The_puzzle_thumb.jpg in Resources */,
+				B86656921569C89200A4F5A9 /* Copia di Buddah Bellin_puzzle_thumb.jpg in Resources */,
+				B86656941569C89200A4F5A9 /* Copia di Buddah_puzzle_thumb.jpg in Resources */,
+				B86656961569C89200A4F5A9 /* Copia di Butterfly_puzzle_thumb.jpg in Resources */,
+				B86656981569C89200A4F5A9 /* Copia di Duck_puzzle_thumb.jpg in Resources */,
+				B866569A1569C89200A4F5A9 /* Copia di Earth music_puzzle_thumb.jpg in Resources */,
+				B866569C1569C89200A4F5A9 /* Copia di Earth_puzzle_thumb.jpg in Resources */,
+				B866569E1569C89200A4F5A9 /* Copia di Fontana di trevi_puzzle_thumb.jpg in Resources */,
+				B86656A01569C89200A4F5A9 /* Copia di Horses_puzzle_thumb.jpg in Resources */,
+				B86656A21569C89200A4F5A9 /* Copia di Kiwi_puzzle_thumb.jpg in Resources */,
+				B86656A41569C89200A4F5A9 /* Copia di Girl_puzzle_thumb.jpg in Resources */,
+				B86656A61569C89200A4F5A9 /* Copia di Old car_puzzle_thumb.jpg in Resources */,
+				B86656A81569C89200A4F5A9 /* Copia di Tiger_puzzle_thumb.jpg in Resources */,
+				B8CFE4D1157269ED00AAC396 /* Menu.png in Resources */,
+				B8CFE4D5157269ED00AAC396 /* Menu@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B823758615626FC300426E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B823758715626FC300426E92 /* main.m in Sources */,
+				B823758815626FC300426E92 /* PuzzleController.m in Sources */,
+				B823758915626FC300426E92 /* UIImage+CWAdditions.m in Sources */,
+				B823758A15626FC300426E92 /* Lattice.m in Sources */,
+				B823758B15626FC300426E92 /* MenuController.m in Sources */,
+				B823758C15626FC300426E92 /* NewGameController.m in Sources */,
+				B823758D15626FC300426E92 /* GroupView.m in Sources */,
+				B823758E15626FC300426E92 /* PieceView.m in Sources */,
+				B823758F15626FC300426E92 /* AppDelegate.m in Sources */,
+				B823759015626FC300426E92 /* CreatePuzzleOperation.m in Sources */,
+				B823759115626FC300426E92 /* Piece.m in Sources */,
+				B823759215626FC300426E92 /* Puzzle.xcdatamodeld in Sources */,
+				B823759315626FC300426E92 /* PuzzleLibraryController.m in Sources */,
+				B823759415626FC300426E92 /* PuzzleCompletedController.m in Sources */,
+				B823759515626FC300426E92 /* Image.m in Sources */,
+				B823759615626FC300426E92 /* Puzzle.m in Sources */,
+				B823759715626FC300426E92 /* LoadGameController.m in Sources */,
+				B8DBEA02158144AF005199B4 /* iAdViewController.m in Sources */,
+				B88BF757158214000057F65D /* BannerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B874B322156D67D80089D4E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B874B323156D67D80089D4E4 /* main.m in Sources */,
+				B874B324156D67D80089D4E4 /* PuzzleController.m in Sources */,
+				B874B325156D67D80089D4E4 /* UIImage+CWAdditions.m in Sources */,
+				B874B326156D67D80089D4E4 /* Lattice.m in Sources */,
+				B874B327156D67D80089D4E4 /* MenuController.m in Sources */,
+				B874B328156D67D80089D4E4 /* NewGameController.m in Sources */,
+				B874B329156D67D80089D4E4 /* GroupView.m in Sources */,
+				B874B32A156D67D80089D4E4 /* PieceView.m in Sources */,
+				B874B32B156D67D80089D4E4 /* AppDelegate.m in Sources */,
+				B874B32C156D67D80089D4E4 /* CreatePuzzleOperation.m in Sources */,
+				B874B32D156D67D80089D4E4 /* Piece.m in Sources */,
+				B874B32E156D67D80089D4E4 /* Puzzle.xcdatamodeld in Sources */,
+				B874B32F156D67D80089D4E4 /* PuzzleLibraryController.m in Sources */,
+				B874B330156D67D80089D4E4 /* PuzzleCompletedController.m in Sources */,
+				B874B331156D67D80089D4E4 /* Image.m in Sources */,
+				B874B332156D67D80089D4E4 /* Puzzle.m in Sources */,
+				B874B333156D67D80089D4E4 /* LoadGameController.m in Sources */,
+				B8DBEA03158144AF005199B4 /* iAdViewController.m in Sources */,
+				B88BF758158214000057F65D /* BannerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B87C5CBD15400B2A00AF69BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B87C5CD415400B2A00AF69BC /* main.m in Sources */,
+				B87C5CF11540174400AF69BC /* PuzzleController.m in Sources */,
+				B84014F41540E57D0075734A /* UIImage+CWAdditions.m in Sources */,
+				B82AC5C7154411B500208887 /* Lattice.m in Sources */,
+				B8E4AC7F154AA22300D0A75D /* MenuController.m in Sources */,
+				B8AA19CE154B565400750458 /* NewGameController.m in Sources */,
+				B8AE1208155990DB00742256 /* GroupView.m in Sources */,
+				B8AE120A155990DB00742256 /* PieceView.m in Sources */,
+				B8AE1210155990F100742256 /* AppDelegate.m in Sources */,
+				B8AE1212155990F100742256 /* CreatePuzzleOperation.m in Sources */,
+				B8AE12231559912200742256 /* Piece.m in Sources */,
+				B8AE12271559912200742256 /* Puzzle.xcdatamodeld in Sources */,
+				B8DAFCE6155BDB0700A901A3 /* PuzzleLibraryController.m in Sources */,
+				B8B0E73B15601E2C002FE0A2 /* PuzzleCompletedController.m in Sources */,
+				B8B0E74215605E23002FE0A2 /* Image.m in Sources */,
+				B8B0E74715605EE8002FE0A2 /* Puzzle.m in Sources */,
+				B82375801561B58000426E92 /* LoadGameController.m in Sources */,
+				B8DBEA00158144AF005199B4 /* iAdViewController.m in Sources */,
+				B88BF755158214000057F65D /* BannerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E181611550402800A8B450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E181621550402800A8B450 /* main.m in Sources */,
+				B8E181671550402800A8B450 /* PuzzleController.m in Sources */,
+				B8E181681550402800A8B450 /* UIImage+CWAdditions.m in Sources */,
+				B8E181691550402800A8B450 /* Lattice.m in Sources */,
+				B8E1816A1550402800A8B450 /* MenuController.m in Sources */,
+				B8E1816B1550402800A8B450 /* NewGameController.m in Sources */,
+				B8AE1209155990DB00742256 /* GroupView.m in Sources */,
+				B8AE120B155990DB00742256 /* PieceView.m in Sources */,
+				B8AE1211155990F100742256 /* AppDelegate.m in Sources */,
+				B8AE1213155990F100742256 /* CreatePuzzleOperation.m in Sources */,
+				B8AE12241559912200742256 /* Piece.m in Sources */,
+				B8AE12281559912200742256 /* Puzzle.xcdatamodeld in Sources */,
+				B8DAFCE7155BDB0700A901A3 /* PuzzleLibraryController.m in Sources */,
+				B8B0E73C15601E2C002FE0A2 /* PuzzleCompletedController.m in Sources */,
+				B8B0E74315605E23002FE0A2 /* Image.m in Sources */,
+				B8B0E74815605EE8002FE0A2 /* Puzzle.m in Sources */,
+				B82375811561B58000426E92 /* LoadGameController.m in Sources */,
+				B8DBEA01158144AF005199B4 /* iAdViewController.m in Sources */,
+				B88BF756158214000057F65D /* BannerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B87C5CD015400B2A00AF69BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B87C5CD115400B2A00AF69BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B82375EF15626FC300426E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzzle/Puzzle-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "Puzzle test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "Puzzle test";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B82375F015626FC300426E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzzle/Puzzle-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "Puzzle test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "Puzzle test";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B874B3C6156D67D80089D4E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzzle/Puzzle-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "Puzzle Lite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "Puzzle Lite";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B874B3C7156D67D80089D4E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzzle/Puzzle-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "Puzzle Lite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "Puzzle Lite";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B87C5CDC15400B2A00AF69BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Andrea Barbon (7WU452F7X9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Andrea Barbon (7WU452F7X9)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "E5EB72A9-6342-4142-9328-BCA309ADC2B2";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E5EB72A9-6342-4142-9328-BCA309ADC2B2";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B87C5CDD15400B2A00AF69BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Andrea Barbon (7WU452F7X9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Andrea Barbon";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "E5EB72A9-6342-4142-9328-BCA309ADC2B2";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DA84BA24-715D-4C5E-8D8E-1ED3361B8CD3";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B87C5CDF15400B2A00AF69BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzzle/Puzzle-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "Puzzle/Puzzle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "Your$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B87C5CE015400B2A00AF69BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzzle/Puzzle-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "Puzzle/Puzzle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "Your$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B8E1818D1550402800A8B450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzzle/Puzzle-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "Puzzle iPhone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "YourPuzzle iPhone";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B8E1818E1550402800A8B450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzzle/Puzzle-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "Puzzle iPhone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "YourPuzzle iPhone";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B82375EE15626FC300426E92 /* Build configuration list for PBXNativeTarget "Puzzle test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B82375EF15626FC300426E92 /* Debug */,
+				B82375F015626FC300426E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B874B3C5156D67D80089D4E4 /* Build configuration list for PBXNativeTarget "Puzzle Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B874B3C6156D67D80089D4E4 /* Debug */,
+				B874B3C7156D67D80089D4E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B87C5CBB15400B2A00AF69BC /* Build configuration list for PBXProject "Puzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B87C5CDC15400B2A00AF69BC /* Debug */,
+				B87C5CDD15400B2A00AF69BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B87C5CDE15400B2A00AF69BC /* Build configuration list for PBXNativeTarget "Puzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B87C5CDF15400B2A00AF69BC /* Debug */,
+				B87C5CE015400B2A00AF69BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8E1818C1550402800A8B450 /* Build configuration list for PBXNativeTarget "Puzzle iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E1818D1550402800A8B450 /* Debug */,
+				B8E1818E1550402800A8B450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B8AE121B1559912200742256 /* Puzzle.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B8AE121C1559912200742256 /* Puzzle 2.xcdatamodel */,
+				B8AE121D1559912200742256 /* Puzzle 3.xcdatamodel */,
+				B8AE121E1559912200742256 /* Puzzle 4.xcdatamodel */,
+				B8AE121F1559912200742256 /* Puzzle 6.xcdatamodel */,
+				B8B0E73F15605DA0002FE0A2 /* Puzzle 5.xcdatamodel */,
+				B8B0E74415605EB8002FE0A2 /* Puzzle 7.xcdatamodel */,
+				B8B857C515631DF300C62D9F /* Puzzle 8.xcdatamodel */,
+				B8C0EE511567A20F0042EB89 /* Puzzle 9.xcdatamodel */,
+				B8AE12201559912200742256 /* Puzzle.xcdatamodel */,
+			);
+			currentVersion = B8C0EE511567A20F0042EB89 /* Puzzle 9.xcdatamodel */;
+			path = Puzzle.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B87C5CB815400B2A00AF69BC /* Project object */;
+}
