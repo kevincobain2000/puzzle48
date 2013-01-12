@@ -12,6 +12,14 @@
 		AD077ED516A015FF00FA4561 /* BelloPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD077ED316A015FF00FA4561 /* BelloPro.ttf */; };
 		AD077ED616A015FF00FA4561 /* BelloPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD077ED316A015FF00FA4561 /* BelloPro.ttf */; };
 		AD077ED716A015FF00FA4561 /* BelloPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD077ED316A015FF00FA4561 /* BelloPro.ttf */; };
+		AD72603416A126E400570C9D /* Wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD72603216A126E400570C9D /* Wood.jpg */; };
+		AD72603516A126E400570C9D /* Wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD72603216A126E400570C9D /* Wood.jpg */; };
+		AD72603616A126E400570C9D /* Wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD72603216A126E400570C9D /* Wood.jpg */; };
+		AD72603716A126E400570C9D /* Wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD72603216A126E400570C9D /* Wood.jpg */; };
+		AD72603816A126E400570C9D /* Wood@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD72603316A126E400570C9D /* Wood@2x.jpg */; };
+		AD72603916A126E400570C9D /* Wood@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD72603316A126E400570C9D /* Wood@2x.jpg */; };
+		AD72603A16A126E400570C9D /* Wood@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD72603316A126E400570C9D /* Wood@2x.jpg */; };
+		AD72603B16A126E400570C9D /* Wood@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD72603316A126E400570C9D /* Wood@2x.jpg */; };
 		B804EF3E156101DF00826712 /* PuzzleCompletedController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */; };
 		B804EF3F156101DF00826712 /* PuzzleCompletedController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */; };
 		B82375801561B58000426E92 /* LoadGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = B823757E1561B58000426E92 /* LoadGameController.m */; };
@@ -68,8 +76,6 @@
 		B82375B915626FC300426E92 /* PuzzleLibraryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCE5155BDB0700A901A3 /* PuzzleLibraryController.xib */; };
 		B82375E215626FC300426E92 /* ChooseLabel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E720155FB612002FE0A2 /* ChooseLabel@2x.png */; };
 		B82375E315626FC300426E92 /* ChooseLabel.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E721155FB612002FE0A2 /* ChooseLabel.png */; };
-		B82375E415626FC300426E92 /* Wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E722155FB612002FE0A2 /* Wood.jpg */; };
-		B82375E515626FC300426E92 /* Wood@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E723155FB612002FE0A2 /* Wood@2x.jpg */; };
 		B82375E615626FC300426E92 /* PuzzleComplete.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E72C155FFA56002FE0A2 /* PuzzleComplete.png */; };
 		B82375E715626FC300426E92 /* PuzzleComplete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E72D155FFA56002FE0A2 /* PuzzleComplete@2x.png */; };
 		B82375E815626FC300426E92 /* PuzzleComplete_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E7321560187A002FE0A2 /* PuzzleComplete_iPhone.png */; };
@@ -143,8 +149,6 @@
 		B874B355156D67D80089D4E4 /* PuzzleLibraryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCE5155BDB0700A901A3 /* PuzzleLibraryController.xib */; };
 		B874B37E156D67D80089D4E4 /* ChooseLabel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E720155FB612002FE0A2 /* ChooseLabel@2x.png */; };
 		B874B37F156D67D80089D4E4 /* ChooseLabel.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E721155FB612002FE0A2 /* ChooseLabel.png */; };
-		B874B380156D67D80089D4E4 /* Wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E722155FB612002FE0A2 /* Wood.jpg */; };
-		B874B381156D67D80089D4E4 /* Wood@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E723155FB612002FE0A2 /* Wood@2x.jpg */; };
 		B874B382156D67D80089D4E4 /* PuzzleComplete.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E72C155FFA56002FE0A2 /* PuzzleComplete.png */; };
 		B874B383156D67D80089D4E4 /* PuzzleComplete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E72D155FFA56002FE0A2 /* PuzzleComplete@2x.png */; };
 		B874B384156D67D80089D4E4 /* PuzzleComplete_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E7321560187A002FE0A2 /* PuzzleComplete_iPhone.png */; };
@@ -193,10 +197,6 @@
 		B8B0E725155FB612002FE0A2 /* ChooseLabel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E720155FB612002FE0A2 /* ChooseLabel@2x.png */; };
 		B8B0E726155FB612002FE0A2 /* ChooseLabel.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E721155FB612002FE0A2 /* ChooseLabel.png */; };
 		B8B0E727155FB612002FE0A2 /* ChooseLabel.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E721155FB612002FE0A2 /* ChooseLabel.png */; };
-		B8B0E728155FB612002FE0A2 /* Wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E722155FB612002FE0A2 /* Wood.jpg */; };
-		B8B0E729155FB612002FE0A2 /* Wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E722155FB612002FE0A2 /* Wood.jpg */; };
-		B8B0E72A155FB612002FE0A2 /* Wood@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E723155FB612002FE0A2 /* Wood@2x.jpg */; };
-		B8B0E72B155FB612002FE0A2 /* Wood@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E723155FB612002FE0A2 /* Wood@2x.jpg */; };
 		B8B0E72E155FFA56002FE0A2 /* PuzzleComplete.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E72C155FFA56002FE0A2 /* PuzzleComplete.png */; };
 		B8B0E72F155FFA56002FE0A2 /* PuzzleComplete.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E72C155FFA56002FE0A2 /* PuzzleComplete.png */; };
 		B8B0E730155FFA56002FE0A2 /* PuzzleComplete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E72D155FFA56002FE0A2 /* PuzzleComplete@2x.png */; };
@@ -295,6 +295,8 @@
 /* Begin PBXFileReference section */
 		AD077DF016A0030E00FA4561 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		AD077ED316A015FF00FA4561 /* BelloPro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BelloPro.ttf; sourceTree = "<group>"; };
+		AD72603216A126E400570C9D /* Wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wood.jpg; sourceTree = "<group>"; };
+		AD72603316A126E400570C9D /* Wood@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wood@2x.jpg"; sourceTree = "<group>"; };
 		B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PuzzleCompletedController_iPhone.xib; path = Controllers/PuzzleCompletedController_iPhone.xib; sourceTree = "<group>"; };
 		B823757D1561B58000426E92 /* LoadGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadGameController.h; path = Controllers/LoadGameController.h; sourceTree = "<group>"; };
 		B823757E1561B58000426E92 /* LoadGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadGameController.m; path = Controllers/LoadGameController.m; sourceTree = "<group>"; };
@@ -357,8 +359,6 @@
 		B8AE12201559912200742256 /* Puzzle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Puzzle.xcdatamodel; sourceTree = "<group>"; };
 		B8B0E720155FB612002FE0A2 /* ChooseLabel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ChooseLabel@2x.png"; path = "PNGs/ChooseLabel@2x.png"; sourceTree = "<group>"; };
 		B8B0E721155FB612002FE0A2 /* ChooseLabel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ChooseLabel.png; path = PNGs/ChooseLabel.png; sourceTree = "<group>"; };
-		B8B0E722155FB612002FE0A2 /* Wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Wood.jpg; path = PNGs/Wood.jpg; sourceTree = "<group>"; };
-		B8B0E723155FB612002FE0A2 /* Wood@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Wood@2x.jpg"; path = "PNGs/Wood@2x.jpg"; sourceTree = "<group>"; };
 		B8B0E72C155FFA56002FE0A2 /* PuzzleComplete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PuzzleComplete.png; path = PNGs/PuzzleComplete.png; sourceTree = "<group>"; };
 		B8B0E72D155FFA56002FE0A2 /* PuzzleComplete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PuzzleComplete@2x.png"; path = "PNGs/PuzzleComplete@2x.png"; sourceTree = "<group>"; };
 		B8B0E7321560187A002FE0A2 /* PuzzleComplete_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PuzzleComplete_iPhone.png; path = PNGs/PuzzleComplete_iPhone.png; sourceTree = "<group>"; };
@@ -668,14 +668,14 @@
 		B8E1815E15503AF800A8B450 /* PNGs */ = {
 			isa = PBXGroup;
 			children = (
+				AD72603216A126E400570C9D /* Wood.jpg */,
+				AD72603316A126E400570C9D /* Wood@2x.jpg */,
 				B8CFE4CE157269ED00AAC396 /* Menu.png */,
 				B8CFE4CF157269ED00AAC396 /* Menu@2x.png */,
 				B8D28BC615667CCF00DCF1A0 /* PanningSwitch.png */,
 				B8D28BC715667CCF00DCF1A0 /* PanningSwitch@2x.png */,
 				B8B0E720155FB612002FE0A2 /* ChooseLabel@2x.png */,
 				B8B0E721155FB612002FE0A2 /* ChooseLabel.png */,
-				B8B0E722155FB612002FE0A2 /* Wood.jpg */,
-				B8B0E723155FB612002FE0A2 /* Wood@2x.jpg */,
 				B8B0E72C155FFA56002FE0A2 /* PuzzleComplete.png */,
 				B8B0E72D155FFA56002FE0A2 /* PuzzleComplete@2x.png */,
 				B8B0E7321560187A002FE0A2 /* PuzzleComplete_iPhone.png */,
@@ -827,8 +827,6 @@
 				B82375B915626FC300426E92 /* PuzzleLibraryController.xib in Resources */,
 				B82375E215626FC300426E92 /* ChooseLabel@2x.png in Resources */,
 				B82375E315626FC300426E92 /* ChooseLabel.png in Resources */,
-				B82375E415626FC300426E92 /* Wood.jpg in Resources */,
-				B82375E515626FC300426E92 /* Wood@2x.jpg in Resources */,
 				B82375E615626FC300426E92 /* PuzzleComplete.png in Resources */,
 				B82375E715626FC300426E92 /* PuzzleComplete@2x.png in Resources */,
 				B82375E815626FC300426E92 /* PuzzleComplete_iPhone.png in Resources */,
@@ -842,6 +840,8 @@
 				B8CFE4D2157269ED00AAC396 /* Menu.png in Resources */,
 				B8CFE4D6157269ED00AAC396 /* Menu@2x.png in Resources */,
 				AD077ED616A015FF00FA4561 /* BelloPro.ttf in Resources */,
+				AD72603616A126E400570C9D /* Wood.jpg in Resources */,
+				AD72603A16A126E400570C9D /* Wood@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -875,8 +875,6 @@
 				B874B355156D67D80089D4E4 /* PuzzleLibraryController.xib in Resources */,
 				B874B37E156D67D80089D4E4 /* ChooseLabel@2x.png in Resources */,
 				B874B37F156D67D80089D4E4 /* ChooseLabel.png in Resources */,
-				B874B380156D67D80089D4E4 /* Wood.jpg in Resources */,
-				B874B381156D67D80089D4E4 /* Wood@2x.jpg in Resources */,
 				B874B382156D67D80089D4E4 /* PuzzleComplete.png in Resources */,
 				B874B383156D67D80089D4E4 /* PuzzleComplete@2x.png in Resources */,
 				B874B384156D67D80089D4E4 /* PuzzleComplete_iPhone.png in Resources */,
@@ -890,6 +888,8 @@
 				B8CFE4D3157269ED00AAC396 /* Menu.png in Resources */,
 				B8CFE4D7157269ED00AAC396 /* Menu@2x.png in Resources */,
 				AD077ED716A015FF00FA4561 /* BelloPro.ttf in Resources */,
+				AD72603716A126E400570C9D /* Wood.jpg in Resources */,
+				AD72603B16A126E400570C9D /* Wood@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -929,8 +929,6 @@
 				B87314B4155C374D00FB77FC /* Copia di Amsterdam signs_puzzle_thumb.jpg in Resources */,
 				B8B0E724155FB612002FE0A2 /* ChooseLabel@2x.png in Resources */,
 				B8B0E726155FB612002FE0A2 /* ChooseLabel.png in Resources */,
-				B8B0E728155FB612002FE0A2 /* Wood.jpg in Resources */,
-				B8B0E72A155FB612002FE0A2 /* Wood@2x.jpg in Resources */,
 				B8B0E72E155FFA56002FE0A2 /* PuzzleComplete.png in Resources */,
 				B8B0E730155FFA56002FE0A2 /* PuzzleComplete@2x.png in Resources */,
 				B8B0E7341560187A002FE0A2 /* PuzzleComplete_iPhone.png in Resources */,
@@ -945,6 +943,8 @@
 				B8CFE4D4157269ED00AAC396 /* Menu@2x.png in Resources */,
 				AD077DF116A0030E00FA4561 /* Default-568h@2x.png in Resources */,
 				AD077ED416A015FF00FA4561 /* BelloPro.ttf in Resources */,
+				AD72603416A126E400570C9D /* Wood.jpg in Resources */,
+				AD72603816A126E400570C9D /* Wood@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -984,8 +984,6 @@
 				B87314B5155C374D00FB77FC /* Copia di Amsterdam signs_puzzle_thumb.jpg in Resources */,
 				B8B0E725155FB612002FE0A2 /* ChooseLabel@2x.png in Resources */,
 				B8B0E727155FB612002FE0A2 /* ChooseLabel.png in Resources */,
-				B8B0E729155FB612002FE0A2 /* Wood.jpg in Resources */,
-				B8B0E72B155FB612002FE0A2 /* Wood@2x.jpg in Resources */,
 				B8B0E72F155FFA56002FE0A2 /* PuzzleComplete.png in Resources */,
 				B8B0E731155FFA56002FE0A2 /* PuzzleComplete@2x.png in Resources */,
 				B8B0E7351560187A002FE0A2 /* PuzzleComplete_iPhone.png in Resources */,
@@ -999,6 +997,8 @@
 				B8CFE4D1157269ED00AAC396 /* Menu.png in Resources */,
 				B8CFE4D5157269ED00AAC396 /* Menu@2x.png in Resources */,
 				AD077ED516A015FF00FA4561 /* BelloPro.ttf in Resources */,
+				AD72603516A126E400570C9D /* Wood.jpg in Resources */,
+				AD72603916A126E400570C9D /* Wood@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

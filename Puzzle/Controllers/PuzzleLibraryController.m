@@ -192,7 +192,9 @@
         cell.textLabel.text = @"Back";
         cell.textLabel.textColor = [UIColor whiteColor];
         cell.textLabel.textAlignment = UITextAlignmentCenter;
+         
         return cell;
+         
         
     } else {
         
@@ -204,7 +206,7 @@
             float w = self.view.bounds.size.width;
             cell = [[PhotoCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
             cell.photo = [[UIImageView alloc] initWithFrame:CGRectMake((w-IMAGE_SIZE)/2, (w-IMAGE_SIZE)/2, IMAGE_SIZE, IMAGE_SIZE)];
-            cell.photo.layer.cornerRadius = 20;
+            cell.photo.layer.cornerRadius = 10;
             cell.photo.layer.masksToBounds = YES;
             [cell addSubview:cell.photo];
             UIView *v = [[UIView alloc] init];

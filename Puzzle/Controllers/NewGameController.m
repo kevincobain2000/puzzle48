@@ -33,13 +33,6 @@
     backButton.titleLabel.font = [UIFont fontWithName:@"Bello-Pro" size:40];
     startButton.titleLabel.font = [UIFont fontWithName:@"Bello-Pro" size:40];
     
-    //yourPhotosButton.titleLabel.font = [UIFont fontWithName:@"Bello-Pro" size:30];
-    //cameraButton.titleLabel.font = [UIFont fontWithName:@"Bello-Pro" size:30];
-    //puzzleLibraryButton.titleLabel.font = [UIFont fontWithName:@"Bello-Pro" size:30];
-    
-    //pieceNumberLabel.font = [UIFont fontWithName:@"Bello-Pro" size:80];
-    
-    
     pieceNumberLabel.text = [NSString stringWithFormat:@"%d ", (int)slider.value*(int)slider.value];
     
     if (![UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) {
@@ -59,20 +52,20 @@
         
     }
     
-    loadingView.layer.cornerRadius = 10;
-    loadingView.layer.masksToBounds = YES;
+    //loadingView.layer.cornerRadius = 10;
+    //loadingView.layer.masksToBounds = YES;
     
-    image.layer.cornerRadius = 20;
-    image.layer.masksToBounds = YES;
+    //image.layer.cornerRadius = 20;
+    //image.layer.masksToBounds = YES;
     
-    tapToSelectView.layer.cornerRadius = 20;
-    tapToSelectView.layer.masksToBounds = YES;
+    //tapToSelectView.layer.cornerRadius = 20;
+    //tapToSelectView.layer.masksToBounds = YES;
     
-    containerView.layer.cornerRadius = 20;
-    containerView.layer.masksToBounds = YES;
+    //containerView.layer.cornerRadius = 20;
+    //containerView.layer.masksToBounds = YES;
     
-    typeOfImageView.layer.cornerRadius = 20;
-    typeOfImageView.layer.masksToBounds = YES;
+   // typeOfImageView.layer.cornerRadius = 20;
+   // typeOfImageView.layer.masksToBounds = YES;
     
     imagePath = [[NSString alloc] initWithFormat:@""];
     
@@ -355,11 +348,11 @@
     loadingView.hidden = YES;
     startButton.hidden = NO;
     backButton.hidden = NO;
-    pieceNumberLabel.hidden = NO;
+    pieceNumberLabel.hidden = YES;
     slider.enabled = YES;
-    piecesLabel.hidden = NO;
-    tapToSelectView.hidden = NO;
-    tapToSelectLabel.hidden = NO;
+    piecesLabel.hidden = YES;
+    tapToSelectView.hidden = YES;
+    tapToSelectLabel.hidden = YES;
     
     
     pieceNumberLabel.text = [NSString stringWithFormat:@"%d ", (int)slider.value*(int)slider.value];
