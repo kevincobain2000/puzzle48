@@ -43,7 +43,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    NSLog(@"Came");
     thumbs = [[NSArray alloc] initWithArray:[self imagesForPuzzle]];
     paths = [[NSArray alloc] initWithArray:[self pathsForImages]];
     contents = [[NSArray alloc] initWithArray:[self joinData]];
@@ -57,7 +57,7 @@
     [self.tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+     //self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 - (void)viewDidUnload
@@ -185,7 +185,7 @@
             
             cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
             UIView *v = [[UIView alloc] init];
-            v.backgroundColor = YELLOW;
+            v.backgroundColor = [UIColor magentaColor];
             cell.selectedBackgroundView = v;
         }
         
@@ -205,19 +205,24 @@
             
             float w = self.view.bounds.size.width;
             cell = [[PhotoCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
-            cell.photo = [[UIImageView alloc] initWithFrame:CGRectMake((w-IMAGE_SIZE)/2, (w-IMAGE_SIZE)/2, IMAGE_SIZE, IMAGE_SIZE)];
+            cell.photo = [[UIImageView alloc] initWithFrame:CGRectMake((w-IMAGE_SIZE)/2, (w-IMAGE_SIZE)/2, IMAGE_SIZE, IMAGE_SIZE-50)];
             cell.photo.layer.cornerRadius = 5;
             cell.photo.layer.masksToBounds = YES;
             [cell addSubview:cell.photo];
             UIView *v = [[UIView alloc] init];
-            v.backgroundColor = YELLOW;
+            v.backgroundColor = [UIColor magentaColor];
             cell.selectedBackgroundView = v;
         }
         
         //NSString *path = [content objectAtIndex:indexPath.row];
         cell.photo.image = [[contents objectAtIndex:indexPath.row] objectForKey:@"Thumb"];
         return cell;
+        
+        
     }
+    
+    
+    
 }
 
 

@@ -46,7 +46,7 @@
     
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone){
         
-        slider.maximumValue = 10;
+        slider.maximumValue = 2;
         
     } else {
         
