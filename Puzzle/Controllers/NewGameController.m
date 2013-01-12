@@ -14,8 +14,8 @@
 #import "PuzzleLibraryController.h"
 
 #define IMAGE_QUALITY 0.5
-
-
+#define WOOD [UIColor colorWithPatternImage:[UIImage imageNamed:@"Wood.jpg"]]
+#define NUM_OF_PIECES 4
 @interface NewGameController ()
 
 @end
@@ -46,7 +46,7 @@
     
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone){
         
-        slider.maximumValue = 2;
+        slider.maximumValue = NUM_OF_PIECES;
         
     } else {
         

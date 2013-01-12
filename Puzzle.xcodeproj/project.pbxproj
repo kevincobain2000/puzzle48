@@ -229,14 +229,6 @@
 		B8B0E74315605E23002FE0A2 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B0E74115605E23002FE0A2 /* Image.m */; };
 		B8B0E74715605EE8002FE0A2 /* Puzzle.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B0E74615605EE8002FE0A2 /* Puzzle.m */; };
 		B8B0E74815605EE8002FE0A2 /* Puzzle.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B0E74615605EE8002FE0A2 /* Puzzle.m */; };
-		B8CFE4D0157269ED00AAC396 /* Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = B8CFE4CE157269ED00AAC396 /* Menu.png */; };
-		B8CFE4D1157269ED00AAC396 /* Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = B8CFE4CE157269ED00AAC396 /* Menu.png */; };
-		B8CFE4D2157269ED00AAC396 /* Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = B8CFE4CE157269ED00AAC396 /* Menu.png */; };
-		B8CFE4D3157269ED00AAC396 /* Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = B8CFE4CE157269ED00AAC396 /* Menu.png */; };
-		B8CFE4D4157269ED00AAC396 /* Menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8CFE4CF157269ED00AAC396 /* Menu@2x.png */; };
-		B8CFE4D5157269ED00AAC396 /* Menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8CFE4CF157269ED00AAC396 /* Menu@2x.png */; };
-		B8CFE4D6157269ED00AAC396 /* Menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8CFE4CF157269ED00AAC396 /* Menu@2x.png */; };
-		B8CFE4D7157269ED00AAC396 /* Menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8CFE4CF157269ED00AAC396 /* Menu@2x.png */; };
 		B8D28BC815667CCF00DCF1A0 /* PanningSwitch.png in Resources */ = {isa = PBXBuildFile; fileRef = B8D28BC615667CCF00DCF1A0 /* PanningSwitch.png */; };
 		B8D28BC915667CCF00DCF1A0 /* PanningSwitch.png in Resources */ = {isa = PBXBuildFile; fileRef = B8D28BC615667CCF00DCF1A0 /* PanningSwitch.png */; };
 		B8D28BCA15667CCF00DCF1A0 /* PanningSwitch.png in Resources */ = {isa = PBXBuildFile; fileRef = B8D28BC615667CCF00DCF1A0 /* PanningSwitch.png */; };
@@ -394,8 +386,6 @@
 		B8B0E74615605EE8002FE0A2 /* Puzzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Puzzle.m; sourceTree = "<group>"; };
 		B8B857C515631DF300C62D9F /* Puzzle 8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Puzzle 8.xcdatamodel"; sourceTree = "<group>"; };
 		B8C0EE511567A20F0042EB89 /* Puzzle 9.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Puzzle 9.xcdatamodel"; sourceTree = "<group>"; };
-		B8CFE4CE157269ED00AAC396 /* Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Menu.png; path = PNGs/Menu.png; sourceTree = "<group>"; };
-		B8CFE4CF157269ED00AAC396 /* Menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Menu@2x.png"; path = "PNGs/Menu@2x.png"; sourceTree = "<group>"; };
 		B8D28BC615667CCF00DCF1A0 /* PanningSwitch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PanningSwitch.png; path = PNGs/PanningSwitch.png; sourceTree = "<group>"; };
 		B8D28BC715667CCF00DCF1A0 /* PanningSwitch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PanningSwitch@2x.png"; path = "PNGs/PanningSwitch@2x.png"; sourceTree = "<group>"; };
 		B8DADF9515654973002DCEF8 /* Notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Notes.txt; sourceTree = "<group>"; };
@@ -694,8 +684,6 @@
 				AD72604F16A1348B00570C9D /* ipad-button-green@2x.png */,
 				AD72603216A126E400570C9D /* Wood.jpg */,
 				AD72603316A126E400570C9D /* Wood@2x.jpg */,
-				B8CFE4CE157269ED00AAC396 /* Menu.png */,
-				B8CFE4CF157269ED00AAC396 /* Menu@2x.png */,
 				B8D28BC615667CCF00DCF1A0 /* PanningSwitch.png */,
 				B8D28BC715667CCF00DCF1A0 /* PanningSwitch@2x.png */,
 				B8B0E720155FB612002FE0A2 /* ChooseLabel@2x.png */,
@@ -861,8 +849,6 @@
 				B8DADF9815654973002DCEF8 /* Notes.txt in Resources */,
 				B8D28BCA15667CCF00DCF1A0 /* PanningSwitch.png in Resources */,
 				B8D28BCD15667CCF00DCF1A0 /* PanningSwitch@2x.png in Resources */,
-				B8CFE4D2157269ED00AAC396 /* Menu.png in Resources */,
-				B8CFE4D6157269ED00AAC396 /* Menu@2x.png in Resources */,
 				AD077ED616A015FF00FA4561 /* BelloPro.ttf in Resources */,
 				AD72603616A126E400570C9D /* Wood.jpg in Resources */,
 				AD72603A16A126E400570C9D /* Wood@2x.jpg in Resources */,
@@ -913,8 +899,6 @@
 				B874B38A156D67D80089D4E4 /* Notes.txt in Resources */,
 				B874B38B156D67D80089D4E4 /* PanningSwitch.png in Resources */,
 				B874B38C156D67D80089D4E4 /* PanningSwitch@2x.png in Resources */,
-				B8CFE4D3157269ED00AAC396 /* Menu.png in Resources */,
-				B8CFE4D7157269ED00AAC396 /* Menu@2x.png in Resources */,
 				AD077ED716A015FF00FA4561 /* BelloPro.ttf in Resources */,
 				AD72603716A126E400570C9D /* Wood.jpg in Resources */,
 				AD72603B16A126E400570C9D /* Wood@2x.jpg in Resources */,
@@ -971,8 +955,6 @@
 				B8DADF9615654973002DCEF8 /* Notes.txt in Resources */,
 				B8D28BC815667CCF00DCF1A0 /* PanningSwitch.png in Resources */,
 				B8D28BCB15667CCF00DCF1A0 /* PanningSwitch@2x.png in Resources */,
-				B8CFE4D0157269ED00AAC396 /* Menu.png in Resources */,
-				B8CFE4D4157269ED00AAC396 /* Menu@2x.png in Resources */,
 				AD077DF116A0030E00FA4561 /* Default-568h@2x.png in Resources */,
 				AD077ED416A015FF00FA4561 /* BelloPro.ttf in Resources */,
 				AD72603416A126E400570C9D /* Wood.jpg in Resources */,
@@ -1030,8 +1012,6 @@
 				B8DADF9715654973002DCEF8 /* Notes.txt in Resources */,
 				B8D28BC915667CCF00DCF1A0 /* PanningSwitch.png in Resources */,
 				B8D28BCC15667CCF00DCF1A0 /* PanningSwitch@2x.png in Resources */,
-				B8CFE4D1157269ED00AAC396 /* Menu.png in Resources */,
-				B8CFE4D5157269ED00AAC396 /* Menu@2x.png in Resources */,
 				AD077ED516A015FF00FA4561 /* BelloPro.ttf in Resources */,
 				AD72603516A126E400570C9D /* Wood.jpg in Resources */,
 				AD72603916A126E400570C9D /* Wood@2x.jpg in Resources */,

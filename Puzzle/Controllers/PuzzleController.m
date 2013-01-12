@@ -75,7 +75,7 @@
     
     //DLog(@"%@", [UIFont fontNamesForFamilyName:@"Bello Pro"]);
         
-    scoreLabel.font = [UIFont fontWithName:@"Bello-Pro" size:40];
+    //scoreLabel.font = [UIFont fontWithName:@"Bello-Pro" size:40];
 
     
     [super viewDidLoad];
@@ -3366,7 +3366,7 @@
 }
 
 - (IBAction)rateGame {
-    
+    /*
     NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
     
     if (![prefs boolForKey:@"Reviewed"]) {
@@ -3378,6 +3378,7 @@
         
         DLog(@"Already rated");
     }
+     */
     
 }
 

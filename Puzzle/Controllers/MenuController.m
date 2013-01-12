@@ -10,7 +10,7 @@
 #import "PuzzleController.h"
 #import "NewGameController.h"
 #import "LoadGameController.h"
-
+#define WOOD [UIColor colorWithPatternImage:[UIImage imageNamed:@"Wood.jpg"]]
 @interface MenuController ()
 
 @end
@@ -120,10 +120,10 @@
 
 - (void)playMenuSound {
     
-    if (!IS_DEVICE_PLAUYING_MUSIC) {
+    //if (!IS_DEVICE_PLAUYING_MUSIC) {
         
-        [menuSound play];
-    }
+        //[menuSound play];
+    //}
 }
 
 - (IBAction)loadGame:(id)sender {
@@ -140,7 +140,7 @@
 
 - (IBAction)resumeGame:(id)sender {
     
-    DLog(@"Resume game");
+    //DLog(@"Resume game");
     
     delegate.puzzleCompleteImage.alpha = 0;
     [self toggleMenuWithDuration:0.5];
