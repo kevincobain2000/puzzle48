@@ -10,7 +10,7 @@
 #import "PuzzleController.h"
 #import "NewGameController.h"
 #import "LoadGameController.h"
-#define WOOD [UIColor colorWithPatternImage:[UIImage imageNamed:@"Wood.jpg"]]
+
 @interface MenuController ()
 
 @end
@@ -186,7 +186,7 @@
     CGRect screen = [[UIScreen mainScreen] bounds];
     CGRect rect = CGRectMake(0, 0, screen.size.height, screen.size.height);
     obscuringView = [[UIView alloc] initWithFrame:rect];
-    obscuringView.backgroundColor = WOOD;
+    obscuringView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"pink-hearts.png"]];
     
     
     chooseLabel = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ChooseLabel"]];
