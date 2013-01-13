@@ -298,7 +298,7 @@
 					<object class="IBUIButton" id="198605927">
 						<reference key="NSNextResponder" ref="544214420"/>
 						<int key="NSvFlags">269</int>
-						<string key="NSFrame">{{214, 354}, {86, 33}}</string>
+						<string key="NSFrame">{{214, 344}, {86, 33}}</string>
 						<reference key="NSSuperview" ref="544214420"/>
 						<reference key="NSNextKeyView" ref="519756556"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
@@ -306,26 +306,23 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<int key="IBUIButtonType">1</int>
 						<string key="IBUITitleShadowOffset">{0, 1}</string>
 						<string key="IBUINormalTitle">Start</string>
 						<reference key="IBUIHighlightedTitleColor" ref="25717618"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC4xOTYwNzg0MzE0IDAuMzA5ODAzOTIxNiAwLjUyMTU2ODYyNzUAA</bytes>
+							<bytes key="NSRGB">MC45NzU5MjMwMzY5IDEgMC4wODM2NTEyMzE1MwA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="946597258"/>
-						<object class="NSCustomResource" key="IBUINormalBackgroundImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">ipad-button-green.png</string>
+						<object class="IBUIFontDescription" key="IBUIFontDescription">
+							<string key="name">Noteworthy-Bold</string>
+							<string key="family">Noteworthy</string>
+							<int key="traits">2</int>
+							<double key="pointSize">25</double>
 						</object>
-						<object class="IBUIFontDescription" key="IBUIFontDescription" id="947444215">
-							<int key="type">2</int>
-							<int key="size">2</int>
-						</object>
-						<object class="NSFont" key="IBUIFont" id="294932231">
-							<string key="NSName">Helvetica-Bold</string>
-							<double key="NSSize">18</double>
+						<object class="NSFont" key="IBUIFont">
+							<string key="NSName">Noteworthy-Bold</string>
+							<double key="NSSize">25</double>
 							<int key="NSfFlags">16</int>
 						</object>
 					</object>
@@ -413,6 +410,7 @@
 						<int key="NSvFlags">-2147483356</int>
 						<string key="NSFrame">{{40, 396}, {240, 9}}</string>
 						<reference key="NSSuperview" ref="544214420"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -428,7 +426,7 @@
 					<object class="IBUIButton" id="627943688">
 						<reference key="NSNextResponder" ref="544214420"/>
 						<int key="NSvFlags">269</int>
-						<string key="NSFrame">{{27, 354}, {86, 34}}</string>
+						<string key="NSFrame">{{20, 344}, {86, 34}}</string>
 						<reference key="NSSuperview" ref="544214420"/>
 						<reference key="NSNextKeyView" ref="198605927"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
@@ -436,18 +434,25 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<int key="IBUIButtonType">1</int>
 						<string key="IBUITitleShadowOffset">{0, 1}</string>
 						<string key="IBUINormalTitle">Back</string>
 						<reference key="IBUIHighlightedTitleColor" ref="25717618"/>
-						<reference key="IBUINormalTitleColor" ref="25717618"/>
-						<reference key="IBUINormalTitleShadowColor" ref="946597258"/>
-						<object class="NSCustomResource" key="IBUINormalBackgroundImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">ipad-button-blue.png</string>
+						<object class="NSColor" key="IBUINormalTitleColor">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MC45NzU5MjMwMzY5IDEgMC4wODM2NTEyMzE1MwA</bytes>
 						</object>
-						<reference key="IBUIFontDescription" ref="947444215"/>
-						<reference key="IBUIFont" ref="294932231"/>
+						<reference key="IBUINormalTitleShadowColor" ref="946597258"/>
+						<object class="IBUIFontDescription" key="IBUIFontDescription">
+							<string key="name">Noteworthy-Bold</string>
+							<string key="family">Noteworthy</string>
+							<int key="traits">2</int>
+							<double key="pointSize">26</double>
+						</object>
+						<object class="NSFont" key="IBUIFont">
+							<string key="NSName">Noteworthy-Bold</string>
+							<double key="NSSize">26</double>
+							<int key="NSfFlags">16</int>
+						</object>
 					</object>
 					<object class="IBUIButton" id="718567150">
 						<reference key="NSNextResponder" ref="544214420"/>
@@ -971,11 +976,10 @@
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
-		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="Amsterdam bikes_puzzle.jpg">{2200, 2200}</string>
-			<string key="ipad-button-blue.png">{157, 49}</string>
-			<string key="ipad-button-green.png">{159, 51}</string>
-		</dictionary>
+		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
+			<string key="NS.key.0">Amsterdam bikes_puzzle.jpg</string>
+			<string key="NS.object.0">{2200, 2200}</string>
+		</object>
 		<string key="IBCocoaTouchPluginVersion">1930</string>
 	</data>
 </archive>

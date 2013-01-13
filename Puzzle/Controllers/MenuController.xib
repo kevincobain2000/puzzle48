@@ -87,26 +87,26 @@
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<int key="IBUIContentHorizontalAlignment">0</int>
 								<int key="IBUIContentVerticalAlignment">0</int>
-								<int key="IBUIButtonType">1</int>
 								<string key="IBUITitleShadowOffset">{0, 1}</string>
 								<string key="IBUINormalTitle">Start new game</string>
 								<reference key="IBUIHighlightedTitleColor" ref="320418152"/>
-								<reference key="IBUINormalTitleColor" ref="320418152"/>
+								<object class="NSColor" key="IBUINormalTitleColor">
+									<int key="NSColorSpace">1</int>
+									<bytes key="NSRGB">MC45NzU5MjMwMzY5IDEgMC4wODM2NTEyMzE1MwA</bytes>
+								</object>
 								<object class="NSColor" key="IBUINormalTitleShadowColor" id="1032495856">
 									<int key="NSColorSpace">3</int>
 									<bytes key="NSWhite">MC41AA</bytes>
 								</object>
-								<object class="NSCustomResource" key="IBUINormalBackgroundImage">
-									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">ipad-button-green.png</string>
+								<object class="IBUIFontDescription" key="IBUIFontDescription" id="416931378">
+									<string key="name">Noteworthy-Bold</string>
+									<string key="family">Noteworthy</string>
+									<int key="traits">2</int>
+									<double key="pointSize">26</double>
 								</object>
-								<object class="IBUIFontDescription" key="IBUIFontDescription" id="603774146">
-									<int key="type">2</int>
-									<int key="size">2</int>
-								</object>
-								<object class="NSFont" key="IBUIFont" id="809187725">
-									<string key="NSName">Helvetica-Bold</string>
-									<double key="NSSize">18</double>
+								<object class="NSFont" key="IBUIFont" id="735732022">
+									<string key="NSName">Noteworthy-Bold</string>
+									<double key="NSSize">26</double>
 									<int key="NSfFlags">16</int>
 								</object>
 							</object>
@@ -121,18 +121,20 @@
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<int key="IBUIContentHorizontalAlignment">0</int>
 								<int key="IBUIContentVerticalAlignment">0</int>
-								<int key="IBUIButtonType">1</int>
 								<string key="IBUITitleShadowOffset">{0, 1}</string>
 								<string key="IBUINormalTitle">Resume game</string>
 								<reference key="IBUIHighlightedTitleColor" ref="320418152"/>
-								<reference key="IBUINormalTitleColor" ref="320418152"/>
-								<reference key="IBUINormalTitleShadowColor" ref="1032495856"/>
-								<object class="NSCustomResource" key="IBUINormalBackgroundImage">
-									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">ipad-button-blue.png</string>
+								<object class="NSColor" key="IBUISelectedTitleColor">
+									<int key="NSColorSpace">1</int>
+									<bytes key="NSRGB">MC45NzU5MjMwMzY5IDEgMC4wODM2NTEyMzE1MwA</bytes>
 								</object>
-								<reference key="IBUIFontDescription" ref="603774146"/>
-								<reference key="IBUIFont" ref="809187725"/>
+								<object class="NSColor" key="IBUINormalTitleColor">
+									<int key="NSColorSpace">1</int>
+									<bytes key="NSRGB">MC45NzU5MjMwMzY5IDEgMC4wODM2NTEyMzE1MwA</bytes>
+								</object>
+								<reference key="IBUINormalTitleShadowColor" ref="1032495856"/>
+								<reference key="IBUIFontDescription" ref="416931378"/>
+								<reference key="IBUIFont" ref="735732022"/>
 							</object>
 						</array>
 						<string key="NSFrame">{{0, 2}, {320, 567}}</string>
@@ -289,7 +291,7 @@
 				<real value="1" key="4.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<string key="44.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="46.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<real value="2" key="46.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
+				<real value="0.0" key="46.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<string key="5.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<real value="0.0" key="5.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<string key="8.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -305,10 +307,6 @@
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
-		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="ipad-button-blue.png">{157, 49}</string>
-			<string key="ipad-button-green.png">{159, 51}</string>
-		</dictionary>
 		<string key="IBCocoaTouchPluginVersion">1930</string>
 	</data>
 </archive>

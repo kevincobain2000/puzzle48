@@ -30,8 +30,8 @@
     
     
     //piecesLabel.titleLabel.font = [UIFont fontWithName:@"Bello-Pro" size:40];
-    backButton.titleLabel.font = [UIFont fontWithName:@"Bello-Pro" size:40];
-    startButton.titleLabel.font = [UIFont fontWithName:@"Bello-Pro" size:40];
+    //backButton.titleLabel.font = [UIFont fontWithName:@"Bello-Pro" size:40];
+    //startButton.titleLabel.font = [UIFont fontWithName:@"Bello-Pro" size:40];
     
     pieceNumberLabel.text = [NSString stringWithFormat:@"%d ", (int)slider.value*(int)slider.value];
     
@@ -55,8 +55,8 @@
     //loadingView.layer.cornerRadius = 10;
     //loadingView.layer.masksToBounds = YES;
     
-    //image.layer.cornerRadius = 20;
-    //image.layer.masksToBounds = YES;
+    image.layer.cornerRadius = 10;
+    image.layer.masksToBounds = YES;
     
     //tapToSelectView.layer.cornerRadius = 20;
     //tapToSelectView.layer.masksToBounds = YES;
