@@ -9950,7 +9950,6 @@ AAEAAQABA</bytes>
 								<string key="NSFrame">{{51, -4}, {50, 35}}</string>
 								<reference key="NSSuperview" ref="775788706"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<float key="IBUIAlpha">0.5</float>
@@ -9997,7 +9996,7 @@ AAEAAQABA</bytes>
 										<reference key="IBUIHighlightedTitleColor" ref="27754075"/>
 										<object class="NSColor" key="IBUINormalTitleColor">
 											<int key="NSColorSpace">1</int>
-											<bytes key="NSRGB">MC45NzU5MjMwMzY5IDEgMC4wODM2NTEyMzE1MwA</bytes>
+											<bytes key="NSRGB">MC45MTQ3MDU2NzM2IDAuOTM1OTQ1NDcxOSAwLjA4ODgxNjY0MTIxAA</bytes>
 										</object>
 										<reference key="IBUINormalTitleShadowColor" ref="1061150384"/>
 										<object class="IBUIFontDescription" key="IBUIFontDescription">

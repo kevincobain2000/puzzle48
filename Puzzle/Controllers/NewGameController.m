@@ -13,9 +13,10 @@
 #import "UIImage+CWAdditions.h"
 #import "PuzzleLibraryController.h"
 #import "Animations.h"
+
 #define IMAGE_QUALITY 0.5
 #define WOOD [UIColor colorWithPatternImage:[UIImage imageNamed:@"Wood.jpg"]]
-#define NUM_OF_PIECES 4
+#define NUM_OF_PIECES 2
 @interface NewGameController ()
 
 @end
@@ -27,6 +28,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"swoop" ofType:@"aif"]];
+    audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil] ;
+    [audioPlayer prepareToPlay]; //sound when image is tapped
     
     [Animations frameAndShadow:image];
     //piecesLabel.titleLabel.font = [UIFont fontWithName:@"Bello-Pro" size:40];
@@ -175,7 +179,7 @@
 
 
 - (IBAction)selectImageFromPuzzleLibrary:(id)sender {
-    
+    [audioPlayer play];
     [delegate playMenuSound];
     delegate.chooseLabel.alpha = 1;
     
@@ -251,6 +255,7 @@
 }
 
 - (IBAction)startNewGame:(id)sender {
+    [audioPlayer play];
     [Animations buttonPressAnimate:startButton andAnimationDuration:0.25 andWait:YES];
     
     //[delegate playMenuSound];
@@ -278,6 +283,7 @@
 }
 
 - (IBAction)back:(id)sender {
+    [audioPlayer play];
     [Animations buttonPressAnimate:backButton andAnimationDuration:0.25 andWait:YES];
     //[delegate playMenuSound];
     

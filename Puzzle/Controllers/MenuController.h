@@ -37,6 +37,7 @@
     IBOutlet UIProgressView *progressView;
     IBOutlet UIActivityIndicatorView *indicator;
     IBOutlet UIView *loadingView;
+    AVAudioPlayer *audioPlayer;
     
 }
 

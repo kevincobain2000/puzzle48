@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <AVFoundation/AVFoundation.h>
 @class NewGameController;
 
 @interface PuzzleLibraryController : UITableViewController {
@@ -16,6 +16,7 @@
     
     NSArray *thumbs;
     NSArray *paths;
+    AVAudioPlayer *audioPlayer;
 }
 
 @property (nonatomic, unsafe_unretained) NewGameController *delegate;

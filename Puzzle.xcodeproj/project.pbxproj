@@ -12,6 +12,7 @@
 		AD077ED516A015FF00FA4561 /* BelloPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD077ED316A015FF00FA4561 /* BelloPro.ttf */; };
 		AD077ED616A015FF00FA4561 /* BelloPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD077ED316A015FF00FA4561 /* BelloPro.ttf */; };
 		AD077ED716A015FF00FA4561 /* BelloPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD077ED316A015FF00FA4561 /* BelloPro.ttf */; };
+		AD589E7216A3E9F300BB15D4 /* Valentines-Day-iPad-Wallpaper-37.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD589E7116A3E9F300BB15D4 /* Valentines-Day-iPad-Wallpaper-37.jpg */; };
 		AD72604516A1342000570C9D /* ipad-button-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = AD72604316A1342000570C9D /* ipad-button-blue.png */; };
 		AD72604616A1342000570C9D /* ipad-button-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = AD72604316A1342000570C9D /* ipad-button-blue.png */; };
 		AD72604716A1342000570C9D /* ipad-button-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = AD72604316A1342000570C9D /* ipad-button-blue.png */; };
@@ -305,6 +306,7 @@
 /* Begin PBXFileReference section */
 		AD077DF016A0030E00FA4561 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		AD077ED316A015FF00FA4561 /* BelloPro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BelloPro.ttf; sourceTree = "<group>"; };
+		AD589E7116A3E9F300BB15D4 /* Valentines-Day-iPad-Wallpaper-37.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Valentines-Day-iPad-Wallpaper-37.jpg"; sourceTree = "<group>"; };
 		AD72604316A1342000570C9D /* ipad-button-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad-button-blue.png"; sourceTree = "<group>"; };
 		AD72604416A1342000570C9D /* ipad-button-blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad-button-blue@2x.png"; sourceTree = "<group>"; };
 		AD72604E16A1348B00570C9D /* ipad-button-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad-button-green.png"; sourceTree = "<group>"; };
@@ -699,6 +701,7 @@
 		B8E1815E15503AF800A8B450 /* PNGs */ = {
 			isa = PBXGroup;
 			children = (
+				AD589E7116A3E9F300BB15D4 /* Valentines-Day-iPad-Wallpaper-37.jpg */,
 				ADBF272F16A2EDFD006380D4 /* pink-hearts.png */,
 				ADBF273016A2EDFD006380D4 /* pink-hearts@2x.png */,
 				ADBF272716A2EB10006380D4 /* hear_box@2x.png */,
@@ -994,6 +997,7 @@
 				ADBF273116A2EDFD006380D4 /* pink-hearts.png in Resources */,
 				ADBF273216A2EDFD006380D4 /* pink-hearts@2x.png in Resources */,
 				ADFBEBDF16A3C174004B1630 /* swoop.aif in Resources */,
+				AD589E7216A3E9F300BB15D4 /* Valentines-Day-iPad-Wallpaper-37.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

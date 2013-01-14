@@ -10,7 +10,7 @@
 #import "NewGameController.h"
 #import "MenuController.h"
 #import <QuartzCore/QuartzCore.h>
-
+#import "Animations.h"
 #define IMAGE_SIZE 240
 
 @implementation PhotoCell
@@ -206,8 +206,11 @@
             float w = self.view.bounds.size.width;
             cell = [[PhotoCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
             cell.photo = [[UIImageView alloc] initWithFrame:CGRectMake((w-IMAGE_SIZE)/2, (w-IMAGE_SIZE)/2, IMAGE_SIZE, IMAGE_SIZE-50)];
+            [Animations frameAndShadow:cell.photo];
             cell.photo.layer.cornerRadius = 10;
+            
             cell.photo.layer.masksToBounds = YES;
+            
             [cell addSubview:cell.photo];
             UIView *v = [[UIView alloc] init];
             v.backgroundColor = [UIColor magentaColor];
@@ -230,6 +233,10 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"swoop" ofType:@"aif"]];
+    audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil] ;
+    [audioPlayer prepareToPlay];
+    [audioPlayer play];
     
     if (indexPath.section==0) {
         

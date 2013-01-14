@@ -80,6 +80,7 @@
 }
 
 - (IBAction)startNewGame:(id)sender {
+    [audioPlayer play];
     [Animations buttonPressAnimate:newGameButton andAnimationDuration:0.25 andWait:NO];
     if (sender!=nil) {
         
@@ -111,10 +112,14 @@
 
 - (void)loadSounds {
     
-    NSString *soundPath =[[NSBundle mainBundle] pathForResource:@"Scissors_Shears" ofType:@"wav"];
-    NSURL *soundURL = [NSURL fileURLWithPath:soundPath];
-    menuSound = [[AVAudioPlayer alloc] initWithContentsOfURL:soundURL error:nil];
-    [menuSound prepareToPlay];
+    //NSString *soundPath =[[NSBundle mainBundle] pathForResource:@"Scissors_Shears" ofType:@"wav"];
+    //NSURL *soundURL = [NSURL fileURLWithPath:soundPath];
+    //menuSound = [[AVAudioPlayer alloc] initWithContentsOfURL:soundURL error:nil];
+    //[menuSound prepareToPlay];
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"swoop" ofType:@"aif"]];
+    audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil] ;
+    [audioPlayer prepareToPlay];
+    
 
 }
 
@@ -138,7 +143,9 @@
     }];
 }
 
+
 - (IBAction)resumeGame:(id)sender {
+    [audioPlayer play]; //plays swoop sound
     [Animations buttonPressAnimate:resumeButton andAnimationDuration:0.25 andWait:NO];
     //DLog(@"Resume game");
     
@@ -186,8 +193,18 @@
     CGRect screen = [[UIScreen mainScreen] bounds];
     CGRect rect = CGRectMake(0, 0, screen.size.height, screen.size.height);
     obscuringView = [[UIView alloc] initWithFrame:rect];
-    obscuringView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"pink-hearts.png"]];
     
+    
+    
+
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad){
+        NSLog(@"Change image for ipad");
+        obscuringView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Valentines-Day-iPad-Wallpaper-37.jpg"]];
+        
+    }
+    else{
+        obscuringView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"pink-hearts.png"]];
+    }
     
     chooseLabel = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ChooseLabel"]];
     chooseLabel.alpha = 0;
@@ -198,7 +215,7 @@
     [delegate.view bringSubviewToFront:self.view];
     
     resumeButton.hidden = YES;
-    showThePictureButton.hidden = YES; 
+    showThePictureButton.hidden = YES;
     
     
     mainView.frame = CGRectMake(0, 0, mainView.frame.size.width, mainView.frame.size.height);

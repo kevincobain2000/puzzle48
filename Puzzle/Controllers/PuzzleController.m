@@ -394,7 +394,7 @@
 }
 
 - (IBAction)toggleMenu:(id)sender {
-    
+    //[audioPlayer play];//don't need this sound
     [Animations buttonPressAnimate:self.buttonMenuOutlet andAnimationDuration:0.25 andWait:NO];
     
     if (sender!=nil) [menu playMenuSound];
@@ -1749,7 +1749,9 @@
                                     !([self isTheFuckingPiecePositioned:piece])
                                     ) {
                                     
-                                    [neighborSound play];
+                                    //[neighborSound play];
+                                    //NSLog(@"playing main game sound");
+                                    
                                 }
                                 
                                 //DLog(@"piece.isPositioned = %d, otherpiece.isPositioned = %d", piece.isPositioned, otherPiece.isPositioned);
@@ -1838,6 +1840,8 @@
             //DLog(@"Salvi! Piece #%d is positioned! :-)", piece.number);
             
             [piece pulse];
+            [audioPlayer play]; //plays pulse sound
+            NSLog(@"pulse sound");
 
             
             if (![self isPuzzleComplete] && !loadingGame) {
@@ -3140,7 +3144,12 @@
 }
 
 - (void)loadSounds {
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"swoop" ofType:@"aif"]];
+    NSLog(@"Change this sound to pulse sound, sound when piece is correctly placed");
+    audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil] ;
+    [audioPlayer prepareToPlay];
     
+    /*
     NSString *soundPath =[[NSBundle mainBundle] pathForResource:@"PiecePositioned" ofType:@"mp3"];
     NSURL *soundURL = [NSURL fileURLWithPath:soundPath];
     positionedSound = [[AVAudioPlayer alloc] initWithContentsOfURL:soundURL error:nil];
@@ -3161,6 +3170,7 @@
     soundURL = [NSURL fileURLWithPath:soundPath];   
     neighborSound = [[AVAudioPlayer alloc] initWithContentsOfURL:soundURL error:nil];
     [neighborSound prepareToPlay];
+     */
 
 }
 

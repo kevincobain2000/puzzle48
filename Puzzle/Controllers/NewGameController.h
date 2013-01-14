@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 @class MenuController, PuzzleLibraryController;
 
 @protocol NewGameDelegate
@@ -32,6 +33,7 @@
     NSTimer *timer;
     
     int times;
+    AVAudioPlayer *audioPlayer;
 }
 
 @property (nonatomic, strong) IBOutlet UIProgressView *progressView;
