@@ -89,11 +89,6 @@
 		B82375B015626FC300426E92 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B8154B502900750458 /* icon.png */; };
 		B82375B115626FC300426E92 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B9154B502900750458 /* icon@2x.png */; };
 		B82375B215626FC300426E92 /* NewGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19CD154B565400750458 /* NewGameController.xib */; };
-		B82375B415626FC300426E92 /* NeighborFound.wav in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCC0155BA1C400A901A3 /* NeighborFound.wav */; };
-		B82375B515626FC300426E92 /* PiecePositioned.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCC1155BA1C400A901A3 /* PiecePositioned.mp3 */; };
-		B82375B615626FC300426E92 /* PuzzleCompleted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCC2155BA1C400A901A3 /* PuzzleCompleted.mp3 */; };
-		B82375B715626FC300426E92 /* MenuSound.aif in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCCF155BB78A00A901A3 /* MenuSound.aif */; };
-		B82375B815626FC300426E92 /* Scissors_Shears.wav in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCD5155BB9E000A901A3 /* Scissors_Shears.wav */; };
 		B82375B915626FC300426E92 /* PuzzleLibraryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCE5155BDB0700A901A3 /* PuzzleLibraryController.xib */; };
 		B82375E215626FC300426E92 /* ChooseLabel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E720155FB612002FE0A2 /* ChooseLabel@2x.png */; };
 		B82375E315626FC300426E92 /* ChooseLabel.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E721155FB612002FE0A2 /* ChooseLabel.png */; };
@@ -161,11 +156,6 @@
 		B874B34C156D67D80089D4E4 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B8154B502900750458 /* icon.png */; };
 		B874B34D156D67D80089D4E4 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B9154B502900750458 /* icon@2x.png */; };
 		B874B34E156D67D80089D4E4 /* NewGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19CD154B565400750458 /* NewGameController.xib */; };
-		B874B350156D67D80089D4E4 /* NeighborFound.wav in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCC0155BA1C400A901A3 /* NeighborFound.wav */; };
-		B874B351156D67D80089D4E4 /* PiecePositioned.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCC1155BA1C400A901A3 /* PiecePositioned.mp3 */; };
-		B874B352156D67D80089D4E4 /* PuzzleCompleted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCC2155BA1C400A901A3 /* PuzzleCompleted.mp3 */; };
-		B874B353156D67D80089D4E4 /* MenuSound.aif in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCCF155BB78A00A901A3 /* MenuSound.aif */; };
-		B874B354156D67D80089D4E4 /* Scissors_Shears.wav in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCD5155BB9E000A901A3 /* Scissors_Shears.wav */; };
 		B874B355156D67D80089D4E4 /* PuzzleLibraryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCE5155BDB0700A901A3 /* PuzzleLibraryController.xib */; };
 		B874B37E156D67D80089D4E4 /* ChooseLabel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E720155FB612002FE0A2 /* ChooseLabel@2x.png */; };
 		B874B37F156D67D80089D4E4 /* ChooseLabel.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E721155FB612002FE0A2 /* ChooseLabel.png */; };
@@ -241,16 +231,6 @@
 		B8DADF9615654973002DCEF8 /* Notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = B8DADF9515654973002DCEF8 /* Notes.txt */; };
 		B8DADF9715654973002DCEF8 /* Notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = B8DADF9515654973002DCEF8 /* Notes.txt */; };
 		B8DADF9815654973002DCEF8 /* Notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = B8DADF9515654973002DCEF8 /* Notes.txt */; };
-		B8DAFCC4155BA1C400A901A3 /* NeighborFound.wav in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCC0155BA1C400A901A3 /* NeighborFound.wav */; };
-		B8DAFCC5155BA1C400A901A3 /* NeighborFound.wav in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCC0155BA1C400A901A3 /* NeighborFound.wav */; };
-		B8DAFCC6155BA1C400A901A3 /* PiecePositioned.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCC1155BA1C400A901A3 /* PiecePositioned.mp3 */; };
-		B8DAFCC7155BA1C400A901A3 /* PiecePositioned.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCC1155BA1C400A901A3 /* PiecePositioned.mp3 */; };
-		B8DAFCC8155BA1C400A901A3 /* PuzzleCompleted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCC2155BA1C400A901A3 /* PuzzleCompleted.mp3 */; };
-		B8DAFCC9155BA1C400A901A3 /* PuzzleCompleted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCC2155BA1C400A901A3 /* PuzzleCompleted.mp3 */; };
-		B8DAFCD0155BB78A00A901A3 /* MenuSound.aif in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCCF155BB78A00A901A3 /* MenuSound.aif */; };
-		B8DAFCD1155BB78A00A901A3 /* MenuSound.aif in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCCF155BB78A00A901A3 /* MenuSound.aif */; };
-		B8DAFCD6155BB9E000A901A3 /* Scissors_Shears.wav in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCD5155BB9E000A901A3 /* Scissors_Shears.wav */; };
-		B8DAFCD7155BB9E000A901A3 /* Scissors_Shears.wav in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCD5155BB9E000A901A3 /* Scissors_Shears.wav */; };
 		B8DAFCE6155BDB0700A901A3 /* PuzzleLibraryController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DAFCE4155BDB0700A901A3 /* PuzzleLibraryController.m */; };
 		B8DAFCE7155BDB0700A901A3 /* PuzzleLibraryController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DAFCE4155BDB0700A901A3 /* PuzzleLibraryController.m */; };
 		B8DAFCE8155BDB0700A901A3 /* PuzzleLibraryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCE5155BDB0700A901A3 /* PuzzleLibraryController.xib */; };
@@ -403,11 +383,6 @@
 		B8D28BC615667CCF00DCF1A0 /* PanningSwitch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PanningSwitch.png; path = PNGs/PanningSwitch.png; sourceTree = "<group>"; };
 		B8D28BC715667CCF00DCF1A0 /* PanningSwitch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PanningSwitch@2x.png"; path = "PNGs/PanningSwitch@2x.png"; sourceTree = "<group>"; };
 		B8DADF9515654973002DCEF8 /* Notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Notes.txt; sourceTree = "<group>"; };
-		B8DAFCC0155BA1C400A901A3 /* NeighborFound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = NeighborFound.wav; path = Audio/NeighborFound.wav; sourceTree = "<group>"; };
-		B8DAFCC1155BA1C400A901A3 /* PiecePositioned.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = PiecePositioned.mp3; path = Audio/PiecePositioned.mp3; sourceTree = "<group>"; };
-		B8DAFCC2155BA1C400A901A3 /* PuzzleCompleted.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = PuzzleCompleted.mp3; path = Audio/PuzzleCompleted.mp3; sourceTree = "<group>"; };
-		B8DAFCCF155BB78A00A901A3 /* MenuSound.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = MenuSound.aif; path = Audio/MenuSound.aif; sourceTree = "<group>"; };
-		B8DAFCD5155BB9E000A901A3 /* Scissors_Shears.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Scissors_Shears.wav; path = Audio/Scissors_Shears.wav; sourceTree = "<group>"; };
 		B8DAFCE3155BDB0600A901A3 /* PuzzleLibraryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PuzzleLibraryController.h; path = Controllers/PuzzleLibraryController.h; sourceTree = "<group>"; };
 		B8DAFCE4155BDB0700A901A3 /* PuzzleLibraryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PuzzleLibraryController.m; path = Controllers/PuzzleLibraryController.m; sourceTree = "<group>"; };
 		B8DAFCE5155BDB0700A901A3 /* PuzzleLibraryController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PuzzleLibraryController.xib; path = Controllers/PuzzleLibraryController.xib; sourceTree = "<group>"; };
@@ -733,11 +708,6 @@
 				AD589E8016A3F6F800BB15D4 /* Applause-faded.mp3 */,
 				AD589E7A16A3F2B400BB15D4 /* Button.wav */,
 				AD589E7816A3F0C800BB15D4 /* buttonPress.wav */,
-				B8DAFCD5155BB9E000A901A3 /* Scissors_Shears.wav */,
-				B8DAFCCF155BB78A00A901A3 /* MenuSound.aif */,
-				B8DAFCC0155BA1C400A901A3 /* NeighborFound.wav */,
-				B8DAFCC1155BA1C400A901A3 /* PiecePositioned.mp3 */,
-				B8DAFCC2155BA1C400A901A3 /* PuzzleCompleted.mp3 */,
 			);
 			name = Audio;
 			sourceTree = "<group>";
@@ -864,11 +834,6 @@
 				B82375B015626FC300426E92 /* icon.png in Resources */,
 				B82375B115626FC300426E92 /* icon@2x.png in Resources */,
 				B82375B215626FC300426E92 /* NewGameController.xib in Resources */,
-				B82375B415626FC300426E92 /* NeighborFound.wav in Resources */,
-				B82375B515626FC300426E92 /* PiecePositioned.mp3 in Resources */,
-				B82375B615626FC300426E92 /* PuzzleCompleted.mp3 in Resources */,
-				B82375B715626FC300426E92 /* MenuSound.aif in Resources */,
-				B82375B815626FC300426E92 /* Scissors_Shears.wav in Resources */,
 				B82375B915626FC300426E92 /* PuzzleLibraryController.xib in Resources */,
 				B82375E215626FC300426E92 /* ChooseLabel@2x.png in Resources */,
 				B82375E315626FC300426E92 /* ChooseLabel.png in Resources */,
@@ -911,11 +876,6 @@
 				B874B34C156D67D80089D4E4 /* icon.png in Resources */,
 				B874B34D156D67D80089D4E4 /* icon@2x.png in Resources */,
 				B874B34E156D67D80089D4E4 /* NewGameController.xib in Resources */,
-				B874B350156D67D80089D4E4 /* NeighborFound.wav in Resources */,
-				B874B351156D67D80089D4E4 /* PiecePositioned.mp3 in Resources */,
-				B874B352156D67D80089D4E4 /* PuzzleCompleted.mp3 in Resources */,
-				B874B353156D67D80089D4E4 /* MenuSound.aif in Resources */,
-				B874B354156D67D80089D4E4 /* Scissors_Shears.wav in Resources */,
 				B874B355156D67D80089D4E4 /* PuzzleLibraryController.xib in Resources */,
 				B874B37E156D67D80089D4E4 /* ChooseLabel@2x.png in Resources */,
 				B874B37F156D67D80089D4E4 /* ChooseLabel.png in Resources */,
@@ -958,11 +918,6 @@
 				B8AA19C0154B502900750458 /* icon.png in Resources */,
 				B8AA19C1154B502900750458 /* icon@2x.png in Resources */,
 				B8AA19CF154B565400750458 /* NewGameController.xib in Resources */,
-				B8DAFCC4155BA1C400A901A3 /* NeighborFound.wav in Resources */,
-				B8DAFCC6155BA1C400A901A3 /* PiecePositioned.mp3 in Resources */,
-				B8DAFCC8155BA1C400A901A3 /* PuzzleCompleted.mp3 in Resources */,
-				B8DAFCD0155BB78A00A901A3 /* MenuSound.aif in Resources */,
-				B8DAFCD6155BB9E000A901A3 /* Scissors_Shears.wav in Resources */,
 				B8DAFCE8155BDB0700A901A3 /* PuzzleLibraryController.xib in Resources */,
 				B8731465155C373D00FB77FC /* All seeing eye_puzzle.jpg in Resources */,
 				B8731467155C373D00FB77FC /* Amsterdam bikes_puzzle.jpg in Resources */,
@@ -1025,11 +980,6 @@
 				B8E181871550402800A8B450 /* icon.png in Resources */,
 				B8E181881550402800A8B450 /* icon@2x.png in Resources */,
 				B8E181891550402800A8B450 /* NewGameController.xib in Resources */,
-				B8DAFCC5155BA1C400A901A3 /* NeighborFound.wav in Resources */,
-				B8DAFCC7155BA1C400A901A3 /* PiecePositioned.mp3 in Resources */,
-				B8DAFCC9155BA1C400A901A3 /* PuzzleCompleted.mp3 in Resources */,
-				B8DAFCD1155BB78A00A901A3 /* MenuSound.aif in Resources */,
-				B8DAFCD7155BB9E000A901A3 /* Scissors_Shears.wav in Resources */,
 				B8DAFCE9155BDB0700A901A3 /* PuzzleLibraryController.xib in Resources */,
 				B8731466155C373D00FB77FC /* All seeing eye_puzzle.jpg in Resources */,
 				B8731468155C373D00FB77FC /* Amsterdam bikes_puzzle.jpg in Resources */,

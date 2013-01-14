@@ -180,7 +180,7 @@
 
 - (IBAction)selectImageFromPuzzleLibrary:(id)sender {
     [audioPlayer play];
-    [delegate playMenuSound];
+    //[delegate playMenuSound];
     delegate.chooseLabel.alpha = 1;
     
     
@@ -205,7 +205,7 @@
 
 - (IBAction)selectImageFromPhotoLibrary:(UIButton*)sender {
     
-    [delegate playMenuSound];
+    //[delegate playMenuSound];
     delegate.chooseLabel.alpha = 1;
     
     int direction;
@@ -246,7 +246,7 @@
 
 - (IBAction)selectImage:(id)sender {
     
-    [delegate playMenuSound];
+    //[delegate playMenuSound];
     
     typeOfImageView.hidden = NO;
     [UIView animateWithDuration:0.3 animations:^{

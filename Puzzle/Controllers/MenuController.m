@@ -84,7 +84,7 @@
     [Animations buttonPressAnimate:newGameButton andAnimationDuration:0.25 andWait:NO];
     if (sender!=nil) {
         
-        [self playMenuSound];
+        //[self playMenuSound];
         
         [UIView animateWithDuration:0.3 animations:^{
             
@@ -151,7 +151,7 @@
     
     delegate.puzzleCompleteImage.alpha = 0;
     [self toggleMenuWithDuration:0.5];
-    [self playMenuSound];
+    //[self playMenuSound];
 }
 
 - (IBAction)showThePicture:(id)sender {
@@ -161,7 +161,7 @@
 
     //[self toggleMenu];    
     [delegate toggleImageWithDuration:0.5];
-    [self playMenuSound];
+    //[self playMenuSound];
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil

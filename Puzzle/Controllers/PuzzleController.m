@@ -402,7 +402,7 @@
     //[audioPlayer play];//don't need this sound
     [Animations buttonPressAnimate:self.buttonMenuOutlet andAnimationDuration:0.25 andWait:NO];
     
-    if (sender!=nil) [menu playMenuSound];
+    //if (sender!=nil) [menu playMenuSound];
     
     menu.duringGame = (puzzleDB!=nil);
     [self.view bringSubviewToFront:menu.obscuringView];
