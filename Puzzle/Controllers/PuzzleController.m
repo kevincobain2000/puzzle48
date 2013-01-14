@@ -3144,8 +3144,8 @@
 }
 
 - (void)loadSounds {
-    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"swoop" ofType:@"aif"]];
-    NSLog(@"Change this sound to pulse sound, sound when piece is correctly placed");
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"buttonPress" ofType:@"wav"]];
+    NSLog(@"This is the Pulse Sound");
     audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil] ;
     [audioPlayer prepareToPlay];
     

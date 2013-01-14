@@ -116,7 +116,7 @@
     //NSURL *soundURL = [NSURL fileURLWithPath:soundPath];
     //menuSound = [[AVAudioPlayer alloc] initWithContentsOfURL:soundURL error:nil];
     //[menuSound prepareToPlay];
-    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"swoop" ofType:@"aif"]];
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Button" ofType:@"wav"]];
     audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil] ;
     [audioPlayer prepareToPlay];
     

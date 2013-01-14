@@ -13,6 +13,8 @@
 		AD077ED616A015FF00FA4561 /* BelloPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD077ED316A015FF00FA4561 /* BelloPro.ttf */; };
 		AD077ED716A015FF00FA4561 /* BelloPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD077ED316A015FF00FA4561 /* BelloPro.ttf */; };
 		AD589E7216A3E9F300BB15D4 /* Valentines-Day-iPad-Wallpaper-37.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD589E7116A3E9F300BB15D4 /* Valentines-Day-iPad-Wallpaper-37.jpg */; };
+		AD589E7916A3F0C800BB15D4 /* buttonPress.wav in Resources */ = {isa = PBXBuildFile; fileRef = AD589E7816A3F0C800BB15D4 /* buttonPress.wav */; };
+		AD589E7B16A3F2B400BB15D4 /* Button.wav in Resources */ = {isa = PBXBuildFile; fileRef = AD589E7A16A3F2B400BB15D4 /* Button.wav */; };
 		AD72604516A1342000570C9D /* ipad-button-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = AD72604316A1342000570C9D /* ipad-button-blue.png */; };
 		AD72604616A1342000570C9D /* ipad-button-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = AD72604316A1342000570C9D /* ipad-button-blue.png */; };
 		AD72604716A1342000570C9D /* ipad-button-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = AD72604316A1342000570C9D /* ipad-button-blue.png */; };
@@ -38,7 +40,6 @@
 		ADBF273116A2EDFD006380D4 /* pink-hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = ADBF272F16A2EDFD006380D4 /* pink-hearts.png */; };
 		ADBF273216A2EDFD006380D4 /* pink-hearts@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADBF273016A2EDFD006380D4 /* pink-hearts@2x.png */; };
 		ADFBEBD716A3BDF2004B1630 /* Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFBEBD616A3BDF2004B1630 /* Animations.m */; };
-		ADFBEBDF16A3C174004B1630 /* swoop.aif in Resources */ = {isa = PBXBuildFile; fileRef = ADFBEBDE16A3C174004B1630 /* swoop.aif */; };
 		B804EF3E156101DF00826712 /* PuzzleCompletedController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */; };
 		B804EF3F156101DF00826712 /* PuzzleCompletedController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */; };
 		B82375801561B58000426E92 /* LoadGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = B823757E1561B58000426E92 /* LoadGameController.m */; };
@@ -307,6 +308,8 @@
 		AD077DF016A0030E00FA4561 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		AD077ED316A015FF00FA4561 /* BelloPro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BelloPro.ttf; sourceTree = "<group>"; };
 		AD589E7116A3E9F300BB15D4 /* Valentines-Day-iPad-Wallpaper-37.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Valentines-Day-iPad-Wallpaper-37.jpg"; sourceTree = "<group>"; };
+		AD589E7816A3F0C800BB15D4 /* buttonPress.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = buttonPress.wav; sourceTree = "<group>"; };
+		AD589E7A16A3F2B400BB15D4 /* Button.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Button.wav; sourceTree = "<group>"; };
 		AD72604316A1342000570C9D /* ipad-button-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad-button-blue.png"; sourceTree = "<group>"; };
 		AD72604416A1342000570C9D /* ipad-button-blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad-button-blue@2x.png"; sourceTree = "<group>"; };
 		AD72604E16A1348B00570C9D /* ipad-button-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad-button-green.png"; sourceTree = "<group>"; };
@@ -321,7 +324,6 @@
 		ADBF273016A2EDFD006380D4 /* pink-hearts@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pink-hearts@2x.png"; sourceTree = "<group>"; };
 		ADFBEBD516A3BDF2004B1630 /* Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animations.h; sourceTree = "<group>"; };
 		ADFBEBD616A3BDF2004B1630 /* Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animations.m; sourceTree = "<group>"; };
-		ADFBEBDE16A3C174004B1630 /* swoop.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoop.aif; sourceTree = "<group>"; };
 		B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PuzzleCompletedController_iPhone.xib; path = Controllers/PuzzleCompletedController_iPhone.xib; sourceTree = "<group>"; };
 		B823757D1561B58000426E92 /* LoadGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadGameController.h; path = Controllers/LoadGameController.h; sourceTree = "<group>"; };
 		B823757E1561B58000426E92 /* LoadGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadGameController.m; path = Controllers/LoadGameController.m; sourceTree = "<group>"; };
@@ -729,7 +731,8 @@
 		B8E1815F15503B0900A8B450 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
-				ADFBEBDE16A3C174004B1630 /* swoop.aif */,
+				AD589E7A16A3F2B400BB15D4 /* Button.wav */,
+				AD589E7816A3F0C800BB15D4 /* buttonPress.wav */,
 				B8DAFCD5155BB9E000A901A3 /* Scissors_Shears.wav */,
 				B8DAFCCF155BB78A00A901A3 /* MenuSound.aif */,
 				B8DAFCC0155BA1C400A901A3 /* NeighborFound.wav */,
@@ -996,8 +999,9 @@
 				ADBF272E16A2EB5D006380D4 /* heart_box_wood.png in Resources */,
 				ADBF273116A2EDFD006380D4 /* pink-hearts.png in Resources */,
 				ADBF273216A2EDFD006380D4 /* pink-hearts@2x.png in Resources */,
-				ADFBEBDF16A3C174004B1630 /* swoop.aif in Resources */,
 				AD589E7216A3E9F300BB15D4 /* Valentines-Day-iPad-Wallpaper-37.jpg in Resources */,
+				AD589E7916A3F0C800BB15D4 /* buttonPress.wav in Resources */,
+				AD589E7B16A3F2B400BB15D4 /* Button.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

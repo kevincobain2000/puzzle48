@@ -28,7 +28,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"swoop" ofType:@"aif"]];
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Button" ofType:@"wav"]];
     audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil] ;
     [audioPlayer prepareToPlay]; //sound when image is tapped
     
