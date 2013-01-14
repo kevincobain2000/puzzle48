@@ -15,6 +15,7 @@
 		AD589E7216A3E9F300BB15D4 /* Valentines-Day-iPad-Wallpaper-37.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD589E7116A3E9F300BB15D4 /* Valentines-Day-iPad-Wallpaper-37.jpg */; };
 		AD589E7916A3F0C800BB15D4 /* buttonPress.wav in Resources */ = {isa = PBXBuildFile; fileRef = AD589E7816A3F0C800BB15D4 /* buttonPress.wav */; };
 		AD589E7B16A3F2B400BB15D4 /* Button.wav in Resources */ = {isa = PBXBuildFile; fileRef = AD589E7A16A3F2B400BB15D4 /* Button.wav */; };
+		AD589E8116A3F6F800BB15D4 /* Applause-faded.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD589E8016A3F6F800BB15D4 /* Applause-faded.mp3 */; };
 		AD72604516A1342000570C9D /* ipad-button-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = AD72604316A1342000570C9D /* ipad-button-blue.png */; };
 		AD72604616A1342000570C9D /* ipad-button-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = AD72604316A1342000570C9D /* ipad-button-blue.png */; };
 		AD72604716A1342000570C9D /* ipad-button-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = AD72604316A1342000570C9D /* ipad-button-blue.png */; };
@@ -310,6 +311,7 @@
 		AD589E7116A3E9F300BB15D4 /* Valentines-Day-iPad-Wallpaper-37.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Valentines-Day-iPad-Wallpaper-37.jpg"; sourceTree = "<group>"; };
 		AD589E7816A3F0C800BB15D4 /* buttonPress.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = buttonPress.wav; sourceTree = "<group>"; };
 		AD589E7A16A3F2B400BB15D4 /* Button.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Button.wav; sourceTree = "<group>"; };
+		AD589E8016A3F6F800BB15D4 /* Applause-faded.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Applause-faded.mp3"; sourceTree = "<group>"; };
 		AD72604316A1342000570C9D /* ipad-button-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad-button-blue.png"; sourceTree = "<group>"; };
 		AD72604416A1342000570C9D /* ipad-button-blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad-button-blue@2x.png"; sourceTree = "<group>"; };
 		AD72604E16A1348B00570C9D /* ipad-button-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad-button-green.png"; sourceTree = "<group>"; };
@@ -731,6 +733,7 @@
 		B8E1815F15503B0900A8B450 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				AD589E8016A3F6F800BB15D4 /* Applause-faded.mp3 */,
 				AD589E7A16A3F2B400BB15D4 /* Button.wav */,
 				AD589E7816A3F0C800BB15D4 /* buttonPress.wav */,
 				B8DAFCD5155BB9E000A901A3 /* Scissors_Shears.wav */,
@@ -1002,6 +1005,7 @@
 				AD589E7216A3E9F300BB15D4 /* Valentines-Day-iPad-Wallpaper-37.jpg in Resources */,
 				AD589E7916A3F0C800BB15D4 /* buttonPress.wav in Resources */,
 				AD589E7B16A3F2B400BB15D4 /* Button.wav in Resources */,
+				AD589E8116A3F6F800BB15D4 /* Applause-faded.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

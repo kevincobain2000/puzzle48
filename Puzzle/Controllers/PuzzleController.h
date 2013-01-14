@@ -82,6 +82,7 @@
     PieceView *movingPiece;
     
     AVAudioPlayer *audioPlayer;
+    AVAudioPlayer *audioPlayerGameFinished;
     
 }
 

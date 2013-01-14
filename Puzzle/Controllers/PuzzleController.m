@@ -280,6 +280,11 @@
     
     
     IF_IPHONE [self resetLatticePositionAndSizeWithDuration:1.75];
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Applause-faded" ofType:@"mp3"]];
+    NSLog(@"This is the Pulse Sound");
+    audioPlayerGameFinished = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil] ;
+    [audioPlayerGameFinished prepareToPlay];
+    [audioPlayerGameFinished play];
     
     [UIView beginAnimations:@"pulseAnimation" context:nil];
     [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
