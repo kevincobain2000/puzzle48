@@ -10,7 +10,7 @@
 #import "PuzzleController.h"
 #import "NewGameController.h"
 #import "LoadGameController.h"
-
+#import "Animations.h"
 @interface MenuController ()
 
 @end
@@ -80,7 +80,7 @@
 }
 
 - (IBAction)startNewGame:(id)sender {
-    
+    [Animations buttonPressAnimate:newGameButton andAnimationDuration:0.25 andWait:NO];
     if (sender!=nil) {
         
         [self playMenuSound];
@@ -139,7 +139,7 @@
 }
 
 - (IBAction)resumeGame:(id)sender {
-    
+    [Animations buttonPressAnimate:resumeButton andAnimationDuration:0.25 andWait:NO];
     //DLog(@"Resume game");
     
     delegate.puzzleCompleteImage.alpha = 0;

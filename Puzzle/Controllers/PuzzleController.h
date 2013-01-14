@@ -109,6 +109,7 @@
 @property (nonatomic, strong) AVAudioPlayer *completedSound;
 @property (nonatomic, strong) AVAudioPlayer *neighborSound;
 
+@property (strong, nonatomic) IBOutlet UIButton *buttonMenuOutlet;
 
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic, strong) NSPersistentStoreCoordinator *persistentStoreCoordinator;

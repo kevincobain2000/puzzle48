@@ -271,7 +271,7 @@
 							</object>
 							<object class="IBUILabel" id="601324683">
 								<reference key="NSNextResponder" ref="660136381"/>
-								<int key="NSvFlags">292</int>
+								<int key="NSvFlags">-2147483356</int>
 								<string key="NSFrame">{{19, 78}, {76, 21}}</string>
 								<reference key="NSSuperview" ref="660136381"/>
 								<reference key="NSWindow"/>
@@ -541,10 +541,7 @@
 						<string key="IBUIText">Tap to Choose More !</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MSAxIDEAA</bytes>
-							<object class="NSColorSpace" key="NSCustomColorSpace">
-								<int key="NSID">1</int>
-							</object>
+							<bytes key="NSRGB">MC45NzU5MjMwMzY5IDEgMC4wODM2NTEyMzE1MwA</bytes>
 						</object>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">0</int>
@@ -553,11 +550,11 @@
 							<string key="name">TimesNewRomanPS-BoldItalicMT</string>
 							<string key="family">Times New Roman</string>
 							<int key="traits">3</int>
-							<double key="pointSize">17</double>
+							<double key="pointSize">23</double>
 						</object>
 						<object class="NSFont" key="IBUIFont">
 							<string key="NSName">TimesNewRomanPS-BoldItalicMT</string>
-							<double key="NSSize">17</double>
+							<double key="NSSize">23</double>
 							<int key="NSfFlags">16</int>
 						</object>
 						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>

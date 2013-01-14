@@ -12,7 +12,7 @@
 #import <QuartzCore/QuartzCore.h>
 #import "UIImage+CWAdditions.h"
 #import "PuzzleLibraryController.h"
-
+#import "Animations.h"
 #define IMAGE_QUALITY 0.5
 #define WOOD [UIColor colorWithPatternImage:[UIImage imageNamed:@"Wood.jpg"]]
 #define NUM_OF_PIECES 4
@@ -28,7 +28,7 @@
 {
     [super viewDidLoad];
     
-    
+    [Animations frameAndShadow:image];
     //piecesLabel.titleLabel.font = [UIFont fontWithName:@"Bello-Pro" size:40];
     //backButton.titleLabel.font = [UIFont fontWithName:@"Bello-Pro" size:40];
     //startButton.titleLabel.font = [UIFont fontWithName:@"Bello-Pro" size:40];
@@ -251,8 +251,9 @@
 }
 
 - (IBAction)startNewGame:(id)sender {
+    [Animations buttonPressAnimate:startButton andAnimationDuration:0.25 andWait:YES];
     
-    [delegate playMenuSound];
+    //[delegate playMenuSound];
     
     DLog(@"Started");
     
@@ -277,8 +278,8 @@
 }
 
 - (IBAction)back:(id)sender {
-    
-    [delegate playMenuSound];
+    [Animations buttonPressAnimate:backButton andAnimationDuration:0.25 andWait:YES];
+    //[delegate playMenuSound];
     
     if (typeOfImageView.hidden) {
         

@@ -36,6 +36,8 @@
 		ADBF272E16A2EB5D006380D4 /* heart_box_wood.png in Resources */ = {isa = PBXBuildFile; fileRef = ADBF272C16A2EB5D006380D4 /* heart_box_wood.png */; };
 		ADBF273116A2EDFD006380D4 /* pink-hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = ADBF272F16A2EDFD006380D4 /* pink-hearts.png */; };
 		ADBF273216A2EDFD006380D4 /* pink-hearts@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADBF273016A2EDFD006380D4 /* pink-hearts@2x.png */; };
+		ADFBEBD716A3BDF2004B1630 /* Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFBEBD616A3BDF2004B1630 /* Animations.m */; };
+		ADFBEBDF16A3C174004B1630 /* swoop.aif in Resources */ = {isa = PBXBuildFile; fileRef = ADFBEBDE16A3C174004B1630 /* swoop.aif */; };
 		B804EF3E156101DF00826712 /* PuzzleCompletedController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */; };
 		B804EF3F156101DF00826712 /* PuzzleCompletedController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */; };
 		B82375801561B58000426E92 /* LoadGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = B823757E1561B58000426E92 /* LoadGameController.m */; };
@@ -315,6 +317,9 @@
 		ADBF272C16A2EB5D006380D4 /* heart_box_wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart_box_wood.png; sourceTree = "<group>"; };
 		ADBF272F16A2EDFD006380D4 /* pink-hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pink-hearts.png"; sourceTree = "<group>"; };
 		ADBF273016A2EDFD006380D4 /* pink-hearts@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pink-hearts@2x.png"; sourceTree = "<group>"; };
+		ADFBEBD516A3BDF2004B1630 /* Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animations.h; sourceTree = "<group>"; };
+		ADFBEBD616A3BDF2004B1630 /* Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animations.m; sourceTree = "<group>"; };
+		ADFBEBDE16A3C174004B1630 /* swoop.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoop.aif; sourceTree = "<group>"; };
 		B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PuzzleCompletedController_iPhone.xib; path = Controllers/PuzzleCompletedController_iPhone.xib; sourceTree = "<group>"; };
 		B823757D1561B58000426E92 /* LoadGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadGameController.h; path = Controllers/LoadGameController.h; sourceTree = "<group>"; };
 		B823757E1561B58000426E92 /* LoadGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadGameController.m; path = Controllers/LoadGameController.m; sourceTree = "<group>"; };
@@ -497,6 +502,15 @@
 			name = UI;
 			sourceTree = "<group>";
 		};
+		ADFBEBD916A3BDFB004B1630 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				ADFBEBD516A3BDF2004B1630 /* Animations.h */,
+				ADFBEBD616A3BDF2004B1630 /* Animations.m */,
+			);
+			name = Animations;
+			sourceTree = "<group>";
+		};
 		B86B28D7155BEF16007D122D /* Thumbs */ = {
 			isa = PBXGroup;
 			children = (
@@ -510,6 +524,7 @@
 		B87C5CB615400B2A00AF69BC = {
 			isa = PBXGroup;
 			children = (
+				ADFBEBD916A3BDFB004B1630 /* Animations */,
 				B87C5CCD15400B2A00AF69BC /* Puzzle */,
 				B87C5CC415400B2A00AF69BC /* Frameworks */,
 				B87C5CC215400B2A00AF69BC /* Products */,
@@ -711,6 +726,7 @@
 		B8E1815F15503B0900A8B450 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				ADFBEBDE16A3C174004B1630 /* swoop.aif */,
 				B8DAFCD5155BB9E000A901A3 /* Scissors_Shears.wav */,
 				B8DAFCCF155BB78A00A901A3 /* MenuSound.aif */,
 				B8DAFCC0155BA1C400A901A3 /* NeighborFound.wav */,
@@ -977,6 +993,7 @@
 				ADBF272E16A2EB5D006380D4 /* heart_box_wood.png in Resources */,
 				ADBF273116A2EDFD006380D4 /* pink-hearts.png in Resources */,
 				ADBF273216A2EDFD006380D4 /* pink-hearts@2x.png in Resources */,
+				ADFBEBDF16A3C174004B1630 /* swoop.aif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1112,6 +1129,7 @@
 				B82375801561B58000426E92 /* LoadGameController.m in Sources */,
 				B8DBEA00158144AF005199B4 /* iAdViewController.m in Sources */,
 				B88BF755158214000057F65D /* BannerViewController.m in Sources */,
+				ADFBEBD716A3BDF2004B1630 /* Animations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

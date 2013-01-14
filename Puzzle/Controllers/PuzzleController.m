@@ -26,7 +26,7 @@
 
 #import <mach/mach.h>
 #import <mach/mach_host.h>
-
+#import "Animations.h"
 
 @interface PuzzleController ()
 
@@ -268,7 +268,7 @@
     
     
     [self.view bringSubviewToFront:puzzleCompleteImage];
-    [self.view bringSubviewToFront:self.adBannerView];
+    //[self.view bringSubviewToFront:self.adBannerView];
 
     [UIView animateWithDuration:1 animations:^{
         
@@ -395,13 +395,15 @@
 
 - (IBAction)toggleMenu:(id)sender {
     
+    [Animations buttonPressAnimate:self.buttonMenuOutlet andAnimationDuration:0.25 andWait:NO];
+    
     if (sender!=nil) [menu playMenuSound];
     
     menu.duringGame = (puzzleDB!=nil);
     [self.view bringSubviewToFront:menu.obscuringView];
     [self.view bringSubviewToFront:menu.view];
     [self.view bringSubviewToFront:menuButtonView];
-    [self.view bringSubviewToFront:self.adBannerView];
+    //[self.view bringSubviewToFront:self.adBannerView];
     
     [menu toggleMenuWithDuration:(sender!=nil)*0.5];
     
@@ -417,7 +419,7 @@
     menu.mainView.frame = CGRectMake(-menu.mainView.frame.size.width, 0, menu.mainView.frame.size.width, menu.mainView.frame.size.height);
     
     [menu toggleMenuWithDuration:0];
-    [self.view bringSubviewToFront:self.adBannerView];
+    //[self.view bringSubviewToFront:self.adBannerView];
 
 }
 
@@ -534,9 +536,9 @@
         }
                 
         //Create the AD
-        [self.adBannerView removeFromSuperview];
+        //[self.adBannerView removeFromSuperview];
         self.adBannerView = nil;
-        [self createAdBannerView];
+        //[self createAdBannerView];
         [self bringDrawerToTop];
 
         
@@ -552,7 +554,7 @@
 
     [self resetLatticePositionAndSizeWithDuration:0.0];
 
-    [self.view bringSubviewToFront:self.adBannerView];
+    //[self.view bringSubviewToFront:self.adBannerView];
 
 }
 
@@ -586,7 +588,7 @@
     [self.view bringSubviewToFront:lattice];
     [self.view bringSubviewToFront:drawerView];
     [self.view bringSubviewToFront:HUDView];
-    [self.view bringSubviewToFront:self.adBannerView];
+    //[self.view bringSubviewToFront:self.adBannerView];
     
     missedPieces = 0;
     loadedPieces = 0;
@@ -965,7 +967,7 @@
         }
     }];
     
-    [self.view bringSubviewToFront:self.adBannerView];
+    //[self.view bringSubviewToFront:self.adBannerView];
     
 }
 
@@ -996,7 +998,7 @@
         [self.view bringSubviewToFront:lattice];
         [self.view bringSubviewToFront:completedController.view];
         [self.view bringSubviewToFront:HUDView];
-        [self.view bringSubviewToFront:self.adBannerView];
+        //[self.view bringSubviewToFront:self.adBannerView];
 
     }];
     
@@ -2106,7 +2108,7 @@
     imageViewLattice.alpha = 0;
     [lattice addSubview:imageViewLattice];
     
-    [self.view bringSubviewToFront:self.adBannerView];
+    //[self.view bringSubviewToFront:self.adBannerView];
 
     //DLog(@"Lattice created");
     
@@ -3302,7 +3304,7 @@
         }
     }
     
-    [self.view bringSubviewToFront:self.adBannerView];
+    //[self.view bringSubviewToFront:self.adBannerView];
 
 
 //    [self.view bringSubviewToFront:stepperDrawer];
@@ -3505,6 +3507,7 @@
 #pragma mark Unuseful
 
 - (void)viewDidUnload {
+    [self setButtonMenuOutlet:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
