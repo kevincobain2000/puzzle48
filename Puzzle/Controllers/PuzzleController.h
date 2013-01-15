@@ -106,6 +106,7 @@
 @property(nonatomic) BOOL drawerStopped;
 @property(nonatomic) BOOL duringGame;
 
+- (IBAction)buttonInfoPressed:(id)sender;
 
 
 @property (nonatomic, strong) AVAudioPlayer *positionedSound;

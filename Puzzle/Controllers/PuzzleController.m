@@ -27,7 +27,7 @@
 #import <mach/mach.h>
 #import <mach/mach_host.h>
 #import "Animations.h"
-
+#import "RNBlurModalView.h"
 @interface PuzzleController ()
 
 @end
@@ -3558,4 +3558,25 @@
     [super viewWillDisappear:animated];
 }
 
+- (IBAction)buttonInfoPressed:(id)sender {
+    BOOL useCustomView = NO;
+    
+    RNBlurModalView *modal;
+    if (useCustomView) {
+       
+        UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+        
+        
+        view.backgroundColor = [UIColor redColor];
+        view.layer.cornerRadius = 5.f;
+        view.layer.borderColor = [UIColor whiteColor].CGColor;
+        view.layer.borderWidth = 5.f;
+        
+        modal = [[RNBlurModalView alloc] initWithViewController:self view:view];
+    }
+    else {
+        modal = [[RNBlurModalView alloc] initWithViewController:self title:@"Instructions" message:@"1. Double Tap piece to rotate\n2. Long Press piece to view image"];
+    }
+    [modal show];
+}
 @end
