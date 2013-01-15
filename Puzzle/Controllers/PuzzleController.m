@@ -3575,7 +3575,8 @@
         modal = [[RNBlurModalView alloc] initWithViewController:self view:view];
     }
     else {
-        modal = [[RNBlurModalView alloc] initWithViewController:self title:@"Instructions" message:@"1. Double Tap piece to rotate\n2. Long Press piece to view image"];
+        NSString *localizedInstruction = [NSString stringWithFormat:@"1. %@\n2. %@",NSLocalizedString(@"Double tap to rotate", @""), NSLocalizedString(@"Long press to view image", @"")];
+        modal = [[RNBlurModalView alloc] initWithViewController:self title: NSLocalizedString(@"Instructions", "@") message:localizedInstruction];
     }
     [modal show];
 }

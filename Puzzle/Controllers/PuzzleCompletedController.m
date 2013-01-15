@@ -35,8 +35,9 @@
 }
 
 - (void)updateValues {
+    NSString *localizedPieces = NSLocalizedString(@"pieces", @"");
+    pieces.text = [NSString stringWithFormat:@"%d %@", delegate.NumberSquare, localizedPieces];
     
-    pieces.text = [NSString stringWithFormat:@"%d pieces", delegate.NumberSquare];
     time.text = [NSString stringWithFormat:@"%@", delegate.elapsedTimeLabel.text];
 
     score.text = [NSString stringWithFormat:@"%d", delegate.score];

@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  Puzzle
+
+  Created by Thien Nguyen on 1/15/13.
+  Copyright (c) 2013 Università degli studi di Padova. All rights reserved.
+*/
+"pieces" = "miếng";
+"Back" = "Lui";
+"Instructions"= "Hướng Dẫn";
+"How to play" = "Cách Chơi";
+"Double tap to rotate" = "Nhấp Đôi Để Quay";
+"Long press to view image" = "Nhấn Và Giữ Để Xem Hình";

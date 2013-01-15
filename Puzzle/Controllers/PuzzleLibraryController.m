@@ -189,7 +189,7 @@
             cell.selectedBackgroundView = v;
         }
         
-        cell.textLabel.text = @"Back";
+        cell.textLabel.text = NSLocalizedString(@"Back",@"");
         cell.textLabel.textColor = [UIColor whiteColor];
         cell.textLabel.textAlignment = UITextAlignmentCenter;
          

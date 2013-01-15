@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  Puzzle
+
+  Created by Thien Nguyen on 1/15/13.
+  Copyright (c) 2013 Università degli studi di Padova. All rights reserved.
+*/
+"pieces" = "pieces";
+"Back" = "Back";
+"Instructions"= "Instructions";
+"How to play" = "How to play";
+"Double tap to rotate" = "Double tap to rotate";
+"Long press to view image" = "Long press to view image" ;
+
+
+
+

@@ -179,6 +179,35 @@
 		9698A7FE16A57BA6009F2146 /* 8_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9698A75216A57BA6009F2146 /* 8_puzzle_thumb.jpg */; };
 		9698A7FF16A57BA6009F2146 /* 9_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9698A75316A57BA6009F2146 /* 9_puzzle.jpg */; };
 		9698A80016A57BA6009F2146 /* 9_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9698A75416A57BA6009F2146 /* 9_puzzle_thumb.jpg */; };
+		9698A80716A5847D009F2146 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9698A80916A5847D009F2146 /* Localizable.strings */; };
+		9698A80A16A584C3009F2146 /* PuzzleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A80F16A584C3009F2146 /* PuzzleController.xib */; };
+		9698A80B16A584C3009F2146 /* PuzzleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A80F16A584C3009F2146 /* PuzzleController.xib */; };
+		9698A80C16A584C3009F2146 /* PuzzleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A80F16A584C3009F2146 /* PuzzleController.xib */; };
+		9698A80D16A584C3009F2146 /* PuzzleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A80F16A584C3009F2146 /* PuzzleController.xib */; };
+		9698A81016A584C9009F2146 /* MenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A81516A584C9009F2146 /* MenuController.xib */; };
+		9698A81116A584C9009F2146 /* MenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A81516A584C9009F2146 /* MenuController.xib */; };
+		9698A81216A584C9009F2146 /* MenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A81516A584C9009F2146 /* MenuController.xib */; };
+		9698A81316A584C9009F2146 /* MenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A81516A584C9009F2146 /* MenuController.xib */; };
+		9698A81616A584CF009F2146 /* NewGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A81B16A584CF009F2146 /* NewGameController.xib */; };
+		9698A81716A584CF009F2146 /* NewGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A81B16A584CF009F2146 /* NewGameController.xib */; };
+		9698A81816A584CF009F2146 /* NewGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A81B16A584CF009F2146 /* NewGameController.xib */; };
+		9698A81916A584CF009F2146 /* NewGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A81B16A584CF009F2146 /* NewGameController.xib */; };
+		9698A81C16A584D4009F2146 /* PuzzleLibraryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A82116A584D4009F2146 /* PuzzleLibraryController.xib */; };
+		9698A81D16A584D4009F2146 /* PuzzleLibraryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A82116A584D4009F2146 /* PuzzleLibraryController.xib */; };
+		9698A81E16A584D4009F2146 /* PuzzleLibraryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A82116A584D4009F2146 /* PuzzleLibraryController.xib */; };
+		9698A81F16A584D4009F2146 /* PuzzleLibraryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A82116A584D4009F2146 /* PuzzleLibraryController.xib */; };
+		9698A82216A584DB009F2146 /* PuzzleCompletedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A82716A584DB009F2146 /* PuzzleCompletedController.xib */; };
+		9698A82316A584DB009F2146 /* PuzzleCompletedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A82716A584DB009F2146 /* PuzzleCompletedController.xib */; };
+		9698A82416A584DB009F2146 /* PuzzleCompletedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A82716A584DB009F2146 /* PuzzleCompletedController.xib */; };
+		9698A82516A584DB009F2146 /* PuzzleCompletedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A82716A584DB009F2146 /* PuzzleCompletedController.xib */; };
+		9698A82816A584E1009F2146 /* PuzzleCompletedController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A82D16A584E1009F2146 /* PuzzleCompletedController_iPhone.xib */; };
+		9698A82916A584E1009F2146 /* PuzzleCompletedController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A82D16A584E1009F2146 /* PuzzleCompletedController_iPhone.xib */; };
+		9698A82A16A584E1009F2146 /* PuzzleCompletedController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A82D16A584E1009F2146 /* PuzzleCompletedController_iPhone.xib */; };
+		9698A82B16A584E1009F2146 /* PuzzleCompletedController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A82D16A584E1009F2146 /* PuzzleCompletedController_iPhone.xib */; };
+		9698A82E16A584E7009F2146 /* LoadGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A83316A584E7009F2146 /* LoadGameController.xib */; };
+		9698A82F16A584E7009F2146 /* LoadGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A83316A584E7009F2146 /* LoadGameController.xib */; };
+		9698A83016A584E7009F2146 /* LoadGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A83316A584E7009F2146 /* LoadGameController.xib */; };
+		9698A83116A584E7009F2146 /* LoadGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A83316A584E7009F2146 /* LoadGameController.xib */; };
 		AD077DF116A0030E00FA4561 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD077DF016A0030E00FA4561 /* Default-568h@2x.png */; };
 		AD077ED416A015FF00FA4561 /* BelloPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD077ED316A015FF00FA4561 /* BelloPro.ttf */; };
 		AD077ED516A015FF00FA4561 /* BelloPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD077ED316A015FF00FA4561 /* BelloPro.ttf */; };
@@ -201,12 +230,8 @@
 		ADE343ED16A555C0007D534C /* icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE343EC16A555C0007D534C /* icon-144.png */; };
 		ADFB798F16A41E67006E09F5 /* icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = ADFB798E16A41E67006E09F5 /* icon-114.png */; };
 		ADFBEBD716A3BDF2004B1630 /* Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFBEBD616A3BDF2004B1630 /* Animations.m */; };
-		B804EF3E156101DF00826712 /* PuzzleCompletedController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */; };
-		B804EF3F156101DF00826712 /* PuzzleCompletedController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */; };
 		B82375801561B58000426E92 /* LoadGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = B823757E1561B58000426E92 /* LoadGameController.m */; };
 		B82375811561B58000426E92 /* LoadGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = B823757E1561B58000426E92 /* LoadGameController.m */; };
-		B82375821561B58000426E92 /* LoadGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B823757F1561B58000426E92 /* LoadGameController.xib */; };
-		B82375831561B58000426E92 /* LoadGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B823757F1561B58000426E92 /* LoadGameController.xib */; };
 		B823758715626FC300426E92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B87C5CD315400B2A00AF69BC /* main.m */; };
 		B823758815626FC300426E92 /* PuzzleController.m in Sources */ = {isa = PBXBuildFile; fileRef = B87C5CEF1540174400AF69BC /* PuzzleController.m */; };
 		B823758915626FC300426E92 /* UIImage+CWAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B84014F31540E57D0075734A /* UIImage+CWAdditions.m */; };
@@ -232,14 +257,12 @@
 		B823759E15626FC300426E92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87C5CC915400B2A00AF69BC /* CoreGraphics.framework */; };
 		B823759F15626FC300426E92 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87C5CCB15400B2A00AF69BC /* CoreData.framework */; };
 		B82375A115626FC300426E92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B87C5CD015400B2A00AF69BC /* InfoPlist.strings */; };
-		B82375A215626FC300426E92 /* PuzzleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B87C5CF01540174400AF69BC /* PuzzleController.xib */; };
 		B82375A315626FC300426E92 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69215497ED300256385 /* Default-Landscape@2x~ipad.png */; };
 		B82375A415626FC300426E92 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69315497ED300256385 /* Default-Landscape~ipad.png */; };
 		B82375A515626FC300426E92 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69415497ED300256385 /* Default-Portrait@2x~ipad.png */; };
 		B82375A615626FC300426E92 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69515497ED300256385 /* Default-Portrait~ipad.png */; };
 		B82375A715626FC300426E92 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69615497ED300256385 /* Default.png */; };
 		B82375A815626FC300426E92 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69715497ED300256385 /* Default@2x.png */; };
-		B82375A915626FC300426E92 /* MenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8E4AC7E154AA22300D0A75D /* MenuController.xib */; };
 		B82375AB15626FC300426E92 /* icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B3154B502900750458 /* icon-512.png */; };
 		B82375AC15626FC300426E92 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B4154B502900750458 /* icon-72.png */; };
 		B82375AD15626FC300426E92 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B5154B502900750458 /* Icon-Small-50.png */; };
@@ -247,17 +270,12 @@
 		B82375AF15626FC300426E92 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B7154B502900750458 /* Icon-Small@2x.png */; };
 		B82375B015626FC300426E92 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B8154B502900750458 /* icon.png */; };
 		B82375B115626FC300426E92 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B9154B502900750458 /* icon@2x.png */; };
-		B82375B215626FC300426E92 /* NewGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19CD154B565400750458 /* NewGameController.xib */; };
-		B82375B915626FC300426E92 /* PuzzleLibraryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCE5155BDB0700A901A3 /* PuzzleLibraryController.xib */; };
 		B82375E215626FC300426E92 /* ChooseLabel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E720155FB612002FE0A2 /* ChooseLabel@2x.png */; };
 		B82375E315626FC300426E92 /* ChooseLabel.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E721155FB612002FE0A2 /* ChooseLabel.png */; };
 		B82375E615626FC300426E92 /* PuzzleComplete.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E72C155FFA56002FE0A2 /* PuzzleComplete.png */; };
 		B82375E715626FC300426E92 /* PuzzleComplete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E72D155FFA56002FE0A2 /* PuzzleComplete@2x.png */; };
 		B82375E815626FC300426E92 /* PuzzleComplete_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E7321560187A002FE0A2 /* PuzzleComplete_iPhone.png */; };
 		B82375E915626FC300426E92 /* PuzzleComplete_iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E7331560187A002FE0A2 /* PuzzleComplete_iPhone@2x.png */; };
-		B82375EA15626FC300426E92 /* PuzzleCompletedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E73A15601E2C002FE0A2 /* PuzzleCompletedController.xib */; };
-		B82375EC15626FC300426E92 /* PuzzleCompletedController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */; };
-		B82375ED15626FC300426E92 /* LoadGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B823757F1561B58000426E92 /* LoadGameController.xib */; };
 		B82AC5C7154411B500208887 /* Lattice.m in Sources */ = {isa = PBXBuildFile; fileRef = B82AC5C6154411B500208887 /* Lattice.m */; };
 		B84014ED1540D0CD0075734A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84014EB1540D0880075734A /* QuartzCore.framework */; };
 		B84014F41540E57D0075734A /* UIImage+CWAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B84014F31540E57D0075734A /* UIImage+CWAdditions.m */; };
@@ -287,14 +305,12 @@
 		B874B33A156D67D80089D4E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87C5CC915400B2A00AF69BC /* CoreGraphics.framework */; };
 		B874B33B156D67D80089D4E4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87C5CCB15400B2A00AF69BC /* CoreData.framework */; };
 		B874B33D156D67D80089D4E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B87C5CD015400B2A00AF69BC /* InfoPlist.strings */; };
-		B874B33E156D67D80089D4E4 /* PuzzleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B87C5CF01540174400AF69BC /* PuzzleController.xib */; };
 		B874B33F156D67D80089D4E4 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69215497ED300256385 /* Default-Landscape@2x~ipad.png */; };
 		B874B340156D67D80089D4E4 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69315497ED300256385 /* Default-Landscape~ipad.png */; };
 		B874B341156D67D80089D4E4 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69415497ED300256385 /* Default-Portrait@2x~ipad.png */; };
 		B874B342156D67D80089D4E4 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69515497ED300256385 /* Default-Portrait~ipad.png */; };
 		B874B343156D67D80089D4E4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69615497ED300256385 /* Default.png */; };
 		B874B344156D67D80089D4E4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69715497ED300256385 /* Default@2x.png */; };
-		B874B345156D67D80089D4E4 /* MenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8E4AC7E154AA22300D0A75D /* MenuController.xib */; };
 		B874B347156D67D80089D4E4 /* icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B3154B502900750458 /* icon-512.png */; };
 		B874B348156D67D80089D4E4 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B4154B502900750458 /* icon-72.png */; };
 		B874B349156D67D80089D4E4 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B5154B502900750458 /* Icon-Small-50.png */; };
@@ -302,17 +318,12 @@
 		B874B34B156D67D80089D4E4 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B7154B502900750458 /* Icon-Small@2x.png */; };
 		B874B34C156D67D80089D4E4 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B8154B502900750458 /* icon.png */; };
 		B874B34D156D67D80089D4E4 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B9154B502900750458 /* icon@2x.png */; };
-		B874B34E156D67D80089D4E4 /* NewGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19CD154B565400750458 /* NewGameController.xib */; };
-		B874B355156D67D80089D4E4 /* PuzzleLibraryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCE5155BDB0700A901A3 /* PuzzleLibraryController.xib */; };
 		B874B37E156D67D80089D4E4 /* ChooseLabel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E720155FB612002FE0A2 /* ChooseLabel@2x.png */; };
 		B874B37F156D67D80089D4E4 /* ChooseLabel.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E721155FB612002FE0A2 /* ChooseLabel.png */; };
 		B874B382156D67D80089D4E4 /* PuzzleComplete.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E72C155FFA56002FE0A2 /* PuzzleComplete.png */; };
 		B874B383156D67D80089D4E4 /* PuzzleComplete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E72D155FFA56002FE0A2 /* PuzzleComplete@2x.png */; };
 		B874B384156D67D80089D4E4 /* PuzzleComplete_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E7321560187A002FE0A2 /* PuzzleComplete_iPhone.png */; };
 		B874B385156D67D80089D4E4 /* PuzzleComplete_iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E7331560187A002FE0A2 /* PuzzleComplete_iPhone@2x.png */; };
-		B874B386156D67D80089D4E4 /* PuzzleCompletedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E73A15601E2C002FE0A2 /* PuzzleCompletedController.xib */; };
-		B874B388156D67D80089D4E4 /* PuzzleCompletedController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */; };
-		B874B389156D67D80089D4E4 /* LoadGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B823757F1561B58000426E92 /* LoadGameController.xib */; };
 		B874B38A156D67D80089D4E4 /* Notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = B8DADF9515654973002DCEF8 /* Notes.txt */; };
 		B874B38B156D67D80089D4E4 /* PanningSwitch.png in Resources */ = {isa = PBXBuildFile; fileRef = B8D28BC615667CCF00DCF1A0 /* PanningSwitch.png */; };
 		B874B38C156D67D80089D4E4 /* PanningSwitch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8D28BC715667CCF00DCF1A0 /* PanningSwitch@2x.png */; };
@@ -323,7 +334,6 @@
 		B87C5CD215400B2A00AF69BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B87C5CD015400B2A00AF69BC /* InfoPlist.strings */; };
 		B87C5CD415400B2A00AF69BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B87C5CD315400B2A00AF69BC /* main.m */; };
 		B87C5CF11540174400AF69BC /* PuzzleController.m in Sources */ = {isa = PBXBuildFile; fileRef = B87C5CEF1540174400AF69BC /* PuzzleController.m */; };
-		B87C5CF21540174400AF69BC /* PuzzleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B87C5CF01540174400AF69BC /* PuzzleController.xib */; };
 		B88BF755158214000057F65D /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B88BF753158213FF0057F65D /* BannerViewController.m */; };
 		B88BF756158214000057F65D /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B88BF753158213FF0057F65D /* BannerViewController.m */; };
 		B88BF757158214000057F65D /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B88BF753158213FF0057F65D /* BannerViewController.m */; };
@@ -336,7 +346,6 @@
 		B8AA19C0154B502900750458 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B8154B502900750458 /* icon.png */; };
 		B8AA19C1154B502900750458 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B9154B502900750458 /* icon@2x.png */; };
 		B8AA19CE154B565400750458 /* NewGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AA19CC154B565400750458 /* NewGameController.m */; };
-		B8AA19CF154B565400750458 /* NewGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19CD154B565400750458 /* NewGameController.xib */; };
 		B8AE1208155990DB00742256 /* GroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE1204155990DB00742256 /* GroupView.m */; };
 		B8AE1209155990DB00742256 /* GroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE1204155990DB00742256 /* GroupView.m */; };
 		B8AE120A155990DB00742256 /* PieceView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE1205155990DB00742256 /* PieceView.m */; };
@@ -363,8 +372,6 @@
 		B8B0E7371560187A002FE0A2 /* PuzzleComplete_iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E7331560187A002FE0A2 /* PuzzleComplete_iPhone@2x.png */; };
 		B8B0E73B15601E2C002FE0A2 /* PuzzleCompletedController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B0E73915601E2C002FE0A2 /* PuzzleCompletedController.m */; };
 		B8B0E73C15601E2C002FE0A2 /* PuzzleCompletedController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B0E73915601E2C002FE0A2 /* PuzzleCompletedController.m */; };
-		B8B0E73D15601E2C002FE0A2 /* PuzzleCompletedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E73A15601E2C002FE0A2 /* PuzzleCompletedController.xib */; };
-		B8B0E73E15601E2C002FE0A2 /* PuzzleCompletedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8B0E73A15601E2C002FE0A2 /* PuzzleCompletedController.xib */; };
 		B8B0E74215605E23002FE0A2 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B0E74115605E23002FE0A2 /* Image.m */; };
 		B8B0E74315605E23002FE0A2 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B0E74115605E23002FE0A2 /* Image.m */; };
 		B8B0E74715605EE8002FE0A2 /* Puzzle.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B0E74615605EE8002FE0A2 /* Puzzle.m */; };
@@ -380,8 +387,6 @@
 		B8DADF9815654973002DCEF8 /* Notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = B8DADF9515654973002DCEF8 /* Notes.txt */; };
 		B8DAFCE6155BDB0700A901A3 /* PuzzleLibraryController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DAFCE4155BDB0700A901A3 /* PuzzleLibraryController.m */; };
 		B8DAFCE7155BDB0700A901A3 /* PuzzleLibraryController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DAFCE4155BDB0700A901A3 /* PuzzleLibraryController.m */; };
-		B8DAFCE8155BDB0700A901A3 /* PuzzleLibraryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCE5155BDB0700A901A3 /* PuzzleLibraryController.xib */; };
-		B8DAFCE9155BDB0700A901A3 /* PuzzleLibraryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8DAFCE5155BDB0700A901A3 /* PuzzleLibraryController.xib */; };
 		B8DBE9FD15813412005199B4 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DBE9FC15813412005199B4 /* iAd.framework */; };
 		B8DBEA00158144AF005199B4 /* iAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DBE9FF158144AF005199B4 /* iAdViewController.m */; };
 		B8DBEA01158144AF005199B4 /* iAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DBE9FF158144AF005199B4 /* iAdViewController.m */; };
@@ -409,14 +414,12 @@
 		B8E181721550402800A8B450 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87C5CC915400B2A00AF69BC /* CoreGraphics.framework */; };
 		B8E181731550402800A8B450 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87C5CCB15400B2A00AF69BC /* CoreData.framework */; };
 		B8E181751550402800A8B450 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B87C5CD015400B2A00AF69BC /* InfoPlist.strings */; };
-		B8E181761550402800A8B450 /* PuzzleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B87C5CF01540174400AF69BC /* PuzzleController.xib */; };
 		B8E1817A1550402800A8B450 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69215497ED300256385 /* Default-Landscape@2x~ipad.png */; };
 		B8E1817B1550402800A8B450 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69315497ED300256385 /* Default-Landscape~ipad.png */; };
 		B8E1817C1550402800A8B450 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69415497ED300256385 /* Default-Portrait@2x~ipad.png */; };
 		B8E1817D1550402800A8B450 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69515497ED300256385 /* Default-Portrait~ipad.png */; };
 		B8E1817E1550402800A8B450 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69615497ED300256385 /* Default.png */; };
 		B8E1817F1550402800A8B450 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DFA69715497ED300256385 /* Default@2x.png */; };
-		B8E181801550402800A8B450 /* MenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8E4AC7E154AA22300D0A75D /* MenuController.xib */; };
 		B8E181821550402800A8B450 /* icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B3154B502900750458 /* icon-512.png */; };
 		B8E181831550402800A8B450 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B4154B502900750458 /* icon-72.png */; };
 		B8E181841550402800A8B450 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B5154B502900750458 /* Icon-Small-50.png */; };
@@ -424,9 +427,7 @@
 		B8E181861550402800A8B450 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B7154B502900750458 /* Icon-Small@2x.png */; };
 		B8E181871550402800A8B450 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B8154B502900750458 /* icon.png */; };
 		B8E181881550402800A8B450 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19B9154B502900750458 /* icon@2x.png */; };
-		B8E181891550402800A8B450 /* NewGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8AA19CD154B565400750458 /* NewGameController.xib */; };
 		B8E4AC7F154AA22300D0A75D /* MenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E4AC7D154AA22300D0A75D /* MenuController.m */; };
-		B8E4AC80154AA22300D0A75D /* MenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8E4AC7E154AA22300D0A75D /* MenuController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -602,6 +603,32 @@
 		9698A75216A57BA6009F2146 /* 8_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8_puzzle_thumb.jpg; sourceTree = "<group>"; };
 		9698A75316A57BA6009F2146 /* 9_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9_puzzle.jpg; sourceTree = "<group>"; };
 		9698A75416A57BA6009F2146 /* 9_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9_puzzle_thumb.jpg; sourceTree = "<group>"; };
+		9698A80816A5847D009F2146 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9698A80E16A584C3009F2146 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PuzzleController.xib; sourceTree = "<group>"; };
+		9698A81416A584C9009F2146 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MenuController.xib; sourceTree = "<group>"; };
+		9698A81A16A584CF009F2146 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NewGameController.xib; sourceTree = "<group>"; };
+		9698A82016A584D4009F2146 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PuzzleLibraryController.xib; sourceTree = "<group>"; };
+		9698A82616A584DB009F2146 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PuzzleCompletedController.xib; sourceTree = "<group>"; };
+		9698A82C16A584E1009F2146 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PuzzleCompletedController_iPhone.xib; sourceTree = "<group>"; };
+		9698A83216A584E7009F2146 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LoadGameController.xib; sourceTree = "<group>"; };
+		9698A83416A584FC009F2146 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9698A83516A584FC009F2146 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/PuzzleController.xib; sourceTree = "<group>"; };
+		9698A83616A584FC009F2146 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/MenuController.xib; sourceTree = "<group>"; };
+		9698A83716A584FC009F2146 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/NewGameController.xib; sourceTree = "<group>"; };
+		9698A83816A584FC009F2146 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/PuzzleLibraryController.xib; sourceTree = "<group>"; };
+		9698A83916A584FC009F2146 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/PuzzleCompletedController.xib; sourceTree = "<group>"; };
+		9698A83A16A584FC009F2146 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/PuzzleCompletedController_iPhone.xib; sourceTree = "<group>"; };
+		9698A83B16A584FC009F2146 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/LoadGameController.xib; sourceTree = "<group>"; };
+		9698A83C16A584FC009F2146 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9698A83D16A5850F009F2146 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9698A83E16A58510009F2146 /* vi */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = vi; path = vi.lproj/PuzzleController.xib; sourceTree = "<group>"; };
+		9698A83F16A58510009F2146 /* vi */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = vi; path = vi.lproj/MenuController.xib; sourceTree = "<group>"; };
+		9698A84016A58510009F2146 /* vi */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = vi; path = vi.lproj/NewGameController.xib; sourceTree = "<group>"; };
+		9698A84116A58510009F2146 /* vi */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = vi; path = vi.lproj/PuzzleLibraryController.xib; sourceTree = "<group>"; };
+		9698A84216A58510009F2146 /* vi */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = vi; path = vi.lproj/PuzzleCompletedController.xib; sourceTree = "<group>"; };
+		9698A84316A58510009F2146 /* vi */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = vi; path = vi.lproj/PuzzleCompletedController_iPhone.xib; sourceTree = "<group>"; };
+		9698A84416A58510009F2146 /* vi */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = vi; path = vi.lproj/LoadGameController.xib; sourceTree = "<group>"; };
+		9698A84516A58510009F2146 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AD077DF016A0030E00FA4561 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		AD077ED316A015FF00FA4561 /* BelloPro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BelloPro.ttf; sourceTree = "<group>"; };
 		AD589E7116A3E9F300BB15D4 /* Valentines-Day-iPad-Wallpaper-37.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Valentines-Day-iPad-Wallpaper-37.jpg"; sourceTree = "<group>"; };
@@ -623,10 +650,8 @@
 		ADFB798E16A41E67006E09F5 /* icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-114.png"; sourceTree = "<group>"; };
 		ADFBEBD516A3BDF2004B1630 /* Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animations.h; sourceTree = "<group>"; };
 		ADFBEBD616A3BDF2004B1630 /* Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animations.m; sourceTree = "<group>"; };
-		B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PuzzleCompletedController_iPhone.xib; path = Controllers/PuzzleCompletedController_iPhone.xib; sourceTree = "<group>"; };
 		B823757D1561B58000426E92 /* LoadGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadGameController.h; path = Controllers/LoadGameController.h; sourceTree = "<group>"; };
 		B823757E1561B58000426E92 /* LoadGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadGameController.m; path = Controllers/LoadGameController.m; sourceTree = "<group>"; };
-		B823757F1561B58000426E92 /* LoadGameController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoadGameController.xib; path = Controllers/LoadGameController.xib; sourceTree = "<group>"; };
 		B82375F115626FC300426E92 /* Puzzle test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Puzzle test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B82375F315626FC300426E92 /* Puzzle test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Puzzle test-Info.plist"; path = "/Users/abramo/Documents/iPhone apps/Puzzle/Puzzle test-Info.plist"; sourceTree = "<absolute>"; };
 		B82AC5C5154411B500208887 /* Lattice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Lattice.h; path = Classes/Lattice.h; sourceTree = "<group>"; };
@@ -648,7 +673,6 @@
 		B87C5CD515400B2A00AF69BC /* Puzzle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Puzzle-Prefix.pch"; sourceTree = "<group>"; };
 		B87C5CEE1540174400AF69BC /* PuzzleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PuzzleController.h; path = Controllers/PuzzleController.h; sourceTree = "<group>"; };
 		B87C5CEF1540174400AF69BC /* PuzzleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PuzzleController.m; path = Controllers/PuzzleController.m; sourceTree = "<group>"; };
-		B87C5CF01540174400AF69BC /* PuzzleController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PuzzleController.xib; path = Controllers/PuzzleController.xib; sourceTree = "<group>"; };
 		B88BF753158213FF0057F65D /* BannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerViewController.m; sourceTree = "<group>"; };
 		B88BF754158214000057F65D /* BannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerViewController.h; sourceTree = "<group>"; };
 		B8AA19B3154B502900750458 /* icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-512.png"; sourceTree = "<group>"; };
@@ -660,7 +684,6 @@
 		B8AA19B9154B502900750458 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		B8AA19CB154B565400750458 /* NewGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewGameController.h; path = Controllers/NewGameController.h; sourceTree = "<group>"; };
 		B8AA19CC154B565400750458 /* NewGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewGameController.m; path = Controllers/NewGameController.m; sourceTree = "<group>"; };
-		B8AA19CD154B565400750458 /* NewGameController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NewGameController.xib; path = Controllers/NewGameController.xib; sourceTree = "<group>"; };
 		B8AE1204155990DB00742256 /* GroupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroupView.m; path = Views/GroupView.m; sourceTree = "<group>"; };
 		B8AE1205155990DB00742256 /* PieceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PieceView.m; path = Views/PieceView.m; sourceTree = "<group>"; };
 		B8AE1206155990DB00742256 /* GroupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroupView.h; path = Views/GroupView.h; sourceTree = "<group>"; };
@@ -684,7 +707,6 @@
 		B8B0E7331560187A002FE0A2 /* PuzzleComplete_iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PuzzleComplete_iPhone@2x.png"; path = "PNGs/PuzzleComplete_iPhone@2x.png"; sourceTree = "<group>"; };
 		B8B0E73815601E2C002FE0A2 /* PuzzleCompletedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PuzzleCompletedController.h; path = Controllers/PuzzleCompletedController.h; sourceTree = "<group>"; };
 		B8B0E73915601E2C002FE0A2 /* PuzzleCompletedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PuzzleCompletedController.m; path = Controllers/PuzzleCompletedController.m; sourceTree = "<group>"; };
-		B8B0E73A15601E2C002FE0A2 /* PuzzleCompletedController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PuzzleCompletedController.xib; path = Controllers/PuzzleCompletedController.xib; sourceTree = "<group>"; };
 		B8B0E73F15605DA0002FE0A2 /* Puzzle 5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Puzzle 5.xcdatamodel"; sourceTree = "<group>"; };
 		B8B0E74015605E23002FE0A2 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
 		B8B0E74115605E23002FE0A2 /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
@@ -698,7 +720,6 @@
 		B8DADF9515654973002DCEF8 /* Notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Notes.txt; sourceTree = "<group>"; };
 		B8DAFCE3155BDB0600A901A3 /* PuzzleLibraryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PuzzleLibraryController.h; path = Controllers/PuzzleLibraryController.h; sourceTree = "<group>"; };
 		B8DAFCE4155BDB0700A901A3 /* PuzzleLibraryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PuzzleLibraryController.m; path = Controllers/PuzzleLibraryController.m; sourceTree = "<group>"; };
-		B8DAFCE5155BDB0700A901A3 /* PuzzleLibraryController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PuzzleLibraryController.xib; path = Controllers/PuzzleLibraryController.xib; sourceTree = "<group>"; };
 		B8DBE9FC15813412005199B4 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		B8DBE9FE158144AF005199B4 /* iAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iAdViewController.h; path = Controllers/iAdViewController.h; sourceTree = "<group>"; };
 		B8DBE9FF158144AF005199B4 /* iAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iAdViewController.m; path = Controllers/iAdViewController.m; sourceTree = "<group>"; };
@@ -714,7 +735,6 @@
 		B8E18192155040CE00A8B450 /* Puzzle iPhone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Puzzle iPhone-Info.plist"; sourceTree = SOURCE_ROOT; };
 		B8E4AC7C154AA22300D0A75D /* MenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuController.h; path = Controllers/MenuController.h; sourceTree = "<group>"; };
 		B8E4AC7D154AA22300D0A75D /* MenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuController.m; path = Controllers/MenuController.m; sourceTree = "<group>"; };
-		B8E4AC7E154AA22300D0A75D /* MenuController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MenuController.xib; path = Controllers/MenuController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -962,13 +982,13 @@
 		AD077DBC16A0023E00FA4561 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				B87C5CF01540174400AF69BC /* PuzzleController.xib */,
-				B8E4AC7E154AA22300D0A75D /* MenuController.xib */,
-				B8AA19CD154B565400750458 /* NewGameController.xib */,
-				B8DAFCE5155BDB0700A901A3 /* PuzzleLibraryController.xib */,
-				B8B0E73A15601E2C002FE0A2 /* PuzzleCompletedController.xib */,
-				B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */,
-				B823757F1561B58000426E92 /* LoadGameController.xib */,
+				9698A80F16A584C3009F2146 /* PuzzleController.xib */,
+				9698A81516A584C9009F2146 /* MenuController.xib */,
+				9698A81B16A584CF009F2146 /* NewGameController.xib */,
+				9698A82116A584D4009F2146 /* PuzzleLibraryController.xib */,
+				9698A82716A584DB009F2146 /* PuzzleCompletedController.xib */,
+				9698A82D16A584E1009F2146 /* PuzzleCompletedController_iPhone.xib */,
+				9698A83316A584E7009F2146 /* LoadGameController.xib */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -1001,6 +1021,7 @@
 		B87C5CB615400B2A00AF69BC = {
 			isa = PBXGroup;
 			children = (
+				9698A80916A5847D009F2146 /* Localizable.strings */,
 				ADBA9F4616A56BAB00670034 /* RNBlurModalView */,
 				ADFBEBD916A3BDFB004B1630 /* Animations */,
 				B87C5CCD15400B2A00AF69BC /* Puzzle */,
@@ -1295,6 +1316,7 @@
 			knownRegions = (
 				en,
 				ja,
+				vi,
 			);
 			mainGroup = B87C5CB615400B2A00AF69BC;
 			productRefGroup = B87C5CC215400B2A00AF69BC /* Products */;
@@ -1315,14 +1337,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B82375A115626FC300426E92 /* InfoPlist.strings in Resources */,
-				B82375A215626FC300426E92 /* PuzzleController.xib in Resources */,
+				9698A80C16A584C3009F2146 /* PuzzleController.xib in Resources */,
 				B82375A315626FC300426E92 /* Default-Landscape@2x~ipad.png in Resources */,
 				B82375A415626FC300426E92 /* Default-Landscape~ipad.png in Resources */,
 				B82375A515626FC300426E92 /* Default-Portrait@2x~ipad.png in Resources */,
 				B82375A615626FC300426E92 /* Default-Portrait~ipad.png in Resources */,
 				B82375A715626FC300426E92 /* Default.png in Resources */,
 				B82375A815626FC300426E92 /* Default@2x.png in Resources */,
-				B82375A915626FC300426E92 /* MenuController.xib in Resources */,
+				9698A81216A584C9009F2146 /* MenuController.xib in Resources */,
 				B82375AB15626FC300426E92 /* icon-512.png in Resources */,
 				B82375AC15626FC300426E92 /* icon-72.png in Resources */,
 				B82375AD15626FC300426E92 /* Icon-Small-50.png in Resources */,
@@ -1330,17 +1352,17 @@
 				B82375AF15626FC300426E92 /* Icon-Small@2x.png in Resources */,
 				B82375B015626FC300426E92 /* icon.png in Resources */,
 				B82375B115626FC300426E92 /* icon@2x.png in Resources */,
-				B82375B215626FC300426E92 /* NewGameController.xib in Resources */,
-				B82375B915626FC300426E92 /* PuzzleLibraryController.xib in Resources */,
+				9698A81816A584CF009F2146 /* NewGameController.xib in Resources */,
+				9698A81E16A584D4009F2146 /* PuzzleLibraryController.xib in Resources */,
 				B82375E215626FC300426E92 /* ChooseLabel@2x.png in Resources */,
 				B82375E315626FC300426E92 /* ChooseLabel.png in Resources */,
 				B82375E615626FC300426E92 /* PuzzleComplete.png in Resources */,
 				B82375E715626FC300426E92 /* PuzzleComplete@2x.png in Resources */,
 				B82375E815626FC300426E92 /* PuzzleComplete_iPhone.png in Resources */,
 				B82375E915626FC300426E92 /* PuzzleComplete_iPhone@2x.png in Resources */,
-				B82375EA15626FC300426E92 /* PuzzleCompletedController.xib in Resources */,
-				B82375EC15626FC300426E92 /* PuzzleCompletedController_iPhone.xib in Resources */,
-				B82375ED15626FC300426E92 /* LoadGameController.xib in Resources */,
+				9698A82416A584DB009F2146 /* PuzzleCompletedController.xib in Resources */,
+				9698A82A16A584E1009F2146 /* PuzzleCompletedController_iPhone.xib in Resources */,
+				9698A83016A584E7009F2146 /* LoadGameController.xib in Resources */,
 				B8DADF9815654973002DCEF8 /* Notes.txt in Resources */,
 				B8D28BCA15667CCF00DCF1A0 /* PanningSwitch.png in Resources */,
 				B8D28BCD15667CCF00DCF1A0 /* PanningSwitch@2x.png in Resources */,
@@ -1353,14 +1375,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B874B33D156D67D80089D4E4 /* InfoPlist.strings in Resources */,
-				B874B33E156D67D80089D4E4 /* PuzzleController.xib in Resources */,
+				9698A80D16A584C3009F2146 /* PuzzleController.xib in Resources */,
 				B874B33F156D67D80089D4E4 /* Default-Landscape@2x~ipad.png in Resources */,
 				B874B340156D67D80089D4E4 /* Default-Landscape~ipad.png in Resources */,
 				B874B341156D67D80089D4E4 /* Default-Portrait@2x~ipad.png in Resources */,
 				B874B342156D67D80089D4E4 /* Default-Portrait~ipad.png in Resources */,
 				B874B343156D67D80089D4E4 /* Default.png in Resources */,
 				B874B344156D67D80089D4E4 /* Default@2x.png in Resources */,
-				B874B345156D67D80089D4E4 /* MenuController.xib in Resources */,
+				9698A81316A584C9009F2146 /* MenuController.xib in Resources */,
 				B874B347156D67D80089D4E4 /* icon-512.png in Resources */,
 				B874B348156D67D80089D4E4 /* icon-72.png in Resources */,
 				B874B349156D67D80089D4E4 /* Icon-Small-50.png in Resources */,
@@ -1368,17 +1390,17 @@
 				B874B34B156D67D80089D4E4 /* Icon-Small@2x.png in Resources */,
 				B874B34C156D67D80089D4E4 /* icon.png in Resources */,
 				B874B34D156D67D80089D4E4 /* icon@2x.png in Resources */,
-				B874B34E156D67D80089D4E4 /* NewGameController.xib in Resources */,
-				B874B355156D67D80089D4E4 /* PuzzleLibraryController.xib in Resources */,
+				9698A81916A584CF009F2146 /* NewGameController.xib in Resources */,
+				9698A81F16A584D4009F2146 /* PuzzleLibraryController.xib in Resources */,
 				B874B37E156D67D80089D4E4 /* ChooseLabel@2x.png in Resources */,
 				B874B37F156D67D80089D4E4 /* ChooseLabel.png in Resources */,
 				B874B382156D67D80089D4E4 /* PuzzleComplete.png in Resources */,
 				B874B383156D67D80089D4E4 /* PuzzleComplete@2x.png in Resources */,
 				B874B384156D67D80089D4E4 /* PuzzleComplete_iPhone.png in Resources */,
 				B874B385156D67D80089D4E4 /* PuzzleComplete_iPhone@2x.png in Resources */,
-				B874B386156D67D80089D4E4 /* PuzzleCompletedController.xib in Resources */,
-				B874B388156D67D80089D4E4 /* PuzzleCompletedController_iPhone.xib in Resources */,
-				B874B389156D67D80089D4E4 /* LoadGameController.xib in Resources */,
+				9698A82516A584DB009F2146 /* PuzzleCompletedController.xib in Resources */,
+				9698A82B16A584E1009F2146 /* PuzzleCompletedController_iPhone.xib in Resources */,
+				9698A83116A584E7009F2146 /* LoadGameController.xib in Resources */,
 				B874B38A156D67D80089D4E4 /* Notes.txt in Resources */,
 				B874B38B156D67D80089D4E4 /* PanningSwitch.png in Resources */,
 				B874B38C156D67D80089D4E4 /* PanningSwitch@2x.png in Resources */,
@@ -1391,14 +1413,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B87C5CD215400B2A00AF69BC /* InfoPlist.strings in Resources */,
-				B87C5CF21540174400AF69BC /* PuzzleController.xib in Resources */,
+				9698A80A16A584C3009F2146 /* PuzzleController.xib in Resources */,
 				B8DFA69815497ED300256385 /* Default-Landscape@2x~ipad.png in Resources */,
 				B8DFA69915497ED300256385 /* Default-Landscape~ipad.png in Resources */,
 				B8DFA69A15497ED300256385 /* Default-Portrait@2x~ipad.png in Resources */,
 				B8DFA69B15497ED300256385 /* Default-Portrait~ipad.png in Resources */,
 				B8DFA69C15497ED300256385 /* Default.png in Resources */,
 				B8DFA69D15497ED300256385 /* Default@2x.png in Resources */,
-				B8E4AC80154AA22300D0A75D /* MenuController.xib in Resources */,
+				9698A81016A584C9009F2146 /* MenuController.xib in Resources */,
 				B8AA19BB154B502900750458 /* icon-512.png in Resources */,
 				B8AA19BC154B502900750458 /* icon-72.png in Resources */,
 				B8AA19BD154B502900750458 /* Icon-Small-50.png in Resources */,
@@ -1406,17 +1428,17 @@
 				B8AA19BF154B502900750458 /* Icon-Small@2x.png in Resources */,
 				B8AA19C0154B502900750458 /* icon.png in Resources */,
 				B8AA19C1154B502900750458 /* icon@2x.png in Resources */,
-				B8AA19CF154B565400750458 /* NewGameController.xib in Resources */,
-				B8DAFCE8155BDB0700A901A3 /* PuzzleLibraryController.xib in Resources */,
+				9698A81616A584CF009F2146 /* NewGameController.xib in Resources */,
+				9698A81C16A584D4009F2146 /* PuzzleLibraryController.xib in Resources */,
 				B8B0E724155FB612002FE0A2 /* ChooseLabel@2x.png in Resources */,
 				B8B0E726155FB612002FE0A2 /* ChooseLabel.png in Resources */,
 				B8B0E72E155FFA56002FE0A2 /* PuzzleComplete.png in Resources */,
 				B8B0E730155FFA56002FE0A2 /* PuzzleComplete@2x.png in Resources */,
 				B8B0E7341560187A002FE0A2 /* PuzzleComplete_iPhone.png in Resources */,
 				B8B0E7361560187A002FE0A2 /* PuzzleComplete_iPhone@2x.png in Resources */,
-				B8B0E73D15601E2C002FE0A2 /* PuzzleCompletedController.xib in Resources */,
-				B804EF3E156101DF00826712 /* PuzzleCompletedController_iPhone.xib in Resources */,
-				B82375821561B58000426E92 /* LoadGameController.xib in Resources */,
+				9698A82216A584DB009F2146 /* PuzzleCompletedController.xib in Resources */,
+				9698A82816A584E1009F2146 /* PuzzleCompletedController_iPhone.xib in Resources */,
+				9698A82E16A584E7009F2146 /* LoadGameController.xib in Resources */,
 				B8DADF9615654973002DCEF8 /* Notes.txt in Resources */,
 				B8D28BC815667CCF00DCF1A0 /* PanningSwitch.png in Resources */,
 				B8D28BCB15667CCF00DCF1A0 /* PanningSwitch@2x.png in Resources */,
@@ -1608,6 +1630,7 @@
 				9698A7FE16A57BA6009F2146 /* 8_puzzle_thumb.jpg in Resources */,
 				9698A7FF16A57BA6009F2146 /* 9_puzzle.jpg in Resources */,
 				9698A80016A57BA6009F2146 /* 9_puzzle_thumb.jpg in Resources */,
+				9698A80716A5847D009F2146 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1616,14 +1639,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8E181751550402800A8B450 /* InfoPlist.strings in Resources */,
-				B8E181761550402800A8B450 /* PuzzleController.xib in Resources */,
+				9698A80B16A584C3009F2146 /* PuzzleController.xib in Resources */,
 				B8E1817A1550402800A8B450 /* Default-Landscape@2x~ipad.png in Resources */,
 				B8E1817B1550402800A8B450 /* Default-Landscape~ipad.png in Resources */,
 				B8E1817C1550402800A8B450 /* Default-Portrait@2x~ipad.png in Resources */,
 				B8E1817D1550402800A8B450 /* Default-Portrait~ipad.png in Resources */,
 				B8E1817E1550402800A8B450 /* Default.png in Resources */,
 				B8E1817F1550402800A8B450 /* Default@2x.png in Resources */,
-				B8E181801550402800A8B450 /* MenuController.xib in Resources */,
+				9698A81116A584C9009F2146 /* MenuController.xib in Resources */,
 				B8E181821550402800A8B450 /* icon-512.png in Resources */,
 				B8E181831550402800A8B450 /* icon-72.png in Resources */,
 				B8E181841550402800A8B450 /* Icon-Small-50.png in Resources */,
@@ -1631,17 +1654,17 @@
 				B8E181861550402800A8B450 /* Icon-Small@2x.png in Resources */,
 				B8E181871550402800A8B450 /* icon.png in Resources */,
 				B8E181881550402800A8B450 /* icon@2x.png in Resources */,
-				B8E181891550402800A8B450 /* NewGameController.xib in Resources */,
-				B8DAFCE9155BDB0700A901A3 /* PuzzleLibraryController.xib in Resources */,
+				9698A81716A584CF009F2146 /* NewGameController.xib in Resources */,
+				9698A81D16A584D4009F2146 /* PuzzleLibraryController.xib in Resources */,
 				B8B0E725155FB612002FE0A2 /* ChooseLabel@2x.png in Resources */,
 				B8B0E727155FB612002FE0A2 /* ChooseLabel.png in Resources */,
 				B8B0E72F155FFA56002FE0A2 /* PuzzleComplete.png in Resources */,
 				B8B0E731155FFA56002FE0A2 /* PuzzleComplete@2x.png in Resources */,
 				B8B0E7351560187A002FE0A2 /* PuzzleComplete_iPhone.png in Resources */,
 				B8B0E7371560187A002FE0A2 /* PuzzleComplete_iPhone@2x.png in Resources */,
-				B8B0E73E15601E2C002FE0A2 /* PuzzleCompletedController.xib in Resources */,
-				B804EF3F156101DF00826712 /* PuzzleCompletedController_iPhone.xib in Resources */,
-				B82375831561B58000426E92 /* LoadGameController.xib in Resources */,
+				9698A82316A584DB009F2146 /* PuzzleCompletedController.xib in Resources */,
+				9698A82916A584E1009F2146 /* PuzzleCompletedController_iPhone.xib in Resources */,
+				9698A82F16A584E7009F2146 /* LoadGameController.xib in Resources */,
 				B8DADF9715654973002DCEF8 /* Notes.txt in Resources */,
 				B8D28BC915667CCF00DCF1A0 /* PanningSwitch.png in Resources */,
 				B8D28BCC15667CCF00DCF1A0 /* PanningSwitch@2x.png in Resources */,
@@ -1761,10 +1784,99 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		9698A80916A5847D009F2146 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9698A80816A5847D009F2146 /* en */,
+				9698A83416A584FC009F2146 /* ja */,
+				9698A83D16A5850F009F2146 /* vi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		9698A80F16A584C3009F2146 /* PuzzleController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9698A80E16A584C3009F2146 /* en */,
+				9698A83516A584FC009F2146 /* ja */,
+				9698A83E16A58510009F2146 /* vi */,
+			);
+			name = PuzzleController.xib;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9698A81516A584C9009F2146 /* MenuController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9698A81416A584C9009F2146 /* en */,
+				9698A83616A584FC009F2146 /* ja */,
+				9698A83F16A58510009F2146 /* vi */,
+			);
+			name = MenuController.xib;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9698A81B16A584CF009F2146 /* NewGameController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9698A81A16A584CF009F2146 /* en */,
+				9698A83716A584FC009F2146 /* ja */,
+				9698A84016A58510009F2146 /* vi */,
+			);
+			name = NewGameController.xib;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9698A82116A584D4009F2146 /* PuzzleLibraryController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9698A82016A584D4009F2146 /* en */,
+				9698A83816A584FC009F2146 /* ja */,
+				9698A84116A58510009F2146 /* vi */,
+			);
+			name = PuzzleLibraryController.xib;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9698A82716A584DB009F2146 /* PuzzleCompletedController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9698A82616A584DB009F2146 /* en */,
+				9698A83916A584FC009F2146 /* ja */,
+				9698A84216A58510009F2146 /* vi */,
+			);
+			name = PuzzleCompletedController.xib;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9698A82D16A584E1009F2146 /* PuzzleCompletedController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9698A82C16A584E1009F2146 /* en */,
+				9698A83A16A584FC009F2146 /* ja */,
+				9698A84316A58510009F2146 /* vi */,
+			);
+			name = PuzzleCompletedController_iPhone.xib;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9698A83316A584E7009F2146 /* LoadGameController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9698A83216A584E7009F2146 /* en */,
+				9698A83B16A584FC009F2146 /* ja */,
+				9698A84416A58510009F2146 /* vi */,
+			);
+			name = LoadGameController.xib;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		B87C5CD015400B2A00AF69BC /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B87C5CD115400B2A00AF69BC /* en */,
+				9698A83C16A584FC009F2146 /* ja */,
+				9698A84516A58510009F2146 /* vi */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -1853,7 +1965,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PROVISIONING_PROFILE = "15D53ECD-FF2B-4F94-92E8-0B4E17159231";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "15D53ECD-FF2B-4F94-92E8-0B4E17159231";
 				SDKROOT = iphoneos;
@@ -1879,7 +1991,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "15D53ECD-FF2B-4F94-92E8-0B4E17159231";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "15D53ECD-FF2B-4F94-92E8-0B4E17159231";

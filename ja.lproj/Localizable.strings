@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  Puzzle
+
+  Created by Thien Nguyen on 1/15/13.
+  Copyright (c) 2013 Università degli studi di Padova. All rights reserved.
+*/
+"pieces" = "ブロック";
+"Back" = "戻る";
+"Instructions"= "指示";
+"How to play" = "プレイ方法";
+"Double tap to rotate" = "２回クリックで回転";
+"Long press to view image" = "長押しで写真を見る";
