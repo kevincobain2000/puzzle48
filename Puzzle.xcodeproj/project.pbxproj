@@ -120,6 +120,7 @@
 		ADBF272E16A2EB5D006380D4 /* heart_box_wood.png in Resources */ = {isa = PBXBuildFile; fileRef = ADBF272C16A2EB5D006380D4 /* heart_box_wood.png */; };
 		ADBF273116A2EDFD006380D4 /* pink-hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = ADBF272F16A2EDFD006380D4 /* pink-hearts.png */; };
 		ADBF273216A2EDFD006380D4 /* pink-hearts@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADBF273016A2EDFD006380D4 /* pink-hearts@2x.png */; };
+		ADE343ED16A555C0007D534C /* icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE343EC16A555C0007D534C /* icon-144.png */; };
 		ADFB798F16A41E67006E09F5 /* icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = ADFB798E16A41E67006E09F5 /* icon-114.png */; };
 		ADFBEBD716A3BDF2004B1630 /* Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFBEBD616A3BDF2004B1630 /* Animations.m */; };
 		B804EF3E156101DF00826712 /* PuzzleCompletedController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B804EF3D156101DF00826712 /* PuzzleCompletedController_iPhone.xib */; };
@@ -461,6 +462,7 @@
 		ADBF272C16A2EB5D006380D4 /* heart_box_wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart_box_wood.png; sourceTree = "<group>"; };
 		ADBF272F16A2EDFD006380D4 /* pink-hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pink-hearts.png"; sourceTree = "<group>"; };
 		ADBF273016A2EDFD006380D4 /* pink-hearts@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pink-hearts@2x.png"; sourceTree = "<group>"; };
+		ADE343EC16A555C0007D534C /* icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-144.png"; sourceTree = "<group>"; };
 		ADFB798E16A41E67006E09F5 /* icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-114.png"; sourceTree = "<group>"; };
 		ADFBEBD516A3BDF2004B1630 /* Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animations.h; sourceTree = "<group>"; };
 		ADFBEBD616A3BDF2004B1630 /* Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animations.m; sourceTree = "<group>"; };
@@ -756,6 +758,7 @@
 		B87C5CB615400B2A00AF69BC = {
 			isa = PBXGroup;
 			children = (
+				ADE343EC16A555C0007D534C /* icon-144.png */,
 				ADFBEBD916A3BDFB004B1630 /* Animations */,
 				B87C5CCD15400B2A00AF69BC /* Puzzle */,
 				B87C5CC415400B2A00AF69BC /* Frameworks */,
@@ -1282,6 +1285,7 @@
 				9696606D16A42AB300A2D99C /* 9_puzzle_thumb.jpg in Resources */,
 				AD823D3016A50400004E2036 /* Button.wav in Resources */,
 				AD823D3216A5043B004E2036 /* buttonPress.wav in Resources */,
+				ADE343ED16A555C0007D534C /* icon-144.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
