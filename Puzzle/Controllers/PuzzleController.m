@@ -399,7 +399,7 @@
 }
 
 - (IBAction)toggleMenu:(id)sender {
-    //[audioPlayer play];//don't need this sound
+    [audioPlayer play];
     [Animations buttonPressAnimate:self.buttonMenuOutlet andAnimationDuration:0.25 andWait:NO];
     
     //if (sender!=nil) [menu playMenuSound];
