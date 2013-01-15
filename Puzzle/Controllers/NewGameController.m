@@ -16,7 +16,7 @@
 
 #define IMAGE_QUALITY 0.5
 #define WOOD [UIColor colorWithPatternImage:[UIImage imageNamed:@"Wood.jpg"]]
-#define NUM_OF_PIECES 2
+#define NUM_OF_PIECES 3
 @interface NewGameController ()
 
 @end
