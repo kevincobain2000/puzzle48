@@ -531,7 +531,7 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<object class="NSCustomResource" key="IBUIImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">9_puzzle_thumb.jpg</string>
+							<string key="NSResourceName">Amsterdam bikes_puzzle_thumb.jpg</string>
 						</object>
 					</object>
 					<object class="IBUILabel" id="442564827">
@@ -1013,17 +1013,32 @@
 					<string key="className">NewGameController</string>
 					<string key="superclassName">UIViewController</string>
 					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="back:">id</string>
 						<string key="numberSelected:">UISlider</string>
 						<string key="selectImage:">id</string>
+						<string key="selectImageFromPhotoLibrary:">UIButton</string>
+						<string key="selectImageFromPuzzleLibrary:">id</string>
 						<string key="startNewGame:">id</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="back:">
+							<string key="name">back:</string>
+							<string key="candidateClassName">id</string>
+						</object>
 						<object class="IBActionInfo" key="numberSelected:">
 							<string key="name">numberSelected:</string>
 							<string key="candidateClassName">UISlider</string>
 						</object>
 						<object class="IBActionInfo" key="selectImage:">
 							<string key="name">selectImage:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="selectImageFromPhotoLibrary:">
+							<string key="name">selectImageFromPhotoLibrary:</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBActionInfo" key="selectImageFromPuzzleLibrary:">
+							<string key="name">selectImageFromPuzzleLibrary:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 						<object class="IBActionInfo" key="startNewGame:">
@@ -1132,7 +1147,7 @@
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="9_puzzle_thumb.jpg">{1280, 850}</string>
+			<string key="Amsterdam bikes_puzzle_thumb.jpg">{1280, 850}</string>
 			<string key="heart_box.png">{128, 128}</string>
 			<string key="heart_box_wood.png">{128, 128}</string>
 		</dictionary>

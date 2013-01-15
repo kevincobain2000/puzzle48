@@ -155,8 +155,8 @@
 		9698A7FC16A57BA6009F2146 /* 86_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9698A75016A57BA6009F2146 /* 86_puzzle_thumb.jpg */; };
 		9698A7FD16A57BA6009F2146 /* 8_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9698A75116A57BA6009F2146 /* 8_puzzle.jpg */; };
 		9698A7FE16A57BA6009F2146 /* 8_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9698A75216A57BA6009F2146 /* 8_puzzle_thumb.jpg */; };
-		9698A7FF16A57BA6009F2146 /* 9_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9698A75316A57BA6009F2146 /* 9_puzzle.jpg */; };
-		9698A80016A57BA6009F2146 /* 9_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9698A75416A57BA6009F2146 /* 9_puzzle_thumb.jpg */; };
+		9698A7FF16A57BA6009F2146 /* Amsterdam bikes_puzzle_puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9698A75316A57BA6009F2146 /* Amsterdam bikes_puzzle_puzzle.jpg */; };
+		9698A80016A57BA6009F2146 /* Amsterdam bikes_puzzle_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9698A75416A57BA6009F2146 /* Amsterdam bikes_puzzle_thumb.jpg */; };
 		9698A80716A5847D009F2146 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9698A80916A5847D009F2146 /* Localizable.strings */; };
 		9698A80A16A584C3009F2146 /* PuzzleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A80F16A584C3009F2146 /* PuzzleController.xib */; };
 		9698A80B16A584C3009F2146 /* PuzzleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698A80F16A584C3009F2146 /* PuzzleController.xib */; };
@@ -557,8 +557,8 @@
 		9698A75016A57BA6009F2146 /* 86_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 86_puzzle_thumb.jpg; sourceTree = "<group>"; };
 		9698A75116A57BA6009F2146 /* 8_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8_puzzle.jpg; sourceTree = "<group>"; };
 		9698A75216A57BA6009F2146 /* 8_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8_puzzle_thumb.jpg; sourceTree = "<group>"; };
-		9698A75316A57BA6009F2146 /* 9_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9_puzzle.jpg; sourceTree = "<group>"; };
-		9698A75416A57BA6009F2146 /* 9_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9_puzzle_thumb.jpg; sourceTree = "<group>"; };
+		9698A75316A57BA6009F2146 /* Amsterdam bikes_puzzle_puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Amsterdam bikes_puzzle_puzzle.jpg"; sourceTree = "<group>"; };
+		9698A75416A57BA6009F2146 /* Amsterdam bikes_puzzle_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Amsterdam bikes_puzzle_thumb.jpg"; sourceTree = "<group>"; };
 		9698A80816A5847D009F2146 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9698A80E16A584C3009F2146 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PuzzleController.xib; sourceTree = "<group>"; };
 		9698A81416A584C9009F2146 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MenuController.xib; sourceTree = "<group>"; };
@@ -907,8 +907,8 @@
 				9698A75016A57BA6009F2146 /* 86_puzzle_thumb.jpg */,
 				9698A75116A57BA6009F2146 /* 8_puzzle.jpg */,
 				9698A75216A57BA6009F2146 /* 8_puzzle_thumb.jpg */,
-				9698A75316A57BA6009F2146 /* 9_puzzle.jpg */,
-				9698A75416A57BA6009F2146 /* 9_puzzle_thumb.jpg */,
+				9698A75316A57BA6009F2146 /* Amsterdam bikes_puzzle_puzzle.jpg */,
+				9698A75416A57BA6009F2146 /* Amsterdam bikes_puzzle_thumb.jpg */,
 			);
 			path = AKB48;
 			sourceTree = "<group>";
@@ -1540,8 +1540,8 @@
 				9698A7FC16A57BA6009F2146 /* 86_puzzle_thumb.jpg in Resources */,
 				9698A7FD16A57BA6009F2146 /* 8_puzzle.jpg in Resources */,
 				9698A7FE16A57BA6009F2146 /* 8_puzzle_thumb.jpg in Resources */,
-				9698A7FF16A57BA6009F2146 /* 9_puzzle.jpg in Resources */,
-				9698A80016A57BA6009F2146 /* 9_puzzle_thumb.jpg in Resources */,
+				9698A7FF16A57BA6009F2146 /* Amsterdam bikes_puzzle_puzzle.jpg in Resources */,
+				9698A80016A57BA6009F2146 /* Amsterdam bikes_puzzle_thumb.jpg in Resources */,
 				9698A80716A5847D009F2146 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

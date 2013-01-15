@@ -169,6 +169,8 @@
     
     image.image = [UIImage imageWithData:dataJPG];
     
+    
+    
     tapToSelectLabel.hidden = YES;
     startButton.enabled = YES;
     
