@@ -81,7 +81,7 @@
 
 - (IBAction)startNewGame:(id)sender {
     [audioPlayer play];
-    [Animations buttonPressAnimate:newGameButton andAnimationDuration:0.25 andWait:NO];
+    [Animations buttonPressAnimate:newGameButton andAnimationDuration:0.25 andWait:YES];
     if (sender!=nil) {
         
         //[self playMenuSound];

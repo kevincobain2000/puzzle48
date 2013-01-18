@@ -13,7 +13,6 @@
 #import "UIImage+CWAdditions.h"
 #import "PuzzleLibraryController.h"
 #import "Animations.h"
-
 #define IMAGE_QUALITY 0.5
 #define WOOD [UIColor colorWithPatternImage:[UIImage imageNamed:@"Wood.jpg"]]
 #define NUM_OF_PIECES 3
@@ -28,6 +27,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    
     NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Button" ofType:@"wav"]];
     audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil] ;
     [audioPlayer prepareToPlay]; //sound when image is tapped
@@ -185,11 +186,11 @@
     //[delegate playMenuSound];
     delegate.chooseLabel.alpha = 1;
     
-    
+
     PuzzleLibraryController *c = [[PuzzleLibraryController alloc] init];
+    
+    
     c.delegate = self;
-    
-    
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad){
         
         popover = [[UIPopoverController alloc] initWithContentViewController:c];
@@ -202,6 +203,7 @@
         
         [self presentModalViewController:c animated:YES];
     }
+     
     
 }
 
@@ -418,9 +420,6 @@
     
     
 }
-
-
-
 
 
 

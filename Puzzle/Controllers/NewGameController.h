@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
+
 @class MenuController, PuzzleLibraryController;
 
 @protocol NewGameDelegate
@@ -37,6 +38,7 @@
 }
 
 @property (nonatomic, strong) IBOutlet UIProgressView *progressView;
+
 
 @property (nonatomic, strong) UIPopoverController *popover;
 @property (nonatomic, strong) NSString *imagePath;

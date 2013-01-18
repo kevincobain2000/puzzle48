@@ -43,6 +43,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
     NSLog(@"Came");
     thumbs = [[NSArray alloc] initWithArray:[self imagesForPuzzle]];
     paths = [[NSArray alloc] initWithArray:[self pathsForImages]];
@@ -53,7 +54,7 @@
     }
     
     self.clearsSelectionOnViewWillAppear = YES;
-    self.tableView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Wood.jpg"]];
+    self.tableView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"pink-hearts.png"]];
     [self.tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
