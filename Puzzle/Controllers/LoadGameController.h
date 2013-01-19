@@ -25,6 +25,7 @@
 @property (nonatomic, strong) NSMutableArray *contents;
 @property (nonatomic, strong) NSMutableArray *images;
 @property (nonatomic, strong) IBOutlet UITableView *tableView;
+- (IBAction)buttonDismissPressed:(id)sender;
 
 - (void)reloadData;
 

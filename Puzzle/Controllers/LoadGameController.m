@@ -23,7 +23,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
     tableView.backgroundColor = [UIColor clearColor];
     tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     
@@ -37,6 +36,21 @@
 
     
     //contents =  [[NSMutableArray alloc] initWithArray:[managedObjectContext executeFetchRequest:fetchRequest1 error:nil]];
+    
+}
+
+- (IBAction)buttonDismissPressed:(id)sender {
+    [delegate.delegate.managedObjectContext save:nil];
+    
+    [UIView animateWithDuration:0.3 animations:^{
+        
+        self.view.frame = CGRectMake(delegate.mainView.frame.size.width, self.view.frame.origin.y,
+                                     self.view.frame.size.width, self.view.frame.size.height);
+        
+        delegate.mainView.frame = CGRectMake(0, delegate.mainView.frame.origin.y,
+                                             delegate.mainView.frame.size.width, delegate.mainView.frame.size.height);
+        
+    }];
     
 }
 
@@ -106,6 +120,7 @@
     // e.g. self.myOutlet = nil;
 }
 
+/*
 - (IBAction)back:(id)sender {
     
     [delegate.delegate.managedObjectContext save:nil];
@@ -121,6 +136,7 @@
     }];
 
 }
+ */
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {

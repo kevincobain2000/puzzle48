@@ -28,6 +28,7 @@
 #import <mach/mach_host.h>
 #import "Animations.h"
 #import "RNBlurModalView.h"
+#import "WCAlertView.h"
 @interface PuzzleController ()
 
 @end
@@ -3383,11 +3384,13 @@
 }
 
 - (IBAction)rateGame {
-    /*
+    
     NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
     
     if (![prefs boolForKey:@"Reviewed"]) {
         
+        
+        /*
         alertView = [[UIAlertView alloc] initWithTitle:@"Give your opinion!" message:@"Do you like this game? Give us\n★★★★★!\nDo you have any suggestions?\nWrite a review and we will try to improve the app to fulfill your desires." delegate:self cancelButtonTitle:@"No thanks" otherButtonTitles:@"Sure!", nil];
         [alertView show];
         
@@ -3395,10 +3398,25 @@
         
         DLog(@"Already rated");
     }
-     */
+         */
+    [WCAlertView showAlertWithTitle:@"Give your opinion !" message:nil customizationBlock:^(WCAlertView *alertView) {
+        alertView.style = WCAlertViewStyleWhiteHatched;
+    } completionBlock:^(NSUInteger buttonIndex, WCAlertView *alertView) {
+        if (buttonIndex == 0) {
+            [[UIApplication sharedApplication] openURL: [NSURL URLWithString:@"https://itunes.apple.com/us/app/help.me/id590206100?ls=1&mt=8"]];
+            
+        } else {
+            NSLog(@"Cancel");
+            
+            
+        }
+    } cancelButtonTitle:NSLocalizedString(@"Rate", @"Rate") otherButtonTitles:NSLocalizedString(@"Cancel", @"Cancel"), nil];
     
 }
 
+
+}
+/*
 - (void)alertView:(UIAlertView *)alertView_ clickedButtonAtIndex:(NSInteger)buttonIndex {
     
     if (buttonIndex==1) {
@@ -3415,6 +3433,7 @@
     }
     
 }
+ */
 
 - (void)print_free_memory {
     
