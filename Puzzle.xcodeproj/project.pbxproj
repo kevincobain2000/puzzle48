@@ -193,6 +193,8 @@
 		AD077ED716A015FF00FA4561 /* BelloPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD077ED316A015FF00FA4561 /* BelloPro.ttf */; };
 		AD1283AC16AAA12500695B95 /* SEFilterControl.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1283A916AAA12500695B95 /* SEFilterControl.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		AD1283AD16AAA12500695B95 /* SEFilterKnob.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1283AB16AAA12500695B95 /* SEFilterKnob.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AD1283B016AAA7A700695B95 /* MTAnimatedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1283AF16AAA7A700695B95 /* MTAnimatedLabel.m */; };
+		AD1283B716AAA88100695B95 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1283B616AAA88100695B95 /* CoreText.framework */; };
 		AD589E7216A3E9F300BB15D4 /* Valentines-Day-iPad-Wallpaper-37.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD589E7116A3E9F300BB15D4 /* Valentines-Day-iPad-Wallpaper-37.jpg */; };
 		AD589E8116A3F6F800BB15D4 /* Applause-faded.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD589E8016A3F6F800BB15D4 /* Applause-faded.mp3 */; };
 		AD7411CF16AA736E007C7098 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = AD7411CD16AA736E007C7098 /* button.png */; };
@@ -596,6 +598,9 @@
 		AD1283A916AAA12500695B95 /* SEFilterControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEFilterControl.m; sourceTree = "<group>"; };
 		AD1283AA16AAA12500695B95 /* SEFilterKnob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEFilterKnob.h; sourceTree = "<group>"; };
 		AD1283AB16AAA12500695B95 /* SEFilterKnob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEFilterKnob.m; sourceTree = "<group>"; };
+		AD1283AE16AAA7A700695B95 /* MTAnimatedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAnimatedLabel.h; sourceTree = "<group>"; };
+		AD1283AF16AAA7A700695B95 /* MTAnimatedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTAnimatedLabel.m; sourceTree = "<group>"; };
+		AD1283B616AAA88100695B95 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		AD589E7116A3E9F300BB15D4 /* Valentines-Day-iPad-Wallpaper-37.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Valentines-Day-iPad-Wallpaper-37.jpg"; sourceTree = "<group>"; };
 		AD589E8016A3F6F800BB15D4 /* Applause-faded.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Applause-faded.mp3"; sourceTree = "<group>"; };
 		AD7411CD16AA736E007C7098 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
@@ -739,6 +744,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD1283B716AAA88100695B95 /* CoreText.framework in Frameworks */,
 				ADBA9F4816A56C6600670034 /* Accelerate.framework in Frameworks */,
 				B8DBEA061581589B005199B4 /* Security.framework in Frameworks */,
 				B8DBE9FD15813412005199B4 /* iAd.framework in Frameworks */,
@@ -951,6 +957,15 @@
 			name = SEFilterControl;
 			sourceTree = "<group>";
 		};
+		AD1283B116AAA7AC00695B95 /* MTAnimatedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				AD1283AE16AAA7A700695B95 /* MTAnimatedLabel.h */,
+				AD1283AF16AAA7A700695B95 /* MTAnimatedLabel.m */,
+			);
+			name = MTAnimatedLabel;
+			sourceTree = "<group>";
+		};
 		AD9770A116AA559B00CA7AA7 /* WCAlertView */ = {
 			isa = PBXGroup;
 			children = (
@@ -988,6 +1003,7 @@
 		B87C5CB615400B2A00AF69BC = {
 			isa = PBXGroup;
 			children = (
+				AD1283B116AAA7AC00695B95 /* MTAnimatedLabel */,
 				AD1283A716AA9DF200695B95 /* SEFilterControl */,
 				AD9770A116AA559B00CA7AA7 /* WCAlertView */,
 				9698A80916A5847D009F2146 /* Localizable.strings */,
@@ -1013,6 +1029,7 @@
 		B87C5CC415400B2A00AF69BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AD1283B616AAA88100695B95 /* CoreText.framework */,
 				ADBA9F4716A56C6600670034 /* Accelerate.framework */,
 				B8DBEA0415815887005199B4 /* Security.framework */,
 				B8DBE9FC15813412005199B4 /* iAd.framework */,
@@ -1706,6 +1723,7 @@
 				AD9770A416AA559B00CA7AA7 /* WCAlertView.m in Sources */,
 				AD1283AC16AAA12500695B95 /* SEFilterControl.m in Sources */,
 				AD1283AD16AAA12500695B95 /* SEFilterKnob.m in Sources */,
+				AD1283B016AAA7A700695B95 /* MTAnimatedLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

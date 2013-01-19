@@ -28,6 +28,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
+    [self.labelTapToChoose startAnimating];
     difficultyLevel = 3;
     //Adding a Filter
     if IsRunningTallPhone(){
@@ -220,6 +222,7 @@
 
 - (IBAction)selectImageFromPuzzleLibrary:(id)sender {
     [audioPlayer play];
+    //[self.labelTapToChoose stopAnimating];
     //[delegate playMenuSound];
     delegate.chooseLabel.alpha = 1;
     
@@ -475,6 +478,7 @@
 
 - (void)viewDidUnload
 {
+    [self setLabelTapToChoose:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

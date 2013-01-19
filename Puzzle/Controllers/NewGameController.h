@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
+#import "MTAnimatedLabel.h"
 #define IsRunningTallPhone() ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPhone && [UIScreen mainScreen].bounds.size.height == 568)
 @class MenuController, PuzzleLibraryController;
 
@@ -40,6 +41,7 @@
 
 @property (nonatomic, strong) IBOutlet UIProgressView *progressView;
 
+@property (strong, nonatomic) IBOutlet MTAnimatedLabel *labelTapToChoose;
 
 @property (nonatomic, strong) UIPopoverController *popover;
 @property (nonatomic, strong) NSString *imagePath;
