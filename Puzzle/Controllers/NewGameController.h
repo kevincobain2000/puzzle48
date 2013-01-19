@@ -41,7 +41,6 @@
 
 @property (nonatomic, strong) IBOutlet UIProgressView *progressView;
 
-@property (strong, nonatomic) IBOutlet MTAnimatedLabel *labelTapToChoose;
 
 @property (nonatomic, strong) UIPopoverController *popover;
 @property (nonatomic, strong) NSString *imagePath;

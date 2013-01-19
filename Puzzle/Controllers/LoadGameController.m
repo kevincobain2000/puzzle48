@@ -187,8 +187,24 @@
     
     cell.imageView.image = [images objectAtIndex:indexPath.row];
     cell.textLabel.text = [df stringFromDate:[puzzle lastSaved]];
-    cell.detailTextLabel.text = [NSString stringWithFormat:@"%d pieces, %d%% completed", puzzle.pieceNumber.intValue*puzzle.pieceNumber.intValue, puzzle.percentage.intValue];
-
+    
+    NSString *difficulty = [NSString alloc];
+    NSString *completed = NSLocalizedString(@"Completed", @"Completed");
+    int difficultyL = puzzle.pieceNumber.intValue*puzzle.pieceNumber.intValue;
+    if (difficultyL == 9){
+        difficulty = NSLocalizedString(@"Easy", @"Easy");
+    }
+    else if (difficultyL == 16){
+        difficulty = NSLocalizedString(@"Medium", @"Medium");
+    }
+    else if (difficultyL == 25){
+        difficulty = NSLocalizedString(@"Hard", @"Hard");
+    }
+    
+    //cell.detailTextLabel.text = [NSString stringWithFormat:@"%d pieces, %d%% completed", puzzle.pieceNumber.intValue*puzzle.pieceNumber.intValue, puzzle.percentage.intValue];
+    
+    cell.detailTextLabel.text = [NSString stringWithFormat:@"%@, %d%% %@", difficulty, puzzle.percentage.intValue, completed];
+    cell.detailTextLabel.font = [UIFont fontWithName:@"MarkerFelt-Wide" size:16];
     return cell;
 }
 
