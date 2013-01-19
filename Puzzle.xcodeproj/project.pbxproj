@@ -193,6 +193,8 @@
 		AD077ED716A015FF00FA4561 /* BelloPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD077ED316A015FF00FA4561 /* BelloPro.ttf */; };
 		AD589E7216A3E9F300BB15D4 /* Valentines-Day-iPad-Wallpaper-37.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD589E7116A3E9F300BB15D4 /* Valentines-Day-iPad-Wallpaper-37.jpg */; };
 		AD589E8116A3F6F800BB15D4 /* Applause-faded.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD589E8016A3F6F800BB15D4 /* Applause-faded.mp3 */; };
+		AD7411CF16AA736E007C7098 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = AD7411CD16AA736E007C7098 /* button.png */; };
+		AD7411D016AA736E007C7098 /* button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD7411CE16AA736E007C7098 /* button@2x.png */; };
 		AD823D3016A50400004E2036 /* Button.wav in Resources */ = {isa = PBXBuildFile; fileRef = AD823D2F16A50400004E2036 /* Button.wav */; };
 		AD823D3216A5043B004E2036 /* buttonPress.wav in Resources */ = {isa = PBXBuildFile; fileRef = AD823D3116A5043B004E2036 /* buttonPress.wav */; };
 		AD9770A416AA559B00CA7AA7 /* WCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9770A316AA559B00CA7AA7 /* WCAlertView.m */; };
@@ -590,6 +592,8 @@
 		AD077ED316A015FF00FA4561 /* BelloPro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BelloPro.ttf; sourceTree = "<group>"; };
 		AD589E7116A3E9F300BB15D4 /* Valentines-Day-iPad-Wallpaper-37.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Valentines-Day-iPad-Wallpaper-37.jpg"; sourceTree = "<group>"; };
 		AD589E8016A3F6F800BB15D4 /* Applause-faded.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Applause-faded.mp3"; sourceTree = "<group>"; };
+		AD7411CD16AA736E007C7098 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		AD7411CE16AA736E007C7098 /* button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button@2x.png"; sourceTree = "<group>"; };
 		AD823D2F16A50400004E2036 /* Button.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Button.wav; sourceTree = "<group>"; };
 		AD823D3116A5043B004E2036 /* buttonPress.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = buttonPress.wav; sourceTree = "<group>"; };
 		AD9770A216AA559B00CA7AA7 /* WCAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCAlertView.h; sourceTree = "<group>"; };
@@ -1145,6 +1149,8 @@
 		B8E1815E15503AF800A8B450 /* PNGs */ = {
 			isa = PBXGroup;
 			children = (
+				AD7411CD16AA736E007C7098 /* button.png */,
+				AD7411CE16AA736E007C7098 /* button@2x.png */,
 				AD589E7116A3E9F300BB15D4 /* Valentines-Day-iPad-Wallpaper-37.jpg */,
 				ADBF272F16A2EDFD006380D4 /* pink-hearts.png */,
 				ADBF273016A2EDFD006380D4 /* pink-hearts@2x.png */,
@@ -1556,6 +1562,8 @@
 				9698A7FF16A57BA6009F2146 /* Amsterdam bikes_puzzle_puzzle.jpg in Resources */,
 				9698A80016A57BA6009F2146 /* Amsterdam bikes_puzzle_thumb.jpg in Resources */,
 				9698A80716A5847D009F2146 /* Localizable.strings in Resources */,
+				AD7411CF16AA736E007C7098 /* button.png in Resources */,
+				AD7411D016AA736E007C7098 /* button@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

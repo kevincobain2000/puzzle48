@@ -186,7 +186,7 @@
             
             cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
             UIView *v = [[UIView alloc] init];
-            v.backgroundColor = [UIColor magentaColor];
+            v.backgroundColor = [UIColor clearColor];
             cell.selectedBackgroundView = v;
         }
         

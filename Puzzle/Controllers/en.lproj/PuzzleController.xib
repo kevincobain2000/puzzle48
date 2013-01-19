@@ -48,7 +48,7 @@
 								<reference key="NSSuperview" ref="950110971"/>
 								<reference key="NSNextKeyView" ref="775788706"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
-								<object class="NSColor" key="IBUIBackgroundColor">
+								<object class="NSColor" key="IBUIBackgroundColor" id="461438916">
 									<int key="NSColorSpace">3</int>
 									<bytes key="NSWhite">MAA</bytes>
 								</object>
@@ -9986,21 +9986,26 @@ AAEAAQABA</bytes>
 										<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 										<int key="IBUIContentHorizontalAlignment">0</int>
 										<int key="IBUIContentVerticalAlignment">0</int>
+										<string key="IBUITitleShadowOffset">{0, 1}</string>
 										<string key="IBUINormalTitle">Menu</string>
 										<reference key="IBUIHighlightedTitleColor" ref="27754075"/>
 										<object class="NSColor" key="IBUINormalTitleColor">
 											<int key="NSColorSpace">1</int>
 											<bytes key="NSRGB">MC45MTQ3MDU2NzM2IDAuOTM1OTQ1NDcxOSAwLjA4ODgxNjY0MTIxAA</bytes>
 										</object>
-										<reference key="IBUINormalTitleShadowColor" ref="1061150384"/>
+										<reference key="IBUINormalTitleShadowColor" ref="461438916"/>
+										<object class="NSCustomResource" key="IBUINormalBackgroundImage">
+											<string key="NSClassName">NSImage</string>
+											<string key="NSResourceName">button.png</string>
+										</object>
 										<object class="IBUIFontDescription" key="IBUIFontDescription">
-											<string key="name">Noteworthy-Bold</string>
-											<string key="family">Noteworthy</string>
+											<string key="name">MarkerFelt-Wide</string>
+											<string key="family">Marker Felt</string>
 											<int key="traits">2</int>
 											<double key="pointSize">21</double>
 										</object>
 										<object class="NSFont" key="IBUIFont">
-											<string key="NSName">Noteworthy-Bold</string>
+											<string key="NSName">MarkerFelt-Wide</string>
 											<double key="NSSize">21</double>
 											<int key="NSfFlags">16</int>
 										</object>
@@ -10034,14 +10039,14 @@ AAEAAQABA</bytes>
 								<reference key="IBUIShadowColor" ref="778375862"/>
 								<int key="IBUIBaselineAdjustment">0</int>
 								<float key="IBUIMinimumFontSize">10</float>
-								<object class="IBUIFontDescription" key="IBUIFontDescription" id="452113480">
-									<string key="name">Noteworthy-Bold</string>
-									<string key="family">Noteworthy</string>
+								<object class="IBUIFontDescription" key="IBUIFontDescription">
+									<string key="name">ArialHebrew-Bold</string>
+									<string key="family">Arial Hebrew</string>
 									<int key="traits">2</int>
 									<double key="pointSize">20</double>
 								</object>
-								<object class="NSFont" key="IBUIFont" id="176714931">
-									<string key="NSName">Noteworthy-Bold</string>
+								<object class="NSFont" key="IBUIFont">
+									<string key="NSName">ArialHebrew-Bold</string>
 									<double key="NSSize">20</double>
 									<int key="NSfFlags">16</int>
 								</object>
@@ -10068,8 +10073,17 @@ AAEAAQABA</bytes>
 								<int key="IBUIBaselineAdjustment">0</int>
 								<float key="IBUIMinimumFontSize">10</float>
 								<int key="IBUITextAlignment">2</int>
-								<reference key="IBUIFontDescription" ref="452113480"/>
-								<reference key="IBUIFont" ref="176714931"/>
+								<object class="IBUIFontDescription" key="IBUIFontDescription">
+									<string key="name">Arial-BoldMT</string>
+									<string key="family">Arial</string>
+									<int key="traits">2</int>
+									<double key="pointSize">20</double>
+								</object>
+								<object class="NSFont" key="IBUIFont">
+									<string key="NSName">Arial-BoldMT</string>
+									<double key="NSSize">20</double>
+									<int key="NSfFlags">16</int>
+								</object>
 							</object>
 							<object class="IBUISwitch" id="785001214">
 								<reference key="NSNextResponder" ref="519583281"/>
@@ -10137,13 +10151,13 @@ AAEAAQABA</bytes>
 								<float key="IBUIMinimumFontSize">10</float>
 								<int key="IBUITextAlignment">1</int>
 								<object class="IBUIFontDescription" key="IBUIFontDescription">
-									<string key="name">Noteworthy-Bold</string>
-									<string key="family">Noteworthy</string>
-									<int key="traits">2</int>
+									<string key="name">Georgia</string>
+									<string key="family">Georgia</string>
+									<int key="traits">0</int>
 									<double key="pointSize">25</double>
 								</object>
 								<object class="NSFont" key="IBUIFont">
-									<string key="NSName">Noteworthy-Bold</string>
+									<string key="NSName">Georgia</string>
 									<double key="NSSize">25</double>
 									<int key="NSfFlags">16</int>
 								</object>
@@ -14919,10 +14933,10 @@ AAgAAAAIAAIACAACAAAAAgAAAAEAAQABAAE</bytes>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
-		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="NS.key.0">PanningSwitch.png</string>
-			<string key="NS.object.0">{50, 50}</string>
-		</object>
+		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
+			<string key="PanningSwitch.png">{50, 50}</string>
+			<string key="button.png">{248, 84}</string>
+		</dictionary>
 		<string key="IBCocoaTouchPluginVersion">1930</string>
 	</data>
 </archive>
