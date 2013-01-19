@@ -1011,32 +1011,17 @@
 					<string key="className">NewGameController</string>
 					<string key="superclassName">UIViewController</string>
 					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="back:">id</string>
 						<string key="numberSelected:">UISlider</string>
 						<string key="selectImage:">id</string>
-						<string key="selectImageFromPhotoLibrary:">UIButton</string>
-						<string key="selectImageFromPuzzleLibrary:">id</string>
 						<string key="startNewGame:">id</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="back:">
-							<string key="name">back:</string>
-							<string key="candidateClassName">id</string>
-						</object>
 						<object class="IBActionInfo" key="numberSelected:">
 							<string key="name">numberSelected:</string>
 							<string key="candidateClassName">UISlider</string>
 						</object>
 						<object class="IBActionInfo" key="selectImage:">
 							<string key="name">selectImage:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="selectImageFromPhotoLibrary:">
-							<string key="name">selectImageFromPhotoLibrary:</string>
-							<string key="candidateClassName">UIButton</string>
-						</object>
-						<object class="IBActionInfo" key="selectImageFromPuzzleLibrary:">
-							<string key="name">selectImageFromPuzzleLibrary:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 						<object class="IBActionInfo" key="startNewGame:">
