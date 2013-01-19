@@ -13,9 +13,10 @@
 #import "UIImage+CWAdditions.h"
 #import "PuzzleLibraryController.h"
 #import "Animations.h"
+#import "SEFilterControl.h"
 #define IMAGE_QUALITY 0.5
 #define WOOD [UIColor colorWithPatternImage:[UIImage imageNamed:@"Wood.jpg"]]
-#define NUM_OF_PIECES 3
+
 @interface NewGameController ()
 
 @end
@@ -27,7 +28,28 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    difficultyLevel = 3;
+    //Adding a Filter
+    if IsRunningTallPhone(){
+        CGRect buttonFrame = backButton.frame;
+        buttonFrame.origin.y += 60;
+        backButton.frame = buttonFrame;
+        
+        CGRect buttonFrame2 = startButton.frame;
+        buttonFrame2.origin.y += 60;
+        startButton.frame = buttonFrame2;
+    }
+    else{
+        
+    }
+    SEFilterControl *filter = [[SEFilterControl alloc]initWithFrame:CGRectMake(10, 320, 300, 70) Titles:[NSArray arrayWithObjects:NSLocalizedString(@"Easy", @"Easy"), NSLocalizedString(@"Medium", @"Medium"), NSLocalizedString(@"Hard", @"Hard"), nil]];
+    [filter addTarget:self action:@selector(filterValueChanged:) forControlEvents:UIControlEventValueChanged];
+    [filter setHandlerColor:[UIColor yellowColor]];
+    [filter setProgressColor:[UIColor magentaColor]];
+    [filter setTitlesFont:[UIFont fontWithName:@"MarkerFelt-Wide" size:14]];
+    [self.view addSubview:filter];
     
+    //End Adding Filter
     
     NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Button" ofType:@"wav"]];
     audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil] ;
@@ -51,7 +73,7 @@
     
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone){
         
-        slider.maximumValue = NUM_OF_PIECES;
+        slider.maximumValue = difficultyLevel;
         
     } else {
         
@@ -76,6 +98,21 @@
     
     typeOfImageView.backgroundColor = WOOD;
     
+}
+
+
+-(void)filterValueChanged:(SEFilterControl *) sender{
+    [audioPlayer play];
+    NSLog(@"%d", sender.SelectedIndex);
+    if (sender.SelectedIndex == 0){
+        difficultyLevel = 3;
+    }
+    else if (sender.SelectedIndex == 1){
+        difficultyLevel = 4;
+    }
+    else if (sender.SelectedIndex == 2){
+        difficultyLevel = 5;
+    }
 }
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
@@ -274,7 +311,7 @@
     
     delegate.delegate.imageView.image = delegate.delegate.image;
     delegate.delegate.imageViewLattice.image = delegate.delegate.image;
-    delegate.delegate.pieceNumber = (int)slider.value;
+    delegate.delegate.pieceNumber = difficultyLevel;//(int)slider.value;
     
     
     [self startLoading];

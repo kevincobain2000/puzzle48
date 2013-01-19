@@ -191,6 +191,8 @@
 		AD077ED516A015FF00FA4561 /* BelloPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD077ED316A015FF00FA4561 /* BelloPro.ttf */; };
 		AD077ED616A015FF00FA4561 /* BelloPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD077ED316A015FF00FA4561 /* BelloPro.ttf */; };
 		AD077ED716A015FF00FA4561 /* BelloPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD077ED316A015FF00FA4561 /* BelloPro.ttf */; };
+		AD1283AC16AAA12500695B95 /* SEFilterControl.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1283A916AAA12500695B95 /* SEFilterControl.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AD1283AD16AAA12500695B95 /* SEFilterKnob.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1283AB16AAA12500695B95 /* SEFilterKnob.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		AD589E7216A3E9F300BB15D4 /* Valentines-Day-iPad-Wallpaper-37.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD589E7116A3E9F300BB15D4 /* Valentines-Day-iPad-Wallpaper-37.jpg */; };
 		AD589E8116A3F6F800BB15D4 /* Applause-faded.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD589E8016A3F6F800BB15D4 /* Applause-faded.mp3 */; };
 		AD7411CF16AA736E007C7098 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = AD7411CD16AA736E007C7098 /* button.png */; };
@@ -590,6 +592,10 @@
 		9698A84516A58510009F2146 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AD077DF016A0030E00FA4561 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		AD077ED316A015FF00FA4561 /* BelloPro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BelloPro.ttf; sourceTree = "<group>"; };
+		AD1283A816AAA12500695B95 /* SEFilterControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEFilterControl.h; sourceTree = "<group>"; };
+		AD1283A916AAA12500695B95 /* SEFilterControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEFilterControl.m; sourceTree = "<group>"; };
+		AD1283AA16AAA12500695B95 /* SEFilterKnob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEFilterKnob.h; sourceTree = "<group>"; };
+		AD1283AB16AAA12500695B95 /* SEFilterKnob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEFilterKnob.m; sourceTree = "<group>"; };
 		AD589E7116A3E9F300BB15D4 /* Valentines-Day-iPad-Wallpaper-37.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Valentines-Day-iPad-Wallpaper-37.jpg"; sourceTree = "<group>"; };
 		AD589E8016A3F6F800BB15D4 /* Applause-faded.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Applause-faded.mp3"; sourceTree = "<group>"; };
 		AD7411CD16AA736E007C7098 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
@@ -934,6 +940,17 @@
 			name = UI;
 			sourceTree = "<group>";
 		};
+		AD1283A716AA9DF200695B95 /* SEFilterControl */ = {
+			isa = PBXGroup;
+			children = (
+				AD1283A816AAA12500695B95 /* SEFilterControl.h */,
+				AD1283A916AAA12500695B95 /* SEFilterControl.m */,
+				AD1283AA16AAA12500695B95 /* SEFilterKnob.h */,
+				AD1283AB16AAA12500695B95 /* SEFilterKnob.m */,
+			);
+			name = SEFilterControl;
+			sourceTree = "<group>";
+		};
 		AD9770A116AA559B00CA7AA7 /* WCAlertView */ = {
 			isa = PBXGroup;
 			children = (
@@ -971,6 +988,7 @@
 		B87C5CB615400B2A00AF69BC = {
 			isa = PBXGroup;
 			children = (
+				AD1283A716AA9DF200695B95 /* SEFilterControl */,
 				AD9770A116AA559B00CA7AA7 /* WCAlertView */,
 				9698A80916A5847D009F2146 /* Localizable.strings */,
 				ADBA9F4616A56BAB00670034 /* RNBlurModalView */,
@@ -1686,6 +1704,8 @@
 				ADFBEBD716A3BDF2004B1630 /* Animations.m in Sources */,
 				ADBA9F4416A56BA200670034 /* RNBlurModalView.m in Sources */,
 				AD9770A416AA559B00CA7AA7 /* WCAlertView.m in Sources */,
+				AD1283AC16AAA12500695B95 /* SEFilterControl.m in Sources */,
+				AD1283AD16AAA12500695B95 /* SEFilterKnob.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

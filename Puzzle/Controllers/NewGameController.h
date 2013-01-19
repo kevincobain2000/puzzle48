@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
-
+#define IsRunningTallPhone() ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPhone && [UIScreen mainScreen].bounds.size.height == 568)
 @class MenuController, PuzzleLibraryController;
 
 @protocol NewGameDelegate
@@ -34,6 +34,7 @@
     NSTimer *timer;
     
     int times;
+    int difficultyLevel;
     AVAudioPlayer *audioPlayer;
 }
 
