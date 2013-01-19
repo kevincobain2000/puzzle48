@@ -65,19 +65,19 @@
 									<bytes key="NSWhite">MAA</bytes>
 								</object>
 								<reference key="IBUINormalTitleShadowColor" ref="265310142"/>
-								<object class="NSCustomResource" key="IBUINormalBackgroundImage" id="74056954">
+								<object class="NSCustomResource" key="IBUINormalBackgroundImage" id="88665569">
 									<string key="NSClassName">NSImage</string>
 									<string key="NSResourceName">button.png</string>
 								</object>
-								<object class="IBUIFontDescription" key="IBUIFontDescription">
+								<object class="IBUIFontDescription" key="IBUIFontDescription" id="55775944">
 									<string key="name">MarkerFelt-Wide</string>
 									<string key="family">Marker Felt</string>
 									<int key="traits">2</int>
-									<double key="pointSize">25</double>
+									<double key="pointSize">26</double>
 								</object>
-								<object class="NSFont" key="IBUIFont">
+								<object class="NSFont" key="IBUIFont" id="935784842">
 									<string key="NSName">MarkerFelt-Wide</string>
-									<double key="NSSize">25</double>
+									<double key="NSSize">26</double>
 									<int key="NSfFlags">16</int>
 								</object>
 							</object>
@@ -102,18 +102,9 @@
 									<bytes key="NSRGB">MC45MTQ3MDU2NzM2IDAuOTM1OTQ1NDcxOSAwLjA4ODgxNjY0MTIxAA</bytes>
 								</object>
 								<reference key="IBUINormalTitleShadowColor" ref="265310142"/>
-								<reference key="IBUINormalBackgroundImage" ref="74056954"/>
-								<object class="IBUIFontDescription" key="IBUIFontDescription" id="189034832">
-									<string key="name">MarkerFelt-Wide</string>
-									<string key="family">Marker Felt</string>
-									<int key="traits">2</int>
-									<double key="pointSize">29</double>
-								</object>
-								<object class="NSFont" key="IBUIFont" id="178132031">
-									<string key="NSName">MarkerFelt-Wide</string>
-									<double key="NSSize">29</double>
-									<int key="NSfFlags">16</int>
-								</object>
+								<reference key="IBUINormalBackgroundImage" ref="88665569"/>
+								<reference key="IBUIFontDescription" ref="55775944"/>
+								<reference key="IBUIFont" ref="935784842"/>
 							</object>
 							<object class="IBUIButton" id="276425226">
 								<reference key="NSNextResponder" ref="875673360"/>
@@ -138,9 +129,9 @@
 									<bytes key="NSRGB">MC45MTQ3MDU2NzM2IDAuOTM1OTQ1NDcxOSAwLjA4ODgxNjY0MTIxAA</bytes>
 								</object>
 								<reference key="IBUINormalTitleShadowColor" ref="265310142"/>
-								<reference key="IBUINormalBackgroundImage" ref="74056954"/>
-								<reference key="IBUIFontDescription" ref="189034832"/>
-								<reference key="IBUIFont" ref="178132031"/>
+								<reference key="IBUINormalBackgroundImage" ref="88665569"/>
+								<reference key="IBUIFontDescription" ref="55775944"/>
+								<reference key="IBUIFont" ref="935784842"/>
 							</object>
 						</array>
 						<string key="NSFrame">{{0, 2}, {320, 567}}</string>

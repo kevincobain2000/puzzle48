@@ -191,9 +191,10 @@
         }
         
         cell.textLabel.text = NSLocalizedString(@"Back",@"");
-        cell.textLabel.textColor = [UIColor whiteColor];
+        cell.textLabel.textColor = [UIColor yellowColor];
+        cell.textLabel.shadowColor = [UIColor blackColor];
+        cell.textLabel.font = [UIFont fontWithName:@"MarkerFelt-Wide" size:26];
         cell.textLabel.textAlignment = UITextAlignmentCenter;
-         
         return cell;
          
         

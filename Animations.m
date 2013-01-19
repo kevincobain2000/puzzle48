@@ -163,8 +163,9 @@
 //Shadow is all Over with a white frame
 {
     CALayer *layer = view.layer;
-    [layer setBorderColor: [[UIColor whiteColor] CGColor]]; //Frame Color
-    [layer setBorderWidth:2.5f]; //Frame Border
+    [layer setBorderColor: [[UIColor brownColor] CGColor]]; //Frame Color
+
+    [layer setBorderWidth:3.0f]; //Frame Border
     [layer setShadowColor: [[UIColor blackColor] CGColor]]; //Shadow Color
     [layer setShadowOpacity:0.80f];
     [layer setShadowOffset: CGSizeMake(1, 3)];
