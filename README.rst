@@ -1,8 +1,15 @@
+APP TITLE
+=========
+
+Cute Puzzle - for AKB48 Fans
+
+Description
+===========
+
 Puzzle for AKB48 fan lovers with great pictures
 
 
 ★ iPhone 5 iOS 6 Ready ★
-★ Optimized for iPad too ★
 
 AKB48 photo puzzle for AKB48 FANS.
 
@@ -20,20 +27,28 @@ How to Play:
 ▪ Pinch to Zoom !
 
 
-3 Languages Supported
+Languages Supported
 
-Japanese, English and Vietnamese
+Japanese, English
 
 ✔ iOS 4.3 or above
 ✔ iPhone 3GS, iPhone 4, 4s
-✔ Optimized for iPhone 5 & iPad
+✔ Optimized for iPhone 5
 
+
+APP TITLE
+=========
+
+かわいいパズル - AKB48のファンのため
+
+Description
+===========
 
 AKB48ファンの愛好家のためのパズル 
 
 
 ★iPhone 5 と iOS6 対応 ★ 
-★iPadにも対応★ 
+
 
 AKB48ファンのためのAKB48の写真パズル。 
 
@@ -50,10 +65,10 @@ AKB48ファンのためのAKB48の写真パズル。
 ▪ピンチでズーム 
 
 
-サポートされている3言語 
+サポートされている2言語 
 
-日本語、英語、ベトナム語 
+日本語、英語
 
 ✔iOSの4.3またはそれ以上 
 ✔iPhoneの3GS、iPhoneの4、4S 
-✔iPhone5＆iPad用に最適化
+✔iPhone5 OK !
