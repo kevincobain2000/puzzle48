@@ -46,12 +46,12 @@
     
     puzzle = [[PuzzleController alloc] init];
     puzzle.managedObjectContext = self.managedObjectContext;
-    puzzle.persistentStoreCoordinator = self.persistentStoreCoordinator;    
+    puzzle.persistentStoreCoordinator = self.persistentStoreCoordinator;
     [puzzle loadPuzzle:[puzzle lastSavedPuzzle]];
     
     [self.window addSubview:puzzle.view];
     
-    
+    NSLog(@"didFinishLaunchingWithOptions");
     return YES;
 }
 
@@ -63,13 +63,16 @@
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
-        
+    
+    
+    NSLog(@"appwillresignactive");
     
     return;
     
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
 }
+
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
@@ -85,13 +88,14 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    NSLog(@"applicationDidBecomeActive");
     
     if (wasOpened) {
         
         wasOpened = NO;
     }
     
-
+    
     NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
     NSInteger launchCount = [prefs integerForKey:@"launchCount"];
     launchCount++;
@@ -107,6 +111,8 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Saves changes in the application's managed object context before the application terminates.
+    NSLog(@"terminate");
+    
     [self saveContext];
 }
 

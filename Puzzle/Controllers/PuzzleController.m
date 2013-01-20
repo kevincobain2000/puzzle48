@@ -404,7 +404,7 @@
     [Animations buttonPressAnimate:self.buttonMenuOutlet andAnimationDuration:0.25 andWait:NO];
     
     //if (sender!=nil) [menu playMenuSound];
-    
+    NSLog(@"toggleMenu");
     menu.duringGame = (puzzleDB!=nil);
     [self.view bringSubviewToFront:menu.obscuringView];
     [self.view bringSubviewToFront:menu.view];
@@ -2839,7 +2839,7 @@
     
     [UIView animateWithDuration:0.5 animations:^{
 
-        [self refreshPositions];    
+        [self refreshPositions];
         drawerView.frame = drawerFrame;
         [self organizeDrawerWithOrientation:self.interfaceOrientation];
         
@@ -3154,29 +3154,7 @@
     NSLog(@"This is the Pulse Sound");
     audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil] ;
     [audioPlayer prepareToPlay];
-    
-    /*
-    NSString *soundPath =[[NSBundle mainBundle] pathForResource:@"PiecePositioned" ofType:@"mp3"];
-    NSURL *soundURL = [NSURL fileURLWithPath:soundPath];
-    positionedSound = [[AVAudioPlayer alloc] initWithContentsOfURL:soundURL error:nil];
-    positionedSound.volume = 0.3;
-    [positionedSound prepareToPlay];
-    
-    if ([positionedSound respondsToSelector:@selector(setEnableRate:)]) {
-        positionedSound.enableRate = YES;
-        positionedSound.rate = 1.5; 
-    }
-    
-    soundPath =[[NSBundle mainBundle] pathForResource:@"PuzzleCompleted" ofType:@"mp3"];
-    soundURL = [NSURL fileURLWithPath:soundPath];   
-    completedSound = [[AVAudioPlayer alloc] initWithContentsOfURL:soundURL error:nil];
-    [completedSound prepareToPlay];
 
-    soundPath =[[NSBundle mainBundle] pathForResource:@"NeighborFound" ofType:@"wav"];
-    soundURL = [NSURL fileURLWithPath:soundPath];   
-    neighborSound = [[AVAudioPlayer alloc] initWithContentsOfURL:soundURL error:nil];
-    [neighborSound prepareToPlay];
-     */
 
 }
 
@@ -3418,24 +3396,7 @@
 
 
 }
-/*
-- (void)alertView:(UIAlertView *)alertView_ clickedButtonAtIndex:(NSInteger)buttonIndex {
-    
-    if (buttonIndex==1) {
-        
-        NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
-        [prefs setBool:YES forKey:@"Reviewed"];
-        
-        
-        [alertView_ dismissWithClickedButtonIndex:buttonIndex animated:YES];
-        
-        NSString* url = [NSString stringWithFormat: @"itms-apps://ax.itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=%d", APP_STORE_APP_ID];
-        [[UIApplication sharedApplication] openURL: [NSURL URLWithString: url]];
-        
-    }
-    
-}
- */
+
 
 - (void)print_free_memory {
     
@@ -3544,6 +3505,7 @@
 
 - (void)viewDidUnload {
     [self setButtonMenuOutlet:nil];
+    NSLog(@"PuxxleContrller viewDidunload");
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

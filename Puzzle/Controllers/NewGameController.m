@@ -13,7 +13,7 @@
 #import "UIImage+CWAdditions.h"
 #import "PuzzleLibraryController.h"
 #import "Animations.h"
-#import "SEFilterControl.h"
+
 #define IMAGE_QUALITY 0.5
 #define WOOD [UIColor colorWithPatternImage:[UIImage imageNamed:@"Wood.jpg"]]
 
@@ -40,16 +40,34 @@
         CGRect buttonFrame2 = startButton.frame;
         buttonFrame2.origin.y += 60;
         startButton.frame = buttonFrame2;
+        
+        
+        filter = [[SEFilterControl alloc]initWithFrame:CGRectMake(10, 30, 300, 70) Titles:[NSArray arrayWithObjects:NSLocalizedString(@"Easy", @"Easy"), NSLocalizedString(@"Medium", @"Medium"), NSLocalizedString(@"Hard", @"Hard"), nil]];
+        [filter addTarget:self action:@selector(filterValueChanged:) forControlEvents:UIControlEventValueChanged];
+        [filter setHandlerColor:[UIColor yellowColor]];
+        [filter setProgressColor:[UIColor magentaColor]];
+        [filter setTitlesFont:[UIFont fontWithName:@"MarkerFelt-Wide" size:14]];
+        [self.view addSubview:filter];
     }
     else{
+        CGRect buttonFrame = backButton.frame;
+        buttonFrame.origin.y -= 40;
+        backButton.frame = buttonFrame;
         
+        CGRect buttonFrame2 = startButton.frame;
+        buttonFrame2.origin.y -= 40;
+        startButton.frame = buttonFrame2;
+        
+        
+        filter = [[SEFilterControl alloc]initWithFrame:CGRectMake(10, 45, 300, 70) Titles:[NSArray arrayWithObjects:NSLocalizedString(@"Easy", @"Easy"), NSLocalizedString(@"Medium", @"Medium"), NSLocalizedString(@"Hard", @"Hard"), nil]];
+        [filter addTarget:self action:@selector(filterValueChanged:) forControlEvents:UIControlEventValueChanged];
+        [filter setHandlerColor:[UIColor yellowColor]];
+        [filter setProgressColor:[UIColor magentaColor]];
+        [filter setTitlesFont:[UIFont fontWithName:@"MarkerFelt-Wide" size:14]];
+        [self.view addSubview:filter];
     }
-    SEFilterControl *filter = [[SEFilterControl alloc]initWithFrame:CGRectMake(10, 320, 300, 70) Titles:[NSArray arrayWithObjects:NSLocalizedString(@"Easy", @"Easy"), NSLocalizedString(@"Medium", @"Medium"), NSLocalizedString(@"Hard", @"Hard"), nil]];
-    [filter addTarget:self action:@selector(filterValueChanged:) forControlEvents:UIControlEventValueChanged];
-    [filter setHandlerColor:[UIColor yellowColor]];
-    [filter setProgressColor:[UIColor magentaColor]];
-    [filter setTitlesFont:[UIFont fontWithName:@"MarkerFelt-Wide" size:14]];
-    [self.view addSubview:filter];
+    
+    
     
     //End Adding Filter
     

@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
 #import "MTAnimatedLabel.h"
+#import "SEFilterControl.h"
 #define IsRunningTallPhone() ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPhone && [UIScreen mainScreen].bounds.size.height == 568)
 @class MenuController, PuzzleLibraryController;
 
@@ -37,6 +38,7 @@
     int times;
     int difficultyLevel;
     AVAudioPlayer *audioPlayer;
+    SEFilterControl *filter;
 }
 
 @property (nonatomic, strong) IBOutlet UIProgressView *progressView;

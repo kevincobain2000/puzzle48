@@ -23,7 +23,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    tableView.backgroundColor = [UIColor clearColor];
+    tableView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"pink-hearts.png"]];
     tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     
     df = [[NSDateFormatter alloc] init];
@@ -173,12 +173,12 @@
     if (cell == nil) {
         
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
-        cell.backgroundColor = [UIColor clearColor];
+        cell.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"pink-hearts.png"]];
         UIView *v = [[UIView alloc] init];
-        v.backgroundColor = YELLOW;
+        v.backgroundColor = [UIColor yellowColor];
         cell.selectedBackgroundView = v;
         cell.textLabel.textColor = [UIColor whiteColor];
-        cell.detailTextLabel.textColor = YELLOW;
+        cell.detailTextLabel.textColor = [UIColor yellowColor];
         cell.textLabel.textAlignment = UITextAlignmentRight;        
         cell.detailTextLabel.textAlignment = UITextAlignmentRight;
     }
