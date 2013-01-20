@@ -214,6 +214,8 @@
 		ADBF273116A2EDFD006380D4 /* pink-hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = ADBF272F16A2EDFD006380D4 /* pink-hearts.png */; };
 		ADBF273216A2EDFD006380D4 /* pink-hearts@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADBF273016A2EDFD006380D4 /* pink-hearts@2x.png */; };
 		ADE343ED16A555C0007D534C /* icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE343EC16A555C0007D534C /* icon-144.png */; };
+		ADE4ACDD16ABBAFB00DA14D5 /* brown-textured-paper.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE4ACDB16ABBAFB00DA14D5 /* brown-textured-paper.png */; };
+		ADE4ACDE16ABBAFB00DA14D5 /* brown-textured-paper@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE4ACDC16ABBAFB00DA14D5 /* brown-textured-paper@2x.png */; };
 		ADFB798F16A41E67006E09F5 /* icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = ADFB798E16A41E67006E09F5 /* icon-114.png */; };
 		ADFBEBD716A3BDF2004B1630 /* Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFBEBD616A3BDF2004B1630 /* Animations.m */; };
 		B82375801561B58000426E92 /* LoadGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = B823757E1561B58000426E92 /* LoadGameController.m */; };
@@ -614,6 +616,8 @@
 		ADE4ACD116ABA7B400DA14D5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/PuzzleCompletedController_iPhone.xib; sourceTree = "<group>"; };
 		ADE4ACD216ABA7B400DA14D5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/LoadGameController.xib; sourceTree = "<group>"; };
 		ADE4ACD316ABA7B400DA14D5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADE4ACDB16ABBAFB00DA14D5 /* brown-textured-paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brown-textured-paper.png"; sourceTree = "<group>"; };
+		ADE4ACDC16ABBAFB00DA14D5 /* brown-textured-paper@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brown-textured-paper@2x.png"; sourceTree = "<group>"; };
 		ADFB798E16A41E67006E09F5 /* icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-114.png"; sourceTree = "<group>"; };
 		ADFBEBD516A3BDF2004B1630 /* Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animations.h; sourceTree = "<group>"; };
 		ADFBEBD616A3BDF2004B1630 /* Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animations.m; sourceTree = "<group>"; };
@@ -1178,6 +1182,8 @@
 		B8E1815E15503AF800A8B450 /* PNGs */ = {
 			isa = PBXGroup;
 			children = (
+				ADE4ACDB16ABBAFB00DA14D5 /* brown-textured-paper.png */,
+				ADE4ACDC16ABBAFB00DA14D5 /* brown-textured-paper@2x.png */,
 				AD7411CD16AA736E007C7098 /* button.png */,
 				AD7411CE16AA736E007C7098 /* button@2x.png */,
 				AD589E7116A3E9F300BB15D4 /* Valentines-Day-iPad-Wallpaper-37.jpg */,
@@ -1594,6 +1600,8 @@
 				AD7411CF16AA736E007C7098 /* button.png in Resources */,
 				AD7411D016AA736E007C7098 /* button@2x.png in Resources */,
 				AD78DADA16AAB1FB0021EC85 /* README.rst in Resources */,
+				ADE4ACDD16ABBAFB00DA14D5 /* brown-textured-paper.png in Resources */,
+				ADE4ACDE16ABBAFB00DA14D5 /* brown-textured-paper@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

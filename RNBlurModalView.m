@@ -100,7 +100,8 @@ typedef void (^RNBlurCompletion)(void);
     
     UIColor *whiteColor = [UIColor colorWithRed:0.816 green:0.788 blue:0.788 alpha:1.000];
     
-    view.backgroundColor = [UIColor colorWithWhite:0.1 alpha:0.8f];
+    //view.backgroundColor = [UIColor colorWithWhite:0.1 alpha:0.8f];
+    view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"brown-textured-paper.png"]];
     view.layer.borderColor = whiteColor.CGColor;
     view.layer.borderWidth = 2.f;
     view.layer.cornerRadius = 10.f;
@@ -442,8 +443,10 @@ typedef void (^RNBlurCompletion)(void);
     CGContextRef context = UIGraphicsGetCurrentContext();
     
     //// Color Declarations
-    UIColor *topGradient = [UIColor colorWithRed:0.21 green:0.21 blue:0.21 alpha:0.9];
-    UIColor *bottomGradient = [UIColor colorWithRed:0.03 green:0.03 blue:0.03 alpha:0.9];
+    //UIColor *topGradient = [UIColor colorWithRed:0.21 green:0.21 blue:0.21 alpha:0.9];
+    //UIColor *bottomGradient = [UIColor colorWithRed:0.03 green:0.03 blue:0.03 alpha:0.9];
+    UIColor *topGradient = [UIColor magentaColor];
+    UIColor *bottomGradient = [UIColor magentaColor];
     
     //// Gradient Declarations
     NSArray *gradientColors = @[(id)topGradient.CGColor,
@@ -452,7 +455,7 @@ typedef void (^RNBlurCompletion)(void);
     CGGradientRef gradient = CGGradientCreateWithColors(colorSpace, (__bridge CFArrayRef)gradientColors, gradientLocations);
     
     //// Shadow Declarations
-    CGColorRef shadow = [UIColor blackColor].CGColor;
+    CGColorRef shadow = [UIColor greenColor].CGColor;
     CGSize shadowOffset = CGSizeMake(0, 1);
     CGFloat shadowBlurRadius = 3;
     CGColorRef shadow2 = [UIColor blackColor].CGColor;
@@ -469,7 +472,8 @@ typedef void (^RNBlurCompletion)(void);
     
     CGContextSaveGState(context);
     CGContextSetShadowWithColor(context, shadowOffset, shadowBlurRadius, shadow);
-    [[UIColor whiteColor] setStroke];
+    //[[UIColor whiteColor] setStroke];
+    [[UIColor orangeColor] setStroke];
     ovalPath.lineWidth = 2;
     [ovalPath stroke];
     CGContextRestoreGState(context);

@@ -5,7 +5,12 @@ English
 APP TITLE
 =========
 
-Cute Puzzle - for AKB48 Fans
+Kawaii Puzzle - AKB48 Version
+
+Keywords
+========
+
+puzzle, jigsaw, japanese, j pop, japanese idol, asian pop, cute game, girls, picture
 
 Description
 ===========
@@ -17,7 +22,7 @@ Puzzle for AKB48 fan lovers with great pictures
 
 AKB48 photo puzzle for AKB48 FANS.
 
-💖 Hours of fun ! - Surprise inside ;)
+💖 Hours of fun !
 💖 Enjoy single and group shots of AKB48 members in Puzzle
 💖 Kawaii Retina AKB photos
 💖 Recommended for AKB fans
@@ -43,10 +48,15 @@ Japanese, English
 Japanese
 ========
 
+Keywords
+========
+
+パズル, アイドル, 水着, ゲーム, かわいい,
+
 APP TITLE
 =========
 
-かわいいパズル - AKB48のファンのため
+かわいいパズル - AKB48 バージョン
 
 Description
 ===========
@@ -77,5 +87,5 @@ AKB48ファンのためのAKB48の写真パズル。
 日本語、英語
 
 ✔iOSの4.3またはそれ以上 
-✔iPhoneの3GS、iPhoneの4、4S 
+✔iPhone 3GS、iPhone 4、4S 
 ✔iPhone5 OK !
