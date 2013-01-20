@@ -431,7 +431,6 @@
 						<string key="NSFrame">{{47, 438}, {240, 9}}</string>
 						<reference key="NSSuperview" ref="544214420"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -471,7 +470,7 @@
 					<object class="IBUIButton" id="718567150">
 						<reference key="NSNextResponder" ref="544214420"/>
 						<int key="NSvFlags">269</int>
-						<string key="NSFrame">{{38, 94}, {242, 187}}</string>
+						<string key="NSFrame">{{38, 94}, {242, 174}}</string>
 						<reference key="NSSuperview" ref="544214420"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="656998257"/>
@@ -540,11 +539,11 @@
 							<string key="name">MarkerFelt-Wide</string>
 							<string key="family">Marker Felt</string>
 							<int key="traits">2</int>
-							<double key="pointSize">24</double>
+							<double key="pointSize">21</double>
 						</object>
 						<object class="NSFont" key="IBUIFont">
 							<string key="NSName">MarkerFelt-Wide</string>
-							<double key="NSSize">24</double>
+							<double key="NSSize">21</double>
 							<int key="NSfFlags">16</int>
 						</object>
 						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
