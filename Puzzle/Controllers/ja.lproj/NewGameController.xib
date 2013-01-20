@@ -213,7 +213,7 @@
 										<string key="NSFrame">{{20, 95}, {200, 50}}</string>
 										<reference key="NSSuperview" ref="446806164"/>
 										<reference key="NSWindow"/>
-										<reference key="NSNextKeyView" ref="656998257"/>
+										<reference key="NSNextKeyView" ref="718567150"/>
 										<string key="NSReuseIdentifierKey">_NS:9</string>
 										<bool key="IBUIOpaque">NO</bool>
 										<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -450,7 +450,7 @@
 						<string key="NSFrame">{{27, 285}, {98, 41}}</string>
 						<reference key="NSSuperview" ref="544214420"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="220450095"/>
+						<reference key="NSNextKeyView" ref="660136381"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -474,7 +474,7 @@
 						<string key="NSFrame">{{38, 94}, {242, 187}}</string>
 						<reference key="NSSuperview" ref="544214420"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="140808604"/>
+						<reference key="NSNextKeyView" ref="656998257"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -504,7 +504,7 @@
 						<string key="NSFrame">{{38, 94}, {249, 187}}</string>
 						<reference key="NSSuperview" ref="544214420"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="660136381"/>
+						<reference key="NSNextKeyView" ref="627943688"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<reference key="IBUIBackgroundColor" ref="283727798"/>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -520,7 +520,7 @@
 						<string key="NSFrame">{{23, 116}, {280, 36}}</string>
 						<reference key="NSSuperview" ref="544214420"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="627943688"/>
+						<reference key="NSNextKeyView" ref="220450095"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -553,7 +553,7 @@
 				<string key="NSFrameSize">{320, 480}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
-				<reference key="NSNextKeyView" ref="718567150"/>
+				<reference key="NSNextKeyView" ref="140808604"/>
 				<string key="NSReuseIdentifierKey">_NS:9</string>
 				<reference key="IBUIBackgroundColor" ref="283727798"/>
 				<bool key="IBUIOpaque">NO</bool>
@@ -997,6 +997,7 @@
 						<string key="back:">id</string>
 						<string key="numberSelected:">UISlider</string>
 						<string key="selectImage:">id</string>
+						<string key="selectImageFromPhotoLibrary:">UIButton</string>
 						<string key="selectImageFromPuzzleLibrary:">id</string>
 						<string key="startNewGame:">id</string>
 					</dictionary>
@@ -1012,6 +1013,10 @@
 						<object class="IBActionInfo" key="selectImage:">
 							<string key="name">selectImage:</string>
 							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="selectImageFromPhotoLibrary:">
+							<string key="name">selectImageFromPhotoLibrary:</string>
+							<string key="candidateClassName">UIButton</string>
 						</object>
 						<object class="IBActionInfo" key="selectImageFromPuzzleLibrary:">
 							<string key="name">selectImageFromPuzzleLibrary:</string>

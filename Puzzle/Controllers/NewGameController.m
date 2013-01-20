@@ -29,7 +29,7 @@
 {
     [super viewDidLoad];
 
-
+    [image setImage:[UIImage imageNamed:@"29_puzzle_thumb.jpg"]];
     difficultyLevel = 3;
     //Adding a Filter
     if IsRunningTallPhone(){
@@ -313,7 +313,7 @@
     tapToSelectView.hidden = YES;
     
     delegate.delegate.loadingGame = NO;
-    
+
     delegate.delegate.image = image.image;
     
     delegate.delegate.imageView.image = delegate.delegate.image;
