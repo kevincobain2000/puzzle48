@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad
 {
-    self.backgroundColor = [UIColor clearColor];
+    self.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"pink-hearts.png"]];
 }
 
 @synthesize photo;
@@ -186,7 +186,7 @@
             
             cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
             UIView *v = [[UIView alloc] init];
-            v.backgroundColor = [UIColor clearColor];
+            v.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"pink-hearts.png"]];
             cell.selectedBackgroundView = v;
         }
         
@@ -240,6 +240,7 @@
     [audioPlayer prepareToPlay];
     [audioPlayer play];
     
+    
     if (indexPath.section==0) {
         
         [delegate imagePickedFromPuzzleLibrary:delegate.image.image];       
@@ -250,6 +251,9 @@
         NSString *path = [[contents objectAtIndex:indexPath.row] objectForKey:@"Path"];
         [delegate imagePickedFromPuzzleLibrary:[UIImage imageWithContentsOfFile:path]];
         
+    }
+    for (UIView *view in self.view.subviews) {
+        [view removeFromSuperview];
     }
 }
 

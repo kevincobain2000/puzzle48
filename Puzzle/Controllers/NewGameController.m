@@ -99,23 +99,10 @@
         
     }
     
-    //loadingView.layer.cornerRadius = 10;
-    //loadingView.layer.masksToBounds = YES;
-    
     image.layer.cornerRadius = 10;
     image.layer.masksToBounds = YES;
     
-    //tapToSelectView.layer.cornerRadius = 20;
-    //tapToSelectView.layer.masksToBounds = YES;
-    
-    //containerView.layer.cornerRadius = 20;
-    //containerView.layer.masksToBounds = YES;
-    
-   // typeOfImageView.layer.cornerRadius = 20;
-   // typeOfImageView.layer.masksToBounds = YES;
-    
     imagePath = [[NSString alloc] initWithFormat:@""];
-    
     typeOfImageView.backgroundColor = WOOD;
     
 }

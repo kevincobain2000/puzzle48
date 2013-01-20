@@ -175,9 +175,9 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
         cell.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"pink-hearts.png"]];
         UIView *v = [[UIView alloc] init];
-        v.backgroundColor = [UIColor yellowColor];
+        v.backgroundColor = [UIColor magentaColor];
         cell.selectedBackgroundView = v;
-        cell.textLabel.textColor = [UIColor whiteColor];
+        cell.textLabel.textColor = [UIColor magentaColor];
         cell.detailTextLabel.textColor = [UIColor yellowColor];
         cell.textLabel.textAlignment = UITextAlignmentRight;        
         cell.detailTextLabel.textAlignment = UITextAlignmentRight;
