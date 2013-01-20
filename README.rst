@@ -7,6 +7,11 @@ APP TITLE
 
 Kawaii Puzzle - AKB48 Version
 
+App Name
+========
+
+かわいいパズル
+
 Keywords
 ========
 
@@ -57,6 +62,11 @@ APP TITLE
 =========
 
 かわいいパズル - AKB48 バージョン
+
+App Name
+========
+
+かわいいパズル
 
 Description
 ===========
