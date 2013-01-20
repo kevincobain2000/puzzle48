@@ -575,24 +575,6 @@
 		9698A82616A584DB009F2146 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PuzzleCompletedController.xib; sourceTree = "<group>"; };
 		9698A82C16A584E1009F2146 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PuzzleCompletedController_iPhone.xib; sourceTree = "<group>"; };
 		9698A83216A584E7009F2146 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LoadGameController.xib; sourceTree = "<group>"; };
-		9698A83416A584FC009F2146 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
-		9698A83516A584FC009F2146 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/PuzzleController.xib; sourceTree = "<group>"; };
-		9698A83616A584FC009F2146 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/MenuController.xib; sourceTree = "<group>"; };
-		9698A83716A584FC009F2146 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/NewGameController.xib; sourceTree = "<group>"; };
-		9698A83816A584FC009F2146 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/PuzzleLibraryController.xib; sourceTree = "<group>"; };
-		9698A83916A584FC009F2146 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/PuzzleCompletedController.xib; sourceTree = "<group>"; };
-		9698A83A16A584FC009F2146 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/PuzzleCompletedController_iPhone.xib; sourceTree = "<group>"; };
-		9698A83B16A584FC009F2146 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/LoadGameController.xib; sourceTree = "<group>"; };
-		9698A83C16A584FC009F2146 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9698A83D16A5850F009F2146 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
-		9698A83E16A58510009F2146 /* vi */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = vi; path = vi.lproj/PuzzleController.xib; sourceTree = "<group>"; };
-		9698A83F16A58510009F2146 /* vi */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = vi; path = vi.lproj/MenuController.xib; sourceTree = "<group>"; };
-		9698A84016A58510009F2146 /* vi */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = vi; path = vi.lproj/NewGameController.xib; sourceTree = "<group>"; };
-		9698A84116A58510009F2146 /* vi */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = vi; path = vi.lproj/PuzzleLibraryController.xib; sourceTree = "<group>"; };
-		9698A84216A58510009F2146 /* vi */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = vi; path = vi.lproj/PuzzleCompletedController.xib; sourceTree = "<group>"; };
-		9698A84316A58510009F2146 /* vi */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = vi; path = vi.lproj/PuzzleCompletedController_iPhone.xib; sourceTree = "<group>"; };
-		9698A84416A58510009F2146 /* vi */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = vi; path = vi.lproj/LoadGameController.xib; sourceTree = "<group>"; };
-		9698A84516A58510009F2146 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AD077DF016A0030E00FA4561 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		AD077ED316A015FF00FA4561 /* BelloPro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BelloPro.ttf; sourceTree = "<group>"; };
 		AD1283A816AAA12500695B95 /* SEFilterControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEFilterControl.h; sourceTree = "<group>"; };
@@ -623,6 +605,15 @@
 		ADBF272F16A2EDFD006380D4 /* pink-hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pink-hearts.png"; sourceTree = "<group>"; };
 		ADBF273016A2EDFD006380D4 /* pink-hearts@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pink-hearts@2x.png"; sourceTree = "<group>"; };
 		ADE343EC16A555C0007D534C /* icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-144.png"; path = "../../icon-144.png"; sourceTree = "<group>"; };
+		ADE4ACCB16ABA7B300DA14D5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ADE4ACCC16ABA7B300DA14D5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/PuzzleController.xib; sourceTree = "<group>"; };
+		ADE4ACCD16ABA7B300DA14D5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/MenuController.xib; sourceTree = "<group>"; };
+		ADE4ACCE16ABA7B400DA14D5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/NewGameController.xib; sourceTree = "<group>"; };
+		ADE4ACCF16ABA7B400DA14D5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/PuzzleLibraryController.xib; sourceTree = "<group>"; };
+		ADE4ACD016ABA7B400DA14D5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/PuzzleCompletedController.xib; sourceTree = "<group>"; };
+		ADE4ACD116ABA7B400DA14D5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/PuzzleCompletedController_iPhone.xib; sourceTree = "<group>"; };
+		ADE4ACD216ABA7B400DA14D5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/LoadGameController.xib; sourceTree = "<group>"; };
+		ADE4ACD316ABA7B400DA14D5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ADFB798E16A41E67006E09F5 /* icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-114.png"; sourceTree = "<group>"; };
 		ADFBEBD516A3BDF2004B1630 /* Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animations.h; sourceTree = "<group>"; };
 		ADFBEBD616A3BDF2004B1630 /* Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animations.m; sourceTree = "<group>"; };
@@ -1764,8 +1755,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				9698A80816A5847D009F2146 /* en */,
-				9698A83416A584FC009F2146 /* ja */,
-				9698A83D16A5850F009F2146 /* vi */,
+				ADE4ACCB16ABA7B300DA14D5 /* ja */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -1774,8 +1764,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				9698A80E16A584C3009F2146 /* en */,
-				9698A83516A584FC009F2146 /* ja */,
-				9698A83E16A58510009F2146 /* vi */,
+				ADE4ACCC16ABA7B300DA14D5 /* ja */,
 			);
 			name = PuzzleController.xib;
 			path = Controllers;
@@ -1785,8 +1774,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				9698A81416A584C9009F2146 /* en */,
-				9698A83616A584FC009F2146 /* ja */,
-				9698A83F16A58510009F2146 /* vi */,
+				ADE4ACCD16ABA7B300DA14D5 /* ja */,
 			);
 			name = MenuController.xib;
 			path = Controllers;
@@ -1796,8 +1784,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				9698A81A16A584CF009F2146 /* en */,
-				9698A83716A584FC009F2146 /* ja */,
-				9698A84016A58510009F2146 /* vi */,
+				ADE4ACCE16ABA7B400DA14D5 /* ja */,
 			);
 			name = NewGameController.xib;
 			path = Controllers;
@@ -1807,8 +1794,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				9698A82016A584D4009F2146 /* en */,
-				9698A83816A584FC009F2146 /* ja */,
-				9698A84116A58510009F2146 /* vi */,
+				ADE4ACCF16ABA7B400DA14D5 /* ja */,
 			);
 			name = PuzzleLibraryController.xib;
 			path = Controllers;
@@ -1818,8 +1804,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				9698A82616A584DB009F2146 /* en */,
-				9698A83916A584FC009F2146 /* ja */,
-				9698A84216A58510009F2146 /* vi */,
+				ADE4ACD016ABA7B400DA14D5 /* ja */,
 			);
 			name = PuzzleCompletedController.xib;
 			path = Controllers;
@@ -1829,8 +1814,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				9698A82C16A584E1009F2146 /* en */,
-				9698A83A16A584FC009F2146 /* ja */,
-				9698A84316A58510009F2146 /* vi */,
+				ADE4ACD116ABA7B400DA14D5 /* ja */,
 			);
 			name = PuzzleCompletedController_iPhone.xib;
 			path = Controllers;
@@ -1840,8 +1824,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				9698A83216A584E7009F2146 /* en */,
-				9698A83B16A584FC009F2146 /* ja */,
-				9698A84416A58510009F2146 /* vi */,
+				ADE4ACD216ABA7B400DA14D5 /* ja */,
 			);
 			name = LoadGameController.xib;
 			path = Controllers;
@@ -1851,8 +1834,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				B87C5CD115400B2A00AF69BC /* en */,
-				9698A83C16A584FC009F2146 /* ja */,
-				9698A84516A58510009F2146 /* vi */,
+				ADE4ACD316ABA7B400DA14D5 /* ja */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";

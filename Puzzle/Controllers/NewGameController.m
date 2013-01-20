@@ -107,7 +107,7 @@
     [audioPlayer play];
     NSLog(@"%d", sender.SelectedIndex);
     if (sender.SelectedIndex == 0){
-        difficultyLevel = 3;
+        difficultyLevel = 2;//3
     }
     else if (sender.SelectedIndex == 1){
         difficultyLevel = 4;

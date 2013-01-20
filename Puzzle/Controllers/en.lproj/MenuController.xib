@@ -51,7 +51,7 @@
 								<int key="IBUIContentHorizontalAlignment">0</int>
 								<int key="IBUIContentVerticalAlignment">0</int>
 								<string key="IBUITitleShadowOffset">{0, 1}</string>
-								<string key="IBUINormalTitle">Load game</string>
+								<string key="IBUINormalTitle">Load Game</string>
 								<object class="NSColor" key="IBUIHighlightedTitleColor">
 									<int key="NSColorSpace">2</int>
 									<bytes key="NSRGB">MSAwLjc4NTMwMjU1MTUgMAA</bytes>
@@ -86,13 +86,14 @@
 								<int key="NSvFlags">301</int>
 								<string key="NSFrame">{{49, 332}, {223, 50}}</string>
 								<reference key="NSSuperview" ref="875673360"/>
+								<reference key="NSNextKeyView"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<int key="IBUIContentHorizontalAlignment">0</int>
 								<int key="IBUIContentVerticalAlignment">0</int>
 								<string key="IBUITitleShadowOffset">{0, 1}</string>
-								<string key="IBUINormalTitle">Start new game</string>
+								<string key="IBUINormalTitle">Start New</string>
 								<object class="NSColor" key="IBUIHighlightedTitleColor" id="320418152">
 									<int key="NSColorSpace">3</int>
 									<bytes key="NSWhite">MQA</bytes>
@@ -118,7 +119,7 @@
 								<int key="IBUIContentHorizontalAlignment">0</int>
 								<int key="IBUIContentVerticalAlignment">0</int>
 								<string key="IBUITitleShadowOffset">{0, 1}</string>
-								<string key="IBUINormalTitle">Resume game</string>
+								<string key="IBUINormalTitle">Resume Game</string>
 								<reference key="IBUIHighlightedTitleColor" ref="320418152"/>
 								<object class="NSColor" key="IBUISelectedTitleColor">
 									<int key="NSColorSpace">1</int>

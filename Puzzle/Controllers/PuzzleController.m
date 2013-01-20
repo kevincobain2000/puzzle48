@@ -582,8 +582,8 @@
         puzzleCompleteImage.center = CGPointMake(self.view.center.y, self.view.center.x);
         
     } else {
-        
-        puzzleCompleteImage.center = CGPointMake(self.view.center.x, self.view.center.y);
+        //Moving the pulse image heart up
+        puzzleCompleteImage.center = CGPointMake(self.view.center.x, self.view.center.y-30);
     }
 }
 
@@ -3387,7 +3387,7 @@
     
     NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
     
-    if (![prefs boolForKey:@"Reviewed"]) {
+    if ([prefs boolForKey:@"Reviewed"]) { //Change this to ![prefs boolForKey]...
         
         
         /*
@@ -3399,6 +3399,8 @@
         DLog(@"Already rated");
     }
          */
+        
+        
     [WCAlertView showAlertWithTitle:@"Give your opinion !" message:nil customizationBlock:^(WCAlertView *alertView) {
         alertView.style = WCAlertViewStyleWhiteHatched;
     } completionBlock:^(NSUInteger buttonIndex, WCAlertView *alertView) {
@@ -3594,7 +3596,7 @@
         modal = [[RNBlurModalView alloc] initWithViewController:self view:view];
     }
     else {
-        NSString *localizedInstruction = [NSString stringWithFormat:@"1. %@\n2. %@",NSLocalizedString(@"Double tap to rotate", @""), NSLocalizedString(@"Long press to view image", @"")];
+        NSString *localizedInstruction = [NSString stringWithFormat:@"1. %@\n2. %@\n3. %@",NSLocalizedString(@"Double tap to rotate", @""), NSLocalizedString(@"Long press to view image", @""), NSLocalizedString(@"Pinch to Zoom", @"Pinch to Zoom")];
         modal = [[RNBlurModalView alloc] initWithViewController:self title: NSLocalizedString(@"Instructions", "@") message:localizedInstruction];
     }
     [modal show];
