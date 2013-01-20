@@ -1,3 +1,7 @@
+========
+English
+========
+
 APP TITLE
 =========
 
@@ -9,22 +13,22 @@ Description
 Puzzle for AKB48 fan lovers with great pictures
 
 
-★ iPhone 5 iOS 6 Ready ★
+💖 iPhone 5 iOS 6 Ready 💖
 
 AKB48 photo puzzle for AKB48 FANS.
 
-★ Hours of fun ! - Surprise inside ;)
-★ Enjoy single and group shots of AKB48 members in Puzzle
-★ Kawaii Retina AKB photos
-★ Recommended for AKB fans
+💖 Hours of fun ! - Surprise inside ;)
+💖 Enjoy single and group shots of AKB48 members in Puzzle
+💖 Kawaii Retina AKB photos
+💖 Recommended for AKB fans
 
 How to Play:
 
-▪ Select one AKB48 picture from our huge gallery
-▪ Drag pieces and solve jigsaw puzzle
-▪ Double Tap a piece to rotate
-▪ Long press anywhere to see the target image
-▪ Pinch to Zoom !
+💕 Select one AKB48 picture from our huge gallery
+💕 Drag pieces and solve jigsaw puzzle
+💕 Double Tap a piece to rotate
+💕 Long press anywhere to see the target image
+💕 Pinch to Zoom !
 
 
 Languages Supported
@@ -35,6 +39,9 @@ Japanese, English
 ✔ iPhone 3GS, iPhone 4, 4s
 ✔ Optimized for iPhone 5
 
+========
+Japanese
+========
 
 APP TITLE
 =========
@@ -47,22 +54,22 @@ Description
 AKB48ファンの愛好家のためのパズル 
 
 
-★iPhone 5 と iOS6 対応 ★ 
+💖iPhone 5 と iOS6 対応 💖 
 
 
 AKB48ファンのためのAKB48の写真パズル。 
 
-★楽しい時間を過ごせます 
-★Retinaディスプレイ 
-★AKBファンのための推奨 
+💖 楽しい時間を過ごせます 
+💖 Retinaディスプレイ 
+💖 AKBファンのための推奨 
 
 再生する方法： 
 
-▪ギャラリーから AKB48画像を選択 
-▪ピースをドラッグして、ジグソーパズルを解く 
-▪ダブルタップで回転 
-▪長押しでターゲットイメージを見れます 
-▪ピンチでズーム 
+💕ギャラリーから AKB48画像を選択 
+💕ピースをドラッグして、ジグソーパズルを解く 
+💕ダブルタップで回転 
+💕長押しでターゲットイメージを見れます 
+💕ピンチでズーム 
 
 
 サポートされている2言語 
