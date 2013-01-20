@@ -104,6 +104,7 @@
     
     imagePath = [[NSString alloc] initWithFormat:@""];
     typeOfImageView.backgroundColor = WOOD;
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"pink-hearts.png"]];
     
 }
 

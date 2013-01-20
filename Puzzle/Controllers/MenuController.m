@@ -231,7 +231,7 @@
     loadGameController.delegate = self;
     
     [self.view addSubview:loadGameController.view];
-
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"pink-hearts.png"]];
 }
 
 - (void)viewDidUnload

@@ -36,6 +36,7 @@
 
     
     //contents =  [[NSMutableArray alloc] initWithArray:[managedObjectContext executeFetchRequest:fetchRequest1 error:nil]];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"pink-hearts.png"]];
     
 }
 
