@@ -178,7 +178,7 @@
         UIView *v = [[UIView alloc] init];
         v.backgroundColor = [UIColor magentaColor];
         cell.selectedBackgroundView = v;
-        cell.textLabel.textColor = [UIColor magentaColor];
+        cell.textLabel.textColor = [UIColor yellowColor];
         cell.detailTextLabel.textColor = [UIColor yellowColor];
         cell.textLabel.textAlignment = UITextAlignmentRight;        
         cell.detailTextLabel.textAlignment = UITextAlignmentRight;
@@ -204,7 +204,8 @@
     
     //cell.detailTextLabel.text = [NSString stringWithFormat:@"%d pieces, %d%% completed", puzzle.pieceNumber.intValue*puzzle.pieceNumber.intValue, puzzle.percentage.intValue];
     
-    cell.detailTextLabel.text = [NSString stringWithFormat:@"%@, %d%% %@", difficulty, puzzle.percentage.intValue, completed];
+    //cell.detailTextLabel.text = [NSString stringWithFormat:@"%@, %d%% %@", difficulty, puzzle.percentage.intValue, completed];
+    cell.detailTextLabel.text = [NSString stringWithFormat:@"%@", difficulty];
     cell.detailTextLabel.font = [UIFont fontWithName:@"MarkerFelt-Wide" size:16];
     return cell;
 }
