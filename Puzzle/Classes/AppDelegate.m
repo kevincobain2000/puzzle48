@@ -91,7 +91,7 @@
     NSLog(@"applicationDidBecomeActive");
     
     if (wasOpened) {
-        
+        NSLog(@"was opened");
         wasOpened = NO;
     }
     
