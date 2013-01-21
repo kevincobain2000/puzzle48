@@ -44,6 +44,7 @@
 								<int key="NSvFlags">301</int>
 								<string key="NSFrame">{{59, 232}, {203, 50}}</string>
 								<reference key="NSSuperview" ref="875673360"/>
+								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="713739836"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
@@ -86,6 +87,8 @@
 								<int key="NSvFlags">301</int>
 								<string key="NSFrame">{{49, 332}, {223, 50}}</string>
 								<reference key="NSSuperview" ref="875673360"/>
+								<reference key="NSWindow"/>
+								<reference key="NSNextKeyView"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -111,6 +114,7 @@
 								<int key="NSvFlags">301</int>
 								<string key="NSFrame">{{59, 124}, {203, 50}}</string>
 								<reference key="NSSuperview" ref="875673360"/>
+								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="403430109"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
@@ -136,6 +140,7 @@
 						</array>
 						<string key="NSFrame">{{0, 2}, {320, 567}}</string>
 						<reference key="NSSuperview" ref="693019241"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="276425226"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<object class="NSColor" key="IBUIBackgroundColor" id="144027080">
@@ -148,6 +153,7 @@
 				</array>
 				<string key="NSFrameSize">{320, 569}</string>
 				<reference key="NSSuperview"/>
+				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="875673360"/>
 				<string key="NSReuseIdentifierKey">_NS:9</string>
 				<reference key="IBUIBackgroundColor" ref="144027080"/>
@@ -300,7 +306,96 @@
 			<nil key="sourceID"/>
 			<int key="maxID">51</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes"/>
+		<object class="IBClassDescriber" key="IBDocument.Classes">
+			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
+				<object class="IBPartialClassDescription">
+					<string key="className">MenuController</string>
+					<string key="superclassName">UIViewController</string>
+					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="loadGame:">id</string>
+						<string key="resumeGame:">id</string>
+						<string key="showThePicture:">id</string>
+						<string key="startNewGame:">id</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="loadGame:">
+							<string key="name">loadGame:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="resumeGame:">
+							<string key="name">resumeGame:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="showThePicture:">
+							<string key="name">showThePicture:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="startNewGame:">
+							<string key="name">startNewGame:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="chooseLabel">UIImageView</string>
+						<string key="image">UIImageView</string>
+						<string key="indicator">UIActivityIndicatorView</string>
+						<string key="loadGameButton">UIButton</string>
+						<string key="loadingView">UIView</string>
+						<string key="mainView">UIView</string>
+						<string key="newGameButton">UIButton</string>
+						<string key="progressView">UIProgressView</string>
+						<string key="resumeButton">UIButton</string>
+						<string key="showThePictureButton">UIButton</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="chooseLabel">
+							<string key="name">chooseLabel</string>
+							<string key="candidateClassName">UIImageView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="image">
+							<string key="name">image</string>
+							<string key="candidateClassName">UIImageView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="indicator">
+							<string key="name">indicator</string>
+							<string key="candidateClassName">UIActivityIndicatorView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="loadGameButton">
+							<string key="name">loadGameButton</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="loadingView">
+							<string key="name">loadingView</string>
+							<string key="candidateClassName">UIView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="mainView">
+							<string key="name">mainView</string>
+							<string key="candidateClassName">UIView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="newGameButton">
+							<string key="name">newGameButton</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="progressView">
+							<string key="name">progressView</string>
+							<string key="candidateClassName">UIProgressView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="resumeButton">
+							<string key="name">resumeButton</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="showThePictureButton">
+							<string key="name">showThePictureButton</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/MenuController.h</string>
+					</object>
+				</object>
+			</array>
+		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>

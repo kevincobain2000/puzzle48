@@ -406,12 +406,9 @@
     //if (sender!=nil) [menu playMenuSound];
     NSLog(@"toggleMenu");
     menu.duringGame = (puzzleDB!=nil);
-    
-
     [self.view bringSubviewToFront:menu.obscuringView];
     [self.view bringSubviewToFront:menu.view];
     [self.view bringSubviewToFront:menuButtonView];
-    
     //[self.view bringSubviewToFront:self.adBannerView];
     
     [menu toggleMenuWithDuration:(sender!=nil)*0.5];
@@ -419,10 +416,8 @@
 }
 
 - (void)prepareForLoading {
-    NSLog(@"Prepare for loading");
-    
+        
     menu.duringGame = (puzzleDB!=nil);
-    
     [self.view bringSubviewToFront:menu.obscuringView];
     [self.view bringSubviewToFront:menu.game.view];
     [self.view bringSubviewToFront:menuButtonView];
@@ -431,7 +426,6 @@
     
     [menu toggleMenuWithDuration:0];
     //[self.view bringSubviewToFront:self.adBannerView];
-     
 
 }
 
@@ -1830,15 +1824,17 @@
     
     if (piece.isFree && ([self isTheFuckingPiecePositioned:piece]) && ABS(piece.angle) < 1) {
         
-        
         //DLog(@"Piece #%d positioned!", piece.number);
         //Flashes and block the piece
         if (!piece.isPositioned) {
+            
             
             if (!loadingGame) {
                                 
                 [self addPoints:[self pointsForPiece:piece]];
             }
+            
+            
             piece.isPositioned = YES;
             piece.userInteractionEnabled = NO;
             if (!piece.group) {
@@ -1852,8 +1848,14 @@
             [piece pulse];
             [audioPlayer play]; //plays pulse sound
             NSLog(@"pulse sound");
-           
 
+            
+            if (![self isPuzzleComplete] && !loadingGame) {
+                               
+                if (!IS_DEVICE_PLAUYING_MUSIC) {
+                    [positionedSound play];
+                }
+            }
         }        
         return YES;
     }
@@ -3135,6 +3137,7 @@
 }
 
 - (void)refreshPositions {
+    
     for (PieceView *p in pieces) {
         if (p.isFree && p.position>-1 && p.group==nil) {
             [self movePiece:p toLatticePoint:p.position animated:NO];
@@ -3144,7 +3147,6 @@
     for (GroupView *g in groups) {
         [self moveGroup:g toLatticePoint:g.boss.position animated:NO];
     }
-    
 }
 
 - (void)loadSounds {
