@@ -633,7 +633,7 @@
 		B853810F1548D91B00F3BFA5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B874B3C8156D67D80089D4E4 /* Puzzle Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Puzzle Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B874B3CA156D67D80089D4E4 /* Puzzle Lite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Puzzle Lite-Info.plist"; path = "/Users/abramo/Documents/iPhone apps/Puzzle/Puzzle Lite-Info.plist"; sourceTree = "<absolute>"; };
-		B87C5CC115400B2A00AF69BC /* パズル48.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "パズル48.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B87C5CC115400B2A00AF69BC /* パズル48.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "パズル48.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B87C5CC515400B2A00AF69BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B87C5CC715400B2A00AF69BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B87C5CC915400B2A00AF69BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -1016,7 +1016,7 @@
 		B87C5CC215400B2A00AF69BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B87C5CC115400B2A00AF69BC /* パズル48.app */,
+				B87C5CC115400B2A00AF69BC /* パズル48.app */,
 				B8E1818F1550402800A8B450 /* YourPuzzle iPhone.app */,
 				B82375F115626FC300426E92 /* Puzzle test.app */,
 				B874B3C8156D67D80089D4E4 /* Puzzle Lite.app */,
@@ -1268,7 +1268,7 @@
 			);
 			name = Puzzle;
 			productName = Puzzle;
-			productReference = B87C5CC115400B2A00AF69BC /* パズル48.app */;
+			productReference = B87C5CC115400B2A00AF69BC /* パズル48.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B8E181601550402800A8B450 /* Puzzle iPhone */ = {

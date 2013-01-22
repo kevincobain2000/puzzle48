@@ -2,6 +2,10 @@
 Notes
 =====
 
+if the app crashes and apple rejects it then
+Add in the Puzzle-Info.plist
+
+'Application does not run in background' YES
 
 
 ========
