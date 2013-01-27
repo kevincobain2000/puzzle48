@@ -29,7 +29,7 @@
 {
     [super viewDidLoad];
 
-    [image setImage:[UIImage imageNamed:@"29_puzzle_thumb.jpg"]];
+    [image setImage:[UIImage imageNamed:@"57_puzzle_thumb.jpg"]];
     difficultyLevel = 3;
     //Adding a Filter
     if IsRunningTallPhone(){
