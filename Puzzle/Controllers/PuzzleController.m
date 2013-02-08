@@ -415,8 +415,10 @@
     
 }
 
+#pragma mark PREPAREFORLOADING
 - (void)prepareForLoading {
-        
+    //Here is the error
+    
     menu.duringGame = (puzzleDB!=nil);
     [self.view bringSubviewToFront:menu.obscuringView];
     [self.view bringSubviewToFront:menu.game.view];
