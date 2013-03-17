@@ -10,6 +10,7 @@
 #import <AVFoundation/AVFoundation.h>
 #import "MTAnimatedLabel.h"
 #import "SEFilterControl.h"
+#import "UIPopoverListView.h"
 #define IsRunningTallPhone() ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPhone && [UIScreen mainScreen].bounds.size.height == 568)
 @class MenuController, PuzzleLibraryController;
 
@@ -19,7 +20,7 @@
 
 @end
 
-@interface NewGameController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate, UIPopoverControllerDelegate> {
+@interface NewGameController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate, UIPopoverControllerDelegate, UIPopoverListViewDataSource, UIPopoverListViewDelegate> {
     
     IBOutlet UILabel *pieceNumberLabel;
     IBOutlet UIButton *piecesLabel;

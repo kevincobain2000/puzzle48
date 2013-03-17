@@ -14,6 +14,7 @@
 #import "PuzzleLibraryController.h"
 #import "Animations.h"
 
+
 #define IMAGE_QUALITY 0.5
 #define WOOD [UIColor colorWithPatternImage:[UIImage imageNamed:@"Wood.jpg"]]
 
@@ -228,6 +229,18 @@
 
 - (IBAction)selectImageFromPuzzleLibrary:(id)sender {
     [audioPlayer play];
+    CGFloat xWidth = self.view.bounds.size.width - 20.0f;
+    CGFloat yHeight = 272.0f;
+    CGFloat yOffset = (self.view.bounds.size.height - yHeight)/2.0f;
+    UIPopoverListView *poplistview = [[UIPopoverListView alloc] initWithFrame:CGRectMake(10, yOffset, xWidth, yHeight)];
+    poplistview.delegate = self;
+    poplistview.datasource = self;
+    poplistview.listView.scrollEnabled = FALSE;
+    [poplistview setTitle:NSLocalizedString(@"Choose Library", @"Choose Library")];
+    [poplistview show];
+    
+    /*
+    [audioPlayer play];
     //[delegate playMenuSound];
     delegate.chooseLabel.alpha = 1;
     
@@ -248,9 +261,146 @@
         
         [self presentModalViewController:c animated:YES];
     }
+     */
      
     
 }
+
+#pragma mark - UIPopoverListViewDataSource
+
+- (UITableViewCell *)popoverListView:(UIPopoverListView *)popoverListView
+                    cellForIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *identifier = @"cell";
+    UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
+                                                    reuseIdentifier:identifier];
+    
+    int row = indexPath.row;
+    
+    if(row == 0){
+        cell.textLabel.text = NSLocalizedString(@"AKB-48 Library", @"Puzzle48 Library");
+        cell.imageView.image = [UIImage imageNamed:@"akb-44-ic.jpg"];
+    }else if (row == 1){
+        cell.textLabel.text = NSLocalizedString(@"Photo Library", @"Photo Library");
+        cell.imageView.image = [UIImage imageNamed:@"photo-icon-44.png"];
+    }
+    else if (row == 2){
+        cell.textLabel.text = NSLocalizedString(@"Camera", @"camera");
+        cell.imageView.image = [UIImage imageNamed:@"Camera-Icon.jpg"];
+    }
+    return cell;
+}
+
+- (NSInteger)popoverListView:(UIPopoverListView *)popoverListView
+       numberOfRowsInSection:(NSInteger)section
+{
+    return 3;
+}
+
+#pragma mark - UIPopoverListViewDelegate
+- (void)popoverListView:(UIPopoverListView *)popoverListView
+     didSelectIndexPath:(NSIndexPath *)indexPath
+{
+    NSLog(@"%s : %d", __func__, indexPath.row);
+    // your code here
+    [audioPlayer play];
+    if (indexPath.row == 0) {
+        NSLog(@"Puzzle 48 Library");
+        
+        delegate.chooseLabel.alpha = 1;
+        
+        
+        PuzzleLibraryController *c = [[PuzzleLibraryController alloc] init];
+        
+        
+        c.delegate = self;
+        if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad){
+            
+            popover = [[UIPopoverController alloc] initWithContentViewController:c];
+            popover.delegate = self;
+            CGRect rect = CGRectMake(self.view.center.x, -20, 1, 1);
+            [popover setPopoverContentSize:self.view.bounds.size];
+            [popover presentPopoverFromRect:rect inView:self.view permittedArrowDirections:UIPopoverArrowDirectionUp animated:YES];
+            
+        } else if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
+            
+            [self presentModalViewController:c animated:YES];
+        }
+
+    }
+    else if (indexPath.row == 1){
+        NSLog(@"Phone Library");
+        
+        delegate.chooseLabel.alpha = 1;
+        
+        int direction;
+        
+        UIImagePickerController *c = [[UIImagePickerController alloc] init];
+        
+
+            
+        c.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+        direction = UIPopoverArrowDirectionUp;
+        
+        c.allowsEditing = YES;
+        c.delegate = self;
+        
+        DLog(@"B4 picking");
+        [delegate.delegate print_free_memory];
+        
+        
+        if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad){
+            
+            popover = [[UIPopoverController alloc] initWithContentViewController:c];
+            popover.delegate = self;
+            CGRect rect = CGRectMake(self.view.center.x, -20, 1, 1);
+            [popover setPopoverContentSize:self.view.bounds.size];
+            [popover presentPopoverFromRect:rect inView:self.view permittedArrowDirections:direction animated:YES];
+            
+        } else if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
+            
+            [self presentModalViewController:c animated:YES];
+        }
+
+    }
+    else{
+        NSLog(@"Camera");
+        delegate.chooseLabel.alpha = 1;
+        
+        int direction;
+        
+        UIImagePickerController *c = [[UIImagePickerController alloc] init];
+        c.sourceType = UIImagePickerControllerSourceTypeCamera;
+        direction = UIPopoverArrowDirectionUp;
+            
+        c.allowsEditing = YES;
+        c.delegate = self;
+        
+        DLog(@"B4 picking");
+        [delegate.delegate print_free_memory];
+        
+        
+        if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad){
+            
+            popover = [[UIPopoverController alloc] initWithContentViewController:c];
+            popover.delegate = self;
+            CGRect rect = CGRectMake(self.view.center.x, -20, 1, 1);
+            [popover setPopoverContentSize:self.view.bounds.size];
+            [popover presentPopoverFromRect:rect inView:self.view permittedArrowDirections:direction animated:YES];
+            
+        } else if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
+            
+            [self presentModalViewController:c animated:YES];
+        }
+    }
+}
+
+- (CGFloat)popoverListView:(UIPopoverListView *)popoverListView
+   heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 60.0f;
+}
+
 
 - (IBAction)selectImageFromPhotoLibrary:(UIButton*)sender {
     
